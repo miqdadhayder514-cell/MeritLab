@@ -1,0 +1,2027 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the center of the circle x² + y² − 24x + 10y + 13 = 0?",
+    "options": ["(−24, 10)", "(−12, 5)", "(12, −5)", "(24, −10)"],
+    "answer": 2,
+    "explanation": "g = −12, f = 5 ⇒ center (−g, −f) = (12, −5)."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the radius of the circle x² + y² + 6x − 8y − 24 = 0:",
+    "options": ["5 units", "√1 unit", "7 units", "49 units"],
+    "answer": 2,
+    "explanation": "r = √(9 + 16 + 24) = √49 = 7 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the tangent drawn from point (8, 6) to the circle x² + y² − 36 = 0?",
+    "options": ["64 units", "6 units", "10 units", "8 units"],
+    "answer": 3,
+    "explanation": "Tangent length L = √(82 + 62 − 36) = √(100 − 36) = √64 = 8 units."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the equation of the tangent line to the circle x² + y² = 25 at the point (3, −4)?",
+    "options": ["3x − 4y = 25", "3x − 4y = 5", "4x − 3y = 25", "3x + 4y = 25"],
+    "answer": 0,
+    "explanation": "Tangent at (x₁, y₁) is x x₁ + y y₁ = r² ⇒ 3x − 4y = 25."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "A circle has endpoints of a diameter at (−1, 2) and (5, 10). What is its radius?",
+    "options": ["25 units", "√13 units", "5 units", "10 units"],
+    "answer": 2,
+    "explanation": "Diameter length = √((5 − (−1))2 + (10 − 2)2) = √(36 + 64) = 10; radius = 5 units."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the focus of the downward-opening parabola x² = −20y?",
+    "options": ["(0, 5)", "(5, 0)", "(−5, 0)", "(0, −5)"],
+    "answer": 3,
+    "explanation": "4a = −20 ⇒ a = −5; focus of x² = −20y is (0, −5)."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the directrix of the parabola x² = 28y:",
+    "options": ["y = −7", "x = −7", "y = 7", "x = 7"],
+    "answer": 0,
+    "explanation": "4a = 28 ⇒ a = 7; directrix of x² = 28y is y = −7."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the latus rectum of the parabola y² = −48x?",
+    "options": ["12 units", "48 units", "24 units", "96 units"],
+    "answer": 1,
+    "explanation": "Latus rectum length of y² = −48x is |4a| = 48 units."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the vertex of the parabola (x − 4)2 = −16(y + 1)?",
+    "options": ["(1, −4)", "(4, −1)", "(−1, 4)", "(−4, 1)"],
+    "answer": 1,
+    "explanation": "Comparing (x − h)2 = 4a(y − k) gives vertex (4, −1)."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "For any parabola, what is the exact value of its eccentricity e?",
+    "options": ["0 < e < 1", "e = 0", "e > 1", "e = 1"],
+    "answer": 3,
+    "explanation": "Every parabola has eccentricity e = 1."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the minor axis of the ellipse (x² / 64) + (y² / 9) = 1?",
+    "options": ["6 units", "8 units", "3 units", "16 units"],
+    "answer": 0,
+    "explanation": "b = 3, so minor axis length is 2b = 6 units."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the ellipse (x² / 289) + (y² / 64) = 1:",
+    "options": ["15 / 17", "225 / 289", "17 / 15", "8 / 17"],
+    "answer": 0,
+    "explanation": "e = √(1 − 64/289) = √(225/289) = 15 / 17."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the vertical ellipse (x² / 36) + (y² / 100) = 1:",
+    "options": ["(0, ±8)", "(0, ±10)", "(±8, 0)", "(0, ±6)"],
+    "answer": 0,
+    "explanation": "c = √(100 − 36) = 8; foci on y-axis are (0, ±8)."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance between the two directrices of the ellipse (x² / 25) + (y² / 9) = 1?",
+    "options": ["25 / 4 units", "25 / 2 units (12.5)", "10 units", "8 units"],
+    "answer": 1,
+    "explanation": "a = 5, e = 4/5; distance between directrices = 2a / e = 10 / (4/5) = 25 / 2 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For any point P on the ellipse (x² / 144) + (y² / 49) = 1, what is the sum of its focal distances PF1 + PF2?",
+    "options": ["26 units", "24 units", "12 units", "14 units"],
+    "answer": 1,
+    "explanation": "Constant focal sum equals major axis 2a = 2(12) = 24 units."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the conjugate axis of the hyperbola (x² / 25) − (y² / 49) = 1?",
+    "options": ["7 units", "5 units", "14 units", "10 units"],
+    "answer": 2,
+    "explanation": "b = 7, so conjugate axis length is 2b = 14 units."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the hyperbola (x² / 144) − (y² / 25) = 1:",
+    "options": ["13 / 5", "13 / 12", "5 / 12", "12 / 13"],
+    "answer": 1,
+    "explanation": "e = √(1 + 25/144) = √(169/144) = 13 / 12."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the vertical hyperbola (y² / 64) − (x² / 36) = 1:",
+    "options": ["(0, ±8)", "(0, ±6)", "(0, ±10)", "(±10, 0)"],
+    "answer": 2,
+    "explanation": "c = √(64 + 36) = 10; foci on y-axis are (0, ±10)."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What are the equations of the asymptotes of the hyperbola (x² / 36) − (y² / 25) = 1?",
+    "options": [
+      "y = ±(11 / 6) x",
+      "y = ±(5 / 6) x",
+      "y = ±(25 / 36) x",
+      "y = ±(6 / 5) x"
+    ],
+    "answer": 1,
+    "explanation": "Asymptotes of (x²/36) − (y²/25) = 1 are y = ±(5/6)x."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "In the general second-degree equation Ax2 + Bxy + Cy2 + Dx + Ey + F = 0, when B² − 4AC > 0, the non-degenerate conic is a:",
+    "options": ["Parabola", "Ellipse", "Circle", "Hyperbola"],
+    "answer": 3,
+    "explanation": "Discriminant B² − 4AC > 0 indicates a hyperbola."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between the two foci of the hyperbola (x² / 25) − (y² / 144) = 1?",
+    "options": ["10 units", "26 units", "13 units", "24 units"],
+    "answer": 1,
+    "explanation": "c = √(25 + 144) = 13; distance between foci is 2c = 26 units."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the length of the latus rectum of the hyperbola (x² / 25) − (y² / 100) = 1?",
+    "options": ["5 units", "40 units", "20 units", "10 units"],
+    "answer": 1,
+    "explanation": "Latus rectum length = 2b² / a = 2(100) / 5 = 40 units."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the distance between points (−3, 4) and (5, 19)?",
+    "options": ["23 units", "17 units", "15 units", "√161 units"],
+    "answer": 1,
+    "explanation": "d = √(64 + 225) = √289 = 17 units."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the slope m of the line passing through (2, 5) and (6, 17):",
+    "options": ["1 / 3", "3", "4", "−3"],
+    "answer": 1,
+    "explanation": "m = (17 − 5) / (6 − 2) = 12 / 4 = 3."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the area of the triangle with vertices (0, 0), (6, 0), and (2, 7):",
+    "options": ["14 sq. units", "21 sq. units", "13 sq. units", "42 sq. units"],
+    "answer": 1,
+    "explanation": "Base = 6, height = 7; area = (1/2)(6)(7) = 21 sq. units."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the centroid of the triangle with vertices (1, 4), (4, −2), and (7, 10):",
+    "options": ["(6, 6)", "(3, 3)", "(12, 12)", "(4, 4)"],
+    "answer": 3,
+    "explanation": "Centroid = ((1 + 4 + 7)/3, (4 − 2 + 10)/3) = (4, 4)."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the perpendicular distance between the parallel lines 4x + 3y − 5 = 0 and 4x + 3y + 15 = 0:",
+    "options": ["2 units", "20 units", "10 / 7 units", "4 units"],
+    "answer": 3,
+    "explanation": "d = |15 − (−5)| / √(16 + 9) = 20 / 5 = 4 units."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the acute angle θ between two lines with slopes m₁ = 2 and m₂ = −1 / 3?",
+    "options": ["60° (π / 3)", "arctan(7) ≈ 81.87°", "90° (π / 2)", "30° (π / 6)"],
+    "answer": 1,
+    "explanation": "For slopes m₁ and m₂, tan θ = |(m₁ − m₂) / (1 + m₁m₂)|. Substituting m₁ = 2 and m₂ = −1 / 3 gives |(7 / 3) / (1 / 3)| = 7. The acute angle is θ = arctan(7) ≈ 81.87°, which was missing from the supplied choices and has been added."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of vector a = 2i − 6j + 9k?",
+    "options": ["121", "11", "17", "√17"],
+    "answer": 1,
+    "explanation": "|a| = √(4 + 36 + 81) = √121 = 11."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the scalar projection of a = 6i + 2j − 3k onto b = 2i + j + 2k:",
+    "options": ["3 / 8", "8", "8 / 3", "8 / 7"],
+    "answer": 2,
+    "explanation": "(a · b) / |b| = (12 + 2 − 6) / √(4 + 1 + 4) = 8 / 3."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the cross product i × j of standard unit basis vectors?",
+    "options": ["i", "k", "−k", "0"],
+    "answer": 1,
+    "explanation": "Right-hand rule: i × j = k."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the scalar triple product [i j k] = i · (j × k)?",
+    "options": ["1", "−1", "3", "0"],
+    "answer": 0,
+    "explanation": "i · (j × k) = i · i = 1."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the cross product j × i?",
+    "options": ["k", "−k", "1", "0"],
+    "answer": 1,
+    "explanation": "Anticommutativity: j × i = −k."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the direction cosine cos γ (along the z-axis) of v = 3i + 4j + 12k?",
+    "options": ["12 / 13", "3 / 13", "4 / 13", "12 / 19"],
+    "answer": 0,
+    "explanation": "|v| = √(9 + 16 + 144) = 13, so cos γ = 12 / 13."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance from the origin (0, 0, 0) to the plane 6x − 2y + 3z − 28 = 0?",
+    "options": ["7 units", "28 / 11 units", "4 units", "28 units"],
+    "answer": 2,
+    "explanation": "d = |−28| / √(36 + 4 + 9) = 28 / 7 = 4 units."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Write the intercept-form equation of a line with x-intercept a = 4 and y-intercept b = −3:",
+    "options": [
+      "(x / 4) + (y / 3) = 1",
+      "4x − 3y = 1",
+      "(x / 4) − (y / 3) = 1",
+      "(x / 3) − (y / 4) = 1"
+    ],
+    "answer": 2,
+    "explanation": "Intercept form x/a + y/b = 1 gives (x / 4) − (y / 3) = 1."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between points (1, 2, 3) and (5, 5, 15) in 3D space?",
+    "options": ["13 units", "19 units", "12 units", "169 units"],
+    "answer": 0,
+    "explanation": "d = √(42 + 32 + 122) = √(16 + 9 + 144) = √169 = 13 units."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "For any unit vector with direction angles α, β, γ, what does cos² α + cos² β + cos² γ equal?",
+    "options": ["−1", "3", "0", "1"],
+    "answer": 3,
+    "explanation": "Direction cosines always satisfy cos² α + cos² β + cos² γ = 1."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the point dividing the segment from (0, 0) to (10, 15) in the ratio 2 : 3 internally:",
+    "options": ["(2, 3)", "(4, 6)", "(5, 7.5)", "(6, 9)"],
+    "answer": 1,
+    "explanation": "Ratio 2:3 gives ((3(0)+2(10))/5, (3(0)+2(15))/5) = (4, 6)."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What does the magnitude |a × b| represent geometrically?",
+    "options": [
+      "Volume of a parallelepiped",
+      "Projection of a on b",
+      "Perimeter of a triangle",
+      "Area of the parallelogram spanned by a and b"
+    ],
+    "answer": 3,
+    "explanation": "|a × b| equals the area of the parallelogram spanned by a and b."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the unit vector in the direction of v = −12i + 5j?",
+    "options": [
+      "(−12/17)i + (5/17)j",
+      "(−12/13)i + (5/13)j",
+      "−12i + 5j",
+      "(12/13)i − (5/13)j"
+    ],
+    "answer": 1,
+    "explanation": "|v| = 13; unit vector is (−12/13)i + (5/13)j."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Two planes 2x − 3y + z = 5 and 4x − 6y + 2z = 11 are:",
+    "options": [
+      "Parallel and distinct",
+      "Intersecting at 45°",
+      "Coincident (identical)",
+      "Perpendicular"
+    ],
+    "answer": 0,
+    "explanation": "Proportional normals (2:4 = −3:−6 = 1:2) with distinct constants indicate parallel distinct planes."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Convert 11π / 6 radians into degrees:",
+    "options": ["300°", "150°", "210°", "330°"],
+    "answer": 3,
+    "explanation": "(11π/6) × (180°/π) = 330°."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the exact value of sin 75°?",
+    "options": ["(√3 + 1) / 2", "√3 / 2", "(√6 + √2) / 4", "(√6 − √2) / 4"],
+    "answer": 2,
+    "explanation": "sin(45° + 30°) = (√6 + √2) / 4."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the fundamental period of f(x) = tan(3x)?",
+    "options": ["3π", "π", "π / 3", "2π / 3"],
+    "answer": 2,
+    "explanation": "Period of tan(3x) is π / 3."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the maximum value of 7 sin θ − 24 cos θ?",
+    "options": ["31", "25", "−25", "17"],
+    "answer": 1,
+    "explanation": "Maximum of 7 sin θ − 24 cos θ is √(49 + 576) = √625 = 25."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which expression equals tan 2θ?",
+    "options": [
+      "(2 tan θ) / (1 − tan² θ)",
+      "(1 − tan² θ) / (2 tan θ)",
+      "(2 tan θ) / (1 + tan² θ)",
+      "2 tan θ"
+    ],
+    "answer": 0,
+    "explanation": "Double-angle tangent identity: tan 2θ = (2 tan θ) / (1 − tan² θ)."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with area Δ and semi-perimeter s, what is the inradius r?",
+    "options": ["r = (a b c) / (4Δ)", "r = Δ / (s − a)", "r = Δ / s", "r = s / Δ"],
+    "answer": 2,
+    "explanation": "Inradius is r = Δ / s."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "In triangle ABC with area Δ and sides a, b, c, what is the circumradius R?",
+    "options": [
+      "R = Δ / s",
+      "R = (4Δ) / (a b c)",
+      "R = (a + b + c) / 2",
+      "R = (a b c) / (4Δ)"
+    ],
+    "answer": 3,
+    "explanation": "Circumradius is R = (a b c) / (4Δ)."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In any triangle ABC, what does cos(A + B) equal?",
+    "options": ["sin C", "−cos C", "cos C", "−sin C"],
+    "answer": 1,
+    "explanation": "Since A + B = 180° − C, cos(A + B) = −cos C."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: tan−1(1) + cot−1(1)",
+    "options": ["π / 2", "0", "π", "π / 4"],
+    "answer": 0,
+    "explanation": "π / 4 + π / 4 = π / 2."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the general solution of tan θ = 0?",
+    "options": [
+      "θ = (2n + 1)π / 2, n ∈ ℤ",
+      "θ = nπ / 2, n ∈ ℤ",
+      "θ = 2nπ, n ∈ ℤ",
+      "θ = nπ, n ∈ ℤ"
+    ],
+    "answer": 3,
+    "explanation": "tan θ = 0 at θ = nπ, n ∈ ℤ."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the exact value of cos 15°?",
+    "options": ["(√3 − 1) / 2", "(√6 + √2) / 4", "1 / 2", "(√6 − √2) / 4"],
+    "answer": 1,
+    "explanation": "cos(45° − 30°) = (√6 + √2) / 4."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate tan(sin−1(8 / 17)):",
+    "options": ["15 / 17", "8 / 17", "8 / 15", "15 / 8"],
+    "answer": 2,
+    "explanation": "Opposite = 8, hypotenuse = 17, adjacent = 15, so tan θ = 8 / 15."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Which hyperbolic identity parallels cos² θ + sin² θ = 1?",
+    "options": [
+      "cosh2 x + sinh2 x = 1",
+      "tanh2 x − sech2 x = 1",
+      "sinh2 x − cosh2 x = 1",
+      "cosh2 x − sinh2 x = 1"
+    ],
+    "answer": 3,
+    "explanation": "Fundamental hyperbolic identity: cosh2 x − sinh2 x = 1."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express 2 sin A sin B as a difference of cosines:",
+    "options": [
+      "cos(A − B) − cos(A + B)",
+      "sin(A + B) − sin(A − B)",
+      "cos(A + B) + cos(A − B)",
+      "cos(A + B) − cos(A − B)"
+    ],
+    "answer": 0,
+    "explanation": "Product-to-sum identity: 2 sin A sin B = cos(A − B) − cos(A + B)."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of cosh(0)?",
+    "options": ["e", "0", "−1", "1"],
+    "answer": 3,
+    "explanation": "cosh(0) = (e⁰ + e⁰) / 2 = 1."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the principal range of tan−1 x?",
+    "options": ["[−π / 2, π / 2]", "[0, π]", "(0, π)", "(−π / 2, π / 2)"],
+    "answer": 3,
+    "explanation": "Principal range of tan−1 x is (−π / 2, π / 2)."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the fundamental period of f(x) = sec x?",
+    "options": ["π / 2", "2π", "4π", "π"],
+    "answer": 1,
+    "explanation": "Fundamental period of sec x is 2π."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with a = 7, b = 24, c = 25, what is its area Δ?",
+    "options": ["175 sq. units", "168 sq. units", "84 sq. units", "300 sq. units"],
+    "answer": 2,
+    "explanation": "Right triangle 7–24–25 has area (1/2)(7)(24) = 84 sq. units."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of tan θ = 1?",
+    "options": [
+      "θ = nπ ± (π / 4), n ∈ ℤ",
+      "θ = nπ + (π / 4), n ∈ ℤ",
+      "θ = 2nπ + (π / 4), n ∈ ℤ",
+      "θ = 2nπ ± (π / 4), n ∈ ℤ"
+    ],
+    "answer": 1,
+    "explanation": "General solution of tan θ = tan α is θ = nπ + α."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the arc length l of a circular sector of radius r and central angle θ (in radians)?",
+    "options": ["l = (1 / 2) r² θ", "l = r θ", "l = 2π r θ", "l = r / θ"],
+    "answer": 1,
+    "explanation": "Circular arc length is l = r θ."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = tan x with respect to x?",
+    "options": ["cot x", "−sec² x", "sec x tan x", "sec² x"],
+    "answer": 3,
+    "explanation": "d/dx (tan x) = sec² x."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Differentiate y = e⁹ˣ with respect to x:",
+    "options": ["(1 / 9) e⁹ˣ", "9 e⁹ˣ", "e⁹ˣ", "9x e⁸ˣ"],
+    "answer": 1,
+    "explanation": "d/dx (e⁹ˣ) = 9 e⁹ˣ."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find dy / dx for x = t², y = t⁵ (t ≠ 0):",
+    "options": ["(5 / 2) t³", "5t³", "(2 / 5) t³", "10t³"],
+    "answer": 0,
+    "explanation": "dy / dx = (5t⁴) / (2t) = (5 / 2) t³."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: limx → 0 ((tan(7x)) / x)",
+    "options": ["1 / 7", "7", "1", "0"],
+    "answer": 1,
+    "explanation": "limx → 0 ((tan 7x)/(7x)) × 7 = 1 × 7 = 7."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the critical point of f(x) = 3x² − 12x + 7:",
+    "options": ["x = 2", "x = −2", "x = 0", "x = 4"],
+    "answer": 0,
+    "explanation": "f'(x) = 6x − 12 = 0 ⇒ x = 2."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the Maclaurin series expansion of eˣ?",
+    "options": [
+      "x − x³/3! + x⁵/5! − …",
+      "1 − x²/2! + x⁴/4! − …",
+      "1 − x + x²/2! − x³/3! + …",
+      "1 + x + x²/2! + x³/3! + …"
+    ],
+    "answer": 3,
+    "explanation": "Maclaurin series of eˣ is 1 + x + x²/2! + x³/3! + …."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Differentiate y = cos−1 x (|x| < 1) with respect to x:",
+    "options": ["1 / √(1 − x²)", "−sin x", "−1 / (1 + x²)", "−1 / √(1 − x²)"],
+    "answer": 3,
+    "explanation": "d/dx (cos−1 x) = −1 / √(1 − x²)."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the third derivative d3y / dx3 of y = x⁴:",
+    "options": ["4x³", "24", "12x²", "24x"],
+    "answer": 3,
+    "explanation": "Derivatives: 4x³ → 12x² → 24x."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = sec x with respect to x?",
+    "options": ["sec² x", "tan x", "−cosec x cot x", "sec x tan x"],
+    "answer": 3,
+    "explanation": "d/dx (sec x) = sec x tan x."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the tangent line to y = x³ − 2x at x = 2:",
+    "options": ["10", "4", "12", "6"],
+    "answer": 0,
+    "explanation": "y'(2) = 3(22) − 2 = 12 − 2 = 10."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate: ∫ (1 / x) dx (x > 0)",
+    "options": ["eˣ + C", "−1 / x² + C", "x₀ + C", "ln x + C"],
+    "answer": 3,
+    "explanation": "∫ (1 / x) dx = ln x + C for x > 0."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ e⁻³ˣ dx",
+    "options": ["−(1 / 3) e⁻³ˣ + C", "(1 / 3) e⁻³ˣ + C", "−3 e⁻³ˣ + C", "e⁻³ˣ + C"],
+    "answer": 0,
+    "explanation": "∫ e⁻³ˣ dx = −(1 / 3) e⁻³ˣ + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / (x √(x² − 1))] (x > 1)",
+    "options": ["sin−1 x + C", "sec−1 x + C", "tan−1 x + C", "ln x + C"],
+    "answer": 1,
+    "explanation": "∫ [dx / (x √(x² − 1))] = sec−1 x + C."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫0 π/4 sec² x dx",
+    "options": ["√2", "0", "π / 4", "1"],
+    "answer": 3,
+    "explanation": "[tan x]0 π/4 = 1 − 0 = 1."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₁³ 3x² dx",
+    "options": ["18", "8", "26", "27"],
+    "answer": 2,
+    "explanation": "[x³]₁³ = 27 − 1 = 26."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ (3x² + 4x) dx",
+    "options": ["6x + 4 + C", "3x³ + 4x² + C", "x³ + 2x² + C", "x³ + 4x² + C"],
+    "answer": 2,
+    "explanation": "Term-by-term integration gives x³ + 2x² + C."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫−4 4 sin x dx",
+    "options": ["0", "8", "1 − cos 4", "2 cos 4"],
+    "answer": 0,
+    "explanation": "Odd integrand sin x over symmetric [−4, 4] has integral 0."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ sec x tan x dx",
+    "options": ["−cosec x + C", "sec² x + C", "tan x + C", "sec x + C"],
+    "answer": 3,
+    "explanation": "∫ sec x tan x dx = sec x + C."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the general solution of the differential equation dy / dx = 5y?",
+    "options": ["y = C e⁵ˣ", "y = 5 eˣ + C", "y = C e⁻⁵ˣ", "y = 5x + C"],
+    "answer": 0,
+    "explanation": "Separating variables dy / y = 5 dx gives y = C e⁵ˣ."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₂⁶ 5 dx",
+    "options": ["10", "30", "20", "5"],
+    "answer": 2,
+    "explanation": "[5x]₂⁶ = 30 − 10 = 20."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Two fair coins are tossed once. What is the probability of obtaining two heads?",
+    "options": ["1 / 8", "1 / 2", "3 / 4", "1 / 4"],
+    "answer": 3,
+    "explanation": "Sample space {HH, HT, TH, TT} gives P(HH) = 1 / 4."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many permutations of 2 items can be formed from 6 distinct items?",
+    "options": ["15", "12", "30", "36"],
+    "answer": 2,
+    "explanation": "6P² = 6 × 5 = 30."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of 0! (zero factorial)?",
+    "options": ["0", "Undefined", "1", "∞"],
+    "answer": 2,
+    "explanation": "By definition, 0! = 1."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "A standard 52-card deck is shuffled. What is the probability of drawing an Ace?",
+    "options": ["4 / 13", "1 / 4", "1 / 13", "1 / 52"],
+    "answer": 2,
+    "explanation": "4 / 52 = 1 / 13."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the value of 7C³?",
+    "options": ["21", "210", "35", "42"],
+    "answer": 2,
+    "explanation": "7C³ = (7 × 6 × 5) / 6 = 35."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In how many distinct ways can the letters of the word APPLE be arranged?",
+    "options": ["60", "30", "24", "120"],
+    "answer": 0,
+    "explanation": "Letters of APPLE have two P's: 5! / 2! = 120 / 2 = 60."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the mode of the dataset {3, 7, 7, 9, 12, 7, 15}?",
+    "options": ["9", "7", "8.5", "12"],
+    "answer": 1,
+    "explanation": "Most frequent value is 7."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If every data observation is multiplied by k = 3, how does variance σ2 scale?",
+    "options": [
+      "Multiplied by 9 (9σ2)",
+      "Increased by 9",
+      "Unchanged",
+      "Multiplied by 3 (3σ2)"
+    ],
+    "answer": 0,
+    "explanation": "Multiplying every datum by k = 3 multiplies variance by 32 = 9."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of the dataset {11, 4, 29, 18, 7}?",
+    "options": ["4", "29", "14", "25"],
+    "answer": 3,
+    "explanation": "Range = 29 − 4 = 25."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "State the general addition rule of probability P(A ∪ B):",
+    "options": [
+      "B) P(A) + P(B) + P(A ∩ B)",
+      "P(A) − P(B)",
+      "P(A) + P(B) − P(A ∩",
+      "P(A) · P(B)"
+    ],
+    "answer": 2,
+    "explanation": "Addition rule: P(A ∪ B) = P(A) + P(B) − P(A ∩ B)."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the probability of an impossible event ∅?",
+    "options": ["1", "0", "−1", "1 / 2"],
+    "answer": 1,
+    "explanation": "Impossible event has probability 0."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the harmonic mean of two positive numbers a = 4 and b = 12?",
+    "options": ["4√3", "16", "6", "8"],
+    "answer": 2,
+    "explanation": "Harmonic mean = 2ab / (a + b) = 96 / 16 = 6."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the sum of deviations ∑(xi − x̄ ) of all observations from their arithmetic mean?",
+    "options": ["1", "0", "σ2", "n x̄"],
+    "answer": 1,
+    "explanation": "Algebraic sum of deviations from the mean is always 0."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the real domain of f(x) = √(x − 5)?",
+    "options": ["ℝ \\ {5}", "[5, ∞)", "(−∞, 5]", "(5, ∞)"],
+    "answer": 1,
+    "explanation": "Requiring x − 5 ≥ 0 gives domain [5, ∞)."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If f(x) = x² and g(x) = 2x + 1, what is (f ∘ g)(3)?",
+    "options": ["14", "49", "21", "19"],
+    "answer": 1,
+    "explanation": "f(g(3)) = f(7) = 72 = 49."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which trigonometric function is even?",
+    "options": ["f(x) = sin x", "f(x) = cosec x", "f(x) = cos x", "f(x) = tan x"],
+    "answer": 2,
+    "explanation": "cos(−x) = cos x, so cos x is even."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = (x − 3) / 2:",
+    "options": ["2x − 3", "2x + 3", "2 / (x − 3)", "(x + 3) / 2"],
+    "answer": 1,
+    "explanation": "Solving y = (x − 3)/2 gives f⁻¹(x) = 2x + 3."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of f(x) = sin x for x ∈ ℝ?",
+    "options": ["[0, 1]", "[−1, 1]", "(−1, 1)", "ℝ"],
+    "answer": 1,
+    "explanation": "Real sine takes all values in [−1, 1]. Physics Detailed Solutions (Q.101 – Q.160)"
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensions of force?",
+    "options": ["[M L⁻¹ T⁻²]", "[M L T⁻²]", "[M L T⁻¹]", "[M L² T⁻²]"],
+    "answer": 1,
+    "explanation": "Force (m a) has dimensions [M L T⁻²]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Two projectiles launched at complementary angles 35° and 55° with equal initial speeds on level ground have equal:",
+    "options": [
+      "Times of flight",
+      "Vertical launch velocities",
+      "Maximum heights",
+      "Horizontal ranges"
+    ],
+    "answer": 3,
+    "explanation": "Complementary angles (35° + 55° = 90°) yield equal horizontal ranges."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What does the slope of a velocity-time (v–t) graph represent?",
+    "options": ["Displacement", "Impulse", "Acceleration", "Momentum"],
+    "answer": 2,
+    "explanation": "Slope of v–t graph equals acceleration (dv / dt)."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A constant force of 15 N moves a block 4 m along the force direction. How much work is done?",
+    "options": ["19 J", "120 J", "3.75 J", "60 J"],
+    "answer": 3,
+    "explanation": "W = F d = 15 × 4 = 60 J."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the ratio of escape speed vesc to low-altitude circular orbital speed vorb?",
+    "options": ["√2", "1 / 2", "2", "1 / √2"],
+    "answer": 0,
+    "explanation": "vesc / vorb = √(2GM/R) / √(GM/R) = √2."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to Newton's second law in momentum form, net external force Fnet equals:",
+    "options": [
+      "Kinetic energy per unit time",
+      "Impulse times time",
+      "Rate of change of linear momentum (dp / dt)",
+      "Displacement per unit mass"
+    ],
+    "answer": 2,
+    "explanation": "Net force equals time rate of change of momentum (dp / dt)."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of mass?",
+    "options": ["Newton (N)", "Kilogram (kg)", "Gram (g)", "Pound (lb)"],
+    "answer": 1,
+    "explanation": "SI base unit of mass is kilogram (kg)."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 10 kg object moves in a circle of radius 2 m at 4 m/s. What is the centripetal force?",
+    "options": ["20 N", "40 N", "160 N", "80 N"],
+    "answer": 3,
+    "explanation": "Fc = m v² / r = 10 × 16 / 2 = 80 N."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Stokes' law for viscous drag force Fd on a small sphere of radius r moving at speed v in fluid viscosity η is:",
+    "options": [
+      "Fd = 6π η r v",
+      "Fd = 6π η r² v",
+      "Fd = (1 / 2) η r v²",
+      "Fd = η / (6π r v)"
+    ],
+    "answer": 0,
+    "explanation": "Stokes' drag law: Fd = 6π η r v."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the SI unit of dynamic viscosity η?",
+    "options": ["W/m₂", "Pa·s (N·s/m₂)", "N/m", "J/K"],
+    "answer": 1,
+    "explanation": "Dynamic viscosity has SI unit Pa·s."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In simple harmonic motion, acceleration a and displacement x satisfy:",
+    "options": ["a = +ω2 x", "a = −ω x²", "a = −ω2 x", "a = ω / x"],
+    "answer": 2,
+    "explanation": "Defining SHM equation: a = −ω2 x."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the maximum speed vmax of an oscillator with amplitude x₀ and angular frequency ω?",
+    "options": [
+      "vmax = (1 / 2) ω x₀ 2",
+      "vmax = ω x₀",
+      "vmax = ω2 x₀",
+      "vmax = x₀ / ω"
+    ],
+    "answer": 1,
+    "explanation": "Maximum SHM speed is vmax = ω x₀."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the fundamental frequency f₁ of an air column of length L open at both ends (speed v)?",
+    "options": ["f₁ = v / L", "f₁ = 2v / L", "f₁ = v / (4L)", "f₁ = v / (2L)"],
+    "answer": 3,
+    "explanation": "Open-open pipe fundamental: f₁ = v / (2L)."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the fundamental frequency f₁ of an air column of length L closed at one end (speed v)?",
+    "options": ["f₁ = v / (4L)", "f₁ = v / L", "f₁ = v / (2L)", "f₁ = 4v / L"],
+    "answer": 0,
+    "explanation": "Closed-open pipe fundamental: f₁ = v / (4L)."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which wave phenomenon demonstrates that light is a transverse electromagnetic wave?",
+    "options": ["Refraction", "Polarization", "Dispersion", "Diffraction"],
+    "answer": 1,
+    "explanation": "Only transverse waves can be polarized."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to Brewster's law, reflected light is completely plane-polarized when tan θp equals:",
+    "options": [
+      "n₁ / n₂",
+      "1 / (n₁ n₂)",
+      "n₂ / n₁ (relative refractive index)",
+      "sin θc"
+    ],
+    "answer": 2,
+    "explanation": "Brewster's law: tan θp = n₂ / n₁."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the optical power P of a converging lens of focal length f = +0.20 m?",
+    "options": ["+0.20 D", "+2.0 D", "+5.0 D", "−5.0 D"],
+    "answer": 2,
+    "explanation": "P = 1 / f = 1 / 0.20 = +5.0 D."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of luminous intensity?",
+    "options": ["Lumen (lm)", "Candela (cd)", "Watt (W)", "Lux (lx)"],
+    "answer": 1,
+    "explanation": "Luminous intensity has SI base unit Candela (cd)."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the condition for constructive interference of two coherent waves with path difference Δx?",
+    "options": [
+      "Δx = λ / 4",
+      "Δx = (2m + 1) λ / 4",
+      "Δx = (m + 1/2) λ",
+      "Δx = m λ (m = 0, 1, 2, …)"
+    ],
+    "answer": 3,
+    "explanation": "Constructive interference requires integer wavelength path difference Δx = m λ."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the diffraction grating equation for bright maxima at angle θ with grating spacing d?",
+    "options": ["d tan θ = n λ", "d sin θ = n λ", "d / sin θ = n λ", "d cos θ = n λ"],
+    "answer": 1,
+    "explanation": "Grating equation: d sin θ = n λ."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the Carnot engine efficiency η operating between hot reservoir TH and cold reservoir TC (in Kelvin)?",
+    "options": ["η = TH − TC", "η = 1 − (TH / TC)", "η = 1 − (TC / TH)", "η = TC / TH"],
+    "answer": 2,
+    "explanation": "Carnot efficiency: η = 1 − (TC / TH)."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the approximate value of Avogadro's number NA?",
+    "options": [
+      "≈ 1.38 × 10−23 J/K",
+      "≈ 1.60 × 10−19 C",
+      "≈ 6.02 × 1023 mol−1",
+      "≈ 8.314 J/(mol·K)"
+    ],
+    "answer": 2,
+    "explanation": "Avogadro's constant NA ≈ 6.02 × 1023 mol−1."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is absolute zero (0 K) on the Celsius scale?",
+    "options": ["273.15 °C", "−100 °C", "−273.15 °C", "0 °C"],
+    "answer": 2,
+    "explanation": "Absolute zero 0 K = −273.15 °C."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "In an isochoric (constant-volume) process, how much boundary work W = ∫ P dV is done?",
+    "options": ["Equal to P V", "Zero (W = 0)", "Infinite", "Equal to n R ΔT"],
+    "answer": 1,
+    "explanation": "Constant volume (dV = 0) means zero boundary work (W = 0)."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "For an ideal gas, how are molar specific heats Cp and Cv related?",
+    "options": ["Cv − Cp = R", "Cp − Cv = R", "Cp + Cv = R", "Cp / Cv = R"],
+    "answer": 1,
+    "explanation": "Mayer's relation: Cp − Cv = R."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electric charge?",
+    "options": ["Farad (F)", "Volt (V)", "Ohm (Ω)", "Coulomb (C = A·s)"],
+    "answer": 3,
+    "explanation": "Electric charge has SI unit Coulomb (C)."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the moment of inertia I of a thin ring (hoop) of mass M and radius R about its central symmetry axis?",
+    "options": ["(1 / 2) M R²", "M R²", "(2 / 5) M R²", "(1 / 12) M R²"],
+    "answer": 1,
+    "explanation": "Thin ring about central axis: I = M R²."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the moment of inertia I of a uniform solid disk of mass M and radius R about its central axis?",
+    "options": ["(1 / 2) M R²", "(2 / 3) M R²", "M R²", "(2 / 5) M R²"],
+    "answer": 0,
+    "explanation": "Uniform disk about central axis: I = (1 / 2) M R²."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the moment of inertia I of a uniform solid sphere of mass M and radius R about a diameter?",
+    "options": ["(2 / 5) M R²", "(1 / 2) M R²", "(2 / 3) M R²", "M R²"],
+    "answer": 0,
+    "explanation": "Uniform solid sphere about diameter: I = (2 / 5) M R²."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of amount of substance?",
+    "options": ["Kilogram (kg)", "Candela (cd)", "Mole (mol)", "Kelvin (K)"],
+    "answer": 2,
+    "explanation": "Amount of substance has SI base unit Mole (mol)."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electric field strength?",
+    "options": ["N·m/C", "N/C (or V/m)", "J/s", "C/N"],
+    "answer": 1,
+    "explanation": "Electric field has SI unit N/C (or V/m)."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two capacitors of 6 μF and 3 μF are connected in series. What is their equivalent capacitance?",
+    "options": ["4.5 μF", "9 μF", "18 μF", "2 μF"],
+    "answer": 3,
+    "explanation": "Series capacitors: (6 × 3) / (6 + 3) = 2 μF."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Two capacitors of 4 μF and 6 μF are connected in parallel. What is their equivalent capacitance?",
+    "options": ["10 μF", "24 μF", "2.4 μF", "2 μF"],
+    "answer": 0,
+    "explanation": "Parallel capacitors: 4 + 6 = 10 μF."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnetic force F on a charge q moving at speed v perpendicular to uniform field B?",
+    "options": ["F = q v / B", "F = 0", "F = q B / v", "F = q v B"],
+    "answer": 3,
+    "explanation": "Perpendicular magnetic force: F = q v B."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which law states that induced EMF equals the negative rate of change of magnetic flux (ε = −N dΦB / dt)?",
+    "options": [
+      "Coulomb's law",
+      "Boyle's law",
+      "Faraday's law of electromagnetic induction",
+      "Ohm's law"
+    ],
+    "answer": 2,
+    "explanation": "Induced EMF proportional to flux rate is Faraday's law."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the impedance Z of a series R–L–C circuit at resonance (XL = XC)?",
+    "options": [
+      "Z = R + XL + XC",
+      "Z = 0",
+      "Z = ∞",
+      "Z = R (purely resistive minimum)"
+    ],
+    "answer": 3,
+    "explanation": "At resonance (XL = XC), Z = R."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the power factor cos φ of a series R–L–C circuit at resonance?",
+    "options": ["0.5", "0", "−1", "1 (unity)"],
+    "answer": 3,
+    "explanation": "Zero phase angle at resonance gives power factor cos 0° = 1."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In a pure resistor driven by sinusoidal AC voltage, what is the phase difference between current and voltage?",
+    "options": ["0° (in phase)", "180° out of phase", "90° leading", "90° lagging"],
+    "answer": 0,
+    "explanation": "In a pure resistor, AC voltage and current are in phase (0°)."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the energy stored in an inductor of inductance L carrying current I?",
+    "options": ["(1 / 2) L I²", "L / I²", "L I²", "(1 / 2) L I"],
+    "answer": 0,
+    "explanation": "Inductor magnetic energy is (1 / 2) L I²."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which logic gate is equivalent to an AND gate followed by a NOT gate?",
+    "options": ["XOR gate", "NAND gate", "NOR gate", "OR gate"],
+    "answer": 1,
+    "explanation": "AND followed by NOT is a NAND gate."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the decimal equivalent of binary number 10102?",
+    "options": ["8", "12", "5", "10"],
+    "answer": 3,
+    "explanation": "8 + 0 + 2 + 0 = 10."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "Which logic gate outputs 1 only when its two inputs are different?",
+    "options": ["XOR gate", "NAND gate", "AND gate", "XNOR gate"],
+    "answer": 0,
+    "explanation": "XOR outputs 1 iff inputs differ."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the majority charge carriers in an n-type semiconductor?",
+    "options": ["Positrons", "Holes", "Alpha particles", "Electrons"],
+    "answer": 3,
+    "explanation": "Majority carriers in n-type semiconductors are electrons."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What are the majority charge carriers in a p-type semiconductor?",
+    "options": ["Ions", "Electrons", "Neutrons", "Holes"],
+    "answer": 3,
+    "explanation": "Majority carriers in p-type semiconductors are holes."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the decimal equivalent of binary number 11102?",
+    "options": ["14", "13", "15", "7"],
+    "answer": 0,
+    "explanation": "8 + 4 + 2 + 0 = 14."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to Einstein's mass-energy equivalence, rest energy E₀ of mass m₀ is:",
+    "options": ["E₀ = m₀ c²", "E₀ = m₀ / c²", "E₀ = m₀ c", "E₀ = (1 / 2) m₀ c²"],
+    "answer": 0,
+    "explanation": "Rest mass energy: E₀ = m₀ c²."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the minimum photon energy required to produce an electron-positron pair?",
+    "options": ["0.511 MeV", "2.04 GeV", "13.6 eV", "1.02 MeV (2 me c²)"],
+    "answer": 3,
+    "explanation": "Threshold energy for e−–e+ pair creation is 2(0.511 MeV) = 1.02 MeV."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the approximate rest mass of a proton?",
+    "options": [
+      "≈ 9.11 × 10−31 kg",
+      "≈ 1.60 × 10−19 kg",
+      "≈ 1.67 × 10−27 kg",
+      "≈ 6.63 × 10−34 kg"
+    ],
+    "answer": 2,
+    "explanation": "Proton rest mass is ≈ 1.67 × 10−27 kg."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In Bohr's hydrogen model, how does orbit radius rₙ scale with principal quantum number n?",
+    "options": ["rₙ = n r₁", "rₙ = r₁ / n", "rₙ = r₁ / n²", "rₙ = n² r₁"],
+    "answer": 3,
+    "explanation": "Bohr orbit radii scale as rₙ = n² r₁."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the hydrogen spectrum, transitions terminating on n = 3 form which series?",
+    "options": ["Balmer series", "Lyman series", "Pfund series", "Paschen series"],
+    "answer": 3,
+    "explanation": "Transitions ending on n = 3 form the Paschen series."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "How are half-life T₁/₂ and decay constant λ related?",
+    "options": [
+      "T₁/₂ = 0.693 λ",
+      "T₁/₂ = 1 / λ",
+      "T₁/₂ = (ln 2) / λ ≈ 0.693 / λ",
+      "T₁/₂ = λ / 0.693"
+    ],
+    "answer": 2,
+    "explanation": "Half-life T₁/₂ = (ln 2) / λ ≈ 0.693 / λ."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "A gamma (γ) ray emitted from an excited nucleus is:",
+    "options": [
+      "Helium-4 nucleus",
+      "Heavy baryon",
+      "Positively charged electron",
+      "High-energy electromagnetic photon (zero rest mass, zero charge)"
+    ],
+    "answer": 3,
+    "explanation": "Gamma rays are high-energy neutral massless photons."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of radioactivity?",
+    "options": ["Tesla (T)", "Gray (Gy)", "Becquerel (Bq = 1 decay/s)", "Sievert (Sv)"],
+    "answer": 2,
+    "explanation": "Activity has SI unit Becquerel (Bq)."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Nuclei having the same mass number (A) but different atomic numbers (Z) are called:",
+    "options": ["Isomers", "Isotopes", "Isobars", "Isotones"],
+    "answer": 2,
+    "explanation": "Equal mass number A defines isobars."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the approximate value of free-space permeability μ0 in SI units?",
+    "options": [
+      "9.0 × 10⁹ N·m₂/C²",
+      "1.60 × 10−19 C",
+      "8.85 × 10−12 F/m",
+      "4π × 10−7 T·m/A"
+    ],
+    "answer": 3,
+    "explanation": "Free-space permeability μ0 = 4π × 10−7 T·m/A."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Particles made of three quarks (such as protons and neutrons) belong to the family of:",
+    "options": ["Leptons", "Baryons", "Photons", "Mesons"],
+    "answer": 1,
+    "explanation": "Three-quark bound states are baryons."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "Electrons, muons, and neutrinos belong to which fundamental particle group?",
+    "options": ["Baryons", "Hadrons", "Mesons", "Leptons"],
+    "answer": 3,
+    "explanation": "Electrons, muons, and neutrinos are leptons."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which instrument uses magnetic and electric fields to measure mass-to-charge ratio of ions?",
+    "options": ["Barometer", "Mass spectrometer", "Hygrometer", "Calorimeter"],
+    "answer": 1,
+    "explanation": "Ion mass-to-charge measurement is performed by a mass spectrometer."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the maximum Compton wavelength shift Δλmax for a photon scattering at 180° off a free electron?",
+    "options": ["h / (me c)", "0", "2 h / (me c)", "h / (2 me c)"],
+    "answer": 2,
+    "explanation": "At θ = 180°, Δλ = (h / (me c))(1 − cos 180°) = 2 h / (me c)."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which device changes AC voltage levels via mutual induction between primary and secondary coils?",
+    "options": ["Rectifier", "Transformer", "Capacitor", "Galvanometer"],
+    "answer": 1,
+    "explanation": "A transformer steps AC voltage via mutual induction. English Detailed Solutions (Q.161 – Q.200)"
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to ABATE:",
+    "options": ["Intensify", "Subside", "Escalate", "Surge"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 1,
+    "explanation": "Abate means to become less intense or widespread; subside matches."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to ASTUTE:",
+    "options": ["Shrewd", "Gullible", "Naive", "Obtuse"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Astute means having or showing an ability to accurately assess situations; shrewd matches."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to CAPRICIOUS:",
+    "options": ["Fickle", "Constant", "Steadfast", "Predictable"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Capricious means given to sudden and unaccountable changes of mood; fickle matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to DEFER:",
+    "options": ["Advance", "Hasten", "Postpone", "Expedite"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 2,
+    "explanation": "Defer means to put off to a later time; postpone matches."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to FASTIDIOUS:",
+    "options": ["Meticulous", "Indifferent", "Negligent", "Careless"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Fastidious means very attentive to accuracy and detail; meticulous matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to GREGARIOUS:",
+    "options": ["Sociable", "Introverted", "Reclusive", "Solitary"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Gregarious means fond of company; sociable matches."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to IMPECCABLE:",
+    "options": ["Flawless", "Defective", "Imperfect", "Faulty"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Impeccable means in accordance with the highest standards; flawless matches."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to LETHARGIC:",
+    "options": ["Brisk", "Sluggish", "Vigorous", "Energetic"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 1,
+    "explanation": "Lethargic means affected by lethargy; sluggish matches."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Much Difficult",
+    "prompt": "Choose the word most nearly similar in meaning to OBSOLETE:",
+    "options": ["Current", "Modern", "Outdated", "Contemporary"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 2,
+    "explanation": "Obsolete means no longer produced or used; outdated matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to PERILOUS:",
+    "options": ["Harmless", "Safe", "Hazardous", "Secure"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 2,
+    "explanation": "Perilous means full of danger or risk; hazardous matches."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to RESILIENT:",
+    "options": ["Brittle", "Fragile", "Delicate", "Hardy"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 3,
+    "explanation": "Resilient means able to withstand or recover quickly; hardy matches."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to SCRUTINIZE:",
+    "options": ["Overlook", "Examine", "Neglect", "Ignore"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 1,
+    "explanation": "Scrutinize means examine or inspect closely and thoroughly; examine matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to UBIQUITOUS:",
+    "options": ["Omnipresent", "Scarce", "Rare", "Isolated"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Ubiquitous means present, appearing, or found everywhere; omnipresent matches."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to VIGILANT:",
+    "options": ["Watchful", "Careless", "Oblivious", "Heedless"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Vigilant means keeping careful watch for possible danger; watchful matches."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to WARY:",
+    "options": ["Rash", "Cautious", "Impulsive", "Reckless"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 1,
+    "explanation": "Wary means feeling or showing caution; cautious matches."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to CONVERGE:",
+    "options": ["Diverge", "Meet", "Coalesce", "Merge"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Antonym of converge is diverge."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to RIGID:",
+    "options": ["Inflexible", "Flexible", "Stiff", "Unyielding"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 1,
+    "explanation": "Antonym of rigid is flexible."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to VERBOSE:",
+    "options": ["Prolix", "Wordy", "Laconic", "Long-winded"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 2,
+    "explanation": "Antonym of verbose is laconic."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to HOSTILE:",
+    "options": ["Amicable", "Adversarial", "Belligerent", "Antagonistic"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Antonym of hostile is amicable."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to DORMANT:",
+    "options": ["Latent", "Inert", "Quiescent", "Active"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 3,
+    "explanation": "Antonym of dormant is active."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — OHMMETER : RESISTANCE ::",
+    "options": [
+      "Hydrometer : Voltage",
+      "Chronometer : Mass",
+      "Manometer : Pressure",
+      "Calorimeter : Length"
+    ],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 2,
+    "explanation": "Instrument-to-quantity: an ohmmeter measures resistance, as a manometer measures pressure."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — CATALYST : REACTION ::",
+    "options": [
+      "Brake : Acceleration",
+      "Lubricant : Friction",
+      "Insulator : Conduction",
+      "Anchor : Drift"
+    ],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 1,
+    "explanation": "Facilitator-to-process: a catalyst speeds a reaction, as a lubricant eases friction (or reduces resistance to motion)."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — METALLURGIST : ALLOY ::",
+    "options": [
+      "Pharmacist : Compound",
+      "Geologist : Telescope",
+      "Linguist : Turbine",
+      "Botanist : Circuit"
+    ],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Specialist-to-formulation: a metallurgist formulates an alloy, as a pharmacist formulates a compound."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — PROTON : POSITIVE ::",
+    "options": [
+      "Positron : Neutral",
+      "Photon : Massive",
+      "Electron : Negative",
+      "Neutron : Positive"
+    ],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 2,
+    "explanation": "Particle-to-charge polarity: a proton is positive, as an electron is negative."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — CAPACITOR : CHARGE ::",
+    "options": [
+      "Reservoir : Water",
+      "Switch : Resistance",
+      "Resistor : Voltage",
+      "Antenna : Gravity"
+    ],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Storage element-to-stored quantity: a capacitor stores charge, as a reservoir stores water."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The collection of calibration standards ______ stored in a climate-controlled vault.",
+    "options": ["are", "is", "were", "have"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 1,
+    "explanation": "Singular head noun collection takes singular verb is."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Not only ______ the bridge withstand the gale, but it also showed negligible deflection.",
+    "options": ["did", "does", "has", "was"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Not only at sentence start triggers past-simple inversion: did."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The experimental results conform ______ international metrology standards.",
+    "options": ["on", "from", "at", "to"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 3,
+    "explanation": "Standard preposition collocation: conform to."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Were the sensor to fail, the backup controller ______ take over immediately.",
+    "options": ["has", "would", "had", "will"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 1,
+    "explanation": "Inverted second conditional Were the sensor to fail pairs with would."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Tighter manufacturing tolerances reduce dimensional ______ across assembled parts.",
+    "options": ["alignment", "uniformity", "symmetry", "variance"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 3,
+    "explanation": "Tighter tolerances reduce dimensional variance."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "Neither of the two oscillators are synchronized yet.",
+      "Neither of the two oscillators were synchronized yet.",
+      "Neither of the two oscillators have synchronized yet.",
+      "Neither of the two oscillators is synchronized yet."
+    ],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 3,
+    "explanation": "Singular pronoun Neither takes singular verb is."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "It is essential that every valve ______ inspected before pressurization.",
+    "options": ["be", "were", "is", "was"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Subjunctive after essential that uses base verb be."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Ocurrence", "Occurrence", "Occurence", "Occurrance"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 1,
+    "explanation": "Occurrence has double c and double r."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Heat sinks dissipate excess thermal energy by increasing surface ______.",
+    "options": ["viscosity", "area", "density", "resistance"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 1,
+    "explanation": "Fins increase surface area for heat dissipation."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Scarcely ______ the turbine reached rated speed when the grid synchronized.",
+    "options": ["had", "was", "did", "has"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Scarcely triggers past-perfect inversion: had."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "How do semipermeable membranes in reverse osmosis separate freshwater from seawater?",
+    "options": [
+      "They boil seawater using solar mirrors",
+      "They dissolve membranes into freshwater",
+      "They freeze salt crystals magnetically",
+      "They block dissolved salts while allowing water molecules to pass under pressure"
+    ],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 3,
+    "explanation": "Sentence 1 states semipermeable membranes block dissolved salts while allowing water molecules to pass."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Which two operational concerns remain critical according to the passage?",
+    "options": [
+      "Membrane fouling and environmentally safe brine disposal",
+      "High freshwater salinity and low pressure",
+      "Freezing pipes and solar flares",
+      "Lack of seawater and excess rainfall"
+    ],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Sentence 2 identifies membrane fouling and environmentally safe brine disposal."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What is the function of modern energy-recovery devices in reverse osmosis plants?",
+    "options": [
+      "Recapturing pressure energy from the concentrated brine stream to reduce electricity use",
+      "Replacing semipermeable membranes",
+      "Heating seawater to boiling point",
+      "Adding minerals to concentrated brine"
+    ],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Sentence 2 notes energy-recovery devices recapture pressure energy from the brine stream to cut electricity consumption."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What primary method do desalination plants use according to the passage?",
+    "options": [
+      "Fractional crystallization",
+      "Electrolysis",
+      "Reverse osmosis",
+      "Centrifugation"
+    ],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 2,
+    "explanation": "Sentence 1 states desalination plants convert seawater primarily through reverse osmosis."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "What is the target output product of desalination plants stated in the passage?",
+    "options": ["Potable water", "Sulfuric acid", "Crude oil", "Liquid nitrogen"],
+    "context": "Desalination plants convert seawater into potable water primarily through reverse osmosis, a process that forces pressurized saline water across semipermeable membranes that block dissolved salts while allowing water molecules to pass. Although modern energy-recovery devices recapture pressure energy from the concentrated brine stream to cut electricity consumption, membrane fouling and environmentally safe brine disposal remain critical operational concerns.",
+    "answer": 0,
+    "explanation": "Sentence 1 identifies potable water as the converted output."
+  }
+]

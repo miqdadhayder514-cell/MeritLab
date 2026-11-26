@@ -1,0 +1,2067 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the radius of the circle x² + y² − 8x + 6y = 0?",
+    "options": ["√14 units", "7 units", "25 units", "5 units"],
+    "answer": 3,
+    "explanation": "g = −4, f = 3, c = 0 ⇒ r = √(g² + f² − c) = √(16 + 9) = 5 units."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the length of the chord intercepted by the circle x² + y² − 6x − 8y + 5 = 0 on the x-axis:",
+    "options": ["2√11 units", "4 units", "6 units", "8 units"],
+    "answer": 1,
+    "explanation": "On y = 0, x² − 6x + 5 = 0 ⇒ x = 1, 5; chord length = |5 − 1| = 4 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Where does the point (3, 1) lie with respect to the circle x² + y² − 2x + 4y − 11 = 0?",
+    "options": [
+      "Outside the circle",
+      "Inside the circle",
+      "At the center",
+      "On the circle"
+    ],
+    "answer": 1,
+    "explanation": "Substituting (3, 1) gives 9 + 1 − 6 + 4 − 11 = −3 < 0, so the point lies inside the circle."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Two circles of radii 10 cm and 3 cm touch each other internally. What is the distance between their centers?",
+    "options": ["7 cm", "30 cm", "3.5 cm", "13 cm"],
+    "answer": 0,
+    "explanation": "Internal tangency distance between centers is |r₁ − r₂| = |10 − 3| = 7 cm."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the equation of the circle whose diameter has endpoints (1, 2) and (5, 6)?",
+    "options": [
+      "x² + y² − 6x − 8y + 17 = 0",
+      "x² + y² − 6x − 8y + 25 = 0",
+      "x² + y² − 4x − 4y + 17 = 0",
+      "x² + y² + 6x + 8y + 17 = 0"
+    ],
+    "answer": 0,
+    "explanation": "(x − 1)(x − 5) + (y − 2)(y − 6) = 0 ⇒ x² + y² − 6x − 8y + 17 = 0."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the focus of the parabola y² = 20x?",
+    "options": ["(−5, 0)", "(20, 0)", "(0, 5)", "(5, 0)"],
+    "answer": 3,
+    "explanation": "4a = 20 ⇒ a = 5; focus of y² = 4ax is (5, 0)."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the focus of the parabola x² − 4x − 8y + 12 = 0:",
+    "options": ["(2, 3)", "(2, −1)", "(4, 1)", "(0, 3)"],
+    "answer": 0,
+    "explanation": "Completing the square gives (x − 2)2 = 8(y − 1), so vertex is (2, 1) and a = 2 upward; focus is (2, 1 + 2) = (2, 3)."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the equation of the directrix of the parabola y² = 16x?",
+    "options": ["x = −4", "x = 4", "y = 4", "y = −4"],
+    "answer": 0,
+    "explanation": "For y² = 16x, 4a = 16 ⇒ a = 4; directrix is x = −a = −4."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the parabola x² = 12y?",
+    "options": ["6 units", "24 units", "12 units", "3 units"],
+    "answer": 2,
+    "explanation": "Length of latus rectum of x² = 4ay is |4a| = 12 units."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the vertex of the parabola (y + 4)2 = −12(x − 1)?",
+    "options": ["(−1, 4)", "(−4, 1)", "(1, −4)", "(4, −1)"],
+    "answer": 2,
+    "explanation": "Comparing (y − k)2 = −4a(x − h) gives vertex (h, k) = (1, −4)."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the eccentricity e of the ellipse (x² / 100) + (y² / 64) = 1?",
+    "options": ["4 / 5", "3 / 5", "8 / 100", "5 / 3"],
+    "answer": 1,
+    "explanation": "a = 10, b = 8 ⇒ e = √(1 − 64/100) = √(36/100) = 6/10 = 3/5."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the foci of the ellipse (x² / 25) + (y² / 9) = 1:",
+    "options": ["(±4, 0)", "(±5, 0)", "(±3, 0)", "(0, ±4)"],
+    "answer": 0,
+    "explanation": "c = √(25 − 9) = 4; foci on major x-axis are (±4, 0)."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the major axis of the ellipse 9x² + 25y² = 225?",
+    "options": ["5 units", "25 units", "10 units", "6 units"],
+    "answer": 2,
+    "explanation": "Standard form (x² / 25) + (y² / 9) = 1 has a = 5, so major axis length = 2a = 10 units."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the ellipse (x² / 25) + (y² / 9) = 1?",
+    "options": ["6 / 5 units", "18 / 5 units", "10 units", "9 / 5 units"],
+    "answer": 1,
+    "explanation": "Latus rectum length = 2b² / a = 2(9) / 5 = 18 / 5 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the area enclosed by the ellipse (x² / 16) + (y² / 9) = 1?",
+    "options": ["144π sq. units", "24π sq. units", "12π sq. units", "7π sq. units"],
+    "answer": 2,
+    "explanation": "Area of ellipse is π a b = π (4)(3) = 12π sq. units."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the eccentricity e of any rectangular hyperbola x² − y² = a²?",
+    "options": ["2", "1 / √2", "1", "√2"],
+    "answer": 3,
+    "explanation": "For a = b, e = √(1 + b²/a²) = √2."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the hyperbola with foci (±6, 0) and eccentricity e = 3 / 2:",
+    "options": [
+      "(x² / 16) − (y² / 52) = 1",
+      "(x² / 16) − (y² / 20) = 1",
+      "(x² / 20) − (y² / 16) = 1",
+      "(x² / 36) − (y² / 16) = 1"
+    ],
+    "answer": 1,
+    "explanation": "c = 6 and e = c/a = 3/2 ⇒ a = 4; b² = c² − a² = 36 − 16 = 20, giving (x²/16) − (y²/20) = 1."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the transverse axis of the hyperbola (x² / 49) − (y² / 16) = 1?",
+    "options": ["98 units", "8 units", "14 units", "7 units"],
+    "answer": 2,
+    "explanation": "With a = 7, transverse axis length is 2a = 14 units."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What are the equations of the directrices of the hyperbola (x² / 16) − (y² / 9) = 1?",
+    "options": ["x = ±5 / 4", "y = ±16 / 5", "x = ±4 / 5", "x = ±16 / 5"],
+    "answer": 3,
+    "explanation": "a = 4, b = 3 ⇒ e = 5/4; directrices are x = ±(a / e) = ±(4 / (5/4)) = ±16 / 5."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Identify the conic represented by 4x² − 9y² − 16x − 54y − 101 = 0:",
+    "options": ["Hyperbola", "Ellipse", "Parabola", "Circle"],
+    "answer": 0,
+    "explanation": "Opposite signs on x² (+4) and y² (−9) define a hyperbola."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between the two foci of the hyperbola (x² / 9) − (y² / 16) = 1?",
+    "options": ["5 units", "10 units", "8 units", "6 units"],
+    "answer": 1,
+    "explanation": "c = √(9 + 16) = 5; distance between foci = 2c = 10 units."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the eccentricity e of the hyperbola (x² / 16) − (y² / 9) = 1?",
+    "options": ["5 / 3", "3 / 5", "5 / 4", "4 / 5"],
+    "answer": 2,
+    "explanation": "a = 4, b = 3 ⇒ e = √(1 + 9/16) = √(25/16) = 5 / 4."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the slope m of the line passing through (2, 3) and (4, 5)?",
+    "options": ["1 / 2", "2", "1", "−1"],
+    "answer": 2,
+    "explanation": "m = (5 − 3) / (4 − 2) = 2 / 2 = 1."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the distance between the two parallel lines 3x + 4y + 7 = 0 and 3x + 4y − 8 = 0:",
+    "options": ["7 / 5 units", "1 / 5 unit", "3 units", "15 units"],
+    "answer": 2,
+    "explanation": "d = |7 − (−8)| / √(9 + 16) = 15 / 5 = 3 units."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the condition that two lines with slopes m₁ and m₂ are perpendicular to each other?",
+    "options": ["m₁ · m₂ = +1", "m₁ + m₂ = 0", "m₁ = m₂", "m₁ · m₂ = −1"],
+    "answer": 3,
+    "explanation": "Perpendicularity condition for slopes is m₁ · m₂ = −1."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the line passing through (1, 2) with slope m = 3:",
+    "options": [
+      "y − 2 = −3(x − 1)",
+      "3x + y − 5 = 0",
+      "y − 2 = 3(x − 1) (or 3x − y − 1 = 0)",
+      "y + 2 = 3(x + 1)"
+    ],
+    "answer": 2,
+    "explanation": "Point-slope form: y − 2 = 3(x − 1)."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the midpoint of the segment joining (1, 2) and (3, 4):",
+    "options": ["(3, 2)", "(1, 1)", "(4, 6)", "(2, 3)"],
+    "answer": 3,
+    "explanation": "Midpoint = ((1 + 3)/2, (2 + 4)/2) = (2, 3)."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance between the points (2, 3) and (4, 5)?",
+    "options": ["4", "√2", "2√2 (or √8)", "√10"],
+    "answer": 2,
+    "explanation": "d = √((4 − 2)2 + (5 − 3)2) = √(4 + 4) = 2√2."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "For what value of m are the vectors A = 2i + 3j − k and B = i − 2j + mk perpendicular?",
+    "options": ["m = 1", "m = 4", "m = −1", "m = −4"],
+    "answer": 3,
+    "explanation": "A · B = 2(1) + 3(−2) + (−1)(m) = 0 ⇒ 2 − 6 − m = 0 ⇒ m = −4."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the scalar (dot) product u · v of u = 4i − j + 2k and v = 2i + 3j − 5k?",
+    "options": ["−15", "+5", "15", "−5"],
+    "answer": 3,
+    "explanation": "u · v = 4(2) + (−1)(3) + 2(−5) = 8 − 3 − 10 = −5."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the magnitude of the vector v = 2i − 3j + 6k?",
+    "options": ["√11", "11", "7", "49"],
+    "answer": 2,
+    "explanation": "|v| = √(4 + 9 + 36) = √49 = 7."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the area of the parallelogram formed by vectors a and b as adjacent sides?",
+    "options": ["|a · b|", "(1/2) |a × b|", "|a × b|", "|a| + |b|"],
+    "answer": 2,
+    "explanation": "Parallelogram area equals |a × b|."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the distance from point (1, 2, −1) to the plane 2x − 2y + z + 11 = 0:",
+    "options": ["11 / 3 units", "2 units", "6 units", "8 / 3 units"],
+    "answer": 3,
+    "explanation": "Distance from a point (x₀, y₀, z₀) to Ax + By + Cz + D = 0 is |Ax₀ + By₀ + Cz₀ + D| / √(A² + B² + C²). Substituting (1, 2, −1) gives |2 − 4 − 1 + 11| / √(4 + 4 + 1) = 8 / 3 units. The supplied choices omit this value, so it has been added."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If the scalar triple product [a b c] = a · (b × c) = 0 for non-zero vectors, what does it signify geometrically?",
+    "options": [
+      "They form a unit cube",
+      "Their cross product is infinite",
+      "They are mutually orthogonal",
+      "The three vectors are coplanar"
+    ],
+    "answer": 3,
+    "explanation": "Vanishing scalar triple product means the three vectors are coplanar."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the projection of vector a onto vector b?",
+    "options": ["(a · b) / |b|", "|a × b| / |b|", "(a · b) |b|", "(a · b) / |a|"],
+    "answer": 0,
+    "explanation": "Scalar projection of a onto b is (a · b) / |b|."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the cross product i × j of standard unit basis vectors?",
+    "options": ["−k", "k", "i", "0"],
+    "answer": 1,
+    "explanation": "By right-hand rule on right-handed basis: i × j = k."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the y-intercept of the line 4x + 3y = 12:",
+    "options": ["4", "−4", "3", "−3"],
+    "answer": 0,
+    "explanation": "Setting x = 0 gives 3y = 12 ⇒ y = 4."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the point dividing the segment from (0, 0) to (6, 9) in the ratio 2 : 1 internally?",
+    "options": ["(3, 4.5)", "(2, 3)", "(4, 6)", "(6, 9)"],
+    "answer": 2,
+    "explanation": "Internal section formula (m:n = 2:1): (2(6)/3, 2(9)/3) = (4, 6)."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the distance of the point (2, −3, 6) from the origin (0, 0, 0)?",
+    "options": ["7 units", "√11 units", "11 units", "√49 = 3 units"],
+    "answer": 0,
+    "explanation": "Distance from origin: √(4 + 9 + 36) = √49 = 7 units."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the equation of the plane passing through (1, 2, −1) with normal vector ⟨ 2, −1, 3 ⟩:",
+    "options": [
+      "2x − y + 3z + 3 = 0",
+      "2x + y − 3z + 3 = 0",
+      "x − 2y + z − 3 = 0",
+      "2x − y + 3z − 3 = 0"
+    ],
+    "answer": 0,
+    "explanation": "2(x − 1) − 1(y − 2) + 3(z + 1) = 0 ⇒ 2x − y + 3z + 3 = 0."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "When are two non-zero vectors u and v parallel?",
+    "options": ["u × v = 0 (or u = k v)", "u · v = 1", "|u + v| = 0", "u · v = 0"],
+    "answer": 0,
+    "explanation": "Parallel non-zero vectors satisfy u × v = 0."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the volume of a parallelepiped spanned by vectors a, b, c?",
+    "options": ["|a| |b| |c|", "(1/6) |a · (b × c)|", "|a × (b × c)|", "|a · (b × c)|"],
+    "answer": 3,
+    "explanation": "Parallelepiped volume is magnitude of scalar triple product: |a · (b × c)|."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Convert 225° into radian measure:",
+    "options": ["3π / 4 radians", "7π / 4 radians", "4π / 5 radians", "5π / 4 radians"],
+    "answer": 3,
+    "explanation": "225° × (π / 180°) = 5π / 4 radians."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If cosec θ + cot θ = 3, what is the value of cosec θ − cot θ?",
+    "options": ["3", "1 / 3", "−3", "8 / 3"],
+    "answer": 1,
+    "explanation": "Since cosec² θ − cot² θ = 1, cosec θ − cot θ = 1 / 3."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the exact value of cos 36°?",
+    "options": ["√3 / 2", "1 / 2", "(√5 + 1) / 4", "(√5 − 1) / 4"],
+    "answer": 2,
+    "explanation": "Standard exact value: cos 36° = (√5 + 1) / 4."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Evaluate: sin 18° · cos 36°",
+    "options": ["1 / 4", "(√5 − 1) / 8", "1 / 2", "√5 / 4"],
+    "answer": 0,
+    "explanation": "sin 18° cos 36° = [(√5 − 1)/4][(√5 + 1)/4] = (5 − 1)/16 = 1 / 4."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the maximum value of 6 sin θ + 8 cos θ?",
+    "options": ["8", "14", "10", "√28"],
+    "answer": 2,
+    "explanation": "Maximum of a sin θ + b cos θ is √(a² + b²) = √(36 + 64) = 10."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Express sin 3θ in terms of sin θ:",
+    "options": [
+      "4 sin³ θ − 3 sin θ",
+      "3 sin θ − 4 sin³ θ",
+      "4 cos³ θ − 3 cos θ",
+      "3 sin θ + 4 sin³ θ"
+    ],
+    "answer": 1,
+    "explanation": "Triple-angle sine formula: sin 3θ = 3 sin θ − 4 sin³ θ."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "In triangle ABC, what is the Law of Cosines for side c?",
+    "options": [
+      "c = a cos B + b cos A",
+      "c² = a² + b² + 2ab cos C",
+      "c² = a² + b² − 2ab cos C",
+      "c² = a² − b² + 2ab sin C"
+    ],
+    "answer": 2,
+    "explanation": "Law of Cosines: c² = a² + b² − 2ab cos C."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In a triangle with sides a = 6, b = 8, c = 10, what is the circumradius (R)?",
+    "options": ["2.4", "10", "5", "6"],
+    "answer": 2,
+    "explanation": "For a 6–8–10 right triangle, hypotenuse is c = 10, so circumradius R = c / 2 = 5."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "In any triangle ABC, what is the value of r₁ + r₂ + r₃ − r?",
+    "options": ["s", "Δ / s", "4R", "2R"],
+    "answer": 2,
+    "explanation": "Classical triangle geometry identity: r₁ + r₂ + r₃ − r = 4R."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the area Δ of triangle ABC in terms of sides a, b and included angle C?",
+    "options": ["(1/2) a b sin C", "(1/2) a b tan C", "a b sin C", "(1/2) a b cos C"],
+    "answer": 0,
+    "explanation": "Included-angle triangle area formula: Δ = (1/2) a b sin C."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the value of sin−1 x + cos−1 x for x ∈ [−1, 1]?",
+    "options": ["π / 4", "π / 2", "0", "π"],
+    "answer": 1,
+    "explanation": "Complementary inverse sine/cosine identity: sin−1 x + cos−1 x = π / 2."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate cos(sin−1(5 / 13)):",
+    "options": ["5 / 12", "13 / 12", "5 / 13", "12 / 13"],
+    "answer": 3,
+    "explanation": "With sin θ = 5 / 13, cos θ = √(1 − 25/169) = 12 / 13."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of cos x = 0?",
+    "options": [
+      "x = nπ, n ∈ ℤ",
+      "x = (2n + 1)(π / 2), n ∈ ℤ",
+      "x = 2nπ, n ∈ ℤ",
+      "x = nπ + π / 4, n ∈ ℤ"
+    ],
+    "answer": 1,
+    "explanation": "cos x = 0 at odd multiples of π/2: x = (2n + 1)(π / 2), n ∈ ℤ."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the fundamental period of f(x) = tan(3x)?",
+    "options": ["2π / 3", "π", "3π", "π / 3"],
+    "answer": 3,
+    "explanation": "Period of tan(k x) is π / |k| = π / 3."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Express 2 cos A cos B as a sum of cosines:",
+    "options": [
+      "cos(A − B) − cos(A + B)",
+      "cos(A + B) + cos(A − B)",
+      "sin(A + B) + sin(A − B)",
+      "sin(A + B) − sin(A − B)"
+    ],
+    "answer": 1,
+    "explanation": "Product-to-sum identity: 2 cos A cos B = cos(A + B) + cos(A − B)."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the fundamental hyperbolic identity relating cosh2 x and sinh2 x?",
+    "options": [
+      "cosh2 x − sinh2 x = 1",
+      "cosh2 x − sinh2 x = −1",
+      "cosh2 x + sinh2 x = 1",
+      "sinh2 x − cosh2 x = 1"
+    ],
+    "answer": 0,
+    "explanation": "Hyperbolic identity: cosh2 x − sinh2 x = 1."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the exact value of cos 15°?",
+    "options": ["(√3 − 1) / 2", "(√6 − √2) / 4", "(√6 + √2) / 4", "1 / 2"],
+    "answer": 2,
+    "explanation": "cos(45° − 30°) = (1/√2)(√3/2) + (1/√2)(1/2) = (√6 + √2) / 4."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with A = 60°, B = 45°, what is angle C?",
+    "options": ["90°", "105°", "60°", "75°"],
+    "answer": 3,
+    "explanation": "Angle sum in triangle is 180°: C = 180° − 60° − 45° = 75°."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate tan−1(1 / 3) + tan−1(1 / 2):",
+    "options": ["π / 6", "π / 3", "3π / 4", "π / 4"],
+    "answer": 3,
+    "explanation": "tan−1(1/3) + tan−1(1/2) = tan−1[(5/6)/(5/6)] = π / 4."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the minimum value of cos x for all real x ∈ ℝ?",
+    "options": ["0", "−1", "−2", "1"],
+    "answer": 1,
+    "explanation": "Cosine takes values in [−1, 1], with minimum −1 at x = π."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = cot−1 x with respect to x?",
+    "options": ["+1 / (1 + x²)", "−1 / √(1 − x²)", "−1 / (1 + x²)", "−csc2 x"],
+    "answer": 2,
+    "explanation": "d/dx (cot−1 x) = −1 / (1 + x²)."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Differentiate y = ln(sin x) with respect to x:",
+    "options": ["−cot x", "1 / sin x", "cot x", "tan x"],
+    "answer": 2,
+    "explanation": "Chain rule gives (1 / sin x) · cos x = cot x."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find dy / dx for x = a cos θ, y = b sin θ:",
+    "options": ["−(b / a) cot θ", "(b / a) cot θ", "−(a / b) tan θ", "(b / a) tan θ"],
+    "answer": 0,
+    "explanation": "dy / dx = (b cos θ) / (−a sin θ) = −(b / a) cot θ."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: limx → 0 (sin 5x / sin 3x)",
+    "options": ["0", "1", "5 / 3", "3 / 5"],
+    "answer": 2,
+    "explanation": "limx → 0 [(sin 5x / 5x) · (3x / sin 3x) · (5 / 3)] = 1 · 1 · (5 / 3) = 5 / 3."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the critical point(s) of f(x) = x² − 8x + 15:",
+    "options": ["x = −4", "x = 8", "x = 4", "x = 3 and x = 5"],
+    "answer": 2,
+    "explanation": "f'(x) = 2x − 8 = 0 ⇒ x = 4."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the Maclaurin series expansion of sin x?",
+    "options": [
+      "x − x³/3! + x⁵/5! − x⁷/7! + …",
+      "x + x³/3! + x⁵/5! + …",
+      "1 − x²/2! + x⁴/4! − …",
+      "1 + x + x²/2! + …"
+    ],
+    "answer": 0,
+    "explanation": "Maclaurin expansion of sin x is x − x³/3! + x⁵/5! − x⁷/7! + …."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Differentiate y = (sin x)x (for 0 < x < π) with respect to x:",
+    "options": [
+      "(sin x)x [ln(sin x) + x cot x]",
+      "(sin x)x ln(sin x)",
+      "x (sin x)x − 1 cos x",
+      "(cos x)x"
+    ],
+    "answer": 0,
+    "explanation": "Logarithmic derivative of x ln(sin x) is ln(sin x) + x cot x; multiply by (sin x)x."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the second derivative d2y / dx2 of y = e⁴ˣ?",
+    "options": ["e⁴ˣ", "8 e⁴ˣ", "4 e⁴ˣ", "16 e⁴ˣ"],
+    "answer": 3,
+    "explanation": "First derivative is 4 e⁴ˣ; second derivative is 16 e⁴ˣ."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = cosh x with respect to x?",
+    "options": ["cosh x", "−sinh x", "sinh x", "sech2 x"],
+    "answer": 2,
+    "explanation": "d/dx (cosh x) = sinh x."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the normal line to y = x³ at x = 1:",
+    "options": ["1 / 3", "3", "−1 / 3", "−3"],
+    "answer": 2,
+    "explanation": "Tangent slope at x = 1 is 3(1)2 = 3; normal slope is −1 / 3."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate: ∫ sec² x dx",
+    "options": ["tan x + C", "cot x + C", "sec x + C", "−tan x + C"],
+    "answer": 0,
+    "explanation": "∫ sec² x dx = tan x + C."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ ln x dx (for x > 0)",
+    "options": ["x² ln x + C", "x ln x + x + C", "x ln x − x + C", "1 / x + C"],
+    "answer": 2,
+    "explanation": "Integration by parts gives x ln x − ∫ 1 dx = x ln x − x + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / √(9 − x²)]",
+    "options": [
+      "(1 / 3) sin−1(x / 3) + C",
+      "cos−1(x / 3) + C",
+      "sin−1(x / 3) + C",
+      "ln|x + √(9 − x²)| + C"
+    ],
+    "answer": 2,
+    "explanation": "∫ dx / √(a² − x²) = sin−1(x / a) + C = sin−1(x / 3) + C."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫0 π/2 cos² x dx",
+    "options": ["0", "π / 2", "1 / 2", "π / 4"],
+    "answer": 3,
+    "explanation": "∫0 π/2 [(1 + cos 2x)/2] dx = (1/2)(π/2) = π / 4."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀¹ eˣ dx",
+    "options": ["e", "e − 1", "e + 1", "1"],
+    "answer": 1,
+    "explanation": "[eˣ]₀¹ = e¹ − e⁰ = e − 1."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [f'(x) / f(x)] dx",
+    "options": ["[f(x)]2 / 2 + C", "ln|f(x)| + C", "f(x) ln|f(x)| + C", "1 / f(x) + C"],
+    "answer": 1,
+    "explanation": "Logarithmic integration: ∫ [f'(x) / f(x)] dx = ln|f(x)| + C."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫−2 2 x³ cos x dx",
+    "options": ["4", "16", "0", "8 cos 2"],
+    "answer": 2,
+    "explanation": "x³ cos x is odd ((−x)3 cos(−x) = −x³ cos x) over symmetric [−2, 2], so integral = 0."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ eˣ (ln x + 1 / x) dx",
+    "options": ["ln x + C", "eˣ ln x + C", "eˣ / x + C", "eˣ (ln x − 1 / x) + C"],
+    "answer": 1,
+    "explanation": "Product rule check: d/dx (eˣ ln x) = eˣ ln x + eˣ / x."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the order of the differential equation d3y / dx3 + 5(dy / dx)4 − 7y = 0?",
+    "options": ["Order 1", "Order 3", "Order 4", "Order 7"],
+    "answer": 1,
+    "explanation": "Highest derivative present is the third derivative, so order is 3."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀¹ 4x³ dx",
+    "options": ["2", "1 / 4", "1", "4"],
+    "answer": 2,
+    "explanation": "[x⁴]₀¹ = 1 − 0 = 1."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "A single fair die is rolled once. What is the probability of rolling an even number?",
+    "options": ["2 / 3", "1 / 3", "1 / 2", "1 / 6"],
+    "answer": 2,
+    "explanation": "Even faces {2, 4, 6} give 3 / 6 = 1 / 2."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many distinct committees of 3 members can be selected from 6 candidates?",
+    "options": ["120", "720", "20", "18"],
+    "answer": 2,
+    "explanation": "6C³ = (6 × 5 × 4) / (3 × 2 × 1) = 20."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of 0! (zero factorial) by standard definition?",
+    "options": ["1", "−1", "0", "Undefined"],
+    "answer": 0,
+    "explanation": "By definition, 0! = 1."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Two fair coins are tossed simultaneously. What is the probability of getting at least one head?",
+    "options": ["1 / 2", "1 / 4", "3 / 4", "1"],
+    "answer": 2,
+    "explanation": "Complement of no heads (TT) is 1 − 1/4 = 3 / 4."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many terms are in the binomial expansion of (a + b)9?",
+    "options": ["8", "18", "10", "9"],
+    "answer": 2,
+    "explanation": "Expansion of (a + b)n has n + 1 = 10 terms."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In how many ways can the letters of the word STAT be arranged?",
+    "options": ["6", "4", "12", "24"],
+    "answer": 2,
+    "explanation": "4! / 2! = 24 / 2 = 12 (since T repeats twice)."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the mode of the data set {3, 7, 7, 2, 9, 7, 5}?",
+    "options": ["6", "9", "5", "7"],
+    "answer": 3,
+    "explanation": "7 appears three times, more than any other value."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If every value in a dataset is increased by a constant c = 15, how does the variance σ2 change?",
+    "options": [
+      "Increases by 15",
+      "Multiplied by 15",
+      "Increases by 225",
+      "Remains unchanged"
+    ],
+    "answer": 3,
+    "explanation": "Shifting every observation by a constant leaves dispersion (variance) unchanged."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the geometric mean (GM) of 4 and 9?",
+    "options": ["6.5", "6", "13", "36"],
+    "answer": 1,
+    "explanation": "GM = √(4 × 9) = √36 = 6."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For events A and B with P(A) = 0.5, P(B) = 0.4, and P(A ∩ B) = 0.2, what is P(A ∪ B)?",
+    "options": ["0.2", "0.7", "1.1", "0.9"],
+    "answer": 1,
+    "explanation": "P(A ∪ B) = 0.5 + 0.4 − 0.2 = 0.7."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If A and B are independent events with P(A) = 1/3 and P(B) = 1/4, what is P(A ∩ B)?",
+    "options": ["1 / 7", "7 / 12", "1 / 12", "4 / 3"],
+    "answer": 2,
+    "explanation": "For independent events, P(A ∩ B) = P(A) P(B) = (1/3)(1/4) = 1 / 12."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of the dataset {12, 4, 29, 18, 9}?",
+    "options": ["25", "29", "8", "14.4"],
+    "answer": 0,
+    "explanation": "Range = Max − Min = 29 − 4 = 25."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the probability of an impossible event?",
+    "options": ["1 / 2", "1", "0", "−1"],
+    "answer": 2,
+    "explanation": "An impossible event has probability 0."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the real domain of f(x) = 1 / (x − 5)?",
+    "options": ["ℝ \\ {5}", "ℝ", "[5, ∞)", "(5, ∞)"],
+    "answer": 0,
+    "explanation": "Denominator vanishes at x = 5, so domain is ℝ \\ {5}."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If f(x) = x + 4 and g(x) = 3x, what is (g ∘ f)(1)?",
+    "options": ["8", "12", "7", "15"],
+    "answer": 3,
+    "explanation": "g(f(1)) = g(5) = 3(5) = 15."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which symmetry characterizes an even function f(−x) = f(x)?",
+    "options": [
+      "Reflection symmetry across the y-axis",
+      "Rotational symmetry about the origin",
+      "Periodicity of length 1",
+      "Reflection symmetry across the x-axis"
+    ],
+    "answer": 0,
+    "explanation": "Even functions satisfy f(−x) = f(x) and are symmetric about the y-axis."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = 2x + 9:",
+    "options": ["(x + 9) / 2", "(x − 9) / 2", "1 / (2x + 9)", "2x − 9"],
+    "answer": 1,
+    "explanation": "Solving y = 2x + 9 for x gives f⁻¹(x) = (x − 9) / 2."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of f(x) = −x² for x ∈ ℝ?",
+    "options": ["(−∞, 0]", "[0, ∞)", "ℝ", "(−∞, 0)"],
+    "answer": 0,
+    "explanation": "Since −x² ≤ 0 for all x ∈ ℝ, range is (−∞, 0]. Physics Detailed Solutions (Q.101 – Q.160)"
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensions of linear momentum (p)?",
+    "options": ["[M L T⁻²]", "[M L T⁻¹]", "[M L² T⁻¹]", "[M L² T⁻²]"],
+    "answer": 1,
+    "explanation": "Momentum p = m v has dimensions [M L T⁻¹]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A projectile launched at 25° above horizontal lands at distance R on level ground. At what other angle (same speed) does it land at R?",
+    "options": ["50°", "65°", "75°", "35°"],
+    "answer": 1,
+    "explanation": "Complementary angles θ and 90° − θ yield equal range: 90° − 25° = 65°."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What does the slope of a velocity-time (v–t) graph represent?",
+    "options": ["Displacement", "Impulse", "Momentum", "Acceleration"],
+    "answer": 3,
+    "explanation": "Slope of v–t graph is dv / dt = acceleration."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 0.5 kg ball hits a wall at 12 m/s and rebounds at 8 m/s in 0.05 s. What is the magnitude of average force?",
+    "options": ["80 N", "200 N", "40 N", "120 N"],
+    "answer": 1,
+    "explanation": "F = |Δp| / Δt = 0.5 |−8 − 12| / 0.05 = 10 / 0.05 = 200 N."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Approximately what is the low-orbit speed of a satellite skimming just above Earth (g ≈ 9.8 m/s², R ≈ 6.4 × 10⁶ m)?",
+    "options": ["≈ 5.6 km/s", "≈ 9.8 km/s", "≈ 11.2 km/s", "≈ 7.9 km/s"],
+    "answer": 3,
+    "explanation": "Orbital speed v₀ = √(g R) ≈ 7.9 km/s."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which physical quantity is conserved in an isolated system under zero net external torque?",
+    "options": [
+      "Centripetal force",
+      "Angular momentum",
+      "Temperature",
+      "Linear velocity"
+    ],
+    "answer": 1,
+    "explanation": "Zero net external torque implies conservation of angular momentum."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of work and energy?",
+    "options": ["Pascal (Pa)", "Watt (W)", "Newton (N)", "Joule (J)"],
+    "answer": 3,
+    "explanation": "Work and energy have SI unit Joule (J)."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A motor lifts a 200 kg mass steadily by 15 m in 20 s (g = 9.8 m/s²). What is its useful power?",
+    "options": ["980 W", "150 W", "29400 W", "1470 W"],
+    "answer": 3,
+    "explanation": "P = m g h / t = (200 × 9.8 × 15) / 20 = 1470 W."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to Torricelli's theorem, what is the efflux speed of liquid emerging from a small orifice at depth h below a wide open surface?",
+    "options": ["√(2 g h)", "√(g h)", "2 g h", "g h"],
+    "answer": 0,
+    "explanation": "Torricelli efflux velocity is v = √(2 g h)."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "In horizontal steady incompressible flow, if pipe internal diameter is halved, by what factor does fluid speed change?",
+    "options": [
+      "Multiplied by 2 (2v)",
+      "Multiplied by 4 (4v)",
+      "Unchanged",
+      "Multiplied by 1 / 4"
+    ],
+    "answer": 1,
+    "explanation": "Area scales as d², so halving diameter cuts area by 4 and quadruples speed."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the time period T of a mass m oscillating on an ideal spring of spring constant k?",
+    "options": ["2π √(m / k)", "(1 / 2π) √(k / m)", "2π √(k / m)", "2π (m / k)"],
+    "answer": 0,
+    "explanation": "Mass-spring period is T = 2π √(m / k)."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Where in simple harmonic motion is the speed of the oscillating body maximum?",
+    "options": [
+      "At the equilibrium position (x = 0)",
+      "At the extreme positions (x = ±x₀)",
+      "At half amplitude",
+      "Speed is constant"
+    ],
+    "answer": 0,
+    "explanation": "Speed in SHM peaks at equilibrium x = 0 (vmax = ω x₀)."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A 256 Hz fork makes 4 beats/s with an unknown fork. Loading wax on the unknown fork reduces beats to 2/s. What was its original frequency?",
+    "options": ["260 Hz", "254 Hz", "252 Hz", "258 Hz"],
+    "answer": 0,
+    "explanation": "Initially, a 256 Hz fork and the unknown fork produce 4 beats/s, so the unknown frequency is 252 Hz or 260 Hz. Adding wax lowers the unknown fork’s frequency. Since the beat frequency decreases to 2 Hz, the unknown fork must have started above 256 Hz and moved from 260 Hz to 258 Hz. Therefore, its original frequency was 260 Hz."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 1.2 m string fixed at both ends carries transverse waves at 240 m/s. What is its fundamental frequency?",
+    "options": ["50 Hz", "100 Hz", "288 Hz", "200 Hz"],
+    "answer": 1,
+    "explanation": "Fundamental wavelength λ1 = 2L = 2.4 m; f₁ = v / λ1 = 240 / 2.4 = 100 Hz."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "A siren emitting 600 Hz moves at 34 m/s straight toward a stationary listener (sound speed 340 m/s). What frequency is heard?",
+    "options": ["540 Hz", "600 Hz", "666.7 Hz (or 6000 / 9 Hz)", "660 Hz"],
+    "answer": 2,
+    "explanation": "Approaching source Doppler shift: f' = 600 × [340 / (340 − 34)] = 600 × (340 / 306) = 666.7 Hz."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which phenomenon explains the colors seen in thin soap films under white light?",
+    "options": [
+      "Compton effect",
+      "Zeeman effect",
+      "Thin-film interference",
+      "Photoelectric effect"
+    ],
+    "answer": 2,
+    "explanation": "Thin-film colors arise from interference of light reflected from top and bottom film surfaces."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the formula for critical angle θc for a ray going from medium n₁ into rarer medium n₂?",
+    "options": [
+      "tan θc = n₂ / n₁",
+      "sin θc = n₁ / n₂",
+      "cos θc = n₂ / n₁",
+      "sin θc = n₂ / n₁"
+    ],
+    "answer": 3,
+    "explanation": "Snell's law at θr = 90° gives sin θc = n₂ / n₁."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of optical power of a lens?",
+    "options": ["Watt (W)", "Candela (cd)", "Diopter (D = m⁻¹)", "Lumen (lm)"],
+    "answer": 2,
+    "explanation": "Optical power is measured in diopters (D = m⁻¹)."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to Brewster's Law, at polarizing angle θp for refractive index n:",
+    "options": ["tan θp = n", "cot θp = n", "sin θp = n", "cos θp = n"],
+    "answer": 0,
+    "explanation": "Brewster's law states tan θp = n."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the angular magnification M of a simple magnifying glass of focal length f at near point d?",
+    "options": ["1 + d / f", "1 + f / d", "f / d", "1 − d / f"],
+    "answer": 0,
+    "explanation": "Magnifying glass angular magnification at near point is 1 + d / f."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an isochoric (constant-volume) process of an ideal gas, how much boundary work W is done?",
+    "options": ["Cp ΔT", "P V", "Zero (W = P ΔV = 0)", "n R T ln(V₂/V₁)"],
+    "answer": 2,
+    "explanation": "With ΔV = 0, boundary work W = P ΔV = 0."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the relationship between molar heat capacities Cp and Cv for an ideal gas?",
+    "options": ["Cp / Cv = R", "Cp − Cv = R", "Cp + Cv = R", "Cv − Cp = R"],
+    "answer": 1,
+    "explanation": "Mayer's relation for an ideal gas: Cp − Cv = R."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is absolute zero temperature in degrees Celsius?",
+    "options": ["−32 °C", "+273.15 °C", "−273.15 °C (≈ −273 °C)", "0 °C"],
+    "answer": 2,
+    "explanation": "0 K = −273.15 °C."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "At what Celsius temperature is the speed of sound in air twice its value at 0 °C (273 K)?",
+    "options": ["819 °C (1092 K)", "273 °C", "0 °C", "546 °C"],
+    "answer": 0,
+    "explanation": "Since v ∝ √T, doubling v quadruples T: 4 × 273 K = 1092 K = 819 °C."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which thermodynamic law defines temperature via thermal equilibrium?",
+    "options": [
+      "Zeroth Law of Thermodynamics",
+      "First Law of Thermodynamics",
+      "Second Law of Thermodynamics",
+      "Third Law of Thermodynamics"
+    ],
+    "answer": 0,
+    "explanation": "The Zeroth Law establishes temperature and thermal equilibrium."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of pressure?",
+    "options": ["Newton (N)", "Joule (J)", "Pascal (Pa = N / m₂)", "Henry (H)"],
+    "answer": 2,
+    "explanation": "Pressure has SI unit Pascal (Pa = N/m₂)."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of molar gas constant (R)?",
+    "options": ["J / (mol · K)", "N / (mol · K)", "J / K", "W / (m · K)"],
+    "answer": 0,
+    "explanation": "From PV = nRT, R has unit J / (mol · K)."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an isobaric expansion of an ideal gas at constant pressure P from volume V₁ to V₂, work done is:",
+    "options": ["P (V₂ − V₁)", "n R T ln(V₂/V₁)", "0", "−P ΔV"],
+    "answer": 0,
+    "explanation": "Constant-pressure expansion work is W = P (V₂ − V₁)."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "According to the Second Law of Thermodynamics (Kelvin-Planck statement), can a cyclic engine convert heat extracted from a single reservoir completely into work?",
+    "options": [
+      "No; some heat must be rejected to a cold sink",
+      "Yes, in any frictionless cycle",
+      "Only in an isochoric cycle",
+      "Yes, if operating above 100 °C"
+    ],
+    "answer": 0,
+    "explanation": "Kelvin-Planck statement forbids 100% heat-to-work conversion in a single-reservoir cycle."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the relationship between linear speed v, radius r, and angular speed ω in circular motion?",
+    "options": ["v = r / ω", "v = ω / r", "v = r ω", "v = r² ω"],
+    "answer": 2,
+    "explanation": "Tangential linear speed in circular motion is v = r ω."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of capacitance?",
+    "options": ["Farad (F = C / V)", "Tesla (T)", "Ohm (Ω)", "Henry (H)"],
+    "answer": 0,
+    "explanation": "Capacitance has SI unit Farad (F)."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "How does electrostatic force F between two point charges change when their separation r is doubled in vacuum?",
+    "options": [
+      "Quadruples (4F)",
+      "Doubles (2F)",
+      "Drops to one-fourth (F / 4)",
+      "Halves (F / 2)"
+    ],
+    "answer": 2,
+    "explanation": "Coulomb's inverse-square law (F ∝ 1/r²) reduces force to F / 4 when r doubles."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Three identical 6 μF capacitors are connected in parallel. What is their equivalent capacitance?",
+    "options": ["6 μF", "2 μF", "0.5 μF", "18 μF"],
+    "answer": 3,
+    "explanation": "Parallel capacitances add directly: Ceq = 6 + 6 + 6 = 18 μF."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of electric potential?",
+    "options": ["Weber (Wb)", "Ampere (A)", "Volt (V = J / C)", "Coulomb (C)"],
+    "answer": 2,
+    "explanation": "Electric potential has SI unit Volt (V = J/C)."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the energy U stored in a capacitor of capacitance C charged to potential difference V?",
+    "options": ["V₂ / (2 C)", "(1/2) C V", "(1/2) C V₂", "C V₂"],
+    "answer": 2,
+    "explanation": "Electrostatic energy stored in a capacitor is U = (1/2) C V₂."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of magnetic force on a charge q moving at speed v perpendicular to uniform magnetic field B?",
+    "options": ["q v B", "q v B / 2", "q E", "Zero"],
+    "answer": 0,
+    "explanation": "For θ = 90°, FB = q v B sin 90° = q v B."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "According to Faraday's law of electromagnetic induction, induced EMF in a coil of N turns is:",
+    "options": ["N ΦB", "+N (dΦB / dt)", "−L (dΦB / dt)", "−N (dΦB / dt)"],
+    "answer": 3,
+    "explanation": "Faraday-Lenz law: ε = −N (dΦB / dt)."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the capacitive reactance XC of a capacitor C in an AC circuit of frequency f?",
+    "options": ["2π f C", "1 / (2π f L)", "2π f L", "1 / (2π f C)"],
+    "answer": 3,
+    "explanation": "Capacitive reactance is XC = 1 / (2π f C)."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the power factor cos φ of a purely inductive or purely capacitive AC circuit (φ = 90°)?",
+    "options": ["1 / √2", "1", "0", "−1"],
+    "answer": 2,
+    "explanation": "cos 90° = 0, so purely reactive elements dissipate zero average power."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In a purely capacitive AC circuit, how does alternating current lead or lag alternating voltage?",
+    "options": [
+      "Current leads voltage by 90° (π / 2)",
+      "Current leads voltage by 180°",
+      "Current lags voltage by 90°",
+      "Current and voltage are in phase"
+    ],
+    "answer": 0,
+    "explanation": "In a pure capacitor, current leads voltage by 90°."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the standard domestic AC mains frequency in Pakistan?",
+    "options": ["100 Hz", "60 Hz", "50 Hz", "0 Hz (DC)"],
+    "answer": 2,
+    "explanation": "Standard AC supply frequency in Pakistan is 50 Hz."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "In an ideal transformer, if primary voltage is Vp and primary current is Ip, what is secondary power Ps?",
+    "options": ["Ps = Pp = Vp Ip", "Ps = Vp / Ip", "Ps = 0", "Ps = (Ns / Np) Vp Ip"],
+    "answer": 0,
+    "explanation": "An ideal lossless transformer conserves power: Ps = Pp = Vp Ip."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which device converts alternating current (AC) into pulsating direct current (DC)?",
+    "options": [
+      "Rectifier (diode circuit)",
+      "Transformer",
+      "Oscillator",
+      "Capacitor bank"
+    ],
+    "answer": 0,
+    "explanation": "A rectifier converts AC into unidirectional DC."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the current gain β (common-emitter DC current gain) of a bipolar junction transistor?",
+    "options": ["β = IE / IB", "β = IB / IC", "β = IC / IB", "β = IC / IE"],
+    "answer": 2,
+    "explanation": "Common-emitter current gain is β = IC / IB."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the closed-loop voltage gain of an ideal inverting op-amp amplifier with input resistor Rin and feedback resistor Rf?",
+    "options": ["1 + Rf / Rin", "+Rf / Rin", "−Rin / Rf", "−Rf / Rin"],
+    "answer": 3,
+    "explanation": "Ideal inverting amplifier closed-loop gain is −Rf / Rin."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to De Morgan's First Theorem, (A + B )̄ is logically equal to:",
+    "options": ["A · B", "Ā + B̄", "A + B", "Ā · B̄"],
+    "answer": 3,
+    "explanation": "De Morgan's First Theorem: (A + B )̄ = Ā · B̄ ."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which logic gate is a universal gate capable of implementing any Boolean function on its own?",
+    "options": [
+      "XOR gate alone",
+      "OR gate alone",
+      "AND gate alone",
+      "NAND gate (and NOR gate)"
+    ],
+    "answer": 3,
+    "explanation": "NAND and NOR are universal logic gates."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the energy E of a photon of frequency f according to Planck's hypothesis?",
+    "options": ["E = h c f", "E = h / f", "E = m c²", "E = h f"],
+    "answer": 3,
+    "explanation": "Photon energy is E = h f."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Below the threshold frequency f₀ of a metal surface, how many photoelectrons are emitted regardless of light intensity?",
+    "options": [
+      "None (zero photoelectrons)",
+      "Only high-energy electrons",
+      "Only protons",
+      "Maximum photoelectrons"
+    ],
+    "answer": 0,
+    "explanation": "If f < f₀, photon energy is below work function and no photoelectrons are emitted."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the Compton wavelength λc = h / (me c) of an electron approximately?",
+    "options": [
+      "≈ 1.0 × 10−15 m",
+      "≈ 2.43 × 10−12 m (0.00243 nm)",
+      "≈ 500 nm",
+      "≈ 3.0 × 10⁸ m"
+    ],
+    "answer": 1,
+    "explanation": "Electron Compton wavelength is ≈ 2.43 × 10−12 m."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to Bohr's quantization rule, angular momentum L of an orbiting electron is an integer multiple of:",
+    "options": ["2π h", "h", "h / (2π) (or ℏ )", "h / (4π)"],
+    "answer": 2,
+    "explanation": "Bohr quantization condition: L = n h / (2π)."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "In the hydrogen spectrum, transitions terminating on n = 1 (ground state) lie in which spectral region?",
+    "options": [
+      "Paschen series (infrared)",
+      "Balmer series (visible)",
+      "Lyman series (ultraviolet)",
+      "Pfund series"
+    ],
+    "answer": 2,
+    "explanation": "Transitions ending on n = 1 form the ultraviolet Lyman series."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "After 4 half-lives, what fraction of original radioactive nuclei remains undecayed?",
+    "options": ["1 / 32", "1 / 8", "1 / 4", "1 / 16"],
+    "answer": 3,
+    "explanation": "After 4 half-lives, remaining fraction is (1/2)4 = 1 / 16."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which nuclear emission has no charge and no rest mass, consisting of high-energy electromagnetic photons?",
+    "options": [
+      "Protons",
+      "Alpha (α) particles",
+      "Gamma (γ) rays",
+      "Beta-minus (β−) particles"
+    ],
+    "answer": 2,
+    "explanation": "Gamma (γ) rays are uncharged high-energy electromagnetic photons."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the function of control rods (such as cadmium or boron) in a nuclear reactor?",
+    "options": [
+      "Absorb excess neutrons to regulate the fission chain reaction",
+      "Generate fusion plasma",
+      "Accelerate electrons",
+      "Cool the turbine condenser"
+    ],
+    "answer": 0,
+    "explanation": "Control rods absorb excess neutrons to maintain controlled criticality."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Nuclei having the same mass number (A) but different atomic numbers Z are called:",
+    "options": ["Isobars", "Isotopes", "Isotones", "Allotropes"],
+    "answer": 0,
+    "explanation": "Nuclides with equal mass number A and different Z are isobars."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the quark composition of an electrically neutral neutron?",
+    "options": [
+      "Two up quarks and one down quark (u u d)",
+      "One charm and two strange quarks",
+      "One up quark and two down quarks (u d d)",
+      "Three down quarks (d d d)"
+    ],
+    "answer": 2,
+    "explanation": "A neutron consists of u d d quarks (+2/3 − 1/3 − 1/3 = 0)."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of absorbed radiation dose?",
+    "options": ["Becquerel (Bq)", "Farad (F)", "Gray (Gy = J / kg)", "Tesla (T)"],
+    "answer": 2,
+    "explanation": "Absorbed radiation dose has SI unit Gray (Gy = J/kg)."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Why does a laser beam exhibit high directionality and monochromaticity compared to an ordinary incandescent bulb?",
+    "options": [
+      "It operates at absolute zero",
+      "It uses higher DC current",
+      "Stimulated emission inside an optical resonator produces coherent phase-locked photons",
+      "It relies on thermal blackbody radiation"
+    ],
+    "answer": 2,
+    "explanation": "Stimulated emission within an optical cavity generates coherent, monochromatic light."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the decay law expression for number of undecayed nuclei N(t) after time t starting from N₀?",
+    "options": [
+      "N(t) = N₀ / (λ t)",
+      "N(t) = N₀ e−λ t",
+      "N(t) = N₀ e+λ t",
+      "N(t) = N₀ (1 − λ t)"
+    ],
+    "answer": 1,
+    "explanation": "Exponential radioactive decay law: N(t) = N₀ e−λ t. English Detailed Solutions (Q.161 – Q.200)"
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to EPHEMERAL:",
+    "options": ["Transient", "Eternal", "Perpetual", "Enduring"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 0,
+    "explanation": "Ephemeral means lasting a very short time; transient matches."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to PRAGMATIC:",
+    "options": ["Quixotic", "Impractical", "Dogmatic", "Practical"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 3,
+    "explanation": "Pragmatic means dealing with things sensibly and realistically; practical matches."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to ESOTERIC:",
+    "options": ["Popular", "Mundane", "Commonplace", "Abstruse"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 3,
+    "explanation": "Esoteric means understood by only a small specialized group; abstruse matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to TENACIOUS:",
+    "options": ["Irresolute", "Vacillating", "Persistent", "Timid"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 2,
+    "explanation": "Tenacious means holding fast or persistent; persistent matches."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to SURREPTITIOUS:",
+    "options": ["Overt", "Stealthy", "Forthright", "Conspicuous"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Surreptitious means kept secret because it would not be approved of; stealthy matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to LUCID:",
+    "options": ["Obscure", "Clear", "Vague", "Murky"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Lucid means expressed clearly and easy to understand; clear matches."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to INTRANSIGENT:",
+    "options": ["Conciliatory", "Uncompromising", "Flexible", "Accommodating"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Intransigent means refusing to agree or compromise; uncompromising matches."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to EXACERBATE:",
+    "options": ["Worsen", "Relieve", "Soothe", "Assuage"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 0,
+    "explanation": "Exacerbate means to make a problem or bad situation worse; worsen matches."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Much Difficult",
+    "prompt": "Choose the word most nearly similar in meaning to PERFIDIOUS:",
+    "options": ["Loyal", "Steadfast", "Treacherous", "Faithful"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 2,
+    "explanation": "Perfidious means deceitful and untrustworthy; treacherous matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to ADVERSE:",
+    "options": ["Auspicious", "Favorable", "Unfavorable", "Propitious"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 2,
+    "explanation": "Adverse means preventing success or harmful; unfavorable matches."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to VENERABLE:",
+    "options": ["Contemptible", "Despicable", "Disreputable", "Revered"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 3,
+    "explanation": "Venerable means accorded great respect because of age, wisdom, or character; revered matches."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to CORROBORATE:",
+    "options": ["Contradict", "Refute", "Confirm", "Rebut"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 2,
+    "explanation": "Corroborate means to confirm or give support to a statement or theory; confirm matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to INDEFATIGABLE:",
+    "options": ["Fatigable", "Tireless", "Weary", "Exhaustible"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Indefatigable means persisting tirelessly; tireless matches."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to PLACATE:",
+    "options": ["Pacify", "Enrage", "Infuriate", "Provoke"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 0,
+    "explanation": "Placate means to make someone less angry or hostile; pacify matches."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to VERBOSE:",
+    "options": ["Terse", "Compendious", "Wordy", "Succinct"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 2,
+    "explanation": "Verbose means using or expressed in more words than are needed; wordy matches."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to CONVERGE:",
+    "options": ["Coalesce", "Unite", "Meet", "Diverge"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 3,
+    "explanation": "Converge means to come together; its antonym is diverge."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to AMBIGUOUS:",
+    "options": ["Enigmatic", "Explicit", "Cryptic", "Vague"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Ambiguous means unclear/equivocal; its antonym is explicit."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to AUGMENT:",
+    "options": ["Magnify", "Amplify", "Diminish", "Escalate"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 2,
+    "explanation": "Augment means to make larger or increase; its antonym is diminish."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to TRANSPARENT:",
+    "options": ["Diaphanous", "Limpid", "Translucent", "Opaque"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 3,
+    "explanation": "Transparent means letting light pass through clearly; its antonym is opaque."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to ACQUITTAL:",
+    "options": ["Exoneration", "Vindication", "Absolution", "Conviction"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 3,
+    "explanation": "Acquittal means clearing of a charge; its antonym is conviction."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — SCALPEL : SURGEON ::",
+    "options": [
+      "Trowel : Musician",
+      "Chisel : Sculptor",
+      "Compass : Chef",
+      "Stethoscope : Carpenter"
+    ],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Tool-to-user: a scalpel is used by a surgeon, just as a chisel is used by a sculptor."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — CATALYST : REACTION ::",
+    "options": [
+      "Dam : Flooding",
+      "Spark : Combustion",
+      "Brake : Acceleration",
+      "Anchor : Sailing"
+    ],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Trigger-to-process: a catalyst triggers a reaction, just as a spark triggers combustion."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — OPAQUE : LIGHT ::",
+    "options": [
+      "Porous : Water",
+      "Soundproof : Noise",
+      "Conductive : Heat",
+      "Transparent : Glare"
+    ],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Barrier-to-what-it-blocks: an opaque barrier blocks light, just as a soundproof barrier blocks noise."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — CHAPTER : BOOK ::",
+    "options": ["Forest : Leaf", "Ocean : Drop", "Symphony : Note", "Scene : Play"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 3,
+    "explanation": "Part-to-whole: a chapter is a division of a book, just as a scene is a division of a play."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — VACCINE : IMMUNITY ::",
+    "options": [
+      "Virus : Health",
+      "Practice : Proficiency",
+      "Fatigue : Stamina",
+      "Poison : Longevity"
+    ],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Means-to-strengthened-state: a vaccine builds immunity, just as practice builds proficiency."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Each of the turbine blades ______ inspected under ultraviolet light prior to assembly.",
+    "options": ["have been", "was", "are", "were"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Each is singular, so the verb is singular: was."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Seldom ______ such an accurate orbital prediction achieved using minimal computational power.",
+    "options": ["did", "has", "have", "was"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Initial negative adverb Seldom triggers inversion with singular subject: has."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The silicon wafer is resistant ______ corrosion under standard atmospheric conditions.",
+    "options": ["to", "at", "for", "with"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 0,
+    "explanation": "Standard collocation: resistant to."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Were the backup cooling pump ______ online, core temperatures would remain well below threshold.",
+    "options": ["bringing", "brought", "bring", "brings"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Inverted conditional structure: Were [subject] brought online…."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Although the initial prototype was ______, subsequent iterations resolved every thermal bottleneck.",
+    "options": ["impeccable", "consummate", "flawless", "rudimentary"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 3,
+    "explanation": "Contrasted with later refinement, an early prototype is rudimentary (basic/undeveloped)."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "Neither the professor nor his assistants has been in the laboratory.",
+      "Neither the professor nor his assistants were in the laboratory.",
+      "Neither the professor nor his assistants was in the laboratory.",
+      "Neither the professor nor his assistants is in the laboratory."
+    ],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "With neither… nor, verb agrees with plural assistants: were."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "The safety inspector insisted that every operator ______ protective eyewear inside the laser bay.",
+    "options": ["wearing", "wears", "wore", "wear"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 3,
+    "explanation": "After insisted that, use base subjunctive: wear."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Consientious", "Conscientous", "Conscientious", "Conscentious"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 2,
+    "explanation": "Conscientious is spelled c-o-n-s-c-i-e-n-t-i-o-u-s."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Because the dataset contained noisy outliers, the engineer applied a ______ filter before regression.",
+    "options": ["chaotic", "random", "smoothing", "distorting"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 2,
+    "explanation": "A smoothing filter reduces noisy outliers before regression."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "No sooner ______ the signal transmitted than the receiver logged the incoming packet.",
+    "options": ["are", "was", "has", "were"],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "No sooner triggers inversion with singular passive auxiliary: was."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "How do electrodynamic suspension maglev trains generate repulsive lifting forces?",
+    "options": [
+      "Rocket thrusters push the train upward",
+      "Onboard superconducting coils induce eddy currents in guideway conductors as the train moves",
+      "Steel wheels grip magnetized rails",
+      "High-pressure air cushions blow beneath the train"
+    ],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 1,
+    "explanation": "Sentence 2 states that moving superconducting coils induce eddy currents in guideway conductors, generating repulsive lift."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What two drawbacks or infrastructure requirements of maglev systems are mentioned in the passage?",
+    "options": [
+      "Inability to move without fuel combustion",
+      "Maximum speed capped at 30 km/h",
+      "Severe rolling friction and noisy steel wheels",
+      "Specialized guideway infrastructure and cryogenic cooling for conventional low- temperature superconductors"
+    ],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 3,
+    "explanation": "The final sentence highlights specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What component provides smooth, contactless thrust along the guideway according to the passage?",
+    "options": [
+      "Pneumatic tires",
+      "Diesel gearboxes",
+      "Linear synchronous motors",
+      "Hydraulic brakes"
+    ],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 2,
+    "explanation": "Sentence 3 states that linear synchronous motors provide smooth, contactless thrust."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What condition is required for lifting forces in electrodynamic suspension as noted in the passage?",
+    "options": [
+      "A minimum liftoff speed must be exceeded as the train moves",
+      "The train must remain completely stationary",
+      "Cryogenic cooling must be turned off",
+      "The guideway must be made of wood"
+    ],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 0,
+    "explanation": "Sentence 2 notes repulsive lift occurs once a minimum liftoff speed is exceeded as the train moves."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Which type of friction is eliminated by maglev suspension according to the opening sentence?",
+    "options": [
+      "Wheel-rail rolling friction",
+      "Gravity",
+      "Magnetic attraction",
+      "Air resistance"
+    ],
+    "context": "Superconducting magnetic levitation (maglev) trains eliminate wheel-rail rolling friction by suspending and propelling vehicles above a guideway using strong magnetic fields. In electrodynamic suspension systems, superconducting coils aboard the train induce eddy currents in conductive loops or sheets along the guideway as the train moves, generating repulsive lifting forces once a minimum liftoff speed is exceeded. Meanwhile, linear synchronous motors mounted along the guideway provide smooth, contactless thrust by interacting with the onboard magnetic field. While maglev systems achieve high speeds and quiet operation, they require specialized guideway infrastructure and cryogenic cooling for conventional low-temperature superconductors.",
+    "answer": 0,
+    "explanation": "Sentence 1 states maglev trains eliminate wheel-rail rolling friction."
+  }
+]

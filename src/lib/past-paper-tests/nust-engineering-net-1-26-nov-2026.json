@@ -1,0 +1,2197 @@
+[
+  {
+    "number": 1,
+    "sourceNumber": "001",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Every rational number can be expressed in decimal form as either a terminating decimal or a:",
+    "options": [
+      "Non-terminating recurring (repeating) decimal",
+      "Non-terminating non-recurring decimal",
+      "Purely imaginary number",
+      "Finite integer"
+    ],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 2,
+    "sourceNumber": "002",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the complex conjugate z̄ of the complex number z = 4 − 9i?",
+    "options": ["−4 − 9i", "4 + 9i", "−4 + 9i", "9 − 4i"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 3,
+    "sourceNumber": "003",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the multiplicative identity element in the set of real numbers ℝ?",
+    "options": ["0", "1", "−1", "2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 4,
+    "sourceNumber": "004",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the converse of the conditional statement “If p, then q” (p → q)?",
+    "options": ["If ~p, then ~q", "If q, then p", "If ~q, then ~p", "p and ~q"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 5,
+    "sourceNumber": "005",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "A biconditional statement “p if and only if q” (p ↔ q) is true when p and q have:",
+    "options": [
+      "Opposite truth values",
+      "The same truth value (both true or both false)",
+      "p true and q false",
+      "p false and q true"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 6,
+    "sourceNumber": "006",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of i² (where i² = −1)?",
+    "options": ["1", "−1", "i", "−i"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 7,
+    "sourceNumber": "007",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For any set S with n elements, how many total subsets (including ∅ and S itself) does S have?",
+    "options": ["2n", "2ⁿ", "n²", "2ⁿ − 1"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 8,
+    "sourceNumber": "008",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "In a group (G, *), the inverse of the identity element e is always:",
+    "options": ["Undefined", "e itself", "Every element of G", "Zero"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 9,
+    "sourceNumber": "009",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "A relation R on a set A that is reflexive, symmetric, and transitive is called an:",
+    "options": [
+      "Inverse relation",
+      "Equivalence relation",
+      "Empty relation",
+      "Universal relation"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 10,
+    "sourceNumber": "010",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the decimal equivalent of the binary number (101)²?",
+    "options": ["4", "5", "6", "7"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 11,
+    "sourceNumber": "011",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "A diagonal matrix whose diagonal entries are all equal to the same scalar k is called a:",
+    "options": [
+      "Row matrix",
+      "Scalar matrix",
+      "Skew-symmetric matrix",
+      "Singular matrix"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 12,
+    "sourceNumber": "012",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "A scalar matrix whose diagonal entries are all equal to 1 is called an:",
+    "options": [
+      "Null matrix",
+      "Identity (unit) matrix",
+      "Column matrix",
+      "Singular matrix"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 13,
+    "sourceNumber": "013",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of the determinant [[4, 2], [3, 2]]?",
+    "options": ["8", "2", "−2", "14"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 14,
+    "sourceNumber": "014",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For any square matrix A, taking the transpose of A leaves its determinant |Aᵀ| equal to:",
+    "options": ["−|A|", "|A|", "1 / |A|", "0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 15,
+    "sourceNumber": "015",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For any two square matrices A and B of the same order, det(A · B) equals:",
+    "options": ["det(A) + det", "(B) det(A) · det(B)", "det(A) − det(B)", "2 det(A)"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 16,
+    "sourceNumber": "016",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "In a square matrix A = [aij], entries where i = j form the:",
+    "options": [
+      "Anti-diagonal",
+      "Main (principal) diagonal",
+      "Border entries",
+      "Co-diagonal"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 17,
+    "sourceNumber": "017",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "If A is a non-singular square matrix, then (A⁻¹)−1 equals:",
+    "options": ["Aᵀ", "A", "−A", "I"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 18,
+    "sourceNumber": "018",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of the determinant [[2, 0], [0, 4]]?",
+    "options": ["6", "8", "2", "0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 19,
+    "sourceNumber": "019",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "A square matrix in which all entries below the main diagonal are zero is called an:",
+    "options": [
+      "Lower triangular matrix",
+      "Upper triangular matrix",
+      "Scalar matrix",
+      "Null matrix"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 20,
+    "sourceNumber": "020",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For any matrix A and scalar c, (c A)ᵀ equals:",
+    "options": ["c² Aᵀ", "c Aᵀ", "Aᵀ / c", "−c Aᵀ"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 21,
+    "sourceNumber": "021",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For the quadratic equation ax² + bx + c = 0 (a ≠ 0), the sum of its two roots α + β is:",
+    "options": ["b / a", "−b / a", "c / a", "−c / a"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 22,
+    "sourceNumber": "022",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For the quadratic equation ax² + bx + c = 0 (a ≠ 0), the product of its two roots α · β is:",
+    "options": ["−c / a", "c / a", "−b / a", "a / c"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 23,
+    "sourceNumber": "023",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of ω⁴, where ω is a non-real cube root of unity?",
+    "options": ["1", "ω", "ω²", "−1"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 24,
+    "sourceNumber": "024",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of 1 + ω² for a non-real cube root of unity?",
+    "options": ["ω", "−ω", "ω²", "1"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 25,
+    "sourceNumber": "025",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What are the roots of x² − 4 = 0?",
+    "options": ["Only 2", "+2 and −2", "+4 and −4", "0 and 2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 26,
+    "sourceNumber": "026",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the sum of the roots of x² + 6x + 8 = 0?",
+    "options": ["6", "−6", "8", "−8"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 27,
+    "sourceNumber": "027",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the product of the roots of x² + 6x + 8 = 0?",
+    "options": ["−8", "8", "−6", "6"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 28,
+    "sourceNumber": "028",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the discriminant Δ = b² − 4ac of x² + 4x + 4 = 0?",
+    "options": ["16", "0", "8", "−16"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 29,
+    "sourceNumber": "029",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Every improper rational fraction P(x) / Q(x) can be rewritten by polynomial division as a polynomial plus a:",
+    "options": [
+      "Second improper fraction",
+      "Proper rational fraction",
+      "Constant integer only",
+      "Trigonometric function"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 30,
+    "sourceNumber": "030",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of ω⁷ for a non-real cube root of unity ω?",
+    "options": ["1", "ω", "ω²", "0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 31,
+    "sourceNumber": "031",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the sum Sₙ of the first n terms of aₙ arithmetic progression with first term a₁ and last term aₙ?",
+    "options": [
+      "n (a₁ + aₙ)",
+      "(n / 2) (a₁ + aₙ)",
+      "(n / 2) (aₙ − a₁)",
+      "n (a₁ − aₙ)/2"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 32,
+    "sourceNumber": "032",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the sum Sₙ of the first n terms of a geometric progression with first term a₁ and common ratio r ≠ 1?",
+    "options": [
+      "a₁ (1 − r^n) / (1 + r)",
+      "a₁ (1 − r^n) / (1 − r)",
+      "a₁ (1 − r) / (1 − r^n)",
+      "n a₁ (1 − r)"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 33,
+    "sourceNumber": "033",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the 4th term of the arithmetic progression 2, 6, 10, …?",
+    "options": ["12", "14", "16", "10"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 34,
+    "sourceNumber": "034",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the 4th term of the geometric progression 3, 6, 12, …?",
+    "options": ["18", "24", "36", "48"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 35,
+    "sourceNumber": "035",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the common difference of the arithmetic progression 4, 9, 14, 19, …?",
+    "options": ["4", "5", "−5", "9"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 36,
+    "sourceNumber": "036",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the common ratio of the geometric progression 2, 4, 8, 16, …?",
+    "options": ["4", "2", "1/2", "8"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 37,
+    "sourceNumber": "037",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the geometric mean between 4 and 16 (for positive numbers)?",
+    "options": ["10", "8", "6", "12"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 38,
+    "sourceNumber": "038",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the arithmetic mean between 6 and 14?",
+    "options": ["8", "10", "12", "20"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 39,
+    "sourceNumber": "039",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For an infinite geometric series with a = 6 and r = 1/2, what is its sum to infinity S∞?",
+    "options": ["6", "12", "3", "9"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 40,
+    "sourceNumber": "040",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the harmonic mean between 3 and 6?",
+    "options": ["4.5", "4", "3", "6"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 41,
+    "sourceNumber": "041",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of 4! (4 factorial)?",
+    "options": ["12", "24", "8", "16"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 42,
+    "sourceNumber": "042",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of C(5, 5)?",
+    "options": ["0", "1", "5", "25"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 43,
+    "sourceNumber": "043",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of C(4, 1)?",
+    "options": ["1", "4", "6", "2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 44,
+    "sourceNumber": "044",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of P(5, 1)?",
+    "options": ["1", "5", "20", "0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 45,
+    "sourceNumber": "045",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the probability of a certain (sure) event?",
+    "options": ["0", "1", "1/2", "−1"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 46,
+    "sourceNumber": "046",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the probability of an impossible event?",
+    "options": ["1", "0", "1/2", "∞"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 47,
+    "sourceNumber": "047",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "When rolling a single fair six-sided die, what is the probability of getting an even number?",
+    "options": ["1/3", "1/2", "2/3", "1/6"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 48,
+    "sourceNumber": "048",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "In the binomial expansion of (1 + x)ⁿ for positive integer n, the sum of all binomial coefficients is:",
+    "options": ["n + 1", "2ⁿ", "n!", "2n"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 49,
+    "sourceNumber": "049",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For 0 ≤ r ≤ n, C(n, r) is always equal to:",
+    "options": ["P(n, r)", "C(n, n)−r", "rCn", "n · C(n − 1, r)"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 50,
+    "sourceNumber": "050",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "When n is an even positive integer, the expansion of (a + b)ⁿ has how many middle terms?",
+    "options": [
+      "Two middle terms",
+      "One middle term (the (n/2 + 1)th term)",
+      "Zero middle terms",
+      "n middle terms"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 51,
+    "sourceNumber": "051",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Convert 60° into radian measure:",
+    "options": ["π/6", "π/3", "π/4", "π/2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 52,
+    "sourceNumber": "052",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Convert π/4 radians into degree measure:",
+    "options": ["30°", "45°", "60°", "90°"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 53,
+    "sourceNumber": "053",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of sin(45°)?",
+    "options": ["1/2", "1/√2 (i.e., √2 / 2)", "√3 / 2", "0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 54,
+    "sourceNumber": "054",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of cos(30°)?",
+    "options": ["1/2", "√3 / 2", "1/√2", "0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 55,
+    "sourceNumber": "055",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "In which quadrant are both sin θ and cos θ positive?",
+    "options": [
+      "Second quadrant",
+      "First quadrant",
+      "Third quadrant",
+      "Fourth quadrant"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 56,
+    "sourceNumber": "056",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "In which quadrant is tan θ positive while sin θ is negative?",
+    "options": [
+      "First quadrant",
+      "Third quadrant",
+      "Second quadrant",
+      "Fourth quadrant"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 57,
+    "sourceNumber": "057",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the principal value of sin−1(0)?",
+    "options": ["π/2", "0", "π", "−π/2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 58,
+    "sourceNumber": "058",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the principal value of cos−1(1/2)?",
+    "options": ["π/6", "π/3", "π/4", "π/2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 59,
+    "sourceNumber": "059",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For all real θ, cos² θ − sin² θ is identically equal to:",
+    "options": ["sin(2θ)", "cos(2θ)", "2 sin θ cos θ", "1"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 60,
+    "sourceNumber": "060",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the value of tan(0°)?",
+    "options": ["1", "0", "Undefined", "−1"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 61,
+    "sourceNumber": "061",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the principal value of tan−1(0)?",
+    "options": ["π/4", "0", "π/2", "−π/4"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 62,
+    "sourceNumber": "062",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For all real x where defined, sin−1(x) + cos−1(x) equals:",
+    "options": ["π", "π/2", "0", "π/4"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 63,
+    "sourceNumber": "063",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Evaluate limₓ→1 (4x − 1):",
+    "options": ["4", "3", "5", "1"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 64,
+    "sourceNumber": "064",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Evaluate limₓ→∞ (1 / x):",
+    "options": ["1", "0", "∞", "−1"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 65,
+    "sourceNumber": "065",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Which of the following functions is an even function on ℝ?",
+    "options": ["f(x) = x³", "f(x) = x²", "f(x) = sin(x)", "f(x) = x"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 66,
+    "sourceNumber": "066",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Which of the following functions is an odd function on ℝ?",
+    "options": ["f(x) = cos(x)", "f(x) = x³", "f(x) = x²", "f(x) = |x|"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 67,
+    "sourceNumber": "067",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "If f(x) = x + 2 and g(x) = 3x, what is (f ∘ g)(2)?",
+    "options": ["12", "8", "10", "6"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 68,
+    "sourceNumber": "068",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Evaluate limₓ→2 (x²):",
+    "options": ["2", "4", "8", "6"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 69,
+    "sourceNumber": "069",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Evaluate limₓ→∞ [(4x + 5) / x]:",
+    "options": ["5", "4", "0", "∞"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 70,
+    "sourceNumber": "070",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "If f(x) = 2x² + 1, what is f(2)?",
+    "options": ["5", "9", "8", "17"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 71,
+    "sourceNumber": "071",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "A polynomial function f(x) = an xn + … + a₀ is continuous:",
+    "options": ["Only at x = 0", "Everywhere on ℝ", "Only for x > 0", "Nowhere"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 72,
+    "sourceNumber": "072",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Evaluate limₓ→0 (x + 9):",
+    "options": ["0", "9", "1", "−9"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 73,
+    "sourceNumber": "073",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the derivative of x² with respect to x?",
+    "options": ["x", "2x", "x²", "2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 74,
+    "sourceNumber": "074",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the derivative of any constant c with respect to x?",
+    "options": ["c", "0", "1", "c x"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 75,
+    "sourceNumber": "075",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the derivative of sec(x) with respect to x?",
+    "options": ["−sec(x) tan(x)", "sec(x) tan(x)", "sec²(x)", "−csc(x) cot(x)"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 76,
+    "sourceNumber": "076",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the derivative of csc(x) with respect to x?",
+    "options": ["csc(x) cot(x)", "−csc(x) cot(x)", "−csc²(x)", "sec(x) tan(x)"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 77,
+    "sourceNumber": "077",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "By the chain rule, d/dx [f(g(x))] is equal to:",
+    "options": ["f′(x) · g′(x)", "f′(g(x)) · g′(x)", "f(g′(x))", "f′(g(x)) / g′(x)"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 78,
+    "sourceNumber": "078",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the derivative of ax (for a > 0, a ≠ 1) with respect to x?",
+    "options": ["x ax−1", "ax ln(a)", "ax / ln(a)", "ln(a)"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 79,
+    "sourceNumber": "079",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "If displacement s(t) = t², what is velocity v(t) = ds/dt at t = 3?",
+    "options": ["3", "6", "9", "2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 80,
+    "sourceNumber": "080",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the derivative of cos−1(x) (for |x| < 1) with respect to x?",
+    "options": ["1 / √(1 − x²)", "−1 / √(1 − x²)", "−1 / (1 + x²)", "1 / (1 + x²)"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 81,
+    "sourceNumber": "081",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the derivative of x5 with respect to x?",
+    "options": ["x⁴", "5x⁴", "4x5", "5x5"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 82,
+    "sourceNumber": "082",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Aᵀ a stationary point of a differentiable function f(x), f′(x) equals:",
+    "options": ["1", "0", "f(x)", "∞"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 83,
+    "sourceNumber": "083",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Evaluate ∫ x² dx:",
+    "options": ["2x + C", "x³ / 3 + C", "x³ + C", "3x² + C"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 84,
+    "sourceNumber": "084",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Evaluate ∫ csc²(x) dx:",
+    "options": ["cot(x) + C", "−cot(x) + C", "−tan(x) + C", "csc(x) + C"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 85,
+    "sourceNumber": "085",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Evaluate the definite integral ∫₀¹ 2x dx:",
+    "options": ["0", "1", "2", "1/2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 86,
+    "sourceNumber": "086",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Evaluate the definite integral ∫₀³ 1 dx:",
+    "options": ["1", "3", "0", "6"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 87,
+    "sourceNumber": "087",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "By integration by parts, ∫ u dv is equal to:",
+    "options": ["u v + ∫ v du", "u v − ∫ v du", "v du − u dv", "u du − v dv"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 88,
+    "sourceNumber": "088",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the degree of the differential equation (dy/dx)² + 3y = 0?",
+    "options": ["1", "2", "3", "0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 89,
+    "sourceNumber": "089",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "Evaluate ∫₁² 3 dx:",
+    "options": ["6", "3", "9", "1"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 90,
+    "sourceNumber": "090",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "A differential equation of the form dy/dx = g(x) · h(y) is called:",
+    "options": [
+      "Exact",
+      "Separable (variables separable)",
+      "Homogeneous of degree 3",
+      "Partial"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 91,
+    "sourceNumber": "091",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the slope m of a horizontal line parallel to the x-axis?",
+    "options": ["1", "0", "−1", "Undefined"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 92,
+    "sourceNumber": "092",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the radius of the circle x² + y² = 16?",
+    "options": ["16", "4", "8", "2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 93,
+    "sourceNumber": "093",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the cross product k × i of unit orthogonal basis vectors?",
+    "options": ["−j", "j", "k", "0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 94,
+    "sourceNumber": "094",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the cross product i × i?",
+    "options": ["i", "0 (zero vector)", "1", "k"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 95,
+    "sourceNumber": "095",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the dot product j · k?",
+    "options": ["1", "0", "−1", "i"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 96,
+    "sourceNumber": "096",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For the standard parabola y² = 4a x (with a > 0), the focus lies at:",
+    "options": ["(−a, 0)", "(a, 0)", "(0, a)", "(0, −a)"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 97,
+    "sourceNumber": "097",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "For the standard parabola y² = 4a x (with a > 0), what is the length of the latus rectum?",
+    "options": ["2a", "4a", "a", "8a"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 98,
+    "sourceNumber": "098",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the distance between points A(0, 0) and B(3, 4)?",
+    "options": ["7", "5", "12", "25"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 99,
+    "sourceNumber": "099",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the midpoint of the segment joining A(2, 0) and B(6, 0)?",
+    "options": ["(8, 0)", "(4, 0)", "(3, 0)", "(0, 4)"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 100,
+    "sourceNumber": "100",
+    "subject": "Mathematics",
+    "difficulty": "Past paper",
+    "prompt": "What is the magnitude |i + j| of the vector i + j?",
+    "options": ["2", "√2", "1", "0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 101,
+    "sourceNumber": "101",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "What is the SI base unit of amount of substance?",
+    "options": ["Kilogram", "Mole (mol)", "Candela", "Gram"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 102,
+    "sourceNumber": "102",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "What is the dimensional formula of velocity?",
+    "options": ["[M L T−2]", "[M0 L T−1]", "[M L² T−1]", "[M0 L T−2]"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 103,
+    "sourceNumber": "103",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "What is the dimensional formula of acceleration?",
+    "options": ["[M0 L T−1]", "[M0 L T−2]", "[M L T−2]", "[M0 L² T−2]"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 104,
+    "sourceNumber": "104",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Vector addition A + B satisfies which algebraic property?",
+    "options": [
+      "Non-commutative",
+      "Commutative (A + B = B + A)",
+      "Non-associative",
+      "Undefined for unequal magnitudes"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 105,
+    "sourceNumber": "105",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "A unit vector along a non-zero vector A is given by:",
+    "options": ["A · |A|", "A / |A|", "|A| / A", "A²"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 106,
+    "sourceNumber": "106",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "What is the maximum magnitude of the resultant of two vectors of magnitudes 3 N and 4 N?",
+    "options": ["5 N", "7 N", "1 N", "12 N"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 107,
+    "sourceNumber": "107",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "According to Newton’s third law of motion, action and reaction forces act on:",
+    "options": [
+      "The same body",
+      "Two different bodies",
+      "Only stationary bodies",
+      "Only charged bodies"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 108,
+    "sourceNumber": "108",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Gravitational potential energy near Earth’s surface (change ΔU for height change Δh) is:",
+    "options": ["m g / Δh", "m g Δh", "(1/2) m g Δh", "g Δh / m"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 109,
+    "sourceNumber": "109",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Translational kinetic energy K of a particle of mass m moving at speed v is:",
+    "options": ["m v", "(1/2) m v²", "m v²", "(1/2) m² v"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 110,
+    "sourceNumber": "110",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "For a projectile launched on level ground, horizontal range R is equal for launch angles θ and:",
+    "options": ["180° − θ", "90° − θ", "2θ", "θ / 2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 111,
+    "sourceNumber": "111",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Angular momentum L of a particle about an origin with position r and linear momentum p is:",
+    "options": ["r · p", "r × p", "p / r", "r + p"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 112,
+    "sourceNumber": "112",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Average power Pavg is defined as work done W divided by time interval Δt:",
+    "options": ["Δt / W", "W / Δt", "W · Δt", "W² / Δt"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 113,
+    "sourceNumber": "113",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "A rigid body is in translational equilibrium when the vector sum of external forces acting on it is:",
+    "options": ["Maximum", "Zero (∑F = 0)", "Equal to weight", "Constant non-zero"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 114,
+    "sourceNumber": "114",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "A rigid body is in rotational equilibrium about a chosen axis when the net external torque is:",
+    "options": [
+      "Maximum",
+      "Zero (∑τ = 0)",
+      "Equal to angular velocity",
+      "Equal to mass"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 115,
+    "sourceNumber": "115",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Work W done by a constant force F during displacement d is:",
+    "options": ["F × d", "F · d = F d cos θ", "F / d", "F d sin θ"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 116,
+    "sourceNumber": "116",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "What is the minimum magnitude of the resultant of two vectors of magnitudes 3 N and 4 N?",
+    "options": ["5 N", "1 N", "7 N", "0 N"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 117,
+    "sourceNumber": "117",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "According to Bernoulli’s equation for horizontal steady flow, where fluid speed increases, static pressure:",
+    "options": ["Increases", "Decreases", "Becomes infinite", "Remains unchanged"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 118,
+    "sourceNumber": "118",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Time period T of a periodic wave is related to its frequency f by:",
+    "options": ["T = f", "T = 1 / f", "T = f²", "T = 2π f"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 119,
+    "sourceNumber": "119",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "The distance between two consecutive nodes (or two consecutive antinodes) in a standing wave is:",
+    "options": ["λ", "λ / 2", "λ / 4", "2 λ"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 120,
+    "sourceNumber": "120",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Destructive interference of two coherent waves occurs when their path difference is an odd half-integer multiple of:",
+    "options": ["λ", "λ / 2", "2 λ", "4 λ"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 121,
+    "sourceNumber": "121",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "For a simple pendulum undergoing simple harmonic motion, time period T is independent of:",
+    "options": [
+      "Length L",
+      "Bob mass m (for small angles)",
+      "Acceleration due to gravity g",
+      "2π"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 122,
+    "sourceNumber": "122",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Angular frequency ω of an oscillation with frequency f is:",
+    "options": ["ω = f / (2π)", "ω = 2π f", "ω = 1 / f", "ω = π f"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 123,
+    "sourceNumber": "123",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Transverse waves have particle oscillations:",
+    "options": [
+      "Parallel to wave propagation",
+      "Perpendicular to wave propagation",
+      "Only along a circle",
+      "Zero"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 124,
+    "sourceNumber": "124",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Longitudinal waves have particle oscillations:",
+    "options": [
+      "Perpendicular to wave propagation",
+      "Parallel to wave propagation",
+      "Only in vacuum",
+      "Zero"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 125,
+    "sourceNumber": "125",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Total internal reflection of light can occur only when light travels from a medium of:",
+    "options": [
+      "Lower refractive index to higher refractive index",
+      "Higher refractive index to lower refractive index (with angle > critical angle)",
+      "Equal refractive index",
+      "Vacuum to air"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 126,
+    "sourceNumber": "126",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "In a compound microscope, the eyepiece acts primarily as a:",
+    "options": [
+      "Diverging mirror",
+      "Magnifying glass (simple magnifier)",
+      "Diffraction grating",
+      "Polarizer"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 127,
+    "sourceNumber": "127",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "What is absolute zero temperature on the Celsius scale?",
+    "options": ["0 °C", "−273.15 °C (approx. −273 °C)", "−100 °C", "273.15 °C"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 128,
+    "sourceNumber": "128",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "The ideal gas law relating pressure P, volume V, amount n, and absolute temperature T is:",
+    "options": ["P / V = n R T", "P V = n R T", "P + V = n R T", "V / T = n R P"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 129,
+    "sourceNumber": "129",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "For a monatomic ideal gas, average translational kinetic energy per molecule is:",
+    "options": ["(1/2) kB T", "(3/2) kB T", "3 kB T", "kB T"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 130,
+    "sourceNumber": "130",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "According to the second law of thermodynamics (Kelvin–Planck statement), no cyclic heat engine can convert all absorbed heat into work while operating with:",
+    "options": [
+      "Two reservoirs",
+      "Only a single thermal reservoir",
+      "An ideal gas",
+      "A piston"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 131,
+    "sourceNumber": "131",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "In a reversible process of an isolated system, total entropy ΔS is:",
+    "options": ["Strictly negative", "Zero", "Strictly infinite", "Equal to pressure"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 132,
+    "sourceNumber": "132",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "What is the SI unit of specific heat capacity c?",
+    "options": ["J K−1", "J kg−1 K−1", "W m−1 K−1", "J kg−1"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 133,
+    "sourceNumber": "133",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Like electric charges exert forces on each other that are:",
+    "options": ["Attractive", "Repulsive", "Always zero", "Magnetic only"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 134,
+    "sourceNumber": "134",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Unlike electric charges exert forces on each other that are:",
+    "options": ["Repulsive", "Attractive", "Always zero", "Gravitational only"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 135,
+    "sourceNumber": "135",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "What is the SI unit of electric potential and EMF?",
+    "options": ["Ampere", "Volt (V = J C−1)", "Ohm", "Tesla"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 136,
+    "sourceNumber": "136",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Electric current I is defined as time rate of flow of electric charge q:",
+    "options": ["q · t", "Δq / Δt", "Δt / Δq", "V · R"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 137,
+    "sourceNumber": "137",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "What is the SI unit of electric current?",
+    "options": ["Coulomb", "Ampere (A = C s−1)", "Volt", "Farad"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 138,
+    "sourceNumber": "138",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Two capacitors of 4 μF and 4 μF connected in series have equivalent capacitance:",
+    "options": ["8 μF", "2 μF", "4 μF", "16 μF"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 139,
+    "sourceNumber": "139",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Two capacitors of 3 μF and 3 μF connected in parallel have equivalent capacitance:",
+    "options": ["1.5 μF", "6 μF", "3 μF", "9 μF"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 140,
+    "sourceNumber": "140",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Inside a uniform electric field E, electric potential decreases in the direction of:",
+    "options": [
+      "Increasing potential",
+      "The electric field E (E = −dV/dr)",
+      "Zero field",
+      "Perpendicular to E"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 141,
+    "sourceNumber": "141",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "A potentiometer measures potential difference or EMF without drawing current when at the:",
+    "options": [
+      "Maximum deflection point",
+      "Null (balance) point",
+      "Short-circuit point",
+      "Breakdown point"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 142,
+    "sourceNumber": "142",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Electrical conductivity σ is the reciprocal of electrical resistivity ρ:",
+    "options": ["σ = ρ2", "σ = 1 / ρ", "σ = ρ", "σ = 1 / ρ2"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 143,
+    "sourceNumber": "143",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "When two resistors of 10 Ω and 10 Ω are connected in series, their equivalent resistance is:",
+    "options": ["5 Ω", "20 Ω", "10 Ω", "100 Ω"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 144,
+    "sourceNumber": "144",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "When two resistors of 8 Ω and 8 Ω are connected in parallel, their equivalent resistance is:",
+    "options": ["16 Ω", "4 Ω", "8 Ω", "64 Ω"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 145,
+    "sourceNumber": "145",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "A stationary electric charge (v = 0) in a uniform magnetic field B experiences magnetic force:",
+    "options": ["q B", "Zero", "q B / m", "Infinite"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 146,
+    "sourceNumber": "146",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "In a series RLC circuit, resonant angular frequency ω⁰ is given by:",
+    "options": ["√(L C)", "1 / √(L C)", "L / C", "R / L"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 147,
+    "sourceNumber": "147",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "A transformer operates on the principle of:",
+    "options": [
+      "Electrostatic induction",
+      "Mutual electromagnetic induction",
+      "Photoelectric emission",
+      "Thermal expansion"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 148,
+    "sourceNumber": "148",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "An ideal transformer steps down AC voltage from 240 V to 120 V; its turns ratio Ns / Np is:",
+    "options": ["2", "1/2", "1", "4"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 149,
+    "sourceNumber": "149",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "For a sinusoidal AC voltage of peak value V0, its RMS value Vrms is:",
+    "options": ["√2 V0", "V0 / √2", "V0 / 2", "2 V0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 150,
+    "sourceNumber": "150",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Two parallel long straight wires carrying currents in the same direction exert on each other a force that is:",
+    "options": ["Repulsive", "Attractive", "Zero", "Purely vertical always"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 151,
+    "sourceNumber": "151",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "Two parallel long straight wires carrying currents in opposite directions exert on each other a force that is:",
+    "options": ["Attractive", "Repulsive", "Zero", "Equal to μ0"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 152,
+    "sourceNumber": "152",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "A straight conductor of length L carrying current I perpendicular to magnetic field B experiences force:",
+    "options": ["I B / L", "I L B", "B / (I L)", "Zero"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 153,
+    "sourceNumber": "153",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "In an n-type semiconductor, majority charge carriers are:",
+    "options": ["Holes", "Electrons", "Protons", "Alpha particles"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 154,
+    "sourceNumber": "154",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "In a p-type semiconductor, majority charge carriers are:",
+    "options": ["Electrons", "Holes", "Neutrons", "Positrons"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 155,
+    "sourceNumber": "155",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "A logic gate whose output is 1 (HIGH) if and only if all its inputs are 1 (HIGH) is an:",
+    "options": ["OR gate", "AND gate", "NOT gate", "XOR gate"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 156,
+    "sourceNumber": "156",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "A logic gate whose output is 1 (HIGH) whenever at least one input is 1 (HIGH) is an:",
+    "options": ["AND gate", "OR gate", "NAND gate", "NOT gate"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 157,
+    "sourceNumber": "157",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "A NOT gate (inverter) with input A = 1 produces output Y equal to:",
+    "options": ["1", "0", "A", "Undefined"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 158,
+    "sourceNumber": "158",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "In Einstein’s photoelectric equation, Kmax = h f − ϕ0, the symbol ϕ0 represents the:",
+    "options": [
+      "Stopping potential",
+      "Work function of the metal surface",
+      "de Broglie wavelength",
+      "Photon momentum"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 159,
+    "sourceNumber": "159",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "An elementary particle with the same mass as an electron but positive charge (+e) is a:",
+    "options": ["Proton", "Positron", "Neutron", "Alpha particle"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 160,
+    "sourceNumber": "160",
+    "subject": "Physics",
+    "difficulty": "Past paper",
+    "prompt": "After two half-lives (t = 2 T1/2) of a radioactive sample, what fraction of original undecayed nuclei remains?",
+    "options": ["1/2", "1/4", "1/8", "3/4"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 161,
+    "sourceNumber": "161",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "CANDID",
+    "options": ["Deceitful", "Frank", "Evasive", "Secretive"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 162,
+    "sourceNumber": "162",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "ADEPT",
+    "options": ["Clumsy", "Skilled", "Inept", "Awkward"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 163,
+    "sourceNumber": "163",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "AMPLIFY",
+    "options": ["Shrink", "Magnify", "Compress", "Lessen"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 164,
+    "sourceNumber": "164",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "BENEVOLENT",
+    "options": ["Cruel", "Kind", "Hostile", "Malicious"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 165,
+    "sourceNumber": "165",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "CEASE",
+    "options": ["Resume", "Stop", "Continue", "Begin"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 166,
+    "sourceNumber": "166",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "DEFICIENT",
+    "options": ["Abundant", "Lacking", "Complete", "Ample"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 167,
+    "sourceNumber": "167",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "EMINENT",
+    "options": ["Obscure", "Distinguished", "Unknown", "Humble"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 168,
+    "sourceNumber": "168",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "FLUENT",
+    "options": ["Halting", "Articulate", "Hesitant", "Stammering"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 169,
+    "sourceNumber": "169",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "ADVANCE",
+    "options": ["Progress", "Retreat", "Proceed", "Move"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 170,
+    "sourceNumber": "170",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "SYNTHETIC",
+    "options": ["Artificial", "Natural", "Manufactured", "Man-made"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 171,
+    "sourceNumber": "171",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "COMPLEX",
+    "options": ["Intricate", "Simple", "Elaborate", "Compound"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 172,
+    "sourceNumber": "172",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "MAXIMUM",
+    "options": ["Peak", "Minimum", "Greatest", "Uppermost"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 173,
+    "sourceNumber": "173",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "APPROVE",
+    "options": ["Endorse", "Reject", "Sanction", "Ratify"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 174,
+    "sourceNumber": "174",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "SCARCE",
+    "options": ["Rare", "Plentiful", "Sparse", "Meager"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 175,
+    "sourceNumber": "175",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "AMMETER: CURRENT::",
+    "options": ["Voltmeter: Voltage", "Clock: Heat", "Balance: Speed", "Compass: Mass"],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 176,
+    "sourceNumber": "176",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "EARTHQUAKE: TSUNAMI::",
+    "options": ["Friction: Heat", "Pen: Paper", "Chair: Table", "Shoe: Sock"],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 177,
+    "sourceNumber": "177",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "LEAF: TREE::",
+    "options": ["Brick: Wall", "River: Ocean", "Sand: Desert", "Cloud: Rain"],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 178,
+    "sourceNumber": "178",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "EXPAND: CONTRACT::",
+    "options": ["Increase: Decrease", "Grow: Enlarge", "Lift: Raise", "Link: Connect"],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 179,
+    "sourceNumber": "179",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "OXYGEN: GAS::",
+    "options": ["Gold: Element", "Tire: Wheel", "Keyboard: Laptop", "Lens: Camera"],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 180,
+    "sourceNumber": "180",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "NEWTON: FORCE::",
+    "options": ["Pascal: Pressure", "Kelvin: Length", "Ampere: Time", "Gram: Density"],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 181,
+    "sourceNumber": "181",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "The safety valve was installed __________ prevent overpressure in the pipeline.",
+    "options": ["for", "to", "with", "from"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 182,
+    "sourceNumber": "182",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Each of the samples __________ analyzed twice for accuracy.",
+    "options": ["were", "was", "are", "have been"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 183,
+    "sourceNumber": "183",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Regular maintenance helps __________ unexpected equipment failures.",
+    "options": ["cause", "prevent", "hasten", "worsen"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 184,
+    "sourceNumber": "184",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "The research facility has operated __________ 2018.",
+    "options": ["for", "since", "during", "in"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 185,
+    "sourceNumber": "185",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "High-precision instruments require __________ handling in the laboratory.",
+    "options": ["careless", "careful", "reckless", "hasty"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 186,
+    "sourceNumber": "186",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Either the team leader or the interns __________ responsible for the logbook.",
+    "options": ["is", "are", "was", "has been"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 187,
+    "sourceNumber": "187",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "The new turbine achieved a __________ increase in overall efficiency.",
+    "options": ["negligible", "substantial", "trivial", "harmful"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 188,
+    "sourceNumber": "188",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "The experimental slope is comparable __________ the calculated value.",
+    "options": ["on", "to", "into", "off"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 189,
+    "sourceNumber": "189",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Identify the erroneous segment: “The number of",
+    "options": [
+      "/ applicants for the",
+      "/ scholarship program",
+      "/ have increased.",
+      "” (A) Segment A (B) Segment B (C) Segment C (D) Segment D"
+    ],
+    "answer": 3,
+    "explanation": "The supplied compilation lists option D in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 190,
+    "sourceNumber": "190",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Identify the erroneous segment: “He is senior",
+    "options": [
+      "/ than me",
+      "/ in the",
+      "/ design department.",
+      "” (A) Segment A (B) Segment B (C) Segment C (D) Segment D"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 191,
+    "sourceNumber": "191",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Identify the erroneous segment: “Thermodynamics",
+    "options": [
+      "/ are studied in",
+      "/ both mechanical",
+      "/ and chemical engineering.",
+      "” (A) Segment A (B) Segment B (C) Segment C (D) Segment D"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 192,
+    "sourceNumber": "192",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Identify the erroneous segment: “If the sensor",
+    "options": [
+      "/ will detect a leak,",
+      "/ the alarm",
+      "/ sounds immediately.",
+      "” (A) Segment A (B) Segment B (C) Segment C (D) Segment D"
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 193,
+    "sourceNumber": "193",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Choose the correctly spelled English word:",
+    "options": ["Definately", "Definitely", "Definitly", "Definetely"],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 194,
+    "sourceNumber": "194",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "She don’t have the manual.",
+      "She doesn’t have the manual.",
+      "She doesn’t has the manual.",
+      "She not have the manual."
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 195,
+    "sourceNumber": "195",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "The advice were helpful.",
+      "The advice was helpful.",
+      "The advices was helpful.",
+      "The advice are helpful always."
+    ],
+    "answer": 1,
+    "explanation": "The supplied compilation lists option B in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST."
+  },
+  {
+    "number": 196,
+    "sourceNumber": "196",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "How do binary-cycle geothermal power plants vaporize the fluid that drives the turbine?",
+    "options": [
+      "By transferring heat through a heat exchanger to a secondary fluid with a lower boiling point",
+      "By burning coal inside the turbine",
+      "By freezing underground water into ice",
+      "By releasing geothermal fluid into open air"
+    ],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST.",
+    "context": "Binary-cycle geothermal power plants extract heat from moderate-temperature underground water without flashing the geothermal fluid directly into steam. Instead, heat is transferred through a heat exchanger to a secondary working fluid with a lower boiling point, which vaporizes to drive a turbine. After expansion, the working fluid is condensed and recirculated in a closed loop, while the cooled geothermal water is reinjected into the reservoir to sustain pressure and output."
+  },
+  {
+    "number": 197,
+    "sourceNumber": "197",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "What happens to the secondary working fluid after it expands through the turbine?",
+    "options": [
+      "Iᵀ is condensed and recirculated in a closed loop",
+      "Iᵀ is discarded into rivers",
+      "Iᵀ is converted into solid rock",
+      "Iᵀ is stored in batteries"
+    ],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST.",
+    "context": "Binary-cycle geothermal power plants extract heat from moderate-temperature underground water without flashing the geothermal fluid directly into steam. Instead, heat is transferred through a heat exchanger to a secondary working fluid with a lower boiling point, which vaporizes to drive a turbine. After expansion, the working fluid is condensed and recirculated in a closed loop, while the cooled geothermal water is reinjected into the reservoir to sustain pressure and output."
+  },
+  {
+    "number": 198,
+    "sourceNumber": "198",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "Why is cooled geothermal water reinjected into the underground reservoir according to the passage?",
+    "options": [
+      "To sustain reservoir pressure and output",
+      "To increase turbine blade friction",
+      "To stop heat transfer",
+      "To raise the boiling point of the working fluid"
+    ],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST.",
+    "context": "Binary-cycle geothermal power plants extract heat from moderate-temperature underground water without flashing the geothermal fluid directly into steam. Instead, heat is transferred through a heat exchanger to a secondary working fluid with a lower boiling point, which vaporizes to drive a turbine. After expansion, the working fluid is condensed and recirculated in a closed loop, while the cooled geothermal water is reinjected into the reservoir to sustain pressure and output."
+  },
+  {
+    "number": 199,
+    "sourceNumber": "199",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "What temperature characteristic of the geothermal fluid is explicitly noted in the passage?",
+    "options": [
+      "Moderate temperature",
+      "Sub-zero temperature",
+      "Absolute zero",
+      "Constant 10,000 °C"
+    ],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST.",
+    "context": "Binary-cycle geothermal power plants extract heat from moderate-temperature underground water without flashing the geothermal fluid directly into steam. Instead, heat is transferred through a heat exchanger to a secondary working fluid with a lower boiling point, which vaporizes to drive a turbine. After expansion, the working fluid is condensed and recirculated in a closed loop, while the cooled geothermal water is reinjected into the reservoir to sustain pressure and output."
+  },
+  {
+    "number": 200,
+    "sourceNumber": "200",
+    "subject": "English",
+    "difficulty": "Past paper",
+    "prompt": "In the context of the passage, “sustain” most nearly means:",
+    "options": [
+      "Maintain or support over time",
+      "Halt or terminate",
+      "Evaporate completely",
+      "Measure"
+    ],
+    "answer": 0,
+    "explanation": "The supplied compilation lists option A in its answer key. No worked solution is included in the PDF; this answer has not been certified by NUST.",
+    "context": "Binary-cycle geothermal power plants extract heat from moderate-temperature underground water without flashing the geothermal fluid directly into steam. Instead, heat is transferred through a heat exchanger to a secondary working fluid with a lower boiling point, which vaporizes to drive a turbine. After expansion, the working fluid is condensed and recirculated in a closed loop, while the cooled geothermal water is reinjected into the reservoir to sustain pressure and output."
+  }
+]

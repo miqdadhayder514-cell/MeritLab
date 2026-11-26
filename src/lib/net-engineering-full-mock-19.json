@@ -1,0 +1,2027 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the center of the circle x² + y² − 22x + 16y + 40 = 0?",
+    "options": ["(−22, 16)", "(22, −16)", "(−11, 8)", "(11, −8)"],
+    "answer": 3,
+    "explanation": "g = −11, f = 8 ⇒ center (−g, −f) = (11, −8)."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the radius of the circle x² + y² + 14x − 48y − 200 = 0:",
+    "options": ["625 units", "24 units", "25 units", "√425 units"],
+    "answer": 2,
+    "explanation": "r = √(49 + 576 + 200) = √625 = 25 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the tangent drawn from point (15, 8) to the circle x² + y² − 145 = 0?",
+    "options": ["144 units", "17 units", "12 units", "√434 units"],
+    "answer": 2,
+    "explanation": "Tangent length L = √(152 + 82 − 145) = √(289 − 145) = √144 = 12 units."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the equation of the tangent line to the circle x² + y² = 289 at the point (8, −15)?",
+    "options": ["8x − 15y = 17", "8x − 15y = 289", "15x + 8y = 289", "−8x + 15y = 289"],
+    "answer": 1,
+    "explanation": "Tangent at (x₁, y₁) is x x₁ + y y₁ = r² ⇒ 8x − 15y = 289."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "A circle has endpoints of a diameter at (−4, 1) and (10, 49). What is its radius?",
+    "options": ["25 units", "50 units", "31 units", "625 units"],
+    "answer": 0,
+    "explanation": "Diameter length = √((10 − (−4))2 + (49 − 1)2) = √(196 + 2304) = √2500 = 50; radius = 25 units."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the focus of the upward-opening parabola x² = 48y?",
+    "options": ["(12, 0)", "(−12, 0)", "(0, −12)", "(0, 12)"],
+    "answer": 3,
+    "explanation": "4a = 48 ⇒ a = 12; focus of x² = 48y is (0, 12)."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the directrix of the parabola x² = −36y:",
+    "options": ["x = −9", "y = 9", "y = −9", "x = 9"],
+    "answer": 1,
+    "explanation": "4a = −36 ⇒ a = −9; directrix of x² = −36y is y = 9."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the latus rectum of the parabola y² = −68x?",
+    "options": ["17 units", "68 units", "136 units", "34 units"],
+    "answer": 1,
+    "explanation": "Latus rectum length of y² = −68x is |4a| = 68 units."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the vertex of the parabola (x − 7)2 = −24(y + 4)?",
+    "options": ["(7, −4)", "(−4, 7)", "(4, −7)", "(−7, 4)"],
+    "answer": 0,
+    "explanation": "Comparing (x − h)2 = 4a(y − k) gives vertex (7, −4)."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the perpendicular distance from the focus to the directrix of the parabola x² = 28y?",
+    "options": ["14 units", "7 units", "28 units", "56 units"],
+    "answer": 0,
+    "explanation": "4a = 28 ⇒ a = 7; focus-to-directrix distance is 2a = 14 units."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the minor axis of the ellipse (x² / 144) + (y² / 25) = 1?",
+    "options": ["10 units", "12 units", "24 units", "5 units"],
+    "answer": 0,
+    "explanation": "b = 5, so minor axis length is 2b = 10 units."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the ellipse (x² / 289) + (y² / 225) = 1:",
+    "options": ["64 / 289", "8 / 17", "17 / 8", "15 / 17"],
+    "answer": 1,
+    "explanation": "e = √(1 − 225/289) = √(64/289) = 8 / 17."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the horizontal ellipse (x² / 289) + (y² / 64) = 1:",
+    "options": ["(0, ±15)", "(±15, 0)", "(±8, 0)", "(±17, 0)"],
+    "answer": 1,
+    "explanation": "c = √(289 − 64) = 15; foci on x-axis are (±15, 0)."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the ellipse (x² / 144) + (y² / 36) = 1?",
+    "options": ["24 units", "12 units", "6 units", "72 units"],
+    "answer": 2,
+    "explanation": "Latus rectum length = 2b² / a = 2(36) / 12 = 6 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For any point P on the ellipse (x² / 324) + (y² / 81) = 1, what is the sum of its focal distances PF1 + PF2?",
+    "options": ["36 units", "9 units", "18 units", "27 units"],
+    "answer": 0,
+    "explanation": "Constant focal sum equals major axis 2a = 2(18) = 36 units."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the conjugate axis of the hyperbola (x² / 49) − (y² / 81) = 1?",
+    "options": ["14 units", "9 units", "18 units", "7 units"],
+    "answer": 2,
+    "explanation": "b = 9, so conjugate axis length is 2b = 18 units."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the hyperbola (x² / 144) − (y² / 25) = 1:",
+    "options": ["12 / 13", "5 / 12", "13 / 12", "13 / 5"],
+    "answer": 2,
+    "explanation": "e = √(1 + 25/144) = √(169/144) = 13 / 12."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the horizontal hyperbola (x² / 225) − (y² / 64) = 1:",
+    "options": ["(0, ±17)", "(±15, 0)", "(±8, 0)", "(±17, 0)"],
+    "answer": 3,
+    "explanation": "c = √(225 + 64) = 17; foci on x-axis are (±17, 0)."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What are the equations of the asymptotes of the hyperbola (x² / 36) − (y² / 121) = 1?",
+    "options": [
+      "y = ±(6 / 11) x",
+      "y = ±(121 / 36) x",
+      "y = ±(17 / 6) x",
+      "y = ±(11 / 6) x"
+    ],
+    "answer": 3,
+    "explanation": "Asymptotes of (x²/36) − (y²/121) = 1 are y = ±(11/6)x."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "For any point P on the hyperbola (x² / 121) − (y² / 64) = 1, what is the absolute difference of its focal distances |PF1 − PF2|?",
+    "options": ["11 units", "8 units", "22 units", "16 units"],
+    "answer": 2,
+    "explanation": "Constant focal difference equals transverse axis 2a = 2(11) = 22 units."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between the two foci of the hyperbola (x² / 36) − (y² / 64) = 1?",
+    "options": ["10 units", "16 units", "12 units", "20 units"],
+    "answer": 3,
+    "explanation": "c = √(36 + 64) = 10; distance between foci is 2c = 20 units."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the length of the latus rectum of the hyperbola (x² / 16) − (y² / 64) = 1?",
+    "options": ["16 units", "4 units", "8 units", "32 units"],
+    "answer": 3,
+    "explanation": "Latus rectum length = 2b² / a = 2(64) / 4 = 32 units."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the distance between points (−2, 3) and (10, 8)?",
+    "options": ["12 units", "13 units", "17 units", "5 units"],
+    "answer": 1,
+    "explanation": "d = √(144 + 25) = √169 = 13 units."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the slope m of a line perpendicular to 9x + 4y − 17 = 0:",
+    "options": ["4 / 9", "−9 / 4", "−4 / 9", "9 / 4"],
+    "answer": 0,
+    "explanation": "Line slope is −9 / 4, so perpendicular slope is 4 / 9."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the area of the triangle with vertices (0, 0), (14, 0), and (6, 5):",
+    "options": ["19 sq. units", "70 sq. units", "42 sq. units", "35 sq. units"],
+    "answer": 3,
+    "explanation": "Base = 14, height = 5; area = (1/2)(14)(5) = 35 sq. units."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the centroid of the triangle with vertices (4, −2), (8, 10), and (9, 7):",
+    "options": ["(7, 5)", "(21, 15)", "(10.5, 7.5)", "(5, 7)"],
+    "answer": 0,
+    "explanation": "Centroid = ((4 + 8 + 9)/3, (−2 + 10 + 7)/3) = (7, 5)."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the perpendicular distance from point (1, 2) to the line 8x + 15y + 13 = 0:",
+    "options": ["51 units", "25 / 17 units", "3 units", "17 units"],
+    "answer": 2,
+    "explanation": "d = |8(1) + 15(2) + 13| / √(64 + 225) = 51 / 17 = 3 units."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the acute angle θ between two lines with slopes m₁ = 5 and m₂ = 2 / 3?",
+    "options": ["30° (π / 6)", "45° (π / 4)", "90° (π / 2)", "60° (π / 3)"],
+    "answer": 1,
+    "explanation": "tan θ = |(5 − 2/3) / (1 + 5(2/3))| = |(13/3) / (13/3)| = 1 ⇒ θ = 45°."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of vector u = 3i − 4j + 12k?",
+    "options": ["13", "19", "169", "√19"],
+    "answer": 0,
+    "explanation": "|u| = √(9 + 16 + 144) = √169 = 13."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the scalar projection of u = 6i + 3j − 2k onto v = 2i + 2j + k:",
+    "options": ["16 / 7", "3 / 16", "16", "16 / 3"],
+    "answer": 3,
+    "explanation": "(u · v) / |v| = (12 + 6 − 2) / √(4 + 4 + 1) = 16 / 3."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the cross product k × i of standard unit basis vectors?",
+    "options": ["j", "i", "−j", "0"],
+    "answer": 0,
+    "explanation": "Cyclic cross product: k × i = j."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the volume of the parallelepiped determined by a = 2i, b = 6j, and c = 7k?",
+    "options": ["84 cubic units", "14 cubic units", "42 cubic units", "15 cubic units"],
+    "answer": 0,
+    "explanation": "Rectangular box volume = 2 × 6 × 7 = 84 cubic units."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "For what value of λ are vectors a = 4i − 3j + λk and b = 2i + 6j + 5k orthogonal?",
+    "options": ["−10", "2", "−2", "10"],
+    "answer": 1,
+    "explanation": "a · b = 8 − 18 + 5λ = 0 ⇒ 5λ = 10 ⇒ λ = 2."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the direction cosine cos γ (along the z-axis) of v = 3i − 4j + 12k?",
+    "options": ["−4 / 13", "12 / 19", "12 / 13", "3 / 13"],
+    "answer": 2,
+    "explanation": "|v| = √(9 + 16 + 144) = 13, so cos γ = 12 / 13."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance from the origin (0, 0, 0) to the plane 6x − 2y + 3z − 28 = 0?",
+    "options": ["28 / 11 units", "4 units", "7 units", "28 units"],
+    "answer": 1,
+    "explanation": "d = |−28| / √(36 + 4 + 9) = 28 / 7 = 4 units."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Write the intercept-form equation of a line with x-intercept a = 6 and y-intercept b = −4:",
+    "options": [
+      "(x / 4) − (y / 6) = 1",
+      "(x / 6) − (y / 4) = 1",
+      "(x / 6) + (y / 4) = 1",
+      "6x − 4y = 1"
+    ],
+    "answer": 1,
+    "explanation": "Intercept form x/a + y/b = 1 gives (x / 6) − (y / 4) = 1."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between points (1, −2, 3) and (5, 2, 10) in 3D space?",
+    "options": ["81 units", "15 units", "9 units", "√65 units"],
+    "answer": 2,
+    "explanation": "d = √(42 + 42 + 72) = √(16 + 16 + 49) = √81 = 9 units."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the cross product a × b of any two parallel vectors?",
+    "options": ["0 (zero vector)", "1", "−1", "|a| |b|"],
+    "answer": 0,
+    "explanation": "Parallel vectors have angle 0° or 180°, so a × b = 0."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the midpoint of the line segment joining (9, −7) and (−3, 15):",
+    "options": ["(6, −11)", "(3, 4)", "(−6, 11)", "(6, 8)"],
+    "answer": 1,
+    "explanation": "Midpoint = ((9 − 3)/2, (−7 + 15)/2) = (3, 4)."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If cos α, cos β, cos γ are the direction cosines of a line in 3D space, what is cos² α + cos² β + cos² γ?",
+    "options": ["1", "0", "3", "−1"],
+    "answer": 0,
+    "explanation": "Identity for direction cosines: cos² α + cos² β + cos² γ = 1."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the unit vector in the direction of w = −9i + 12j?",
+    "options": [
+      "−(9/21)i + (12/21)j",
+      "−9i + 12j",
+      "−(3/5)i + (4/5)j",
+      "(3/5)i − (4/5)j"
+    ],
+    "answer": 2,
+    "explanation": "|w| = √(81 + 144) = 15; unit vector is −(3/5)i + (4/5)j."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Three vectors a, b, c are coplanar if and only if their scalar triple product [a b c] equals:",
+    "options": ["1", "|a| |b| |c|", "0", "−1"],
+    "answer": 2,
+    "explanation": "Three vectors are coplanar iff their scalar triple product is 0."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Convert 7π / 4 radians into degrees:",
+    "options": ["315°", "135°", "225°", "330°"],
+    "answer": 0,
+    "explanation": "(7π/4) × (180°/π) = 315°."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the exact value of cos 15°?",
+    "options": ["(√3 + 1) / 2", "√3 / 2", "(√6 + √2) / 4", "(√6 − √2) / 4"],
+    "answer": 2,
+    "explanation": "cos(45° − 30°) = (√6 + √2) / 4."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the fundamental period of f(x) = tan(3x)?",
+    "options": ["π", "π / 3", "3π", "2π / 3"],
+    "answer": 1,
+    "explanation": "Period of tan(3x) is π / 3."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the maximum value of 8 sin θ + 15 cos θ?",
+    "options": ["23", "−17", "7", "17"],
+    "answer": 3,
+    "explanation": "Maximum of 8 sin θ + 15 cos θ is √(64 + 225) = 17."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which identity equals sin 2θ?",
+    "options": ["1 − 2 sin² θ", "2 sin θ cos θ", "sin θ + cos θ", "cos² θ − sin² θ"],
+    "answer": 1,
+    "explanation": "Double-angle sine identity: sin 2θ = 2 sin θ cos θ."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with area Δ and semi-perimeter s, what is the inradius r?",
+    "options": ["r = (a b c) / (4Δ)", "r = s / Δ", "r = Δ / (s − a)", "r = Δ / s"],
+    "answer": 3,
+    "explanation": "Inradius formula: r = Δ / s."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "State the Law of Sines for triangle ABC with circumradius R:",
+    "options": [
+      "a sin A = b sin B = c sin C = R",
+      "a / cos A = b / cos B = c / cos C = 2R",
+      "a + b + c = 2R",
+      "a / sin A = b / sin B = c / sin C = 2R"
+    ],
+    "answer": 3,
+    "explanation": "Extended Law of Sines: a / sin A = b / sin B = c / sin C = 2R."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In any triangle ABC, what does cos(B + C) equal?",
+    "options": ["−cos A", "−sin A", "cos A", "sin A"],
+    "answer": 0,
+    "explanation": "Since B + C = 180° − A, cos(B + C) = −cos A."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: tan−1(1) + cot−1(1)",
+    "options": ["π / 2", "π / 4", "0", "π"],
+    "answer": 0,
+    "explanation": "π / 4 + π / 4 = π / 2."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the general solution of tan θ = 0?",
+    "options": [
+      "θ = nπ / 2, n ∈ ℤ",
+      "θ = nπ, n ∈ ℤ",
+      "θ = (2n + 1)π / 2, n ∈ ℤ",
+      "θ = 2nπ, n ∈ ℤ"
+    ],
+    "answer": 1,
+    "explanation": "tan θ = 0 at integer multiples of π: θ = nπ."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the exact value of sin 75°?",
+    "options": ["(√6 + √2) / 4", "(√6 − √2) / 4", "1 / 2", "(√3 − 1) / 2"],
+    "answer": 0,
+    "explanation": "sin(45° + 30°) = (√6 + √2) / 4."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate cos(sin−1(8 / 17)):",
+    "options": ["8 / 15", "17 / 15", "8 / 17", "15 / 17"],
+    "answer": 3,
+    "explanation": "Opposite = 8, hypotenuse = 17, adjacent = 15, so cos θ = 15 / 17."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the fundamental hyperbolic identity relating cosh2 x and sinh2 x?",
+    "options": [
+      "sinh2 x − cosh2 x = 1",
+      "cosh2 x + sinh2 x = 1",
+      "cosh2 x − sinh2 x = 1",
+      "cosh x − sinh x = 1"
+    ],
+    "answer": 2,
+    "explanation": "Hyperbolic identity: cosh2 x − sinh2 x = 1."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express 2 sin A cos B as a sum of sines:",
+    "options": [
+      "cos(A + B) + cos(A − B)",
+      "sin(A + B) − sin(A − B)",
+      "sin(A + B) + sin(A − B)",
+      "cos(A − B) − cos(A + B)"
+    ],
+    "answer": 2,
+    "explanation": "Product-to-sum identity: 2 sin A cos B = sin(A + B) + sin(A − B)."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of cosh(0)?",
+    "options": ["1", "0", "e", "−1"],
+    "answer": 0,
+    "explanation": "cosh(0) = (e⁰ + e⁰) / 2 = 1."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the principal range of sin−1 x?",
+    "options": ["[−π / 2, π / 2]", "[0, π]", "(0, π)", "(−π / 2, π / 2)"],
+    "answer": 0,
+    "explanation": "Principal range of sin−1 x is [−π / 2, π / 2]."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the fundamental period of f(x) = sec x?",
+    "options": ["π / 2", "2π", "π", "4π"],
+    "answer": 1,
+    "explanation": "Fundamental period of sec x is 2π."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with a = 7, b = 24, c = 25, what is its area Δ?",
+    "options": ["84 sq. units", "300 sq. units", "168 sq. units", "175 sq. units"],
+    "answer": 0,
+    "explanation": "Right triangle 7–24–25 has area (1/2)(7)(24) = 84 sq. units."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of cos θ = 1 / 2?",
+    "options": [
+      "θ = 2nπ ± (π / 3), n ∈ ℤ",
+      "θ = nπ + (−1)n (π / 3), n ∈ ℤ",
+      "θ = 2nπ + (π / 3), n ∈ ℤ",
+      "θ = nπ ± (π / 3), n ∈ ℤ"
+    ],
+    "answer": 0,
+    "explanation": "General solution of cos θ = cos α is θ = 2nπ ± α."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the arc length s intercepted by a central angle θ (in radians) on a circle of radius r?",
+    "options": ["s = 2π r θ", "s = r / θ", "s = r θ", "s = (1 / 2) r² θ"],
+    "answer": 2,
+    "explanation": "Circular arc length formula: s = r θ."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = sec x with respect to x?",
+    "options": ["−cosec x cot x", "sec x tan x", "sec² x", "−sec x tan x"],
+    "answer": 1,
+    "explanation": "d/dx (sec x) = sec x tan x."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Differentiate y = e⁷ˣ with respect to x:",
+    "options": ["7x e⁷ˣ−1", "(1 / 7) e⁷ˣ", "e⁷ˣ", "7 e⁷ˣ"],
+    "answer": 3,
+    "explanation": "d/dx (e⁷ˣ) = 7 e⁷ˣ."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find dy / dx for x = 5t, y = 5t²:",
+    "options": ["5t", "t / 2", "10t", "2t"],
+    "answer": 3,
+    "explanation": "dy / dx = (10t) / 5 = 2t."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: limx → 0 ((sin(14x)) / (2x))",
+    "options": ["1 / 7", "14", "0", "7"],
+    "answer": 3,
+    "explanation": "limx → 0 ((sin 14x)/(14x)) × 7 = 1 × 7 = 7."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the critical point of f(x) = x² + 12x − 9:",
+    "options": ["x = −12", "x = 0", "x = −6", "x = 6"],
+    "answer": 2,
+    "explanation": "f'(x) = 2x + 12 = 0 ⇒ x = −6."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the Maclaurin series expansion of cos x?",
+    "options": [
+      "1 + x²/2! + x⁴/4! + …",
+      "x − x³/3! + x⁵/5! − …",
+      "1 + x + x²/2! + x³/3! + …",
+      "1 − x²/2! + x⁴/4! − …"
+    ],
+    "answer": 3,
+    "explanation": "Maclaurin series of cos x is 1 − x²/2! + x⁴/4! − …."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Differentiate y = sin−1 x (|x| < 1) with respect to x:",
+    "options": ["1 / √(1 − x²)", "1 / (1 + x²)", "−1 / √(1 − x²)", "cos x"],
+    "answer": 0,
+    "explanation": "d/dx (sin−1 x) = 1 / √(1 − x²)."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the second derivative d2y / dx2 of y = cos(4x):",
+    "options": ["16 cos(4x)", "−4 sin(4x)", "−16 cos(4x)", "4 sin(4x)"],
+    "answer": 2,
+    "explanation": "y' = −4 sin(4x) ⇒ y'' = −16 cos(4x)."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = tan x with respect to x?",
+    "options": ["sec x tan x", "cot x", "−cosec² x", "sec² x"],
+    "answer": 3,
+    "explanation": "d/dx (tan x) = sec² x."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the tangent line to y = x³ − 2x at x = 2:",
+    "options": ["10", "12", "4", "−1 / 10"],
+    "answer": 0,
+    "explanation": "y'(2) = 3(4) − 2 = 10."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate: ∫ sin x dx",
+    "options": ["−cos x + C", "cos x + C", "sin x + C", "−sin x + C"],
+    "answer": 0,
+    "explanation": "∫ sin x dx = −cos x + C."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ cos(5x) dx",
+    "options": [
+      "5 sin(5x) + C",
+      "−(1 / 5) sin(5x) + C",
+      "(1 / 5) sin(5x) + C",
+      "−5 sin(5x) + C"
+    ],
+    "answer": 2,
+    "explanation": "∫ cos(5x) dx = (1 / 5) sin(5x) + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / √(1 − x²)]",
+    "options": ["sin−1 x + C", "ln(1 − x²) + C", "tan−1 x + C", "sec−1 x + C"],
+    "answer": 0,
+    "explanation": "∫ [dx / √(1 − x²)] = sin−1 x + C."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫0 π/2 cos x dx",
+    "options": ["π / 2", "1", "0", "−1"],
+    "answer": 1,
+    "explanation": "[sin x]0 π/2 = 1 − 0 = 1."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀³ 3x² dx",
+    "options": ["81", "27", "18", "9"],
+    "answer": 1,
+    "explanation": "[x³]₀³ = 27 − 0 = 27."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ (6x⁵ + 4x − 3) dx",
+    "options": [
+      "30x⁴ + 4 + C",
+      "x⁶ + 2x² − 3x + C",
+      "x⁶ + 4x² − 3x + C",
+      "6x⁶ + 2x² − 3x + C"
+    ],
+    "answer": 1,
+    "explanation": "Term-by-term integration gives x⁶ + 2x² − 3x + C."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫−9 9 x⁷ dx",
+    "options": ["0", "97", "2(98) / 8", "18"],
+    "answer": 0,
+    "explanation": "Odd integrand x⁷ over symmetric [−9, 9] integrates to 0."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ sec² x dx",
+    "options": ["tan x + C", "−tan x + C", "−cot x + C", "sec x + C"],
+    "answer": 0,
+    "explanation": "∫ sec² x dx = tan x + C."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the general solution of the differential equation dy / dx = 5y?",
+    "options": ["y = C e⁵ˣ", "y = 5 eˣ + C", "y = C e⁻⁵ˣ", "y = 5x + C"],
+    "answer": 0,
+    "explanation": "Separating variables dy / y = 5 dx yields y = C e⁵ˣ."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₂⁷ 4 dx",
+    "options": ["36", "20", "8", "28"],
+    "answer": 1,
+    "explanation": "[4x]₂⁷ = 28 − 8 = 20."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "A fair six-sided die is rolled once. What is the probability of rolling an even number?",
+    "options": ["1 / 6", "1 / 3", "2 / 3", "1 / 2"],
+    "answer": 3,
+    "explanation": "Outcomes {2, 4, 6} out of 6 give 3 / 6 = 1 / 2."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many permutations of 2 items can be formed from 6 distinct items?",
+    "options": ["30", "15", "12", "36"],
+    "answer": 0,
+    "explanation": "6P² = 6 × 5 = 30."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of 9C⁷?",
+    "options": ["72", "63", "36", "18"],
+    "answer": 2,
+    "explanation": "9C⁷ = 9C² = (9 × 8) / 2 = 36."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "A bag contains 4 green and 9 yellow marbles. One marble is drawn at random. What is the probability that it is green?",
+    "options": ["1 / 13", "4 / 13", "9 / 13", "4 / 9"],
+    "answer": 1,
+    "explanation": "P(green) = 4 / (4 + 9) = 4 / 13."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many subsets does a set with 6 elements have?",
+    "options": ["32", "64", "12", "36"],
+    "answer": 1,
+    "explanation": "Number of subsets of a 6-element set is 26 = 64."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In how many distinct ways can the letters of the word DEED be arranged?",
+    "options": ["4", "12", "6", "24"],
+    "answer": 2,
+    "explanation": "DEED has two D's and two E's: 4! / (2! 2!) = 24 / 4 = 6."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the arithmetic mean of the dataset {6, 10, 14, 18, 22}?",
+    "options": ["14", "70", "16", "12"],
+    "answer": 0,
+    "explanation": "Mean = (6 + 10 + 14 + 18 + 22) / 5 = 70 / 5 = 14."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If every observation in a dataset is multiplied by k = 4, how does standard deviation σ change?",
+    "options": [
+      "Multiplied by 16",
+      "Multiplied by 4",
+      "Increases by 4",
+      "Remains unchanged"
+    ],
+    "answer": 1,
+    "explanation": "Scaling all observations by k = 4 multiplies σ by |k| = 4."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the geometric mean of two positive numbers a = 9 and b = 16?",
+    "options": ["12", "12.5", "288 / 25", "144"],
+    "answer": 0,
+    "explanation": "Geometric mean = √(9 × 16) = √144 = 12."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For two mutually exclusive events A and B with P(A) = 0.25 and P(B) = 0.45, what is P(A ∪ B)?",
+    "options": ["0.5875", "0.70", "0.1125", "0.20"],
+    "answer": 1,
+    "explanation": "For mutually exclusive events, P(A ∪ B) = P(A) + P(B) = 0.25 + 0.45 = 0.70."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the probability of an impossible event ∅?",
+    "options": ["0", "−1", "0.5", "1"],
+    "answer": 0,
+    "explanation": "An impossible event has probability 0."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "For any two positive numbers a and b, which identity connects AM, GM, and HM?",
+    "options": ["GM2 = AM × HM", "HM2 = AM × GM", "AM2 = GM × HM", "GM = AM + HM"],
+    "answer": 0,
+    "explanation": "For two positive numbers, GM2 = AM × HM."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If standard deviation σ = 9, what is the variance σ2?",
+    "options": ["81", "18", "9", "3"],
+    "answer": 0,
+    "explanation": "σ2 = 92 = 81."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the real domain of f(x) = √(x − 6)?",
+    "options": ["ℝ \\ {6}", "[6, ∞)", "(6, ∞)", "(−∞, 6]"],
+    "answer": 1,
+    "explanation": "Radicand x − 6 ≥ 0 ⇒ x ≥ 6, so domain is [6, ∞)."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If f(x) = 2x + 3 and g(x) = x², what is (g ∘ f)(3)?",
+    "options": ["81", "9", "21", "36"],
+    "answer": 0,
+    "explanation": "g(f(3)) = g(9) = 92 = 81."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which function is even?",
+    "options": ["f(x) = x³ + x", "f(x) = sin x", "f(x) = x⁵", "f(x) = x⁴ + 3x²"],
+    "answer": 3,
+    "explanation": "f(−x) = (−x)4 + 3(−x)2 = f(x), so x⁴ + 3x² is even."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = 5x − 9:",
+    "options": ["(x − 9) / 5", "1 / (5x − 9)", "(x + 9) / 5", "5x + 9"],
+    "answer": 2,
+    "explanation": "Solving y = 5x − 9 gives f⁻¹(x) = (x + 9) / 5."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the real domain of f(x) = ln(x)?",
+    "options": ["ℝ", "[0, ∞)", "(0, ∞)", "(−∞, 0)"],
+    "answer": 2,
+    "explanation": "Real natural logarithm ln(x) is defined for x > 0: (0, ∞). Physics Detailed Solutions (Q.101 – Q.160)"
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensions of work / energy?",
+    "options": ["[M L T⁻²]", "[M L² T⁻²]", "[M L² T⁻³]", "[M L⁻¹ T⁻²]"],
+    "answer": 1,
+    "explanation": "Work (F · d) has dimensions [M L² T⁻²]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "For a projectile launched on level ground (neglecting air drag), which pair of launch angles gives the same horizontal range?",
+    "options": ["30° and 60°", "30° and 45°", "45° and 60°", "15° and 45°"],
+    "answer": 0,
+    "explanation": "Complementary angles (30° + 60° = 90°) yield equal horizontal range."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What does the slope of a velocity-time (v–t) graph represent?",
+    "options": ["Momentum", "Kinetic energy", "Acceleration", "Displacement"],
+    "answer": 2,
+    "explanation": "Slope dv / dt equals acceleration."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 4 kg body moves at 7 m/s. What is its linear momentum?",
+    "options": ["14 N·s", "28 N·s", "11 N·s", "98 N·s"],
+    "answer": 1,
+    "explanation": "p = m v = 4 × 7 = 28 N·s."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the approximate low-Earth circular orbital speed near Earth's surface?",
+    "options": ["≈ 3.0 × 10⁸ m/s", "≈ 11.2 km/s", "≈ 7.9 km/s", "≈ 9.8 m/s"],
+    "answer": 2,
+    "explanation": "Low-Earth circular orbital speed is ≈ 7.9 km/s."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the impulse delivered by a constant net force F acting over time interval Δt?",
+    "options": ["J = F / Δt", "J = F Δt = Δp", "J = F + Δt", "J = (1 / 2) F Δt²"],
+    "answer": 1,
+    "explanation": "Impulse-momentum theorem: J = F Δt = Δp."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of work and energy?",
+    "options": ["Pascal (Pa)", "Newton (N)", "Watt (W)", "Joule (J = N·m)"],
+    "answer": 3,
+    "explanation": "SI unit of work and energy is Joule (J)."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the centripetal acceleration ac of a particle moving in a circle of radius r at speed v?",
+    "options": ["ac = v² r", "ac = v / r", "ac = v r", "ac = v² / r"],
+    "answer": 3,
+    "explanation": "Centripetal acceleration ac = v² / r."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to Stokes' law, the viscous drag force Fd on a sphere of radius r moving at speed v through a fluid of viscosity η is:",
+    "options": [
+      "Fd = 6π η r v",
+      "Fd = 6π η r² v",
+      "Fd = 2π η r v",
+      "Fd = (4/3)π r³ η v"
+    ],
+    "answer": 0,
+    "explanation": "Stokes' viscous drag law: Fd = 6π η r v."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "According to Torricelli's theorem, the efflux speed v of an ideal fluid from a small orifice at depth h below the free surface is:",
+    "options": ["v = √(2 g h)", "v = √(g h)", "v = 2 g h", "v = g h / 2"],
+    "answer": 0,
+    "explanation": "Torricelli's efflux speed: v = √(2 g h)."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the time period T of a second's pendulum?",
+    "options": ["0.5 s", "2.0 s", "4.0 s", "1.0 s"],
+    "answer": 1,
+    "explanation": "A second's pendulum beats every second, giving full period 2.0 s."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the total mechanical energy E of a simple harmonic oscillator of spring constant k and amplitude x₀?",
+    "options": ["(1 / 2) k x₀", "(1 / 2) k x₀ 2", "k / x₀ 2", "k x₀ 2"],
+    "answer": 1,
+    "explanation": "Total SHM mechanical energy: E = (1 / 2) k x₀ 2."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In a pipe closed at one end of length L, what is the fundamental wavelength λ1?",
+    "options": ["4 L", "L", "L / 2", "2 L"],
+    "answer": 0,
+    "explanation": "Closed-pipe fundamental has node at closed end and antinode at open end: L = λ1 / 4 ⇒ λ1 = 4L."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between a node and the adjacent antinode in a standing wave of wavelength λ?",
+    "options": ["λ / 2", "λ / 4", "λ", "2λ"],
+    "answer": 1,
+    "explanation": "Node-to-antinode spacing is λ / 4."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "When a sound source moves away from a stationary observer, the observed frequency:",
+    "options": [
+      "Increases (higher pitch)",
+      "Decreases (lower pitch)",
+      "Doubles",
+      "Remains unchanged"
+    ],
+    "answer": 1,
+    "explanation": "Receding source stretches wavelengths, lowering observed frequency."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State the diffraction grating equation for bright maxima at angle θ with grating element d, order n, and wavelength λ:",
+    "options": ["λ sin θ = n d", "d tan θ = n λ", "d sin θ = n λ", "d cos θ = n λ"],
+    "answer": 2,
+    "explanation": "Diffraction grating maxima equation: d sin θ = n λ."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which optical phenomenon demonstrates that light waves are transverse?",
+    "options": ["Interference", "Polarization", "Refraction", "Diffraction"],
+    "answer": 1,
+    "explanation": "Only transverse waves can undergo polarization."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of optical power of a lens?",
+    "options": ["Watt (W)", "Diopter (D = m⁻¹)", "Lumen (lm)", "Candela (cd)"],
+    "answer": 1,
+    "explanation": "Lens optical power (1 / f) has SI unit Diopter (D)."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the condition for constructive interference of two coherent waves with path difference Δx?",
+    "options": [
+      "Δx = m λ (m = 0, 1, 2, …)",
+      "Δx = (2m + 1) λ / 4",
+      "Δx = (m + 1/2) λ",
+      "Δx = λ / 2"
+    ],
+    "answer": 0,
+    "explanation": "Constructive interference requires integer-wavelength path difference Δx = m λ."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the magnifying power M of a simple microscope (magnifying glass) of focal length f when the final image is at the least distance of distinct vision d?",
+    "options": ["M = f / d", "M = 1 − d / f", "M = d / f", "M = 1 + d / f"],
+    "answer": 3,
+    "explanation": "Simple microscope angular magnification at near point: M = 1 + d / f."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the thermal efficiency η of an ideal Carnot engine operating between source temperature T₁ and sink temperature T₂ (in Kelvin)?",
+    "options": ["η = 1 − T₁ / T₂", "η = T₁ − T₂", "η = T₂ / T₁", "η = 1 − T₂ / T₁"],
+    "answer": 3,
+    "explanation": "Carnot efficiency: η = 1 − T₂ / T₁."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the approximate value of Boltzmann's constant kB?",
+    "options": [
+      "≈ 6.63 × 10−34 J·s",
+      "≈ 6.02 × 1023 mol−1",
+      "≈ 1.38 × 10−23 J/K",
+      "≈ 8.314 J/(mol·K)"
+    ],
+    "answer": 2,
+    "explanation": "Boltzmann constant kB ≈ 1.38 × 10−23 J/K."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an isochoric (constant-volume) process, how much boundary work W is done by the gas?",
+    "options": ["Zero (W = 0)", "Equal to n R T", "Equal to P ΔV", "Infinite"],
+    "answer": 0,
+    "explanation": "Constant volume (ΔV = 0) gives zero boundary work (W = 0)."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "For an ideal gas, how are molar specific heat at constant pressure Cp and at constant volume Cv related?",
+    "options": ["Cp − Cv = R", "Cp + Cv = R", "Cp / Cv = R", "Cv − Cp = R"],
+    "answer": 0,
+    "explanation": "Mayer's relation for ideal gases: Cp − Cv = R."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of pressure?",
+    "options": ["Joule (J)", "Newton (N)", "Watt (W)", "Pascal (Pa = N/m₂)"],
+    "answer": 3,
+    "explanation": "Pressure has SI unit Pascal (Pa)."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of torque (moment of force)?",
+    "options": ["kg·m/s", "N/m", "N·m", "Watt (W)"],
+    "answer": 2,
+    "explanation": "Torque (r × F) has SI unit N·m."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the moment of inertia I of a solid uniform cylinder (or disc) of mass M and radius R about its central symmetry axis?",
+    "options": ["(1 / 12) M R²", "M R²", "(1 / 2) M R²", "(2 / 5) M R²"],
+    "answer": 2,
+    "explanation": "Solid cylinder/disc about symmetry axis: I = (1 / 2) M R²."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the moment of inertia I of a solid uniform sphere of mass M and radius R about a diameter?",
+    "options": ["(2 / 3) M R²", "(2 / 5) M R²", "M R²", "(1 / 2) M R²"],
+    "answer": 1,
+    "explanation": "Solid sphere about diameter: I = (2 / 5) M R²."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "State the relation between net external torque τ, moment of inertia I, and angular acceleration α:",
+    "options": ["τ = (1 / 2) I α2", "τ = I ω", "τ = I α", "τ = I / α"],
+    "answer": 2,
+    "explanation": "Rotational analog of Newton's second law: τ = I α."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of electric charge?",
+    "options": ["Ampere (A)", "Coulomb (C = A·s)", "Farad (F)", "Volt (V)"],
+    "answer": 1,
+    "explanation": "Electric charge has SI unit Coulomb (C)."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of capacitance?",
+    "options": ["Henry (H)", "Weber (Wb)", "Farad (F = C/V)", "Ohm (Ω)"],
+    "answer": 2,
+    "explanation": "Capacitance has SI unit Farad (F)."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Three capacitors of 12 μF each are connected in series. What is their equivalent capacitance?",
+    "options": ["12 μF", "4 μF", "36 μF", "6 μF"],
+    "answer": 1,
+    "explanation": "Three identical 12 μF capacitors in series: 12 / 3 = 4 μF."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of electrical resistivity ρ?",
+    "options": ["Ω/m", "Ω·m", "Ω", "S/m"],
+    "answer": 1,
+    "explanation": "Resistivity (R A / L) has SI unit Ω·m."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of magnetic flux density (magnetic field B)?",
+    "options": ["Weber (Wb)", "Henry (H)", "Tesla (T = Wb/m₂)", "Farad (F)"],
+    "answer": 2,
+    "explanation": "Magnetic field B has SI unit Tesla (T)."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the magnetic force F on a charge q moving at velocity v perpendicular to a uniform magnetic field B?",
+    "options": ["F = 0", "F = I L B sin θ", "F = q v B", "F = q E"],
+    "answer": 2,
+    "explanation": "Magnetic Lorentz force for θ = 90° is F = q v B."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the impedance Z of a series R–L–C AC circuit?",
+    "options": [
+      "Z = √(R² + XL 2 + XC 2)",
+      "Z = √(R² + (XL − XC)2)",
+      "Z = R − XL + XC",
+      "Z = R + XL + XC"
+    ],
+    "answer": 1,
+    "explanation": "Series R–L–C impedance: Z = √(R² + (XL − XC)2)."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "At resonance in a series R–L–C AC circuit, the impedance Z is minimum and equals:",
+    "options": ["R (purely resistive)", "Infinite", "XL + XC", "Zero"],
+    "answer": 0,
+    "explanation": "At resonance XL = XC, leaving Z = R."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the average power P dissipated in an AC circuit with RMS voltage Vrms, RMS current Irms, and phase angle θ?",
+    "options": [
+      "P = Vrms Irms sin θ",
+      "P = Vrms Irms tan θ",
+      "P = V₀ I₀",
+      "P = Vrms Irms cos θ"
+    ],
+    "answer": 3,
+    "explanation": "AC average power: P = Vrms Irms cos θ."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In an ideal step-up transformer with primary turns Np and secondary turns Ns, which condition holds?",
+    "options": ["Ns < Np", "Ns > Np", "Ns = Np", "Vs = 0"],
+    "answer": 1,
+    "explanation": "Step-up transformer has more secondary turns: Ns > Np."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which logic gate is equivalent to an AND gate followed by a NOT gate?",
+    "options": ["NAND gate", "XOR gate", "NOR gate", "OR gate"],
+    "answer": 0,
+    "explanation": "AND followed by NOT is a NAND gate."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the decimal value of binary number 101102?",
+    "options": ["26", "20", "22", "18"],
+    "answer": 2,
+    "explanation": "101102 = 16 + 0 + 4 + 2 + 0 = 22."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "In a bipolar junction transistor (BJT), the relation among emitter current IE, base current IB, and collector current IC is:",
+    "options": ["IC = IE + IB", "IB = IE + IC", "IE = IC − IB", "IE = IB + IC"],
+    "answer": 3,
+    "explanation": "Current conservation in a BJT: IE = IB + IC."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Majority charge carriers in an n-type semiconductor are:",
+    "options": ["Holes", "Protons", "Positrons", "Electrons"],
+    "answer": 3,
+    "explanation": "Majority carriers in n-type semiconductors are electrons."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Majority charge carriers in a p-type semiconductor are:",
+    "options": ["Holes", "Electrons", "Alpha particles", "Neutrons"],
+    "answer": 0,
+    "explanation": "Majority carriers in p-type semiconductors are holes."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the Boolean expression for a two-input OR gate with inputs A and B?",
+    "options": ["Y = Ā", "Y = A + B", "Y = A ⊕ B", "Y = A · B"],
+    "answer": 1,
+    "explanation": "Two-input OR gate Boolean expression is Y = A + B."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the energy E of a photon of frequency f and wavelength λ?",
+    "options": ["E = h f = (h c) / λ", "E = f / h", "E = h / f", "E = (h λ) / c"],
+    "answer": 0,
+    "explanation": "Planck-Einstein photon energy: E = h f = (h c) / λ."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In Compton scattering, the Compton wavelength shift Δλ at scattering angle θ is:",
+    "options": [
+      "Δλ = (h / (m₀ c)) (1 + cos θ)",
+      "Δλ = (h / (m₀ c)) (1 − cos θ)",
+      "Δλ = (h / (m₀ c)) sin θ",
+      "Δλ = 0 for all θ"
+    ],
+    "answer": 1,
+    "explanation": "Compton shift formula: Δλ = (h / (m₀ c)) (1 − cos θ)."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the approximate value of Planck's constant h?",
+    "options": [
+      "≈ 3.00 × 10⁸ m/s",
+      "≈ 9.11 × 10−31 kg",
+      "≈ 1.60 × 10−19 C",
+      "≈ 6.63 × 10−34 J·s"
+    ],
+    "answer": 3,
+    "explanation": "Planck's constant h ≈ 6.63 × 10−34 J·s."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the energy En of an electron in the n-th Bohr orbit of hydrogen?",
+    "options": [
+      "En = −13.6 n² eV",
+      "En = −13.6 / n eV",
+      "En = +13.6 / n² eV",
+      "En = −13.6 / n² eV"
+    ],
+    "answer": 3,
+    "explanation": "Bohr hydrogen energy levels: En = −13.6 / n² eV."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the hydrogen spectrum, transitions terminating on n = 1 form which series (ultraviolet region)?",
+    "options": ["Paschen series", "Balmer series", "Lyman series", "Pfund series"],
+    "answer": 2,
+    "explanation": "Transitions ending on n = 1 form the Lyman series."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "How are radioactive half-life T₁/₂ and decay constant λ related?",
+    "options": [
+      "T₁/₂ = λ / 0.693",
+      "T₁/₂ = 1 / λ",
+      "T₁/₂ = 0.693 λ",
+      "T₁/₂ = (ln 2) / λ ≈ 0.693 / λ"
+    ],
+    "answer": 3,
+    "explanation": "Half-life and decay constant: T₁/₂ = (ln 2) / λ ≈ 0.693 / λ."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "When a nucleus undergoes beta-minus (β−) decay, its atomic number Z and mass number A change by:",
+    "options": [
+      "Both Z and A remain unchanged",
+      "Z decreases by 1, A remains unchanged",
+      "Z decreases by 2, A decreases by 4",
+      "Z increases by 1, A remains unchanged"
+    ],
+    "answer": 3,
+    "explanation": "In β− decay, a neutron becomes a proton + electron + antineutrino, increasing Z by 1 with A unchanged."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of radioactivity (activity)?",
+    "options": ["Gray (Gy)", "Tesla (T)", "Sievert (Sv)", "Becquerel (Bq = 1 decay/s)"],
+    "answer": 3,
+    "explanation": "Radioactivity has SI unit Becquerel (Bq)."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Nuclei having the same mass number (A) but different atomic numbers (Z) are called:",
+    "options": ["Isotones", "Isobars", "Isomers", "Isotopes"],
+    "answer": 1,
+    "explanation": "Same mass number A defines isobars."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the approximate value of free-space magnetic permeability μ0 in SI units?",
+    "options": [
+      "8.85 × 10−12 F/m",
+      "9.0 × 10⁹ N·m₂/C²",
+      "4π × 10−7 T·m/A (H/m)",
+      "1.60 × 10−19 C"
+    ],
+    "answer": 2,
+    "explanation": "Free-space permeability μ0 = 4π × 10−7 T·m/A."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Particles composed of three quarks (such as protons and neutrons) belong to the family of:",
+    "options": ["Mesons", "Leptons", "Baryons", "Photons"],
+    "answer": 2,
+    "explanation": "Three-quark bound states are baryons."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the quark composition of a neutron?",
+    "options": [
+      "One up quark and two down quarks (udd)",
+      "Three up quarks (uuu)",
+      "One down and one anti-up quark",
+      "Two up quarks and one down quark (uud)"
+    ],
+    "answer": 0,
+    "explanation": "A neutron consists of one up quark and two down quarks (udd)."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Heisenberg's position-momentum uncertainty principle states that Δx · Δp is at least on the order of:",
+    "options": ["h / (4π) (or ℏ / 2)", "kB T", "c²", "Zero"],
+    "answer": 0,
+    "explanation": "Heisenberg uncertainty bound: Δx · Δp ≥ h / (4π)."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the fundamental requirement in an active laser medium to achieve amplification by stimulated emission?",
+    "options": [
+      "Total absorption",
+      "Zero pumping power",
+      "Population inversion",
+      "Thermal equilibrium"
+    ],
+    "answer": 2,
+    "explanation": "Laser light amplification requires population inversion."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the SI unit of electrical conductance?",
+    "options": ["Ohm (Ω)", "Farad (F)", "Siemens (S = Ω−1)", "Henry (H)"],
+    "answer": 2,
+    "explanation": "Electrical conductance has SI unit Siemens (S). English Detailed Solutions (Q.161 – Q.200)"
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to ABUNDANT:",
+    "options": ["Deficient", "Meager", "Scarce", "Plentiful"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 3,
+    "explanation": "Abundant means existing in large quantities; plentiful matches."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to ALLEVIATE:",
+    "options": ["Relieve", "Intensify", "Aggravate", "Exacerbate"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 0,
+    "explanation": "Alleviate means make suffering or deficiency less severe; relieve matches."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to BELLIGERENT:",
+    "options": ["Conciliatory", "Hostile", "Amicable", "Peaceful"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Belligerent means hostile and aggressive; hostile matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to CAPRICIOUS:",
+    "options": ["Steadfast", "Fickle", "Constant", "Resolute"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Capricious means given to sudden changes of mood or behavior; fickle matches."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to DELETERIOUS:",
+    "options": ["Salutary", "Beneficial", "Harmful", "Wholesome"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 2,
+    "explanation": "Deleterious means causing harm or damage; harmful matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to ELOQUENT:",
+    "options": ["Articulate", "Stammering", "Inarticulate", "Tongue-tied"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 0,
+    "explanation": "Eloquent means fluent or persuasive in speaking or writing; articulate matches."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to FASTIDIOUS:",
+    "options": ["Negligent", "Meticulous", "Sloppy", "Careless"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Fastidious means very attentive to accuracy and detail; meticulous matches."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to GREGARIOUS:",
+    "options": ["Sociable", "Introverted", "Solitary", "Reclusive"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 0,
+    "explanation": "Gregarious means fond of company; sociable matches."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Much Difficult",
+    "prompt": "Choose the word most nearly similar in meaning to IMPETUOUS:",
+    "options": ["Cautious", "Prudent", "Rash", "Deliberate"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 2,
+    "explanation": "Impetuous means acting quickly without thought or care; rash matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to LETHARGIC:",
+    "options": ["Energetic", "Lively", "Sluggish", "Vigorous"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 2,
+    "explanation": "Lethargic means affected by lethargy; sluggish matches."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to MAGNANIMOUS:",
+    "options": ["Stingy", "Generous", "Vindictive", "Petty"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Magnanimous means generous or forgiving; generous matches."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to NEFARIOUS:",
+    "options": ["Wicked", "Righteous", "Virtuous", "Noble"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 0,
+    "explanation": "Nefarious means wicked or criminal; wicked matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to OSTENTATIOUS:",
+    "options": ["Modest", "Showy", "Understated", "Unpretentious"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Ostentatious means characterized by vulgar or pretentious display; showy matches."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to PERNICIOUS:",
+    "options": ["Benign", "Destructive", "Helpful", "Harmless"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Pernicious means having a harmful effect; destructive matches."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to VENERATE:",
+    "options": ["Revere", "Mock", "Despise", "Scorn"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 0,
+    "explanation": "Venerate means regard with great respect; revere matches."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to BENIGN:",
+    "options": ["Malignant", "Gentle", "Harmless", "Kind"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 0,
+    "explanation": "Antonym of benign is malignant."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to CONCISE:",
+    "options": ["Brief", "Succinct", "Verbose", "Terse"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 2,
+    "explanation": "Antonym of concise is verbose."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to EPHEMERAL:",
+    "options": ["Momentary", "Fleeting", "Brief", "Eternal"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 3,
+    "explanation": "Antonym of ephemeral is eternal."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to OBSCURE:",
+    "options": ["Clear", "Ambiguous", "Murky", "Vague"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 0,
+    "explanation": "Antonym of obscure is clear."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to PROSPERITY:",
+    "options": ["Wealth", "Adversity", "Opulence", "Affluence"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Antonym of prosperity is adversity."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — VOLTMETER : VOLTAGE ::",
+    "options": [
+      "Thermometer : Time",
+      "Barometer : Mass",
+      "Altimeter : Current",
+      "Ohmmeter : Resistance"
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 3,
+    "explanation": "Instrument-to-quantity: a voltmeter measures voltage, as an ohmmeter measures resistance."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — CATALYST : REACTION ::",
+    "options": [
+      "Brake : Engine",
+      "Filter : Water",
+      "Anchor : Ship",
+      "Accelerator : Vehicle"
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 3,
+    "explanation": "Rate-increaser-to-process: a catalyst speeds up a reaction, as an accelerator speeds up a vehicle."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — CARTOGRAPHER : MAP ::",
+    "options": [
+      "Geologist : Telescope",
+      "Astronomer : Microscope",
+      "Lexicographer : Dictionary",
+      "Botanist : Mineral"
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 2,
+    "explanation": "Specialist-to-work product: a cartographer compiles a map, as a lexicographer compiles a dictionary."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — SEISMOGRAPH : EARTHQUAKE ::",
+    "options": [
+      "Calorimeter : Velocity",
+      "Cardiograph : Heartbeat",
+      "Barometer : Sound",
+      "Hydrometer : Light"
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Recording instrument-to-phenomenon: a seismograph records an earthquake, as a cardiograph records a heartbeat."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — RESERVOIR : WATER ::",
+    "options": [
+      "Switch : Pressure",
+      "Diode : Mass",
+      "Capacitor : Charge",
+      "Resistor : Light"
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 2,
+    "explanation": "Storage device-to-stored entity: a reservoir stores water, as a capacitor stores charge."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Neither the lead engineer nor the technicians ______ aware of the sensor fault.",
+    "options": ["has", "is", "was", "were"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 3,
+    "explanation": "With Neither…nor, the verb agrees with the nearer plural subject technicians: were."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Scarcely ______ the test begun when the power grid fluctuated.",
+    "options": ["was", "did", "had", "has"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 2,
+    "explanation": "Scarcely at sentence start triggers past-perfect inversion: had."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The composite fuselage is capable ______ withstanding extreme aerodynamic loads.",
+    "options": ["for", "with", "of", "to"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 2,
+    "explanation": "Standard preposition collocation: capable of."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Had the valve been closed on time, the pressure surge ______ been averted.",
+    "options": ["has", "would have", "had", "will have"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Inverted third conditional Had the valve been closed pairs with would have."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Rigorous wind-tunnel trials validated the aerodynamic ______ of the wing.",
+    "options": ["fatigue", "corrosion", "efficiency", "turbulence"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 2,
+    "explanation": "Wind-tunnel trials validated the aerodynamic efficiency of the wing."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "Every one of the prototypes are meeting safety standards.",
+      "Every one of the prototypes meet safety standards.",
+      "Every one of the prototypes have met safety standards.",
+      "Every one of the prototypes meets safety standards."
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 3,
+    "explanation": "Singular subject Every one takes singular verb meets."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "It is imperative that every lab technician ______ protective eyewear.",
+    "options": ["wear", "wears", "wore", "wearing"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 0,
+    "explanation": "Subjunctive after It is imperative that uses base verb wear."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Ossilloscope", "Osciloscope", "Oscillascope", "Oscilloscope"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 3,
+    "explanation": "Oscilloscope is spelled with sc, double l, and -scope."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Superconducting magnets generate intense magnetic fields with zero electrical ______.",
+    "options": ["luminance", "resistance", "capacitance", "inductance"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Superconductors exhibit zero electrical resistance."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Seldom ______ engineers observed such rapid heat dissipation in passive coolers.",
+    "options": ["are", "was", "has", "have"],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 3,
+    "explanation": "Negative adverb Seldom at sentence start triggers subject-auxiliary inversion: have."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What drives seawater through semipermeable membranes in reverse osmosis desalination?",
+    "options": [
+      "High hydraulic pressure",
+      "Magnetic induction",
+      "Solar thermal boiling",
+      "Centrifugal vacuum"
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 0,
+    "explanation": "Sentence 1 states reverse osmosis forces seawater through membranes under high hydraulic pressure."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "How do modern energy-recovery devices cut electricity consumption in desalination plants?",
+    "options": [
+      "By eliminating polymeric membranes",
+      "By heating seawater with nuclear waste",
+      "By operating solely during low tide",
+      "By recapturing pressure energy from the concentrated brine stream"
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 3,
+    "explanation": "Sentence 2 explains energy-recovery devices recapture pressure energy from the concentrated brine stream."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What causes membrane biofouling according to the passage?",
+    "options": [
+      "Iron oxide dust",
+      "High wind speed",
+      "Excess chlorine gas",
+      "Marine microorganisms"
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 3,
+    "explanation": "Sentence 3 attributes membrane biofouling to marine microorganisms."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What operational effect does membrane biofouling produce?",
+    "options": [
+      "It doubles fresh water purity",
+      "It gradually reduces permeate flux",
+      "It permanently freezes the brine",
+      "It eliminates the need for pumps"
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Sentence 3 states biofouling gradually reduces permeate flux."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "How is membrane biofouling mitigated in reverse osmosis plants?",
+    "options": [
+      "Painting membranes black",
+      "Periodic chemical cleaning",
+      "Lowering hydraulic pressure to zero",
+      "Increasing ocean salinity"
+    ],
+    "context": "Desalination plants using reverse osmosis force seawater through semipermeable polymeric membranes under high hydraulic pressure to separate dissolved salts from fresh water. Modern energy-recovery devices recapture pressure energy from the concentrated brine stream, cutting specific electricity consumption by more than half. However, membrane biofouling caused by marine microorganisms gradually reduces permeate flux and requires periodic chemical cleaning.",
+    "answer": 1,
+    "explanation": "Sentence 3 specifies that biofouling requires periodic chemical cleaning."
+  }
+]

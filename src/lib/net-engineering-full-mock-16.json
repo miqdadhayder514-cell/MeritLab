@@ -1,0 +1,2062 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the center of the circle x² + y² + 12x − 10y + 12 = 0?",
+    "options": ["(−6, 5)", "(12, −10)", "(6, −5)", "(−12, 10)"],
+    "answer": 0,
+    "explanation": "g = 6, f = −5 ⇒ center (−g, −f) = (−6, 5)."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the radius of the circle x² + y² + 12x − 10y + 12 = 0:",
+    "options": ["√73 units", "7 units", "49 units", "6 units"],
+    "answer": 1,
+    "explanation": "r = √(36 + 25 − 12) = √49 = 7 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Two circles of radii 11 cm and 3 cm touch each other internally. What is the distance between their centers?",
+    "options": ["14 cm", "7 cm", "8 cm", "33 cm"],
+    "answer": 2,
+    "explanation": "Internal tangency center distance is |11 − 3| = 8 cm."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Where does the point (6, 8) lie with respect to the circle x² + y² − 36 = 0?",
+    "options": [
+      "Inside the circle",
+      "Outside the circle",
+      "At the origin",
+      "On the circle"
+    ],
+    "answer": 1,
+    "explanation": "62 + 82 − 36 = 64 > 0, so (6, 8) lies outside the circle."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the equation of the circle with center (−3, 4) and radius 5?",
+    "options": [
+      "x² + y² + 6x − 8y = 25",
+      "(x − 3)2 + (y + 4)2 = 25",
+      "(x + 3)2 + (y − 4)2 = 5",
+      "(x + 3)2 + (y − 4)2 = 25"
+    ],
+    "answer": 3,
+    "explanation": "(x + 3)2 + (y − 4)2 = 52 = 25."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the focus of the standard parabola y² = 36x?",
+    "options": ["(−9, 0)", "(9, 0)", "(36, 0)", "(0, 9)"],
+    "answer": 1,
+    "explanation": "4a = 36 ⇒ a = 9; focus of y² = 36x is (9, 0)."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the directrix of the parabola y² = 8x:",
+    "options": ["y = −2", "x = −2", "x = 2", "y = 2"],
+    "answer": 1,
+    "explanation": "4a = 8 ⇒ a = 2; directrix of y² = 8x is x = −2."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the latus rectum of the parabola x² = −12y?",
+    "options": ["24 units", "3 units", "6 units", "12 units"],
+    "answer": 3,
+    "explanation": "Latus rectum length of x² = −12y is |4a| = 12 units."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the vertex of the parabola (y − 5)2 = 16(x + 2)?",
+    "options": ["(5, −2)", "(−5, 2)", "(2, −5)", "(−2, 5)"],
+    "answer": 3,
+    "explanation": "Comparing (y − k)2 = 4a(x − h) gives vertex (−2, 5)."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the axis of symmetry of the parabola y² = −16x?",
+    "options": ["Line x = −4", "x-axis (y = 0)", "y-axis (x = 0)", "Line y = x"],
+    "answer": 1,
+    "explanation": "y² = −16x is symmetric about the x-axis (y = 0)."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the minor axis of the ellipse (x² / 49) + (y² / 16) = 1?",
+    "options": ["8 units", "4 units", "7 units", "14 units"],
+    "answer": 0,
+    "explanation": "b = 4, so minor axis length is 2b = 8 units."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the ellipse (x² / 169) + (y² / 25) = 1:",
+    "options": ["13 / 12", "5 / 13", "12 / 13", "144 / 169"],
+    "answer": 2,
+    "explanation": "e = √(1 − 25/169) = √(144/169) = 12 / 13."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the ellipse (x² / 16) + (y² / 25) = 1:",
+    "options": ["(0, ±4)", "(0, ±3)", "(±3, 0)", "(0, ±5)"],
+    "answer": 1,
+    "explanation": "Major y-axis (b = 5, a = 4); c = √(25 − 16) = 3, foci at (0, ±3)."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the ellipse (x² / 9) + (y² / 4) = 1?",
+    "options": ["4 / 3 units", "9 / 2 units", "6 units", "8 / 3 units"],
+    "answer": 3,
+    "explanation": "Latus rectum length = 2b² / a = 2(4) / 3 = 8 / 3 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the eccentricity e condition for any ellipse?",
+    "options": ["e > 1", "e = 1", "e < 0", "0 < e < 1"],
+    "answer": 3,
+    "explanation": "Every non-degenerate ellipse satisfies 0 < e < 1."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the conjugate axis of the hyperbola (x² / 16) − (y² / 36) = 1?",
+    "options": ["8 units", "16 units", "12 units", "6 units"],
+    "answer": 2,
+    "explanation": "b = 6, so conjugate axis length is 2b = 12 units."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the hyperbola (x² / 25) − (y² / 144) = 1:",
+    "options": ["13 / 12", "12 / 5", "5 / 13", "13 / 5"],
+    "answer": 3,
+    "explanation": "e = √(1 + 144/25) = √(169/25) = 13 / 5."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the hyperbola (x² / 9) − (y² / 16) = 1:",
+    "options": ["(±3, 0)", "(0, ±5)", "(±5, 0)", "(±4, 0)"],
+    "answer": 2,
+    "explanation": "c = √(9 + 16) = 5; foci on x-axis are (±5, 0)."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What are the equations of the asymptotes of the hyperbola (x² / 25) − (y² / 16) = 1?",
+    "options": [
+      "y = ±(5 / 4) x",
+      "y = ±(4 / 5) x",
+      "y = ±(16 / 25) x",
+      "y = ±(3 / 5) x"
+    ],
+    "answer": 1,
+    "explanation": "Asymptotes of (x²/25) − (y²/16) = 1 are y = ±(4/5)x."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Identify the conic represented by x² + y² = 49:",
+    "options": ["Circle", "Hyperbola", "Ellipse", "Parabola"],
+    "answer": 0,
+    "explanation": "x² + y² = 49 is a circle of radius 7."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the eccentricity e condition for any hyperbola?",
+    "options": ["0 < e < 1", "e = 0", "e > 1", "e = 1"],
+    "answer": 2,
+    "explanation": "Every hyperbola satisfies e > 1."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the length of the latus rectum of the hyperbola (x² / 16) − (y² / 9) = 1?",
+    "options": ["9 / 2 units", "6 units", "8 / 3 units", "8 units"],
+    "answer": 0,
+    "explanation": "Latus rectum length = 2b² / a = 2(9) / 4 = 9 / 2 units."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the distance between points (−1, 3) and (2, 7)?",
+    "options": ["7 units", "√13 units", "5 units", "3 units"],
+    "answer": 2,
+    "explanation": "d = √(9 + 16) = √25 = 5 units."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the slope m of the line 7x + 2y − 11 = 0:",
+    "options": ["2 / 7", "−2 / 7", "−7 / 2", "7 / 2"],
+    "answer": 2,
+    "explanation": "Writing y = (−7/2)x + 11/2 gives slope m = −7 / 2."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the x-intercept of the line 5x − 3y = 15?",
+    "options": ["−5", "−3", "5", "3"],
+    "answer": 3,
+    "explanation": "Setting y = 0 gives 5x = 15 ⇒ x = 3."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the midpoint of the segment joining (−4, 8) and (6, −2):",
+    "options": ["(2, 6)", "(3, 1)", "(5, 5)", "(1, 3)"],
+    "answer": 3,
+    "explanation": "Midpoint = ((−4 + 6)/2, (8 − 2)/2) = (1, 3)."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the distance from point (1, −2) to the line 3x − 4y + 9 = 0:",
+    "options": ["2 units", "20 / 5 = 4 units", "5 units", "3 units"],
+    "answer": 1,
+    "explanation": "d = |3(1) − 4(−2) + 9| / 5 = |3 + 8 + 9| / 5 = 20 / 5 = 4 units."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the slope of any line perpendicular to 4x − 5y + 1 = 0?",
+    "options": ["−5 / 4", "5 / 4", "−4 / 5", "4 / 5"],
+    "answer": 0,
+    "explanation": "Line slope is 4/5; perpendicular slope is −5 / 4."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of vector a = −12i + 5j?",
+    "options": ["13", "17", "7", "169"],
+    "answer": 0,
+    "explanation": "|a| = √(144 + 25) = √169 = 13."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the dot product a · b for a = 4i + j − 2k and b = 2i − 3j + 5k:",
+    "options": ["−15", "5", "−5", "15"],
+    "answer": 2,
+    "explanation": "a · b = 4(2) + 1(−3) + (−2)(5) = 8 − 3 − 10 = −5."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the cross product i × j of standard unit basis vectors?",
+    "options": ["i", "0", "k", "−k"],
+    "answer": 2,
+    "explanation": "Cyclic right-hand cross product: i × j = k."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For what value of p are u = 2i + 3j + pk and v = 3i − 4j + 2k orthogonal?",
+    "options": ["p = −3", "p = 3", "p = 6", "p = −6"],
+    "answer": 1,
+    "explanation": "2(3) + 3(−4) + p(2) = 0 ⇒ 6 − 12 + 2p = 0 ⇒ p = 3."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of cross product |a × b| when a and b are perpendicular?",
+    "options": ["0", "|a| + |b|", "|a| |b|", "(1/2) |a| |b|"],
+    "answer": 2,
+    "explanation": "For θ = 90°, |a × b| = |a| |b| sin 90° = |a| |b|."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is a normal vector to the plane 2x + 6y − 3z = 11?",
+    "options": ["2i + 6j − 3k", "6i + 2j − 3k", "2i − 6j + 3k", "11i"],
+    "answer": 0,
+    "explanation": "Normal vector from 2x + 6y − 3z = 11 is 2i + 6j − 3k."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance from the origin (0, 0, 0) to the plane 2x − 2y + z + 9 = 0?",
+    "options": ["1 unit", "9 units", "3 units", "9 / √5 units"],
+    "answer": 2,
+    "explanation": "d = |9| / √(4 + 4 + 1) = 9 / 3 = 3 units."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the line through (0, 5) with slope m = 4:",
+    "options": ["y = 5x + 4", "y = 4x + 5", "y = −4x + 5", "y = 4x − 5"],
+    "answer": 1,
+    "explanation": "Slope-intercept form: y = 4x + 5."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between points (3, 4, 12) and (0, 0, 0) in 3D space?",
+    "options": ["√19 units", "19 units", "13 units", "169 units"],
+    "answer": 2,
+    "explanation": "Distance = √(9 + 16 + 144) = √169 = 13 units."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the dot product j · k of orthogonal unit basis vectors?",
+    "options": ["−1", "1", "0", "i"],
+    "answer": 2,
+    "explanation": "Orthogonal basis vectors satisfy j · k = 0."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the point dividing the segment from (3, 2) to (9, 8) in the ratio 1 : 2 internally:",
+    "options": ["(4, 3)", "(5, 4)", "(6, 5)", "(7, 6)"],
+    "answer": 1,
+    "explanation": "Ratio 1:2 gives ((2(3)+1(9))/3, (2(2)+1(8))/3) = (5, 4)."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "For two non-zero vectors a and b, what does a × b = 0 imply?",
+    "options": [
+      "They are perpendicular",
+      "Their dot product is 1",
+      "They are parallel (or collinear)",
+      "Both are unit vectors"
+    ],
+    "answer": 2,
+    "explanation": "Vanishing cross product of non-zero vectors means they are parallel."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the unit vector in the direction of v = 9i + 12j?",
+    "options": ["(9/5)i + (12/5)j", "9i + 12j", "(3/5)i + (4/5)j", "(4/5)i + (3/5)j"],
+    "answer": 2,
+    "explanation": "|v| = 15; unit vector is (3/5)i + (4/5)j."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the dot product a · b when angle between a and b is 60° with |a| = 4, |b| = 6?",
+    "options": ["0", "12√3", "24", "12"],
+    "answer": 3,
+    "explanation": "a · b = 4 × 6 × cos 60° = 24 × 0.5 = 12."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Convert 3π / 4 radians into degrees:",
+    "options": ["120°", "150°", "135°", "225°"],
+    "answer": 2,
+    "explanation": "(3π/4) × (180°/π) = 135°."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the exact value of cos 18°?",
+    "options": ["(√5 − 1) / 4", "√(10 + 2√5) / 4", "1 / 2", "(√5 + 1) / 4"],
+    "answer": 1,
+    "explanation": "Standard exact value: cos 18° = √(10 + 2√5) / 4."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the fundamental period of f(x) = tan(3x)?",
+    "options": ["3π", "2π / 3", "π / 3", "π"],
+    "answer": 2,
+    "explanation": "Period of tan(3x) is π / 3."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the maximum value of 8 sin θ + 15 cos θ?",
+    "options": ["17", "−17", "23", "7"],
+    "answer": 0,
+    "explanation": "Maximum of 8 sin θ + 15 cos θ is √(64 + 225) = √289 = 17."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express sin 2θ in terms of sin θ and cos θ:",
+    "options": ["sin θ cos θ", "2 sin θ cos θ", "2 sin θ + 2 cos θ", "sin² θ − cos² θ"],
+    "answer": 1,
+    "explanation": "Double-angle sine identity: sin 2θ = 2 sin θ cos θ."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In any triangle ABC, what is the sum of interior angles A + B + C?",
+    "options": [
+      "90° (or π/2 radians)",
+      "180° (or π radians)",
+      "360° (or 2π radians)",
+      "270°"
+    ],
+    "answer": 1,
+    "explanation": "Interior angles of any planar triangle sum to 180° (π radians)."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the semi-perimeter s of a triangle with sides a, b, c?",
+    "options": ["(a + b + c) / 2", "a + b + c", "2(a + b + c)", "(a + b + c) / 3"],
+    "answer": 0,
+    "explanation": "Semi-perimeter is s = (a + b + c) / 2."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In any triangle ABC, what is 2R sin A equal to?",
+    "options": ["Side c", "Side a", "Side b", "Semi-perimeter s"],
+    "answer": 1,
+    "explanation": "From Law of Sines, a = 2R sin A."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: sin−1(1/2) + cos−1(1/2)",
+    "options": ["π / 2", "π / 3", "π / 6", "π"],
+    "answer": 0,
+    "explanation": "sin−1 x + cos−1 x = π / 2 for x ∈ [−1, 1]."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the general solution of cos θ = 1?",
+    "options": [
+      "θ = 2nπ, n ∈ ℤ",
+      "θ = nπ, n ∈ ℤ",
+      "θ = (2n + 1)π, n ∈ ℤ",
+      "θ = nπ ± π/2, n ∈ ℤ"
+    ],
+    "answer": 0,
+    "explanation": "cos θ = 1 at θ = 2nπ, n ∈ ℤ."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the exact value of tan 75°?",
+    "options": ["2 − √3", "1 / √3", "2 + √3", "√3 − 1"],
+    "answer": 2,
+    "explanation": "tan(45° + 30°) = (1 + 1/√3) / (1 − 1/√3) = 2 + √3."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate tan(sin−1(3 / 5)):",
+    "options": ["4 / 3", "4 / 5", "3 / 5", "3 / 4"],
+    "answer": 3,
+    "explanation": "Opposite = 3, hypotenuse = 5, adjacent = 4, so tan θ = 3 / 4."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the Pythagorean identity linking cosec θ and cot θ?",
+    "options": [
+      "cosec² θ + cot² θ = 1",
+      "cot² θ − cosec² θ = 1",
+      "cosec θ cot θ = 1",
+      "cosec² θ − cot² θ = 1"
+    ],
+    "answer": 3,
+    "explanation": "Identity: cosec² θ − cot² θ = 1."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express 2 cos A sin B as a sum/difference of sines:",
+    "options": [
+      "cos(A + B) − cos(A − B)",
+      "sin(A + B) − sin(A − B)",
+      "cos(A + B) + cos(A − B)",
+      "sin(A + B) + sin(A − B)"
+    ],
+    "answer": 1,
+    "explanation": "Product-to-sum identity: 2 cos A sin B = sin(A + B) − sin(A − B)."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the hyperbolic identity relating cosh2 x and sinh2 x?",
+    "options": [
+      "cosh x sinh x = 1",
+      "cosh2 x + sinh2 x = 1",
+      "cosh2 x − sinh2 x = 1",
+      "sinh2 x − cosh2 x = 1"
+    ],
+    "answer": 2,
+    "explanation": "Hyperbolic identity: cosh2 x − sinh2 x = 1."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the principal range of tan−1 x?",
+    "options": ["[0, π]", "[−π / 2, π / 2]", "(0, π)", "(−π / 2, π / 2)"],
+    "answer": 3,
+    "explanation": "Principal range of tan−1 x is (−π / 2, π / 2)."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Express tan 2θ in terms of tan θ:",
+    "options": [
+      "(1 − tan² θ) / (2 tan θ)",
+      "2 tan θ / (1 − tan² θ)",
+      "2 tan θ / (1 + tan² θ)",
+      "2 tan θ"
+    ],
+    "answer": 1,
+    "explanation": "Double-angle tangent formula: tan 2θ = 2 tan θ / (1 − tan² θ)."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with a = 5, b = 12, c = 13, what is its area Δ?",
+    "options": ["30 sq. units", "60 sq. units", "65 sq. units", "25 sq. units"],
+    "answer": 0,
+    "explanation": "Right triangle 5–12–13 has area (1/2)(5)(12) = 30 sq. units."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of sin θ = 1 / 2?",
+    "options": [
+      "θ = nπ + π / 6, n ∈ ℤ",
+      "θ = 2nπ ± π / 6, n ∈ ℤ",
+      "θ = nπ + (−1)n (π / 3), n ∈ ℤ",
+      "θ = nπ + (−1)n (π / 6), n ∈ ℤ"
+    ],
+    "answer": 3,
+    "explanation": "General solution of sin θ = sin α is θ = nπ + (−1)n α."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the period of f(x) = sin x?",
+    "options": ["4π", "2π", "π", "π / 2"],
+    "answer": 1,
+    "explanation": "Fundamental period of sin x is 2π."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = ln x (for x > 0) with respect to x?",
+    "options": ["−1 / x²", "1 / x", "x", "eˣ"],
+    "answer": 1,
+    "explanation": "d/dx (ln x) = 1 / x."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Differentiate y = e⁵ˣ with respect to x:",
+    "options": ["5 e⁵ˣ", "e⁵ˣ", "(1 / 5) e⁵ˣ", "5x e⁴ˣ"],
+    "answer": 0,
+    "explanation": "d/dx (e⁵ˣ) = 5 e⁵ˣ."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find dy / dx for x = 3t, y = t² + 1:",
+    "options": ["2t", "2t / 3", "3 / (2t)", "6t"],
+    "answer": 1,
+    "explanation": "dy / dx = (2t) / 3 = 2t / 3."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: limx → 0 ((tan(3x)) / x)",
+    "options": ["0", "3", "1 / 3", "1"],
+    "answer": 1,
+    "explanation": "limx → 0 ((tan 3x)/(3x)) × 3 = 1 × 3 = 3."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the critical point of f(x) = x² + 10x + 7:",
+    "options": ["x = 5", "x = −5", "x = 0", "x = −10"],
+    "answer": 1,
+    "explanation": "f'(x) = 2x + 10 = 0 ⇒ x = −5."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the Maclaurin series expansion of eˣ?",
+    "options": [
+      "1 − x + x²/2! − x³/3! + …",
+      "1 + x²/2! + x⁴/4! + …",
+      "1 + x + x²/2! + x³/3! + …",
+      "x − x³/3! + x⁵/5! − …"
+    ],
+    "answer": 2,
+    "explanation": "Maclaurin series of eˣ is 1 + x + x²/2! + x³/3! + …."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Differentiate y = sec−1 x (for x > 1) with respect to x:",
+    "options": [
+      "−1 / (x √(x² − 1))",
+      "1 / √(x² − 1)",
+      "1 / (1 + x²)",
+      "1 / (x √(x² − 1))"
+    ],
+    "answer": 3,
+    "explanation": "For x > 1, d/dx (sec−1 x) = 1 / (x √(x² − 1))."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the second derivative d2y / dx2 of y = x⁴:",
+    "options": ["24x", "4x³", "12x²", "12x³"],
+    "answer": 2,
+    "explanation": "First derivative is 4x³; second derivative is 12x²."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = tanh x with respect to x?",
+    "options": ["−sech2 x", "sec² x", "cosech2 x", "sech2 x"],
+    "answer": 3,
+    "explanation": "d/dx (tanh x) = sech2 x."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the tangent line to y = 3x² − 2x + 5 at x = 1:",
+    "options": ["8", "2", "6", "4"],
+    "answer": 3,
+    "explanation": "y'(1) = 6(1) − 2 = 4."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate: ∫ e³ˣ dx",
+    "options": ["e³ˣ + C", "3x e²ˣ + C", "3 e³ˣ + C", "(1 / 3) e³ˣ + C"],
+    "answer": 3,
+    "explanation": "∫ e³ˣ dx = (1 / 3) e³ˣ + C."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ sin(2x) dx",
+    "options": [
+      "−(1 / 2) cos(2x) + C",
+      "cos(2x) + C",
+      "−2 cos(2x) + C",
+      "(1 / 2) cos(2x) + C"
+    ],
+    "answer": 0,
+    "explanation": "∫ sin(2x) dx = −(1 / 2) cos(2x) + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / x] (for x > 0)",
+    "options": ["1 / x² + C", "−1 / x² + C", "eˣ + C", "ln x + C"],
+    "answer": 3,
+    "explanation": "∫ (1 / x) dx = ln x + C (for x > 0)."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫₀¹ x ex2 dx",
+    "options": ["2(e − 1)", "(e − 1) / 2", "e − 1", "(e + 1) / 2"],
+    "answer": 1,
+    "explanation": "Let u = x²: (1/2) [eu]₀¹ = (e − 1) / 2."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₁³ 2x dx",
+    "options": ["9", "1", "8", "6"],
+    "answer": 2,
+    "explanation": "[x²]₁³ = 9 − 1 = 8."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ x⁴ dx",
+    "options": ["5x⁵ + C", "x⁴ / 4 + C", "4x³ + C", "x⁵ / 5 + C"],
+    "answer": 3,
+    "explanation": "Power rule gives x⁵ / 5 + C."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫−5 5 x³ cos x dx",
+    "options": ["250", "125", "50", "0"],
+    "answer": 3,
+    "explanation": "x³ cos x is odd over symmetric [−5, 5], so integral = 0."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ (1 / cos² x) dx",
+    "options": ["−cot x + C", "tan x + C", "sec x + C", "sin x + C"],
+    "answer": 1,
+    "explanation": "∫ sec² x dx = tan x + C."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the order of the differential equation d2y / dx2 + 5(dy / dx)3 + 6y = 0?",
+    "options": ["Order 1", "Order 2", "Order 6", "Order 3"],
+    "answer": 1,
+    "explanation": "Highest derivative order is 2 (d2y/dx2)."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀¹ 5 dx",
+    "options": ["5", "2.5", "1", "0"],
+    "answer": 0,
+    "explanation": "[5x]₀¹ = 5 − 0 = 5."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "A single fair die is rolled once. What is the probability of rolling a number greater than 4?",
+    "options": ["1 / 6", "2 / 3", "1 / 3", "1 / 2"],
+    "answer": 2,
+    "explanation": "Outcomes {5, 6} give 2 / 6 = 1 / 3."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many combinations of 3 items can be chosen from 5 distinct items?",
+    "options": ["20", "15", "60", "10"],
+    "answer": 3,
+    "explanation": "5C³ = 10."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of 0! (zero factorial) by standard definition?",
+    "options": ["0", "−1", "1", "Undefined"],
+    "answer": 2,
+    "explanation": "By standard convention, 0! = 1."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "A bag contains 3 black and 7 white balls. One ball is drawn at random. What is P(black)?",
+    "options": ["7 / 10", "3 / 7", "1 / 2", "3 / 10"],
+    "answer": 3,
+    "explanation": "P(black) = 3 / (3 + 7) = 3 / 10."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the value of nC0 + nCn for any positive integer n?",
+    "options": ["2n", "1", "2", "n"],
+    "answer": 2,
+    "explanation": "1 + 1 = 2."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In how many distinct ways can the letters of the word NOON be arranged?",
+    "options": ["24", "4", "12", "6"],
+    "answer": 3,
+    "explanation": "4! / (2! 2!) = 24 / 4 = 6."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the arithmetic mean of {2, 4, 6, 8, 10, 12}?",
+    "options": ["7", "6", "8", "42"],
+    "answer": 0,
+    "explanation": "Mean = 42 / 6 = 7."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If every value in a dataset is multiplied by k = 4, how does its variance σ2 change?",
+    "options": [
+      "Multiplied by 16 (16σ2)",
+      "Multiplied by 4 (4σ2)",
+      "Increased by 4",
+      "Unchanged"
+    ],
+    "answer": 0,
+    "explanation": "Variance scales by k² = 42 = 16."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the mode of the dataset {4, 9, 4, 7, 4, 11, 9}?",
+    "options": ["7", "11", "4", "9"],
+    "answer": 2,
+    "explanation": "Value 4 appears three times (highest frequency)."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For two mutually exclusive events A and B, what is P(A ∩ B)?",
+    "options": ["1", "P(A) · P(B)", "0", "P(A) + P(B)"],
+    "answer": 2,
+    "explanation": "Disjoint events have empty intersection: P(A ∩ B) = 0."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "For any event E, what is the valid range of its probability P(E)?",
+    "options": [
+      "−1 ≤ P(E) ≤ 1",
+      "0 ≤ P(E) ≤ 1",
+      "P(E) ≥ 0 only",
+      "0 < P(E) < 1 always"
+    ],
+    "answer": 1,
+    "explanation": "Probability lies in [0, 1]."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the arithmetic mean of two positive numbers a = 8 and b = 18?",
+    "options": ["13", "12", "144", "10"],
+    "answer": 0,
+    "explanation": "Mean = (8 + 18) / 2 = 26 / 2 = 13."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the value of P(E) + P(E') for any event E?",
+    "options": ["2", "1 / 2", "1", "0"],
+    "answer": 2,
+    "explanation": "Complementary probabilities sum to 1."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the real domain of f(x) = √(9 − x²)?",
+    "options": ["[−3, 3]", "(−3, 3)", "ℝ \\ [−3, 3]", "[0, 3]"],
+    "answer": 0,
+    "explanation": "9 − x² ≥ 0 ⇒ −3 ≤ x ≤ 3, i.e., [−3, 3]."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If f(x) = 4x − 3 and g(x) = x + 2, what is (g ∘ f)(2)?",
+    "options": ["7", "13", "9", "5"],
+    "answer": 0,
+    "explanation": "g(f(2)) = g(5) = 5 + 2 = 7."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which function among the following is even?",
+    "options": ["f(x) = x³", "f(x) = sin x", "f(x) = 2x + 1", "f(x) = x⁴ + 3"],
+    "answer": 3,
+    "explanation": "f(x) = x⁴ + 3 satisfies f(−x) = f(x)."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = (x − 4) / 2:",
+    "options": ["2x − 4", "2 / (x − 4)", "2x + 4", "(x + 4) / 2"],
+    "answer": 2,
+    "explanation": "Solving y = (x − 4)/2 gives f⁻¹(x) = 2x + 4."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of f(x) = −x² + 4 for x ∈ ℝ?",
+    "options": ["ℝ", "[4, ∞)", "(−∞, 0]", "(−∞, 4]"],
+    "answer": 3,
+    "explanation": "Since −x² ≤ 0, −x² + 4 ≤ 4, range is (−∞, 4]. Physics Detailed Solutions (Q.101 – Q.160)"
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensions of power?",
+    "options": ["[M L² T⁻¹]", "[M L² T⁻³]", "[M L² T⁻²]", "[M L T⁻²]"],
+    "answer": 1,
+    "explanation": "Power (W / t) has dimensions [M L² T⁻³]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "For a projectile on level ground, at which pair of launch angles is horizontal range equal for a fixed speed?",
+    "options": [
+      "30° and 45°",
+      "15° and 30°",
+      "45° and 90°",
+      "30° and 60° (complementary angles θ and 90° − θ)"
+    ],
+    "answer": 3,
+    "explanation": "sin(2(90° − θ)) = sin(180° − 2θ) = sin(2θ) gives equal range."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What does the slope of a velocity-time (v–t) graph represent?",
+    "options": ["Acceleration", "Impulse", "Power", "Displacement"],
+    "answer": 0,
+    "explanation": "dv / dt = acceleration."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 2 kg object changes speed from 3 m/s to 7 m/s along a straight line. What is the net work done?",
+    "options": ["16 J", "40 J", "80 J", "49 J"],
+    "answer": 1,
+    "explanation": "Work-energy theorem: 0.5 × 2 × (49 − 9) = 40 J."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "How does escape speed from a planet depend on the mass of the escaping object?",
+    "options": [
+      "Independent of escaping object's mass (vesc = √(2 G M / R))",
+      "Directly proportional to mass",
+      "Inversely proportional to mass",
+      "Proportional to mass squared"
+    ],
+    "answer": 0,
+    "explanation": "vesc = √(2 G M / R) is independent of projectile mass."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an elastic collision between two bodies, which quantities are conserved?",
+    "options": [
+      "Only kinetic energy",
+      "Only potential energy",
+      "Both total linear momentum and total kinetic energy",
+      "Neither momentum nor kinetic energy"
+    ],
+    "answer": 2,
+    "explanation": "Elastic collisions conserve both linear momentum and kinetic energy."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of force?",
+    "options": ["Watt (W)", "Joule (J)", "Pascal (Pa)", "Newton (N = kg·m/s²)"],
+    "answer": 3,
+    "explanation": "Force has SI unit Newton (N)."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 100 W motor operates for 10 s. How much energy does it deliver?",
+    "options": ["10 J", "0.1 J", "100 J", "1000 J (or 1.0 kJ)"],
+    "answer": 3,
+    "explanation": "E = P t = 100 × 10 = 1000 J."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the hydrostatic gauge pressure at depth h below a liquid surface of density ρ?",
+    "options": ["ρ g / h", "ρ g h", "g h / ρ", "ρ / (g h)"],
+    "answer": 1,
+    "explanation": "Hydrostatic gauge pressure is ρ g h."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "Which physical principle underlies the lift on an airfoil or flow in a Venturi tube?",
+    "options": [
+      "Bernoulli's principle (conservation of mechanical energy in fluid flow)",
+      "Kirchhoff's voltage law",
+      "Snell's law",
+      "Faraday's law of induction"
+    ],
+    "answer": 0,
+    "explanation": "Bernoulli's principle links speed and pressure in fluid flow."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the relation between frequency f and time period T of a periodic oscillation?",
+    "options": ["f = 1 / T", "f = T₂", "f = 2π T", "f = T"],
+    "answer": 0,
+    "explanation": "Frequency is reciprocal of period: f = 1 / T."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Where in simple harmonic motion is potential energy maximum?",
+    "options": [
+      "At extreme positions (x = ±x₀)",
+      "Equal to total energy at x = 0",
+      "Zero everywhere",
+      "At equilibrium (x = 0)"
+    ],
+    "answer": 0,
+    "explanation": "SHM potential energy peaks at extremes x = ±x₀."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two waves of 440 Hz and 443 Hz sound together. How many beats per second are heard?",
+    "options": ["1.5 beats/s", "3 beats/s", "883 beats/s", "6 beats/s"],
+    "answer": 1,
+    "explanation": "Beat frequency is |443 − 440| = 3 beats/s."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A wave has speed 120 m/s and wavelength 3.0 m. What is its frequency?",
+    "options": ["40 Hz", "360 Hz", "0.025 Hz", "123 Hz"],
+    "answer": 0,
+    "explanation": "f = v / λ = 120 / 3.0 = 40 Hz."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "When a stationary observer listens to a moving sound source, the shift in apparent frequency is called:",
+    "options": ["Hall effect", "Doppler effect", "Zeeman effect", "Compton effect"],
+    "answer": 1,
+    "explanation": "Relative motion shifts apparent wave frequency via the Doppler effect."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which optical phenomenon occurs when light bends passing from one medium into another of different refractive index?",
+    "options": ["Interference", "Refraction", "Polarization", "Diffraction"],
+    "answer": 1,
+    "explanation": "Bending of light across a boundary between media is refraction."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the focal length f of a diverging lens of optical power −2.5 D?",
+    "options": ["+0.40 m", "+2.5 m", "−0.40 m (or −40 cm)", "−2.5 m"],
+    "answer": 2,
+    "explanation": "f = 1 / (−2.5) = −0.40 m."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of temperature?",
+    "options": ["Fahrenheit (°F)", "Celsius (°C)", "Joule (J)", "Kelvin (K)"],
+    "answer": 3,
+    "explanation": "Thermodynamic temperature has SI unit Kelvin (K)."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnification m of a thin lens in terms of image distance q and object distance p?",
+    "options": ["m = p q", "m = p / q", "m = 1 / (p q)", "m = q / p"],
+    "answer": 3,
+    "explanation": "Lateral magnification magnitude is m = q / p."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In Young's double-slit experiment, how does fringe spacing β = λ D / d change if wavelength λ is doubled?",
+    "options": ["Unchanged", "Halved (β / 2)", "Doubled (2β)", "Quadrupled (4β)"],
+    "answer": 2,
+    "explanation": "Since β ∝ λ, doubling λ doubles fringe spacing."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an isothermal expansion of an ideal gas, how does work done by the gas relate to heat absorbed Q?",
+    "options": ["W = 0", "W = 2Q", "W = −Q", "W = Q (since ΔU = 0)"],
+    "answer": 3,
+    "explanation": "Since ΔU = 0 isothermally, W = Q."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the efficiency formula of a Carnot heat engine operating between hot reservoir TH and cold reservoir TC (in Kelvin)?",
+    "options": [
+      "η = TC / TH",
+      "η = (TH + TC) / TH",
+      "η = 1 − (TC / TH)",
+      "η = 1 + (TC / TH)"
+    ],
+    "answer": 2,
+    "explanation": "Carnot efficiency is η = 1 − (TC / TH)."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Convert 327 °C to Kelvin scale:",
+    "options": ["54 K", "273 K", "300 K", "600 K"],
+    "answer": 3,
+    "explanation": "327 + 273 = 600 K."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the thermal efficiency η of a Carnot engine operating between TH = 500 K and TC = 400 K?",
+    "options": ["0.80 (or 80%)", "0.25 (or 25%)", "0.50 (or 50%)", "0.20 (or 20%)"],
+    "answer": 3,
+    "explanation": "η = 1 − (400 / 500) = 0.20 = 20%."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the universal gas constant R in SI units?",
+    "options": [
+      "≈ 6.67 × 10−11 N·m₂/kg2",
+      "≈ 9.8 m/s²",
+      "≈ 8.314 J/(mol·K)",
+      "≈ 1.38 × 10−23 J/K"
+    ],
+    "answer": 2,
+    "explanation": "Ideal gas constant R ≈ 8.314 J/(mol·K)."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of mass?",
+    "options": ["Mole (mol)", "Kilogram (kg)", "Gram (g)", "Newton (N)"],
+    "answer": 1,
+    "explanation": "Mass has SI unit Kilogram (kg)."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is rotational kinetic energy Krot of a rigid body with moment of inertia I and angular speed ω?",
+    "options": ["(1/2) I ω2", "I α", "I ω2", "(1/2) I ω"],
+    "answer": 0,
+    "explanation": "Rotational kinetic energy is (1/2) I ω2."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the centripetal acceleration ac in terms of radius r and angular speed ω?",
+    "options": ["r² ω", "ω2 / r", "r ω2", "r ω"],
+    "answer": 2,
+    "explanation": "ac = v² / r = (r ω)2 / r = r ω2."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the rotational analogue of Newton's second law (F = m a)?",
+    "options": ["F = I α", "τ = I ω", "τ = m α", "τ = I α"],
+    "answer": 3,
+    "explanation": "Rotational Newton's second law: τ = I α."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "How many radians are in one complete revolution?",
+    "options": ["1 radian", "2π radians", "π radians", "π / 2 radians"],
+    "answer": 1,
+    "explanation": "One full revolution equals 2π radians."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "State Ohm's law for an ohmic conductor at constant temperature:",
+    "options": ["V = I / R", "V = I R", "P = V / R", "I = V R"],
+    "answer": 1,
+    "explanation": "Ohm's law relation: V = I R."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two resistors of 6 Ω and 3 Ω are connected in parallel. What is their equivalent resistance?",
+    "options": ["9 Ω", "18 Ω", "2 Ω", "4.5 Ω"],
+    "answer": 2,
+    "explanation": "Parallel equivalent: (6 × 3) / (6 + 3) = 18 / 9 = 2 Ω."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of electric potential difference?",
+    "options": ["Henry (H)", "Volt (V)", "Watt (W)", "Farad (F)"],
+    "answer": 1,
+    "explanation": "Potential difference has SI unit Volt (V)."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A 10 Ω resistor has 50 V across it. What power is dissipated?",
+    "options": ["500 W", "50 W", "5 W", "250 W"],
+    "answer": 3,
+    "explanation": "P = V₂ / R = 2500 / 10 = 250 W."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "State Faraday's law of electromagnetic induction for magnitude of induced EMF in a single turn:",
+    "options": ["|ε| = |dΦB / dt|", "|ε| = q E", "|ε| = B / A", "|ε| = I R"],
+    "answer": 0,
+    "explanation": "Faraday's law gives |ε| = |dΦB / dt|."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "How does capacitive reactance XC = 1 / (2π f C) behave as AC frequency f increases?",
+    "options": [
+      "Decreases (inversely proportional to f)",
+      "Increases linearly with f",
+      "Becomes infinite",
+      "Remains constant"
+    ],
+    "answer": 0,
+    "explanation": "XC = 1 / (2π f C) decreases as f rises."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "If peak AC voltage is V₀ = 100√2 V, what is its RMS voltage Vrms?",
+    "options": ["50√2 V", "100√2 V", "100 V", "200 V"],
+    "answer": 2,
+    "explanation": "Vrms = (100√2) / √2 = 100 V."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the impedance Z of a series R–L–C circuit?",
+    "options": [
+      "Z = √(R² + (XL − XC)2)",
+      "Z = √(R² + XL 2 + XC 2)",
+      "Z = XL − XC",
+      "Z = R + XL + XC"
+    ],
+    "answer": 0,
+    "explanation": "RLC series impedance: Z = √(R² + (XL − XC)2)."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the power factor cos φ of a series AC circuit with resistance R and impedance Z?",
+    "options": ["XL / Z", "Z / R", "XC / Z", "R / Z"],
+    "answer": 3,
+    "explanation": "Power factor is cos φ = R / Z."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the average value of a pure sinusoidal AC current over one complete cycle?",
+    "options": ["Zero", "I₀", "2 I₀ / π", "I₀ / √2"],
+    "answer": 0,
+    "explanation": "A full-cycle sinusoid has zero average value."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of magnetic field?",
+    "options": ["Tesla (T)", "Farad (F)", "Henry (H)", "Volt (V)"],
+    "answer": 0,
+    "explanation": "Magnetic field has SI unit Tesla (T)."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "In an ideal step-up transformer, secondary voltage Vs is greater than primary voltage Vp because:",
+    "options": [
+      "Output power exceeds input power",
+      "Ns > Np (more secondary turns than primary turns)",
+      "Frequency increases fivefold",
+      "Ns < Np"
+    ],
+    "answer": 1,
+    "explanation": "Vs / Vp = Ns / Np > 1 when Ns > Np."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A rectifier circuit converts:",
+    "options": [
+      "Mechanical energy into heat",
+      "Direct current (DC) into alternating current (AC)",
+      "Alternating current (AC) into direct current (DC)",
+      "Light into sound"
+    ],
+    "answer": 2,
+    "explanation": "Rectifiers convert AC to DC."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In a common-emitter transistor amplifier, what is the phase shift between input base voltage and output collector voltage (at midband)?",
+    "options": ["90°", "45°", "0°", "180° (phase inversion)"],
+    "answer": 3,
+    "explanation": "Common-emitter output is inverted by 180° relative to base input."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which logic gate is a universal gate capable of implementing any Boolean function?",
+    "options": [
+      "AND gate alone",
+      "Buffer gate alone",
+      "NAND gate (or NOR gate)",
+      "OR gate alone"
+    ],
+    "answer": 2,
+    "explanation": "NAND and NOR are universal gates."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the Boolean output of an AND gate when inputs are A = 1 and B = 0?",
+    "options": ["0", "Undefined", "A + B", "1"],
+    "answer": 0,
+    "explanation": "AND outputs 1 only when all inputs are 1; 1 · 0 = 0."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the decimal equivalent of binary number 1112?",
+    "options": ["5", "7", "6", "8"],
+    "answer": 1,
+    "explanation": "4 + 2 + 1 = 7."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the momentum p of a photon of wavelength λ?",
+    "options": ["p = h / λ", "p = m v", "p = h λ", "p = λ / h"],
+    "answer": 0,
+    "explanation": "Photon momentum is p = h / λ."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In the photoelectric effect, increasing the intensity of monochromatic light above threshold frequency increases:",
+    "options": [
+      "Work function of the metal",
+      "Maximum kinetic energy of each photoelectron",
+      "Number of photoelectrons emitted per second (photoelectric current)",
+      "Photon frequency"
+    ],
+    "answer": 2,
+    "explanation": "Higher intensity at fixed frequency increases photon flux and photocurrent."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In special relativity, as an object's speed v approaches speed of light c, its relativistic kinetic energy:",
+    "options": [
+      "Approaches zero",
+      "Remains equal to m c²",
+      "Becomes negative",
+      "Increases without bound (approaches ∞)"
+    ],
+    "answer": 3,
+    "explanation": "Relativistic kinetic energy diverges as v → c."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the energy of the n = 3 state of a hydrogen atom in Bohr's model?",
+    "options": ["+1.51 eV", "−13.6 eV", "−13.6 / 9 ≈ −1.51 eV", "−3.4 eV"],
+    "answer": 2,
+    "explanation": "E₃ = −13.6 / 9 ≈ −1.51 eV."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "In the hydrogen spectrum, transitions terminating on n = 3 form which series?",
+    "options": ["Paschen series", "Brackett series", "Lyman series", "Balmer series"],
+    "answer": 0,
+    "explanation": "Transitions ending on n = 3 form the Paschen series."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "After 4 half-lives, what fraction of original radioactive nuclei remains undecayed?",
+    "options": ["1 / 8", "1 / 16", "1 / 32", "1 / 4"],
+    "answer": 1,
+    "explanation": "After 4 half-lives, undecayed fraction is (1/2)4 = 1 / 16."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which radioactive emission carries no electric charge and zero rest mass?",
+    "options": [
+      "Beta-minus (β−) electron",
+      "Gamma (γ) ray (photon)",
+      "Alpha (α) particle",
+      "Proton"
+    ],
+    "answer": 1,
+    "explanation": "Gamma rays are high-energy uncharged massless photons."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which nuclear process splits a heavy nucleus (such as Uranium-235) into lighter nuclei?",
+    "options": [
+      "Pair annihilation",
+      "Stimulated emission",
+      "Nuclear fusion",
+      "Nuclear fission"
+    ],
+    "answer": 3,
+    "explanation": "Splitting a heavy nucleus is nuclear fission."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Nuclei having the same neutron number (N = A − Z) but different mass numbers are called:",
+    "options": ["Isotones", "Isobars", "Isotopes", "Isomers"],
+    "answer": 0,
+    "explanation": "Equal neutron number N defines isotones."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the electric charge of an up quark (u) in units of elementary charge e?",
+    "options": ["+1 e", "−1/3 e", "0", "+2/3 e"],
+    "answer": 3,
+    "explanation": "An up quark has charge +2/3 e."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the electric charge of a down quark (d) in units of elementary charge e?",
+    "options": ["+1/3 e", "−1/3 e", "−1 e", "+2/3 e"],
+    "answer": 1,
+    "explanation": "A down quark has charge −1/3 e."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What process produces coherent light amplification in a laser?",
+    "options": [
+      "Adiabatic compression",
+      "Spontaneous thermal conduction",
+      "Stimulated emission of radiation",
+      "Electrostatic induction"
+    ],
+    "answer": 2,
+    "explanation": "Lasers operate via stimulated emission."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "How many fundamental interactions are recognized in standard particle physics?",
+    "options": [
+      "Six",
+      "Three",
+      "Four (strong, electromagnetic, weak, gravitational)",
+      "Two (electric and magnetic)"
+    ],
+    "answer": 2,
+    "explanation": "There are four fundamental interactions. English Detailed Solutions (Q.161 – Q.200)"
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to DILIGENT:",
+    "options": ["Lazy", "Slothful", "Negligent", "Industrious"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Diligent means hardworking; industrious matches."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to AMICABLE:",
+    "options": ["Bitter", "Quarrelsome", "Friendly", "Hostile"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 2,
+    "explanation": "Amicable means characterized by friendliness; friendly matches."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to FERRUGINOUS (or LUGUBRIOUS):",
+    "options": ["Cheerful", "Mournful", "Elated", "Joyous"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Lugubrious means looking or sounding sad and dismal; mournful matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to ADEPT:",
+    "options": ["Inept", "Clumsy", "Awkward", "Skilled"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Adept means very skilled or proficient; skilled matches."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to DISSEMINATE:",
+    "options": ["Withhold", "Conceal", "Suppress", "Disperse"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Disseminate means to spread widely; disperse matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to FRUGAL:",
+    "options": ["Lavish", "Extravagant", "Wasteful", "Economical"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Frugal means sparing or economical with money/resources; economical matches."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to BOLSTER:",
+    "options": ["Weaken", "Strengthen", "Sabotage", "Undermine"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Bolster means to support or strengthen; strengthen matches."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to INNOVATIVE:",
+    "options": ["Inventive", "Conventional", "Stagnant", "Imitative"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 0,
+    "explanation": "Innovative means introducing new ideas or methods; inventive matches."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Much Difficult",
+    "prompt": "Choose the word most nearly similar in meaning to TURBULENT:",
+    "options": ["Serene", "Tumultuous", "Placid", "Tranquil"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Turbulent means characterized by conflict, disorder, or confusion; tumultuous matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to VIGILANT:",
+    "options": ["Inattentive", "Careless", "Watchful", "Unaware"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 2,
+    "explanation": "Vigilant means keeping careful watch for possible danger/difficulties; watchful matches."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to ADVERSITY:",
+    "options": ["Blessing", "Hardship", "Prosperity", "Fortune"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Adversity means difficulties or misfortune; hardship matches."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to AUSTERE:",
+    "options": ["Ornate", "Indulgent", "Severe", "Luxurious"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 2,
+    "explanation": "Austere means severe or strict in manner or attitude; severe matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to RECALCITRANT:",
+    "options": ["Docile", "Defiant", "Obedient", "Compliant"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Recalcitrant means having an obstinately uncooperative attitude; defiant matches."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to CONCUR:",
+    "options": ["Disagree", "Dissent", "Oppose", "Agree"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Concur means to be of the same opinion; agree matches."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to EXEMPLARY:",
+    "options": ["Deplorable", "Reprehensible", "Commendable", "Blameworthy"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 2,
+    "explanation": "Exemplary means serving as a desirable model; commendable matches."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to ANCIENT:",
+    "options": ["Modern", "Primeval", "Archaic", "Antique"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 0,
+    "explanation": "Antonym of ancient is modern."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to AMBIGUOUS:",
+    "options": ["Obscure", "Clear", "Equivocal", "Vague"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Antonym of ambiguous is clear."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to BENEVOLENT:",
+    "options": ["Kind", "Humane", "Generous", "Malevolent"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Antonym of benevolent is malevolent."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to ACCELERATE:",
+    "options": ["Quickening", "Hasten", "Decelerate", "Expedite"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 2,
+    "explanation": "Antonym of accelerate is decelerate."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to PROSPERITY:",
+    "options": ["Affluence", "Success", "Abundance", "Adversity"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Antonym of prosperity is adversity."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — SCALE : WEIGHT ::",
+    "options": [
+      "Sundial : Mass",
+      "Caliper : Length",
+      "Ammeter : Density",
+      "Barometer : Voltage"
+    ],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Measuring tool-to-quantity: a scale measures weight, as a caliper measures length."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — POLLUTION : CONTAMINATION ::",
+    "options": [
+      "Filtration : Purification",
+      "Freezing : Boiling",
+      "Drought : Rain",
+      "Friction : Lubrication"
+    ],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 0,
+    "explanation": "Process-to-result: pollution causes contamination, as filtration produces purification."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — AUTHOR : MANUSCRIPT ::",
+    "options": [
+      "Sculptor : Statue",
+      "Chemist : Beaker",
+      "Surgeon : Scalpel",
+      "Judge : Gavel"
+    ],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 0,
+    "explanation": "Creator-to-created-work: an author writes a manuscript, as a sculptor shapes a statue."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — VERBOSE : LACONIC ::",
+    "options": [
+      "Clear : Lucid",
+      "Wise : Sagacious",
+      "Swift : Fast",
+      "Fragile : Resilient"
+    ],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Contrasting pairs: verbose contrasts with laconic, as fragile contrasts with resilient."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — FUSE : OVERLOAD ::",
+    "options": [
+      "Battery : Discharge",
+      "Resistor : Voltage",
+      "Mirror : Reflection",
+      "Relief valve : Overpressure"
+    ],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Safety device-to-hazard: a fuse protects against overload, as a relief valve protects against overpressure."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The number of applicants for engineering seats ______ risen steadily this year.",
+    "options": ["have", "are", "were", "has"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "The number of takes singular verb has."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Rarely ______ a single formula capture such broad physical behavior.",
+    "options": ["do", "does", "has", "is"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Negative adverb Rarely triggers inversion: does."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The results are consistent ______ theoretical predictions.",
+    "options": ["at", "with", "to", "for"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Standard preposition collocation: consistent with."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Had the engineer checked the torque spec, the bolt ______ snapped.",
+    "options": ["would not", "would not have", "will not", "does not"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Third conditional uses would not have + past participle."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Because the prototype was ______, it underwent further wind-tunnel testing.",
+    "options": ["final", "redundant", "obsolete", "preliminary"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Early-stage testing fits a preliminary prototype."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "Either the capacitor or the inductor is faulty.",
+      "Either the capacitor or the inductor be faulty.",
+      "Either the capacitor or the inductor are faulty.",
+      "Either the capacitor or the inductor were faulty."
+    ],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 0,
+    "explanation": "Either ... or with singular nouns takes singular verb is."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "The safety board recommends that every valve ______ inspected monthly.",
+    "options": ["is", "be", "was", "being"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Subjunctive after recommends that uses base form be."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Privilage", "Privilege", "Privelege", "Priviledge"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Privilege is spelled p-r-i-v-i-l-e-g-e."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Shielding cables helps ______ electromagnetic interference from nearby motors.",
+    "options": ["duplicate", "trigger", "generate", "attenuate"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Shielding helps attenuate (reduce) interference."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Scarcely ______ the test begun when an alarm sounded.",
+    "options": ["did", "was", "had", "has"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 2,
+    "explanation": "Scarcely triggers past-perfect inversion: had."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What guides light pulses inside the core of an optical fiber according to the passage?",
+    "options": [
+      "Direct current conduction through copper",
+      "Total internal reflection at the core-cladding boundary",
+      "Magnetic levitation",
+      "Thermal radiation"
+    ],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 1,
+    "explanation": "Sentence 1 states light is guided by total internal reflection."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What phenomenon spreads light pulses in time and limits transmission bandwidth in optical fibers?",
+    "options": ["Dispersion", "Superconductivity", "Shielding", "Rectification"],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 0,
+    "explanation": "Sentence 3 defines dispersion as pulse spreading in time that limits bandwidth."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Why are optical fibers immune to electromagnetic interference compared with copper conductors?",
+    "options": [
+      "They have zero refractive index",
+      "They operate at absolute zero",
+      "They guide light pulses rather than carrying copper electrical currents",
+      "They emit no light"
+    ],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 2,
+    "explanation": "Sentence 2 notes optical fibers carry light pulses rather than copper electrical currents."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "How does the refractive index of the cladding compare with that of the core?",
+    "options": [
+      "Equal to zero",
+      "Identical to vacuum",
+      "Much higher refractive index than the core",
+      "Slightly lower refractive index than the core"
+    ],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 3,
+    "explanation": "Sentence 1 states the cladding has a slightly lower refractive index than the core."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "What approaches are mentioned to address dispersion in modern telecommunications?",
+    "options": [
+      "Thicker copper coaxial cables",
+      "Lowering core purity",
+      "Single-mode fibers and dispersion- compensation techniques",
+      "Eliminating cladding"
+    ],
+    "context": "Optical fibers transmit data over long distances as pulses of light guided by total internal reflection inside a high-purity glass or polymer core surrounded by a cladding of slightly lower refractive index. Because light propagates via dielectric waveguiding rather than copper electrical currents, optical fibers are immune to electromagnetic interference and experience lower attenuation per kilometer than coaxial cables. Dispersion—the spreading of light pulses in time—limits transmission bandwidth and bit rate, motivating single-mode fibers and dispersion-compensation techniques in modern telecommunications.",
+    "answer": 2,
+    "explanation": "Sentence 3 cites single-mode fibers and dispersion-compensation techniques."
+  }
+]

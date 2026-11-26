@@ -1,0 +1,2032 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the center of the circle x² + y² − 8x + 6y − 11 = 0?",
+    "options": ["(−8, 6)", "(−4, 3)", "(4, −3)", "(8, −6)"],
+    "answer": 2,
+    "explanation": "g = −4, f = 3 ⇒ center (−g, −f) = (4, −3)."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the radius of the circle x² + y² − 8x + 6y − 11 = 0:",
+    "options": ["6 units", "√14 units", "5 units", "36 units"],
+    "answer": 0,
+    "explanation": "r = √(16 + 9 + 11) = √36 = 6 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Two circles of radii 9 cm and 4 cm touch each other internally. What is the distance between their centers?",
+    "options": ["5 cm", "13 cm", "6.5 cm", "36 cm"],
+    "answer": 0,
+    "explanation": "Internal tangency center distance is |r₁ − r₂| = |9 − 4| = 5 cm."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Where does the point (4, 3) lie with respect to the circle x² + y² = 25?",
+    "options": [
+      "Inside the circle",
+      "On the circle",
+      "At the center",
+      "Outside the circle"
+    ],
+    "answer": 1,
+    "explanation": "42 + 32 = 25, so (4, 3) lies on the circle."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the equation of the circle with center (2, −5) and radius 4?",
+    "options": [
+      "(x − 2)2 + (y + 5)2 = 16",
+      "(x + 2)2 + (y − 5)2 = 16",
+      "x² + y² − 4x + 10y + 13 = 0",
+      "(x − 2)2 + (y + 5)2 = 4"
+    ],
+    "answer": 0,
+    "explanation": "(x − 2)2 + (y + 5)2 = 42 = 16."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the focus of the standard parabola y² = 12x?",
+    "options": ["(−3, 0)", "(12, 0)", "(0, 3)", "(3, 0)"],
+    "answer": 3,
+    "explanation": "4a = 12 ⇒ a = 3; focus of y² = 12x is (3, 0)."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the directrix of the parabola y² = −20x:",
+    "options": ["y = −5", "y = 5", "x = 5", "x = −5"],
+    "answer": 2,
+    "explanation": "4a = 20 ⇒ a = 5; directrix of y² = −20x is x = 5."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the latus rectum of the parabola x² = 32y?",
+    "options": ["64 units", "32 units", "8 units", "16 units"],
+    "answer": 1,
+    "explanation": "Latus rectum length of x² = 32y is |4a| = 32 units."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the vertex of the parabola (y + 4)2 = −12(x − 1)?",
+    "options": ["(1, −4)", "(−4, 1)", "(−1, 4)", "(4, −1)"],
+    "answer": 0,
+    "explanation": "Comparing (y − k)2 = 4a(x − h) gives vertex (1, −4)."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the axis of symmetry of the parabola x² = 16y?",
+    "options": ["Line y = −4", "y-axis (x = 0)", "x-axis (y = 0)", "Line y = x"],
+    "answer": 1,
+    "explanation": "x² = 16y is symmetric about the y-axis (x = 0)."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the major axis of the ellipse (x² / 36) + (y² / 16) = 1?",
+    "options": ["8 units", "6 units", "36 units", "12 units"],
+    "answer": 3,
+    "explanation": "a = 6, so major axis length is 2a = 12 units."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the ellipse (x² / 100) + (y² / 64) = 1:",
+    "options": ["5 / 3", "3 / 5", "4 / 5", "6 / 10"],
+    "answer": 1,
+    "explanation": "e = √(1 − 64/100) = √(36/100) = 6/10 = 3 / 5."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the ellipse (x² / 25) + (y² / 9) = 1:",
+    "options": ["(±4, 0)", "(±5, 0)", "(0, ±4)", "(±3, 0)"],
+    "answer": 0,
+    "explanation": "c = √(25 − 9) = 4; foci on major x-axis are (±4, 0)."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the ellipse (x² / 25) + (y² / 9) = 1?",
+    "options": ["6 / 5 units", "9 / 5 units", "18 / 5 units", "10 units"],
+    "answer": 2,
+    "explanation": "Latus rectum length = 2b² / a = 2(9) / 5 = 18 / 5 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For any ellipse, what is the sum of focal distances from any point P on the ellipse to its two foci?",
+    "options": [
+      "Equal to latus rectum",
+      "Equal to length of major axis (2a)",
+      "Equal to focal separation (2c)",
+      "Equal to length of minor axis (2b)"
+    ],
+    "answer": 1,
+    "explanation": "Sum of focal radii on an ellipse is constant and equals 2a."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the transverse axis of the hyperbola (y² / 25) − (x² / 144) = 1?",
+    "options": ["5 units", "10 units", "24 units", "12 units"],
+    "answer": 1,
+    "explanation": "a = 5, so transverse axis length is 2a = 10 units."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the hyperbola (x² / 16) − (y² / 9) = 1:",
+    "options": ["5 / 3", "4 / 5", "3 / 4", "5 / 4"],
+    "answer": 3,
+    "explanation": "e = √(1 + 9/16) = √(25/16) = 5 / 4."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the hyperbola (x² / 9) − (y² / 16) = 1:",
+    "options": ["(0, ±5)", "(±5, 0)", "(±3, 0)", "(±4, 0)"],
+    "answer": 1,
+    "explanation": "c = √(9 + 16) = 5; foci on x-axis are (±5, 0)."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What are the equations of the asymptotes of the hyperbola (x² / 9) − (y² / 25) = 1?",
+    "options": [
+      "y = ±(5 / 4) x",
+      "y = ±(25 / 9) x",
+      "y = ±(5 / 3) x",
+      "y = ±(3 / 5) x"
+    ],
+    "answer": 2,
+    "explanation": "Asymptotes of (x²/9) − (y²/25) = 1 are y = ±(5/3)x."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Identify the conic represented by 4x² − 9y² = 36:",
+    "options": ["Circle", "Ellipse", "Hyperbola", "Parabola"],
+    "answer": 2,
+    "explanation": "Dividing by 36 gives (x²/9) − (y²/4) = 1, a hyperbola."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the eccentricity e of a rectangular hyperbola (a = b)?",
+    "options": ["1 / √2", "1", "2", "√2"],
+    "answer": 3,
+    "explanation": "With a = b, e = √(1 + 1) = √2."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the length of the latus rectum of the hyperbola (x² / 4) − (y² / 9) = 1?",
+    "options": ["18 / 2 units (Wait: 2(9)/2 = 9)", "6 units", "4 units", "9 units"],
+    "answer": 3,
+    "explanation": "Latus rectum length = 2b² / a = 2(9) / 2 = 9 units."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the distance between points (1, 2) and (4, 6)?",
+    "options": ["7 units", "√5 units", "5 units", "25 units"],
+    "answer": 2,
+    "explanation": "d = √(9 + 16) = √25 = 5 units."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the slope m of the line 4x + 5y − 10 = 0:",
+    "options": ["5 / 4", "−4 / 5", "−5 / 4", "4 / 5"],
+    "answer": 1,
+    "explanation": "Writing y = (−4/5)x + 2 gives slope m = −4 / 5."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the y-intercept of the line 2x − 5y = 10?",
+    "options": ["−2", "2", "5", "−5"],
+    "answer": 0,
+    "explanation": "Setting x = 0 gives −5y = 10 ⇒ y = −2."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the midpoint of the segment joining (3, −5) and (7, 9):",
+    "options": ["(5, 2)", "(2, 7)", "(10, 4)", "(4, 7)"],
+    "answer": 0,
+    "explanation": "Midpoint = ((3 + 7)/2, (−5 + 9)/2) = (5, 2)."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the perpendicular distance from point (3, 1) to the line 4x + 3y − 25 = 0:",
+    "options": [
+      "3 units",
+      "10 / 5 = 2 (Wait: |12+3-25|/5 = 10/5 = 2)",
+      "5 units",
+      "2 units"
+    ],
+    "answer": 3,
+    "explanation": "d = |4(3) + 3(1) − 25| / 5 = |−10| / 5 = 2 units."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the slope of any line parallel to 3x − 7y + 4 = 0?",
+    "options": ["−7 / 3", "7 / 3", "3 / 7", "−3 / 7"],
+    "answer": 2,
+    "explanation": "Parallel lines share equal slope m = 3 / 7."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of vector a = 5i − 12j?",
+    "options": ["17", "7", "169", "13"],
+    "answer": 3,
+    "explanation": "|a| = √(25 + 144) = √169 = 13."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the dot product a · b for a = 3i − 2j + 4k and b = 2i + 5j + k:",
+    "options": ["−12", "10", "20", "0"],
+    "answer": 3,
+    "explanation": "a · b = 3(2) + (−2)(5) + 4(1) = 6 − 10 + 4 = 0."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the cross product k × i of standard unit basis vectors?",
+    "options": ["−j", "k", "0", "j"],
+    "answer": 3,
+    "explanation": "Cyclic right-hand cross product: k × i = j."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For what value of m are u = 4i + mj − 3k and v = 3i − 2j + 2k perpendicular?",
+    "options": ["m = 3", "m = 6", "m = −3", "m = −6"],
+    "answer": 0,
+    "explanation": "4(3) + m(−2) + (−3)(2) = 0 ⇒ 12 − 2m − 6 = 0 ⇒ m = 3."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the area of a parallelogram with adjacent side vectors a and b?",
+    "options": ["|a · b|", "(1/2) |a · b|", "|a × b|", "(1/2) |a × b|"],
+    "answer": 2,
+    "explanation": "Parallelogram area spanned by a and b is |a × b|."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is a normal vector to the plane 6x + 3y − 2z = 14?",
+    "options": ["6i − 3j + 2k", "14k", "6i + 3j − 2k", "3i + 6j − 2k"],
+    "answer": 2,
+    "explanation": "Normal vector from 6x + 3y − 2z = 14 is 6i + 3j − 2k."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance from the origin (0, 0, 0) to the plane 3x + 4y − 12z + 26 = 0?",
+    "options": ["26 units", "26 / 5 units", "2 units", "13 / 2 units"],
+    "answer": 2,
+    "explanation": "d = |26| / √(9 + 16 + 144) = 26 / 13 = 2 units."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the line through (0, −4) with slope m = 3:",
+    "options": ["y = 3x + 4", "y = 4x − 3", "y = 3x − 4", "y = −3x − 4"],
+    "answer": 2,
+    "explanation": "Slope-intercept form: y = 3x − 4."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between points (2, 3, 6) and (0, 0, 0) in 3D space?",
+    "options": ["√11 units", "11 units", "49 units", "7 units"],
+    "answer": 3,
+    "explanation": "Distance = √(4 + 9 + 36) = √49 = 7 units."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the dot product k · k for unit basis vector k?",
+    "options": ["1", "k", "0", "−1"],
+    "answer": 0,
+    "explanation": "k · k = |k|2 = 1."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the point dividing the segment from (2, 1) to (8, 7) in the ratio 1 : 2 internally:",
+    "options": ["(5, 4)", "(3, 2)", "(4, 3)", "(6, 5)"],
+    "answer": 2,
+    "explanation": "Ratio 1:2 gives ((2(2)+1(8))/3, (2(1)+1(7))/3) = (4, 3)."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If two non-zero vectors a and b are parallel in the same direction, what is their cross product a × b?",
+    "options": ["|a| |b|", "Zero vector (0)", "1", "a · b"],
+    "answer": 1,
+    "explanation": "Parallel vectors have sin 0° = 0, so a × b = 0."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the unit vector in the direction of v = −8i + 6j?",
+    "options": ["(4/5)i − (3/5)j", "−(8/6)i + j", "−(4/5)i + (3/5)j", "−8i + 6j"],
+    "answer": 2,
+    "explanation": "|v| = 10; unit vector is −(4/5)i + (3/5)j."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the scalar projection of vector a onto non-zero vector b?",
+    "options": ["(a · b) / |a|", "(a × b) · b", "|a × b| / |b|", "(a · b) / |b|"],
+    "answer": 3,
+    "explanation": "Scalar projection of a onto b is (a · b) / |b|."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Convert 240° into radians:",
+    "options": ["3π / 4 radians", "5π / 6 radians", "4π / 3 radians", "2π / 3 radians"],
+    "answer": 2,
+    "explanation": "240° × (π / 180°) = 4π / 3 radians."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the exact value of cos 36°?",
+    "options": ["(√5 + 1) / 4", "(√3 + 1) / 4", "1 / 4", "(√5 − 1) / 4"],
+    "answer": 0,
+    "explanation": "Standard exact value: cos 36° = (√5 + 1) / 4."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the fundamental period of f(x) = cos(6x)?",
+    "options": ["π / 3", "6π", "π / 6", "2π"],
+    "answer": 0,
+    "explanation": "Period of cos(6x) is 2π / 6 = π / 3."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the maximum value of 5 sin θ + 12 cos θ?",
+    "options": ["13", "7", "17", "−13"],
+    "answer": 0,
+    "explanation": "Maximum of 5 sin θ + 12 cos θ is √(25 + 144) = 13."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express cos 2θ in terms of sin θ:",
+    "options": ["2 sin² θ − 1", "1 + 2 sin² θ", "2 sin θ cos θ", "1 − 2 sin² θ"],
+    "answer": 3,
+    "explanation": "Double-angle cosine identity: cos 2θ = 1 − 2 sin² θ."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In any triangle ABC, state the Law of Cosines for side a:",
+    "options": [
+      "a² = b² + c² − 2bc cos A",
+      "a² = b² − c²",
+      "a² = b² + c² + 2bc cos A",
+      "a = b cos C + c cos B"
+    ],
+    "answer": 0,
+    "explanation": "Law of Cosines: a² = b² + c² − 2bc cos A."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the formula for circumradius (R) of triangle ABC with area Δ?",
+    "options": ["R = 4Δ / (a b c)", "R = s / Δ", "R = a b c / (4Δ)", "R = Δ / s"],
+    "answer": 2,
+    "explanation": "Circumradius formula: R = a b c / (4Δ)."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the area Δ of triangle ABC in terms of sides b, c and included angle A?",
+    "options": ["(1/2) a b sin C", "(1/2) b c cos A", "(1/2) b c sin A", "b c sin A"],
+    "answer": 2,
+    "explanation": "Area formula: Δ = (1/2) b c sin A."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: tan−1(1/2) + tan−1(1/3)",
+    "options": ["π / 6", "π / 4", "π / 3", "π / 2"],
+    "answer": 1,
+    "explanation": "tan−1((1/2 + 1/3) / (1 − 1/6)) = tan−1((5/6)/(5/6)) = tan−1(1) = π / 4."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the general solution of cos θ = 0?",
+    "options": [
+      "θ = (2n + 1)(π / 2), n ∈ ℤ",
+      "θ = nπ ± π/4, n ∈ ℤ",
+      "θ = nπ, n ∈ ℤ",
+      "θ = 2nπ, n ∈ ℤ"
+    ],
+    "answer": 0,
+    "explanation": "cos θ = 0 at θ = (2n + 1)(π / 2), n ∈ ℤ."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the exact value of cos 75°?",
+    "options": ["(√3 + 1) / 2", "(√6 + √2) / 4", "1 / 2", "(√6 − √2) / 4"],
+    "answer": 3,
+    "explanation": "cos(45° + 30°) = (√6 − √2) / 4."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate cos(sin−1(5 / 13)):",
+    "options": ["12 / 5", "12 / 13", "5 / 12", "5 / 13"],
+    "answer": 1,
+    "explanation": "With sin θ = 5/13, cos θ = √(1 − 25/169) = 12 / 13."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the Pythagorean identity linking sec θ and tan θ?",
+    "options": [
+      "sec θ tan θ = 1",
+      "sec² θ − tan² θ = 1",
+      "tan² θ − sec² θ = 1",
+      "sec² θ + tan² θ = 1"
+    ],
+    "answer": 1,
+    "explanation": "Identity: sec² θ − tan² θ = 1."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express 2 cos A cos B as a sum/difference of cosines:",
+    "options": [
+      "sin(A + B) − sin(A − B)",
+      "cos(A + B) + cos(A − B)",
+      "cos(A − B) − cos(A + B)",
+      "sin(A + B) + sin(A − B)"
+    ],
+    "answer": 1,
+    "explanation": "Product-to-sum identity: 2 cos A cos B = cos(A + B) + cos(A − B)."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the definition of cosh x in terms of exponentials?",
+    "options": [
+      "eˣ + e−x",
+      "(eˣ + e−x) / 2",
+      "(eˣ + e−x) / (eˣ − e−x)",
+      "(eˣ − e−x) / 2"
+    ],
+    "answer": 1,
+    "explanation": "Hyperbolic cosine definition: cosh x = (eˣ + e−x) / 2."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the principal range of cos−1 x?",
+    "options": ["[−1, 1]", "(0, π)", "[0, π]", "[−π / 2, π / 2]"],
+    "answer": 2,
+    "explanation": "Principal range of cos−1 x is [0, π]."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Express sin 3θ in terms of sin θ:",
+    "options": [
+      "4 cos³ θ − 3 cos θ",
+      "4 sin³ θ − 3 sin θ",
+      "3 sin θ − 4 sin³ θ",
+      "3 sin θ + 4 sin³ θ"
+    ],
+    "answer": 2,
+    "explanation": "Triple-angle sine formula: sin 3θ = 3 sin θ − 4 sin³ θ."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with a = 6, b = 8, c = 10, what is its area Δ?",
+    "options": ["48 sq. units", "20 sq. units", "24 sq. units", "30 sq. units"],
+    "answer": 2,
+    "explanation": "Right triangle 6–8–10 has area (1/2)(6)(8) = 24 sq. units."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of tan θ = 1?",
+    "options": [
+      "θ = nπ + π / 3, n ∈ ℤ",
+      "θ = nπ + π / 6, n ∈ ℤ",
+      "θ = nπ + π / 4, n ∈ ℤ",
+      "θ = 2nπ ± π / 4, n ∈ ℤ"
+    ],
+    "answer": 2,
+    "explanation": "tan(π/4) = 1, giving θ = nπ + π / 4, n ∈ ℤ."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the minimum value of cos x for all x ∈ ℝ?",
+    "options": ["−π", "−1", "1", "0"],
+    "answer": 1,
+    "explanation": "Minimum value of cos x is −1."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = sin−1 x with respect to x?",
+    "options": ["1 / √(1 − x²)", "−1 / √(1 − x²)", "1 / (1 + x²)", "cos−1 x"],
+    "answer": 0,
+    "explanation": "d/dx (sin−1 x) = 1 / √(1 − x²)."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Differentiate y = ln(cos x) with respect to x:",
+    "options": ["−cot x", "−tan x", "sec x", "tan x"],
+    "answer": 1,
+    "explanation": "Chain rule gives (−sin x) / cos x = −tan x."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find dy / dx for x = a cos θ, y = a sin θ (sin θ ≠ 0):",
+    "options": ["−tan θ", "−cot θ", "tan θ", "cot θ"],
+    "answer": 1,
+    "explanation": "dy / dx = (a cos θ) / (−a sin θ) = −cot θ."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: limx → 0 ((sin(5x)) / x)",
+    "options": ["1 / 5", "1", "0", "5"],
+    "answer": 3,
+    "explanation": "limx → 0 ((sin 5x)/(5x)) × 5 = 1 × 5 = 5."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the critical point of f(x) = x² − 8x + 12:",
+    "options": ["x = 8", "x = 4", "x = 2 and x = 6", "x = −4"],
+    "answer": 1,
+    "explanation": "f'(x) = 2x − 8 = 0 ⇒ x = 4."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the Maclaurin series expansion of sin x?",
+    "options": [
+      "1 + x + x²/2! + …",
+      "x − x³/3! + x⁵/5! − x⁷/7! + …",
+      "1 − x²/2! + x⁴/4! − …",
+      "x + x³/3! + x⁵/5! + …"
+    ],
+    "answer": 1,
+    "explanation": "Maclaurin series of sin x is x − x³/3! + x⁵/5! − x⁷/7! + …."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Differentiate y = ax (a > 0) with respect to x:",
+    "options": ["ax", "ax ln a", "ax / ln a", "x ax − 1"],
+    "answer": 1,
+    "explanation": "d/dx (ax) = ax ln a."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the second derivative d2y / dx2 of y = cos(3x):",
+    "options": ["−9 cos(3x)", "3 sin(3x)", "−3 sin(3x)", "9 cos(3x)"],
+    "answer": 0,
+    "explanation": "First derivative is −3 sin(3x); second derivative is −9 cos(3x)."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = cosh x with respect to x?",
+    "options": ["sinh x", "cosh x", "−sinh x", "tanh x"],
+    "answer": 0,
+    "explanation": "d/dx (cosh x) = sinh x."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the tangent line to y = x³ at x = 2:",
+    "options": ["12", "8", "4", "6"],
+    "answer": 0,
+    "explanation": "y'(2) = 3(2)2 = 12."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate: ∫ sec² x dx",
+    "options": ["tan x + C", "−tan x + C", "cot x + C", "sec x + C"],
+    "answer": 0,
+    "explanation": "∫ sec² x dx = tan x + C."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ cos(4x) dx",
+    "options": [
+      "−(1 / 4) sin(4x) + C",
+      "sin(4x) + C",
+      "(1 / 4) sin(4x) + C",
+      "4 sin(4x) + C"
+    ],
+    "answer": 2,
+    "explanation": "∫ cos(4x) dx = (1 / 4) sin(4x) + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / √(1 − x²)]",
+    "options": ["ln(1 − x²) + C", "tan−1 x + C", "sec−1 x + C", "sin−1 x + C"],
+    "answer": 3,
+    "explanation": "∫ dx / √(1 − x²) = sin−1 x + C."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫0 π/2 cos² x dx",
+    "options": ["0", "1 / 2", "π / 2", "π / 4"],
+    "answer": 3,
+    "explanation": "∫0 π/2 [(1 + cos 2x)/2] dx = π / 4."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀³ 4x dx",
+    "options": ["9", "12", "36", "18"],
+    "answer": 3,
+    "explanation": "[2x²]₀³ = 2(9) − 0 = 18."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / (x + 5)]",
+    "options": ["−1 / (x + 5)2 + C", "ln|x + 5| + C", "eˣ + 5 + C", "tan−1(x + 5) + C"],
+    "answer": 1,
+    "explanation": "∫ dx / (x + 5) = ln|x + 5| + C."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫−4 4 sin³ x dx",
+    "options": ["2", "8", "0", "−8"],
+    "answer": 2,
+    "explanation": "sin³ x is odd over symmetric [−4, 4], so integral = 0."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ eˣ (cos x − sin x) dx",
+    "options": [
+      "−eˣ sin x + C",
+      "eˣ sin x + C",
+      "eˣ cos x + C",
+      "eˣ (cos x + sin x) + C"
+    ],
+    "answer": 2,
+    "explanation": "d/dx (eˣ cos x) = eˣ (cos x − sin x)."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the order of the differential equation (d3y / dx3)2 + 7(d2y / dx2)4 + dy / dx = 0?",
+    "options": ["Order 4", "Order 2", "Order 3", "Order 1"],
+    "answer": 2,
+    "explanation": "Highest derivative order present is 3 (d3y/dx3)."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫0 π/2 sin x dx",
+    "options": ["−1", "0", "1", "2"],
+    "answer": 2,
+    "explanation": "[−cos x]0 π/2 = 0 − (−1) = 1."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "A single fair die is rolled once. What is the probability of rolling an even number?",
+    "options": ["2 / 3", "1 / 6", "1 / 2", "1 / 3"],
+    "answer": 2,
+    "explanation": "Even faces {2, 4, 6} give 3 / 6 = 1 / 2."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many combinations of 2 items can be chosen from 6 distinct items?",
+    "options": ["12", "15", "30", "20"],
+    "answer": 1,
+    "explanation": "6C² = (6 × 5) / 2 = 15."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of 4! (four factorial)?",
+    "options": ["12", "120", "24", "4"],
+    "answer": 2,
+    "explanation": "4! = 4 × 3 × 2 × 1 = 24."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "A bag contains 5 green and 3 yellow balls. One ball is drawn at random. What is P(yellow)?",
+    "options": ["1 / 2", "3 / 8", "3 / 5", "5 / 8"],
+    "answer": 1,
+    "explanation": "P(yellow) = 3 / (5 + 3) = 3 / 8."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many terms are in the binomial expansion of (a + b)8?",
+    "options": ["9 terms", "8 terms", "7 terms", "16 terms"],
+    "answer": 0,
+    "explanation": "Expansion of (a + b)8 has 8 + 1 = 9 terms."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In how many distinct ways can the letters of the word STAT be arranged?",
+    "options": ["24", "6", "12", "4"],
+    "answer": 2,
+    "explanation": "4! / 2! = 24 / 2 = 12 (two T's)."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the arithmetic mean of {5, 10, 15, 20, 25}?",
+    "options": ["12.5", "20", "15", "75"],
+    "answer": 2,
+    "explanation": "Mean = 75 / 5 = 15."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If a constant c = 7 is added to every value in a dataset, how does standard deviation σ change?",
+    "options": ["Increased by 49", "Multiplied by 7", "Unchanged", "Increased by 7"],
+    "answer": 2,
+    "explanation": "Shifting every observation by a constant leaves dispersion (σ) unchanged."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the median of the ordered dataset {2, 6, 8, 14}?",
+    "options": ["7", "7.5", "8", "6"],
+    "answer": 0,
+    "explanation": "Average of middle two values (6 + 8)/2 = 7."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For two independent events A and B with P(A) = 0.4 and P(B) = 0.5, what is P(A ∩ B)?",
+    "options": ["0.20", "0.10", "0.70", "0.90"],
+    "answer": 0,
+    "explanation": "For independent events, P(A ∩ B) = 0.4 × 0.5 = 0.20."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the probability of an impossible event?",
+    "options": ["0", "−1", "1 / 2", "1"],
+    "answer": 0,
+    "explanation": "An impossible event has probability 0."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If variance of a dataset is σ2 = 36, what is its standard deviation σ?",
+    "options": ["√6", "6", "1296", "18"],
+    "answer": 1,
+    "explanation": "σ = √36 = 6."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If P(E) = 0.65, what is P(E')?",
+    "options": ["0.65", "0.35", "0.00", "1.65"],
+    "answer": 1,
+    "explanation": "P(E') = 1 − 0.65 = 0.35."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the real domain of f(x) = 1 / (x − 6)?",
+    "options": ["ℝ \\ {6}", "ℝ", "[6, ∞)", "(6, ∞)"],
+    "answer": 0,
+    "explanation": "Denominator non-zero requires x ≠ 6, i.e., ℝ \\ {6}."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If f(x) = x² + 1 and g(x) = 3x, what is (f ∘ g)(2)?",
+    "options": ["15", "13", "19", "37"],
+    "answer": 3,
+    "explanation": "f(g(2)) = f(6) = 36 + 1 = 37."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which condition defines an even function?",
+    "options": ["f(−x) = 0", "f(x) = −x", "f(−x) = f(x)", "f(−x) = −f(x)"],
+    "answer": 2,
+    "explanation": "Even functions satisfy f(−x) = f(x)."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = 3x + 8:",
+    "options": ["(x + 8) / 3", "1 / (3x + 8)", "(x − 8) / 3", "3x − 8"],
+    "answer": 2,
+    "explanation": "Solving y = 3x + 8 gives f⁻¹(x) = (x − 8) / 3."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of f(x) = x² − 5 for x ∈ ℝ?",
+    "options": ["(−5, ∞)", "ℝ", "[−5, ∞)", "[0, ∞)"],
+    "answer": 2,
+    "explanation": "Since x² ≥ 0, x² − 5 ≥ −5, giving range [−5, ∞). Physics Detailed Solutions (Q.101 – Q.160)"
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensions of work / kinetic energy?",
+    "options": ["[M L² T⁻²]", "[M L² T⁻³]", "[M L T⁻²]", "[M L T⁻¹]"],
+    "answer": 0,
+    "explanation": "Work/energy dimensions are [M L² T⁻²]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "At what launch angle is the maximum height of a projectile launched with speed v₀ greatest?",
+    "options": ["60°", "90° (vertical launch)", "30°", "45°"],
+    "answer": 1,
+    "explanation": "H = v₀ 2 sin² θ / (2g) is greatest at θ = 90°."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What does the slope of a position-time (x–t) graph represent?",
+    "options": ["Instantaneous velocity", "Kinetic energy", "Acceleration", "Force"],
+    "answer": 0,
+    "explanation": "dx / dt = instantaneous velocity."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A constant force of 24 N accelerates a 6 kg block from rest for 3 s. What is its displacement?",
+    "options": ["18 m", "36 m", "12 m", "9 m"],
+    "answer": 0,
+    "explanation": "a = 24 / 6 = 4 m/s²; s = 0.5 × 4 × 9 = 18 m."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Approximately what is the orbital speed near Earth's surface (vorb = √(g R))?",
+    "options": ["≈ 7.9 km/s", "≈ 9.8 m/s", "≈ 11.2 km/s", "≈ 1.0 km/s"],
+    "answer": 0,
+    "explanation": "Near-Earth orbital speed is vorb = √(g R) ≈ 7.9 km/s."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of linear momentum?",
+    "options": ["kg·m/s (or N·s)", "N/s", "J·s", "kg·m/s²"],
+    "answer": 0,
+    "explanation": "Momentum (p = m v) has SI unit kg·m/s."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of work and energy?",
+    "options": ["Joule (J = N·m)", "Watt (W)", "Pascal (Pa)", "Newton (N)"],
+    "answer": 0,
+    "explanation": "Work and energy have SI unit Joule (J)."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 4 kg body is raised vertically by 5 m (g = 10 m/s²). What is its gain in gravitational potential energy?",
+    "options": ["100 J", "40 J", "200 J", "20 J"],
+    "answer": 2,
+    "explanation": "PE = m g h = 4 × 10 × 5 = 200 J."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of pressure?",
+    "options": ["Joule (J)", "Pascal (Pa = N/m₂)", "Watt (W)", "Poise (P)"],
+    "answer": 1,
+    "explanation": "Pressure has SI unit Pascal (Pa)."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "According to the equation of continuity (A₁ v₁ = A₂ v²) for incompressible flow, if cross-sectional area halves, flow speed:",
+    "options": [
+      "Remains unchanged",
+      "Doubles (2v¹)",
+      "Halves (v₁/₂)",
+      "Quadruples (4v¹)"
+    ],
+    "answer": 1,
+    "explanation": "Since A v = constant, halving A doubles speed v."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the time period T of a mass m oscillating on an ideal spring of constant k?",
+    "options": ["(1 / 2π) √(k / m)", "2π √(k / m)", "2π (m / k)", "2π √(m / k)"],
+    "answer": 3,
+    "explanation": "Mass-spring oscillation period is T = 2π √(m / k)."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Where in simple harmonic motion is speed maximum?",
+    "options": [
+      "At extreme positions (x = ±x₀)",
+      "Zero everywhere",
+      "At half amplitude",
+      "At equilibrium position (x = 0)"
+    ],
+    "answer": 3,
+    "explanation": "SHM speed peaks at equilibrium x = 0."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two tuning forks of frequencies 256 Hz and 262 Hz sound together. What is the beat frequency?",
+    "options": ["3 Hz", "12 Hz", "518 Hz", "6 Hz"],
+    "answer": 3,
+    "explanation": "Beat frequency is |262 − 256| = 6 Hz."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A wave has frequency 50 Hz and wavelength 4.0 m. What is its wave speed?",
+    "options": ["12.5 m/s", "200 m/s", "0.08 m/s", "54 m/s"],
+    "answer": 1,
+    "explanation": "v = f λ = 50 × 4.0 = 200 m/s."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "When a sound source moves toward a stationary observer, the observed frequency is:",
+    "options": [
+      "Infinite",
+      "Higher than emitted frequency",
+      "Equal to emitted frequency",
+      "Lower than emitted frequency"
+    ],
+    "answer": 1,
+    "explanation": "Approaching source compresses wavefronts, raising perceived frequency."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which optical phenomenon arises from wavelength-dependent refractive index?",
+    "options": ["Polarization", "Reflection", "Dispersion", "Rectilinear propagation"],
+    "answer": 2,
+    "explanation": "Wavelength dependence of refractive index produces dispersion."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the optical power P of a lens with focal length f = +0.50 m?",
+    "options": ["+0.5 D", "+5.0 D", "+2.0 D", "−2.0 D"],
+    "answer": 2,
+    "explanation": "P = 1 / f = 1 / 0.50 = +2.0 D."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of angle (plane angle)?",
+    "options": ["Radian (rad)", "Steradian (sr)", "Degree (°)", "Hertz (Hz)"],
+    "answer": 0,
+    "explanation": "Plane angle has SI unit Radian (rad)."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State the thin-lens equation relating focal length f, object distance p, and image distance q:",
+    "options": [
+      "f = p q / (p − q)",
+      "1 / f = 1 / p − 1 / q",
+      "f = p + q",
+      "1 / f = 1 / p + 1 / q"
+    ],
+    "answer": 3,
+    "explanation": "Thin-lens relation: 1 / f = 1 / p + 1 / q."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In Young's double-slit experiment, how does fringe spacing β = λ D / d change when screen distance D is tripled?",
+    "options": ["One-third (β / 3)", "Unchanged", "Tripled (3β)", "Nine times (9β)"],
+    "answer": 2,
+    "explanation": "Since β ∝ D, tripling D triples fringe spacing."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an isochoric (constant-volume) process, work done W = P ΔV equals:",
+    "options": ["Q", "n R ΔT", "P V", "Zero"],
+    "answer": 3,
+    "explanation": "At constant volume (ΔV = 0), boundary work W = 0."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which law of thermodynamics defines entropy and states that natural processes in an isolated system increase entropy?",
+    "options": [
+      "Hooke's Law",
+      "Zeroth Law of Thermodynamics",
+      "Second Law of Thermodynamics",
+      "First Law of Thermodynamics"
+    ],
+    "answer": 2,
+    "explanation": "Entropy and irreversibility belong to the Second Law of Thermodynamics."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Convert 127 °C to Kelvin scale:",
+    "options": ["273 K", "146 K", "373 K", "400 K"],
+    "answer": 3,
+    "explanation": "127 + 273 = 400 K."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the thermal efficiency η of a Carnot engine operating between TH = 800 K and TC = 200 K?",
+    "options": ["0.75 (or 75%)", "0.25 (or 25%)", "0.50 (or 50%)", "0.60 (or 60%)"],
+    "answer": 0,
+    "explanation": "η = 1 − (200 / 800) = 0.75 = 75%."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which thermodynamic law establishes thermal equilibrium and temperature?",
+    "options": [
+      "Zeroth Law of Thermodynamics",
+      "Second Law of Thermodynamics",
+      "Boyle's Law",
+      "Third Law of Thermodynamics"
+    ],
+    "answer": 0,
+    "explanation": "The Zeroth Law defines thermal equilibrium and temperature."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of frequency?",
+    "options": ["Hertz (Hz = s⁻¹)", "Second (s)", "Radian (rad)", "Joule (J)"],
+    "answer": 0,
+    "explanation": "Frequency has SI unit Hertz (Hz)."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of angular momentum?",
+    "options": ["kg·m/s", "rad/s", "kg·m₂/s (or J·s)", "N·m"],
+    "answer": 2,
+    "explanation": "Angular momentum (L = I ω) has SI unit kg·m₂/s."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the centripetal force Fc on a body of mass m moving at speed v on a circle of radius r?",
+    "options": ["m v² / r", "m v² r", "v² / (m r)", "m v / r"],
+    "answer": 0,
+    "explanation": "Centripetal force is Fc = m v² / r."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the relation between linear speed v and angular speed ω on a circle of radius r?",
+    "options": ["v = ω / r", "v = r / ω", "v = r ω", "v = r² ω"],
+    "answer": 2,
+    "explanation": "Tangential and angular speeds satisfy v = r ω."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the angular velocity ω corresponding to frequency f = 50 Hz?",
+    "options": ["50 rad/s", "50π rad/s", "25π rad/s", "100π rad/s"],
+    "answer": 3,
+    "explanation": "ω = 2π f = 2π(50) = 100π rad/s."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electric potential / voltage?",
+    "options": ["Weber (Wb)", "Volt (V = J / C)", "Ampere (A)", "Ohm (Ω)"],
+    "answer": 1,
+    "explanation": "Electric potential has SI unit Volt (V)."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Three identical 6 μF capacitors are connected in parallel. What is their equivalent capacitance?",
+    "options": ["6 μF", "18 μF", "2 μF", "9 μF"],
+    "answer": 1,
+    "explanation": "Three equal capacitors in parallel give Ceq = 3 × 6 = 18 μF."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of capacitance?",
+    "options": ["Farad (F = C / V)", "Henry (H)", "Siemen (S)", "Tesla (T)"],
+    "answer": 0,
+    "explanation": "Capacitance has SI unit Farad (F)."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A 24 V source drives 3 A through a resistor. What is its resistance?",
+    "options": ["21 Ω", "0.125 Ω", "72 Ω", "8 Ω"],
+    "answer": 3,
+    "explanation": "R = V / I = 24 / 3 = 8 Ω."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the SI unit of magnetic flux density (magnetic field B)?",
+    "options": ["Tesla (T = Wb / m₂)", "Henry (H)", "Weber (Wb)", "Farad (F)"],
+    "answer": 0,
+    "explanation": "Magnetic flux density has SI unit Tesla (T)."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the capacitive reactance XC of a capacitor C in an AC circuit of frequency f?",
+    "options": ["2π f C", "1 / (2π f C)", "2π f L", "1 / (2π f L)"],
+    "answer": 1,
+    "explanation": "Capacitive reactance is XC = 1 / (2π f C)."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the relation between peak current I₀ and RMS current Irms for a pure sinusoidal AC wave?",
+    "options": ["Irms = √2 I₀", "Irms = I₀ / √2", "Irms = 2 I₀", "Irms = I₀ / 2"],
+    "answer": 1,
+    "explanation": "Sinusoidal RMS current is Irms = I₀ / √2."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In a purely capacitive AC circuit, how does alternating current relate in phase to alternating voltage?",
+    "options": [
+      "Current lags voltage by 90°",
+      "Current leads voltage by 90° (π / 2)",
+      "Current lags voltage by 180°",
+      "Current and voltage are in phase"
+    ],
+    "answer": 1,
+    "explanation": "In a pure capacitor, current leads voltage by 90°."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the resonant frequency f₀ of a series RLC circuit?",
+    "options": ["2π √(L", "(1 / 2π) / √(L C)", "C) 1 / √(L C)", "R / (2π L)"],
+    "answer": 1,
+    "explanation": "Resonant frequency in Hz is f₀ = (1 / 2π) / √(L C)."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In a purely resistive AC circuit, what is the phase difference between current and voltage?",
+    "options": ["90°", "45°", "180°", "0° (in phase)"],
+    "answer": 3,
+    "explanation": "In a pure resistor, current and voltage are in phase (0°)."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electric charge?",
+    "options": ["Coulomb (C = A·s)", "Volt (V)", "Ohm (Ω)", "Farad (F)"],
+    "answer": 0,
+    "explanation": "Electric charge has SI unit Coulomb (C)."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "In an ideal transformer with Np = 500 and Ns = 100 turns, if Vp = 220 V AC, what is Vs?",
+    "options": ["88 V", "220 V", "44 V", "1100 V"],
+    "answer": 2,
+    "explanation": "Vs = (100 / 500) × 220 = 44 V."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Under reverse bias, how does the depletion region width of a p-n junction diode behave?",
+    "options": [
+      "Widens (becomes thicker)",
+      "Narrows (becomes thinner)",
+      "Carries huge forward current",
+      "Vanishes completely"
+    ],
+    "answer": 0,
+    "explanation": "Reverse bias draws carriers away from junction and widens depletion width."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the closed-loop voltage gain of an ideal inverting op-amp amplifier?",
+    "options": ["1 + Rf / Rin", "−Rf / Rin", "Rf / Rin", "−1 − Rf / Rin"],
+    "answer": 1,
+    "explanation": "Ideal inverting amplifier gain is −Rf / Rin."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to De Morgan's First Theorem, (A + B )̄ is logically equal to:",
+    "options": ["A + B", "A · B", "Ā + B̄", "Ā · B̄"],
+    "answer": 3,
+    "explanation": "De Morgan's First Theorem: (A + B )̄ = Ā · B̄ ."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which logic gate outputs 1 if and only if its inputs are different?",
+    "options": ["AND gate", "NAND gate", "NOR gate", "XOR gate"],
+    "answer": 3,
+    "explanation": "Exclusive-OR (XOR) outputs 1 iff inputs differ."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the binary equivalent of decimal number 10?",
+    "options": ["10102", "11102", "10012", "11002"],
+    "answer": 0,
+    "explanation": "8 + 0 + 2 + 0 = 1010 ⇒ 10102."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the energy E of a photon of frequency f?",
+    "options": ["E = h f", "E = h / f", "E = (1/2) h f", "E = m c²"],
+    "answer": 0,
+    "explanation": "Planck-Einstein photon energy: E = h f."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In Compton scattering, what happens to the wavelength of scattered X-rays compared to incident X-rays?",
+    "options": [
+      "Becomes zero",
+      "Remains strictly unchanged",
+      "Decreases always",
+      "Increases (wavelength shift Δλ ≥ 0)"
+    ],
+    "answer": 3,
+    "explanation": "Compton scattering shifts wavelength upward (Δλ ≥ 0)."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the numerical value of speed of light c in vacuum?",
+    "options": ["≈ 1.5 × 10⁸ m/s", "≈ 3.0 × 10⁸ m/s", "≈ 3.0 × 10⁶ m/s", "≈ 332 m/s"],
+    "answer": 1,
+    "explanation": "Speed of light in vacuum is ≈ 3.0 × 10⁸ m/s."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the energy of the first excited state (n = 2) of a hydrogen atom in Bohr's model?",
+    "options": ["−1.51 eV", "−3.4 eV", "+3.4 eV", "−13.6 eV"],
+    "answer": 1,
+    "explanation": "E₂ = −13.6 / 22 = −3.4 eV."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "In the hydrogen spectrum, transitions terminating on n = 1 form which series?",
+    "options": ["Lyman series", "Paschen series", "Balmer series", "Pfund series"],
+    "answer": 0,
+    "explanation": "Transitions ending on n = 1 form the Lyman series."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "After 2 half-lives, what fraction of original radioactive nuclei remains undecayed?",
+    "options": ["1 / 2", "1 / 8", "1 / 4", "3 / 4"],
+    "answer": 2,
+    "explanation": "After 2 half-lives, undecayed fraction is (1/2)2 = 1 / 4."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the mean (average) lifetime τ of a radioactive nuclide in terms of decay constant λ?",
+    "options": ["τ = 1 / λ2", "τ = (ln 2) / λ", "τ = λ", "τ = 1 / λ"],
+    "answer": 3,
+    "explanation": "Mean lifetime is τ = 1 / λ."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the function of control rods (such as cadmium or boron) in a nuclear reactor?",
+    "options": [
+      "Emit alpha particles",
+      "Accelerate neutrons to relativistic speeds",
+      "Cool turbine steam",
+      "Absorb excess neutrons to regulate chain reaction rate"
+    ],
+    "answer": 3,
+    "explanation": "Control rods absorb excess neutrons to steady fission chain reactions."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Nuclei having the same mass number (A) but different atomic numbers Z are called:",
+    "options": ["Isotones", "Isotopes", "Allotropes", "Isobars"],
+    "answer": 3,
+    "explanation": "Same A with different Z defines isobars."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the quark composition of a neutron?",
+    "options": [
+      "Three down quarks (d d d)",
+      "One charm and two strange quarks",
+      "One up quark and two down quarks (u d d)",
+      "Two up quarks and one down quark (u u d)"
+    ],
+    "answer": 2,
+    "explanation": "A neutron consists of u d d quarks (+2/3 − 1/3 − 1/3 = 0)."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which nuclear process combines light nuclei into a heavier nucleus with net mass defect released as energy?",
+    "options": [
+      "Beta decay",
+      "Photoelectric emission",
+      "Nuclear fusion",
+      "Nuclear fission"
+    ],
+    "answer": 2,
+    "explanation": "Combining light nuclei into a heavier nucleus is nuclear fusion."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Laser light is characterized by high directionality, monochromaticity, and:",
+    "options": [
+      "Coherence",
+      "Thermal chaos",
+      "Broad continuous white spectrum",
+      "Longitudinal wave motion"
+    ],
+    "answer": 0,
+    "explanation": "Laser beams exhibit coherence, monochromaticity, and directionality."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which fundamental force governs beta decay and certain radioactive particle transformations?",
+    "options": [
+      "Centrifugal force",
+      "Strong nuclear force",
+      "Gravitational force",
+      "Weak nuclear force"
+    ],
+    "answer": 3,
+    "explanation": "Beta decay involves the weak nuclear force. English Detailed Solutions (Q.161 – Q.200)"
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to PRUDENT:",
+    "options": ["Reckless", "Cautious", "Careless", "Impulsive"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Prudent means acting with care and thought for the future; cautious matches."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to CANDOR:",
+    "options": ["Cunning", "Frankness", "Duplicity", "Deceit"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Candor means openness and honesty; frankness matches."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to EPHEMERAL:",
+    "options": ["Eternal", "Enduring", "Perpetual", "Transient"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 3,
+    "explanation": "Ephemeral means lasting for a very short time; transient matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to VERBOSE:",
+    "options": ["Wordy", "Brief", "Succinct", "Terse"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 0,
+    "explanation": "Verbose means using more words than necessary; wordy matches."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to EXACERBATE:",
+    "options": ["Worsen", "Mollify", "Assuage", "Soothe"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 0,
+    "explanation": "Exacerbate means to make a problem or bad situation worse; worsen matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to ASTUTE:",
+    "options": ["Gullible", "Shrewd", "Naive", "Obtuse"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Astute means having or showing an ability to assess situations accurately; shrewd matches."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to COPIOUS:",
+    "options": ["Deficient", "Plentiful", "Meager", "Sparse"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Copious means abundant in supply or quantity; plentiful matches."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to LUCID:",
+    "options": ["Clear", "Vague", "Murky", "Cryptic"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 0,
+    "explanation": "Lucid means expressed clearly and easy to understand; clear matches."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Much Difficult",
+    "prompt": "Choose the word most nearly similar in meaning to PERNICIOUS:",
+    "options": ["Beneficial", "Harmful", "Salutary", "Wholesome"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Pernicious means having a harmful effect; harmful matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to CONCISE:",
+    "options": ["Diffusive", "Long-winded", "Brief", "Rambling"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 2,
+    "explanation": "Concise means giving a lot of information clearly in a few words; brief matches."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to CORROBORATE:",
+    "options": ["Refute", "Contradict", "Disprove", "Confirm"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 3,
+    "explanation": "Corroborate means to confirm or give support to; confirm matches."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to ZEALOUS:",
+    "options": ["Indifferent", "Apathetic", "Listless", "Fervent"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 3,
+    "explanation": "Zealous means having or showing zeal; fervent matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to CACOPHONY:",
+    "options": ["Concord", "Melody", "Harmony", "Discord"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 3,
+    "explanation": "Cacophony means a harsh discordant mixture of sounds; discord matches."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to PROLIFIC:",
+    "options": ["Sterile", "Barren", "Productive", "Unfruitful"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 2,
+    "explanation": "Prolific means producing much fruit, foliage, or many works; productive matches."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to TENACIOUS:",
+    "options": ["Yielding", "Persistent", "Vacillating", "Irresolute"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Tenacious means keeping a firm hold or persistent; persistent matches."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to HOSTILE:",
+    "options": ["Friendly", "Combative", "Belligerent", "Antagonistic"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 0,
+    "explanation": "Hostile means unfriendly/opposed; its antonym is friendly."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to TRANSPARENT:",
+    "options": ["Clear", "Limpid", "Translucent", "Opaque"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 3,
+    "explanation": "Transparent means allowing light through clearly; its antonym is opaque."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to ARDENT:",
+    "options": ["Eager", "Indifferent", "Enthusiastic", "Passionate"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Ardent means enthusiastic/passionate; its antonym is indifferent."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to SCARCE:",
+    "options": ["Rare", "Plentiful", "Meager", "Sparse"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Scarce means insufficient for demand; its antonym is plentiful."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to CONVERGE:",
+    "options": ["Merge", "Meet", "Diverge", "Unite"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 2,
+    "explanation": "Converge means to tend to meet; its antonym is diverge."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — AMMETER : CURRENT ::",
+    "options": [
+      "Voltmeter : Voltage",
+      "Hygrometer : Mass",
+      "Seismograph : Salinity",
+      "Anemometer : Temperature"
+    ],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 0,
+    "explanation": "Instrument-to-quantity: an ammeter measures current, as a voltmeter measures voltage."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — SPARK : FIRE ::",
+    "options": ["Seed : Tree", "Smoke : Ice", "Frost : Heat", "Ash : Flame"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 0,
+    "explanation": "Origin-to-growth: a spark can ignite a fire, as a seed grows into a tree."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — CARTOGRAPHER : MAP ::",
+    "options": [
+      "Carpenter : Sawdust",
+      "Pilot : Cloud",
+      "Lexicographer : Dictionary",
+      "Sculptor : Clay"
+    ],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 2,
+    "explanation": "Specialist-to-reference-work: a cartographer compiles a map, as a lexicographer compiles a dictionary."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — OPAQUE : LIGHT ::",
+    "options": [
+      "Prism : Shadow",
+      "Soundproof : Noise",
+      "Transparent : Glare",
+      "Conductor : Resistance"
+    ],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Barrier-to-transmission: an opaque surface blocks light, as a soundproof barrier blocks noise."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — FRICTION : MOTION ::",
+    "options": ["Wind : Sail", "Fuel : Engine", "Lens : Ray", "Dam : River"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 3,
+    "explanation": "Opposing force/obstacle: friction opposes motion, as a dam holds back a river."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Neither of the proposed algorithms ______ sufficient memory under worst-case load.",
+    "options": ["require", "have required", "are requiring", "requires"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 3,
+    "explanation": "Neither takes singular verb requires."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Seldom ______ such high thermal efficiency been achieved in a compact prototype.",
+    "options": ["did", "has", "was", "have"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Negative adverb Seldom triggers inversion: has."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The researchers focused ______ reducing signal noise across the optical fiber.",
+    "options": ["in", "to", "on", "at"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 2,
+    "explanation": "Standard preposition collocation: focused on."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "If the coolant pump ______ failed, the core temperature would have risen rapidly.",
+    "options": ["has", "had", "was", "would"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Inverted third conditional uses had + past participle."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Because the data were ______, the team repeated the baseline calibration.",
+    "options": ["exact", "anomalous", "uniform", "consistent"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Irregular data prompting recalibration is anomalous."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "The bridge, along with its approach ramps, were open to traffic.",
+      "The bridge, along with its approach ramps, are open to traffic.",
+      "The bridge, along with its approach ramps, is open to traffic.",
+      "The bridge, along with its approach ramps, be open to traffic."
+    ],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 2,
+    "explanation": "Singular head noun The bridge governs singular verb is despite parenthetical phrase."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "It is essential that every operator ______ safety goggles inside the lab.",
+    "options": ["wears", "wearing", "worn", "wear"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 3,
+    "explanation": "Mandative subjunctive after essential that uses base form wear."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Maintainance", "Maintanance", "Maintenance", "Maintenence"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 2,
+    "explanation": "Maintenance has -tenance (not -tainance)."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Redundant backup sensors help ______ single-point hardware failures.",
+    "options": ["provoke", "conceal", "prevent", "multiply"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 2,
+    "explanation": "Redundancy is designed to prevent single-point failures."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "No sooner ______ the valve opened than pressure stabilized.",
+    "options": ["is", "had", "has", "was"],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "No sooner triggers past-perfect inversion: had."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What is the expulsion of magnetic flux lines by a superconductor below its critical temperature called?",
+    "options": [
+      "The photoelectric effect",
+      "The Meissner effect",
+      "The Hall effect",
+      "The Doppler effect"
+    ],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Sentence 1 names expulsion of magnetic flux lines as the Meissner effect."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What can quench superconductivity and restore normal electrical resistance according to the passage?",
+    "options": [
+      "Use of copper interconnects",
+      "Low ambient humidity",
+      "Excessively strong magnetic fields or high current densities (or warming above critical temperature)",
+      "Steady persistent current"
+    ],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 2,
+    "explanation": "The final sentence states strong magnetic fields or high current densities can quench superconductivity and restore resistance."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "How do conventional copper conductors differ from superconductors in the passage?",
+    "options": [
+      "Copper conductors have infinite conductivity at room temperature",
+      "Copper conductors expel magnetic flux below 0 K",
+      "Copper conductors experience electrical resistance and lose energy as Joule heat",
+      "Copper conductors require no thermal limits"
+    ],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 2,
+    "explanation": "Sentence 2 states conventional copper conductors experience resistance and lose energy as Joule heat."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What practical requirement is highlighted for maintaining superconducting behavior?",
+    "options": [
+      "Cryogenic cooling below a critical temperature using refrigeration systems",
+      "Operating exclusively on alternating current",
+      "Removing all external magnetic shields",
+      "Heating above boiling point"
+    ],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 0,
+    "explanation": "Sentence 3 notes maintaining cryogenic temperatures below critical temperature requires refrigeration systems."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "What is the electrical resistance of a superconductor below its critical temperature?",
+    "options": [
+      "Equal to copper",
+      "Zero",
+      "Directly proportional to current squared",
+      "Infinite"
+    ],
+    "context": "Superconductors are materials that exhibit zero electrical resistance and expel magnetic flux lines—a phenomenon known as the Meissner effect—when cooled below a material-specific critical temperature. Unlike conventional copper conductors that lose energy as Joule heat proportional to current squared, superconducting coils can sustain persistent currents without resistive dissipation. However, maintaining cryogenic temperatures requires complex refrigeration systems, and excessively strong magnetic fields or high current densities can quench superconductivity and restore normal electrical resistance.",
+    "answer": 1,
+    "explanation": "Sentence 1 states superconductors exhibit zero electrical resistance below critical temperature."
+  }
+]

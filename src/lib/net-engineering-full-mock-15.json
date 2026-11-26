@@ -1,0 +1,2052 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the center of the circle x² + y² − 14x + 6y + 9 = 0?",
+    "options": ["(14, −6)", "(7, −3)", "(−14, 6)", "(−7, 3)"],
+    "answer": 1,
+    "explanation": "g = −7, f = 3 ⇒ center (−g, −f) = (7, −3)."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the radius of the circle x² + y² − 14x + 6y + 9 = 0:",
+    "options": ["√67 units", "7 units", "49 units", "3 units"],
+    "answer": 1,
+    "explanation": "r = √(49 + 9 − 9) = √49 = 7 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Two circles of radii 9 cm and 4 cm touch each other externally. What is the distance between their centers?",
+    "options": ["6.5 cm", "5 cm", "36 cm", "13 cm"],
+    "answer": 3,
+    "explanation": "External tangency center distance is 9 + 4 = 13 cm."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Where does the point (3, 4) lie with respect to the circle x² + y² − 49 = 0?",
+    "options": [
+      "At the center",
+      "Inside the circle",
+      "On the circle",
+      "Outside the circle"
+    ],
+    "answer": 1,
+    "explanation": "32 + 42 − 49 = −24 < 0, so (3, 4) lies inside the circle."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the equation of the circle with center (5, −2) and radius 6?",
+    "options": [
+      "(x + 5)2 + (y − 2)2 = 36",
+      "(x − 5)2 + (y + 2)2 = 6",
+      "x² + y² − 10x + 4y = 36",
+      "(x − 5)2 + (y + 2)2 = 36"
+    ],
+    "answer": 3,
+    "explanation": "(x − 5)2 + (y + 2)2 = 62 = 36."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the focus of the standard parabola y² = 24x?",
+    "options": ["(−6, 0)", "(24, 0)", "(6, 0)", "(0, 6)"],
+    "answer": 2,
+    "explanation": "4a = 24 ⇒ a = 6; focus of y² = 24x is (6, 0)."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the directrix of the parabola y² = 20x:",
+    "options": ["x = 5", "y = 5", "y = −5", "x = −5"],
+    "answer": 3,
+    "explanation": "4a = 20 ⇒ a = 5; directrix of y² = 20x is x = −5."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the latus rectum of the parabola x² = 28y?",
+    "options": ["14 units", "7 units", "56 units", "28 units"],
+    "answer": 3,
+    "explanation": "Latus rectum length of x² = 28y is |4a| = 28 units."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the vertex of the parabola (y + 3)2 = 12(x − 7)?",
+    "options": ["(3, −7)", "(7, −3)", "(−3, 7)", "(−7, 3)"],
+    "answer": 1,
+    "explanation": "Comparing (y − k)2 = 4a(x − h) gives vertex (7, −3)."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the axis of symmetry of the parabola x² = 16y?",
+    "options": ["y-axis (x = 0)", "x-axis (y = 0)", "Line y = −x", "Line y = 4"],
+    "answer": 0,
+    "explanation": "x² = 16y is symmetric about the y-axis (x = 0)."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the major axis of the ellipse (x² / 64) + (y² / 25) = 1?",
+    "options": ["10 units", "8 units", "5 units", "16 units"],
+    "answer": 3,
+    "explanation": "a = 8, so major axis length is 2a = 16 units."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the ellipse (x² / 25) + (y² / 9) = 1:",
+    "options": ["4 / 5", "3 / 5", "16 / 25", "5 / 4"],
+    "answer": 0,
+    "explanation": "e = √(1 − 9/25) = √(16/25) = 4 / 5."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the ellipse (x² / 100) + (y² / 64) = 1:",
+    "options": ["(0, ±6)", "(±10, 0)", "(±6, 0)", "(±8, 0)"],
+    "answer": 2,
+    "explanation": "c = √(100 − 64) = 6; foci on x-axis are (±6, 0)."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the ellipse (x² / 25) + (y² / 9) = 1?",
+    "options": ["10 units", "9 / 5 units", "6 units", "18 / 5 units"],
+    "answer": 3,
+    "explanation": "Latus rectum length = 2b² / a = 2(9) / 5 = 18 / 5 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the eccentricity e of a circle?",
+    "options": ["e = 1", "0 < e < 1", "e = 0", "e > 1"],
+    "answer": 2,
+    "explanation": "A circle has eccentricity e = 0."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the transverse axis of the hyperbola (x² / 49) − (y² / 9) = 1?",
+    "options": ["6 units", "14 units", "3 units", "7 units"],
+    "answer": 1,
+    "explanation": "a = 7, so transverse axis length is 2a = 14 units."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the hyperbola (x² / 9) − (y² / 16) = 1:",
+    "options": ["5 / 3", "5 / 4", "3 / 5", "4 / 3"],
+    "answer": 0,
+    "explanation": "e = √(1 + 16/9) = √(25/9) = 5 / 3."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the hyperbola (x² / 16) − (y² / 9) = 1:",
+    "options": ["(±5, 0)", "(±3, 0)", "(±4, 0)", "(0, ±5)"],
+    "answer": 0,
+    "explanation": "c = √(16 + 9) = 5; foci on x-axis are (±5, 0)."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What are the equations of the asymptotes of the hyperbola (x² / 9) − (y² / 16) = 1?",
+    "options": [
+      "y = ±(16 / 9) x",
+      "y = ±(5 / 3) x",
+      "y = ±(3 / 4) x",
+      "y = ±(4 / 3) x"
+    ],
+    "answer": 3,
+    "explanation": "Asymptotes of (x²/9) − (y²/16) = 1 are y = ±(4/3)x."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Identify the conic represented by y² = 12x:",
+    "options": ["Circle", "Parabola", "Hyperbola", "Ellipse"],
+    "answer": 1,
+    "explanation": "y² = 12x is a standard parabola."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the eccentricity e of a parabola?",
+    "options": ["0 < e < 1", "e = 0", "e > 1", "e = 1"],
+    "answer": 3,
+    "explanation": "Every parabola has eccentricity e = 1."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the length of the latus rectum of the hyperbola (x² / 25) − (y² / 16) = 1?",
+    "options": ["8 units", "10 units", "32 / 5 units", "16 / 5 units"],
+    "answer": 2,
+    "explanation": "Latus rectum length = 2b² / a = 2(16) / 5 = 32 / 5 units."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the distance between points (1, 2) and (4, 6)?",
+    "options": ["3 units", "√13 units", "5 units", "7 units"],
+    "answer": 2,
+    "explanation": "d = √(9 + 16) = √25 = 5 units."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the slope m of the line 6x − 3y + 5 = 0:",
+    "options": ["−1 / 2", "2", "−2", "1 / 2"],
+    "answer": 1,
+    "explanation": "Writing y = 2x + 5/3 gives slope m = 2."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the y-intercept of the line 4x + 5y = 20?",
+    "options": ["4", "−5", "−4", "5"],
+    "answer": 0,
+    "explanation": "Setting x = 0 gives 5y = 20 ⇒ y = 4."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the midpoint of the segment joining (2, −6) and (8, 4):",
+    "options": ["(5, −1)", "(10, −2)", "(−1, 5)", "(3, 5)"],
+    "answer": 0,
+    "explanation": "Midpoint = ((2 + 8)/2, (−6 + 4)/2) = (5, −1)."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the distance from point (2, 3) to the line 5x + 12y − 21 = 0:",
+    "options": ["5 units", "25 / 13 units", "13 / 25 units", "25 / 17 units"],
+    "answer": 1,
+    "explanation": "d = |5(2) + 12(3) − 21| / 13 = |10 + 36 − 21| / 13 = 25 / 13 units."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the slope of any line parallel to 3x + 8y − 9 = 0?",
+    "options": ["−3 / 8", "8 / 3", "−8 / 3", "3 / 8"],
+    "answer": 0,
+    "explanation": "Parallel line shares slope m = −3 / 8."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of vector a = 8i − 6j?",
+    "options": ["100", "10", "2", "14"],
+    "answer": 1,
+    "explanation": "|a| = √(64 + 36) = √100 = 10."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the dot product a · b for a = 3i − 2j + 4k and b = 5i + j − 2k:",
+    "options": ["21", "5", "13", "−5"],
+    "answer": 1,
+    "explanation": "a · b = 3(5) + (−2)(1) + 4(−2) = 15 − 2 − 8 = 5."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the cross product j × k of standard unit basis vectors?",
+    "options": ["0", "−i", "i", "k"],
+    "answer": 2,
+    "explanation": "Cyclic right-hand cross product: j × k = i."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For what value of q are u = 4i − 2j + 3k and v = 2i + 5j + qk orthogonal?",
+    "options": ["q = 6", "q = −2 / 3", "q = −6", "q = 2 / 3"],
+    "answer": 3,
+    "explanation": "4(2) + (−2)(5) + 3q = 0 ⇒ 8 − 10 + 3q = 0 ⇒ q = 2 / 3."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of cross product |a × b| when a and b are parallel?",
+    "options": ["|a| + |b|", "|a| |b|", "(1/2) |a| |b|", "0"],
+    "answer": 3,
+    "explanation": "For θ = 0° or 180°, |a × b| = |a| |b| sin θ = 0."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is a normal vector to the plane 5x − 2y + 7z = 4?",
+    "options": ["4k", "5i + 2j − 7k", "5i − 2j + 7k", "2i − 5j + 7k"],
+    "answer": 2,
+    "explanation": "Normal vector from 5x − 2y + 7z = 4 is 5i − 2j + 7k."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance from the origin (0, 0, 0) to the plane 4x + 4y − 2z + 18 = 0?",
+    "options": ["9 units", "6 units", "3 units", "18 units"],
+    "answer": 2,
+    "explanation": "d = |18| / √(16 + 16 + 4) = 18 / 6 = 3 units."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the line through (0, −3) with slope m = 5:",
+    "options": ["y = −3x + 5", "y = 5x + 3", "y = 5x − 3", "y = −5x − 3"],
+    "answer": 2,
+    "explanation": "Slope-intercept form: y = 5x − 3."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between points (2, 3, 6) and (0, 0, 0) in 3D space?",
+    "options": ["√11 units", "49 units", "11 units", "7 units"],
+    "answer": 3,
+    "explanation": "Distance = √(4 + 9 + 36) = √49 = 7 units."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the dot product i · i for standard unit vector i?",
+    "options": ["−1", "i", "1", "0"],
+    "answer": 2,
+    "explanation": "Unit vector dot product with itself is i · i = 1."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the point dividing the segment from (2, 5) to (8, 11) in the ratio 1 : 2 internally:",
+    "options": ["(5, 8)", "(6, 9)", "(3, 6)", "(4, 7)"],
+    "answer": 3,
+    "explanation": "Ratio 1:2 gives ((2(2)+1(8))/3, (2(5)+1(11))/3) = (4, 7)."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "For two non-zero vectors a and b, what does a · b = 0 imply?",
+    "options": [
+      "They are parallel",
+      "Their cross product is 1",
+      "Both are unit vectors",
+      "They are perpendicular (orthogonal)"
+    ],
+    "answer": 3,
+    "explanation": "Vanishing dot product of non-zero vectors means they are perpendicular."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the unit vector in the direction of v = 6i − 8j?",
+    "options": ["(3/5)i − (4/5)j", "(4/5)i − (3/5)j", "6i − 8j", "(6/5)i − (8/5)j"],
+    "answer": 0,
+    "explanation": "|v| = 10; unit vector is (3/5)i − (4/5)j."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the dot product a · b when angle between a and b is 90°?",
+    "options": ["0", "−|a| |b|", "1", "|a| |b|"],
+    "answer": 0,
+    "explanation": "a · b = |a| |b| cos 90° = 0."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Convert 5π / 6 radians into degrees:",
+    "options": ["300°", "135°", "120°", "150°"],
+    "answer": 3,
+    "explanation": "(5π/6) × (180°/π) = 150°."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the exact value of sin 18°?",
+    "options": ["1 / 2", "(√5 − 1) / 4", "√3 / 2", "(√5 + 1) / 4"],
+    "answer": 1,
+    "explanation": "Standard exact value: sin 18° = (√5 − 1) / 4."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the fundamental period of f(x) = cos(4x)?",
+    "options": ["π / 2", "4π", "π / 4", "2π"],
+    "answer": 0,
+    "explanation": "Period of cos(4x) is 2π / 4 = π / 2."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the minimum value of 5 sin θ + 12 cos θ?",
+    "options": ["13", "−7", "−17", "−13"],
+    "answer": 3,
+    "explanation": "Minimum of 5 sin θ + 12 cos θ is −√(25 + 144) = −13."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which expression equals cos 2θ?",
+    "options": ["cos² θ − sin² θ", "2 sin θ cos θ", "2 cos θ", "sin² θ + cos² θ"],
+    "answer": 0,
+    "explanation": "Double-angle cosine identity: cos 2θ = cos² θ − sin² θ."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "State the Law of Cosines for side c² in triangle ABC:",
+    "options": [
+      "c² = a² + b² + 2 a b cos C",
+      "c = a + b − cos C",
+      "c² = a² − b² + 2 a b sin C",
+      "c² = a² + b² − 2 a b cos C"
+    ],
+    "answer": 3,
+    "explanation": "Law of Cosines: c² = a² + b² − 2 a b cos C."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the area Δ of triangle ABC in terms of sides a, b and included angle C?",
+    "options": [
+      "a b sin C",
+      "(1 / 2) a c sin B",
+      "(1 / 2) a b sin C",
+      "(1 / 2) a b cos C"
+    ],
+    "answer": 2,
+    "explanation": "Area Δ = (1 / 2) a b sin C."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In any triangle ABC, what is the Law of Sines?",
+    "options": [
+      "a sin A = b sin B = c sin C",
+      "a / cos A = b / cos B = c / cos C",
+      "a + b + c = 2R",
+      "a / sin A = b / sin B = c / sin C = 2R"
+    ],
+    "answer": 3,
+    "explanation": "Law of Sines: a / sin A = b / sin B = c / sin C = 2R."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: tan−1(1) + tan−1(1)",
+    "options": ["π / 2", "π", "π / 4", "3π / 4"],
+    "answer": 0,
+    "explanation": "π / 4 + π / 4 = π / 2."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the general solution of sin θ = 0?",
+    "options": [
+      "θ = nπ + π/2, n ∈ ℤ",
+      "θ = nπ, n ∈ ℤ",
+      "θ = (2n + 1)π/2, n ∈ ℤ",
+      "θ = 2nπ, n ∈ ℤ"
+    ],
+    "answer": 1,
+    "explanation": "sin θ = 0 at θ = nπ, n ∈ ℤ."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the exact value of tan 15°?",
+    "options": ["2 − √3", "√3 + 1", "2 + √3", "√3"],
+    "answer": 0,
+    "explanation": "tan(45° − 30°) = (1 − 1/√3) / (1 + 1/√3) = 2 − √3."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate cos(sin−1(5 / 13)):",
+    "options": ["12 / 13", "5 / 13", "12 / 5", "5 / 12"],
+    "answer": 0,
+    "explanation": "Opposite = 5, hypotenuse = 13, adjacent = 12, so cos θ = 12 / 13."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the Pythagorean identity linking sec θ and tan θ?",
+    "options": [
+      "sec θ tan θ = 1",
+      "tan² θ − sec² θ = 1",
+      "sec² θ − tan² θ = 1",
+      "sec² θ + tan² θ = 1"
+    ],
+    "answer": 2,
+    "explanation": "Identity: sec² θ − tan² θ = 1."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express 2 sin A cos B as a sum/difference of sines:",
+    "options": [
+      "sin(A + B) − sin(A − B)",
+      "sin(A + B) + sin(A − B)",
+      "cos(A − B) − cos(A + B)",
+      "cos(A + B) + cos(A − B)"
+    ],
+    "answer": 1,
+    "explanation": "Product-to-sum identity: 2 sin A cos B = sin(A + B) + sin(A − B)."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the definition of sinh x in exponential form?",
+    "options": [
+      "(eˣ + e−x) / 2",
+      "(eˣ − e−x) / (eˣ + e−x)",
+      "(eˣ − e−x) / 2",
+      "eˣ − e−x"
+    ],
+    "answer": 2,
+    "explanation": "Hyperbolic sine: sinh x = (eˣ − e−x) / 2."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the principal range of sin−1 x?",
+    "options": ["(0, π)", "(−π / 2, π / 2)", "[0, π]", "[−π / 2, π / 2]"],
+    "answer": 3,
+    "explanation": "Principal range of sin−1 x is [−π / 2, π / 2]."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the value of sin² θ + cos² θ for any real θ?",
+    "options": ["1", "−1", "0", "2"],
+    "answer": 0,
+    "explanation": "Fundamental Pythagorean identity: sin² θ + cos² θ = 1."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with a = 6, b = 8, c = 10, what is its area Δ?",
+    "options": ["30 sq. units", "40 sq. units", "48 sq. units", "24 sq. units"],
+    "answer": 3,
+    "explanation": "Right triangle 6–8–10 has area (1/2)(6)(8) = 24 sq. units."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of cos θ = 1 / 2?",
+    "options": [
+      "θ = 2nπ ± (π / 6), n ∈ ℤ",
+      "θ = nπ ± (π / 3), n ∈ ℤ",
+      "θ = nπ + (−1)n (π / 3), n ∈ ℤ",
+      "θ = 2nπ ± (π / 3), n ∈ ℤ"
+    ],
+    "answer": 3,
+    "explanation": "General solution of cos θ = cos α is θ = 2nπ ± α."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the fundamental period of f(x) = cos x?",
+    "options": ["π", "4π", "2π", "π / 2"],
+    "answer": 2,
+    "explanation": "Fundamental period of cos x is 2π."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = eˣ with respect to x?",
+    "options": ["eˣ", "x e^(x − 1)", "1 / eˣ", "eˣ ln x"],
+    "answer": 0,
+    "explanation": "d/dx (eˣ) = eˣ."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Differentiate y = sin(4x) with respect to x:",
+    "options": ["4 sin(4x)", "4 cos(4x)", "cos(4x)", "−4 cos(4x)"],
+    "answer": 1,
+    "explanation": "d/dx (sin(4x)) = 4 cos(4x)."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find dy / dx for x = 2t, y = t³:",
+    "options": ["3t²", "(2 / 3) t²", "6t²", "(3 / 2) t²"],
+    "answer": 3,
+    "explanation": "dy / dx = (3t²) / 2 = (3 / 2) t²."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: limx → 0 ((sin(7x)) / x)",
+    "options": ["0", "1", "1 / 7", "7"],
+    "answer": 3,
+    "explanation": "limx → 0 ((sin 7x)/(7x)) × 7 = 1 × 7 = 7."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the critical point of f(x) = x² − 8x + 3:",
+    "options": ["x = 4", "x = −4", "x = 8", "x = 0"],
+    "answer": 0,
+    "explanation": "f'(x) = 2x − 8 = 0 ⇒ x = 4."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the Maclaurin series expansion of sin x?",
+    "options": [
+      "1 − x²/2! + x⁴/4! − …",
+      "1 + x + x²/2! + x³/3! + …",
+      "x − x³/3! + x⁵/5! − …",
+      "x + x³/3! + x⁵/5! + …"
+    ],
+    "answer": 2,
+    "explanation": "Maclaurin series of sin x is x − x³/3! + x⁵/5! − …."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Differentiate y = cot−1 x with respect to x:",
+    "options": ["−1 / (1 + x²)", "1 / (1 + x²)", "−1 / √(1 − x²)", "1 / (x √(x² − 1))"],
+    "answer": 0,
+    "explanation": "d/dx (cot−1 x) = −1 / (1 + x²)."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the second derivative d2y / dx2 of y = x⁵:",
+    "options": ["20x³", "60x²", "5x⁴", "20x⁴"],
+    "answer": 0,
+    "explanation": "First derivative is 5x⁴; second derivative is 20x³."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = sinh x with respect to x?",
+    "options": ["−cosh x", "cosh x", "sech2 x", "sinh x"],
+    "answer": 1,
+    "explanation": "d/dx (sinh x) = cosh x."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the tangent line to y = 2x³ + 1 at x = 1:",
+    "options": ["6", "8", "3", "2"],
+    "answer": 0,
+    "explanation": "y'(1) = 6(1)2 = 6."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate: ∫ e⁴ˣ dx",
+    "options": ["e⁴ˣ + C", "(1 / 4) e⁴ˣ + C", "4 e⁴ˣ + C", "4x e³ˣ + C"],
+    "answer": 1,
+    "explanation": "∫ e⁴ˣ dx = (1 / 4) e⁴ˣ + C."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ cos(3x) dx",
+    "options": [
+      "sin(3x) + C",
+      "(1 / 3) sin(3x) + C",
+      "−(1 / 3) sin(3x) + C",
+      "3 sin(3x) + C"
+    ],
+    "answer": 1,
+    "explanation": "∫ cos(3x) dx = (1 / 3) sin(3x) + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / (1 + x²)]",
+    "options": ["ln(1 + x²) + C", "sec−1 x + C", "tan−1 x + C", "sin−1 x + C"],
+    "answer": 2,
+    "explanation": "∫ (1 / (1 + x²)) dx = tan−1 x + C."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫0 π/2 cos x dx",
+    "options": ["−1", "0", "π / 2", "1"],
+    "answer": 3,
+    "explanation": "[sin x]0 π/2 = 1 − 0 = 1."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀² 3x² dx",
+    "options": ["6", "8", "12", "4"],
+    "answer": 1,
+    "explanation": "[x³]₀² = 8 − 0 = 8."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ x⁵ dx",
+    "options": ["5x⁴ + C", "x⁵ / 5 + C", "6x⁶ + C", "x⁶ / 6 + C"],
+    "answer": 3,
+    "explanation": "Power rule gives x⁶ / 6 + C."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫−4 4 x⁵ dx",
+    "options": ["2 × 46 / 6", "0", "64", "46 / 6"],
+    "answer": 1,
+    "explanation": "Odd integrand x⁵ over symmetric [−4, 4] has integral 0."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ (1 / sin² x) dx",
+    "options": ["cos x + C", "cosec x + C", "−cot x + C", "tan x + C"],
+    "answer": 2,
+    "explanation": "∫ cosec² x dx = −cot x + C."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the degree of the differential equation (d2y / dx2)3 + 4(dy / dx)5 + y = 0?",
+    "options": ["Degree 2", "Degree 1", "Degree 3", "Degree 5"],
+    "answer": 2,
+    "explanation": "Highest derivative is d2y/dx2, raised to power 3."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀³ 4 dx",
+    "options": ["7", "0", "4", "12"],
+    "answer": 3,
+    "explanation": "[4x]₀³ = 12 − 0 = 12."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "A single fair die is rolled once. What is the probability of rolling an even number?",
+    "options": ["2 / 3", "1 / 3", "1 / 2", "1 / 6"],
+    "answer": 2,
+    "explanation": "Outcomes {2, 4, 6} give 3 / 6 = 1 / 2."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many permutations of 2 items can be formed from 4 distinct items?",
+    "options": ["24", "12", "6", "8"],
+    "answer": 1,
+    "explanation": "4P² = 4 × 3 = 12."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of 5! (five factorial)?",
+    "options": ["60", "24", "120", "720"],
+    "answer": 2,
+    "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "A bag contains 4 red and 6 blue balls. One ball is drawn at random. What is P(red)?",
+    "options": ["4 / 6", "1 / 5", "2 / 5", "3 / 5"],
+    "answer": 2,
+    "explanation": "P(red) = 4 / (4 + 6) = 4 / 10 = 2 / 5."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the value of 6C²?",
+    "options": ["15", "12", "20", "30"],
+    "answer": 0,
+    "explanation": "6C² = (6 × 5) / 2 = 15."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In how many distinct ways can the letters of the word TOOT be arranged?",
+    "options": ["24", "12", "4", "6"],
+    "answer": 3,
+    "explanation": "The word TOOT has two T’s and two O’s. The number of distinct arrangements is 4! / (2! × 2!) = 24 / 4 = 6."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the arithmetic mean of {3, 5, 7, 9, 11}?",
+    "options": ["35", "8", "6", "7"],
+    "answer": 3,
+    "explanation": "Mean = 35 / 5 = 7."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If a constant c = 9 is added to every data value, how does standard deviation σ change?",
+    "options": [
+      "Increased by 81",
+      "Increased by 9",
+      "Unchanged (shift-invariant)",
+      "Multiplied by 9"
+    ],
+    "answer": 2,
+    "explanation": "Adding a constant shifts location only; standard deviation is unchanged."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the median of the ordered dataset {2, 5, 8, 11, 14}?",
+    "options": ["5", "8.5", "11", "8"],
+    "answer": 3,
+    "explanation": "Middle value of {2, 5, 8, 11, 14} is 8."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For two independent events A and B, what is P(A ∩ B)?",
+    "options": ["0", "P(A) · P(B)", "P(A) + P(B)", "P(A) / P(B)"],
+    "answer": 1,
+    "explanation": "Independent events satisfy P(A ∩ B) = P(A) · P(B)."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the probability of a certain (sure) event?",
+    "options": ["1 / 2", "∞", "1", "0"],
+    "answer": 2,
+    "explanation": "A certain event has probability 1."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the geometric mean of two positive numbers a = 4 and b = 9?",
+    "options": ["13", "36", "6.5", "6"],
+    "answer": 3,
+    "explanation": "Geometric mean = √(4 × 9) = √36 = 6."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the probability of an impossible event?",
+    "options": ["0", "1", "−1", "1 / 6"],
+    "answer": 0,
+    "explanation": "An impossible event has probability 0."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the real domain of f(x) = 1 / (x − 5)?",
+    "options": ["[5, ∞)", "ℝ", "ℝ \\ {5}", "(5, ∞)"],
+    "answer": 2,
+    "explanation": "Denominator vanishes at x = 5, so domain is ℝ \\ {5}."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If f(x) = 2x + 1 and g(x) = x², what is (f ∘ g)(3)?",
+    "options": ["49", "13", "7", "19"],
+    "answer": 3,
+    "explanation": "f(g(3)) = f(9) = 2(9) + 1 = 19."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which function among the following is odd?",
+    "options": ["f(x) = x²", "f(x) = cos x", "f(x) = x⁵", "f(x) = |x|"],
+    "answer": 2,
+    "explanation": "f(x) = x⁵ satisfies f(−x) = −f(x)."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = 3x − 6:",
+    "options": ["(x − 6) / 3", "1 / (3x − 6)", "3x + 6", "(x + 6) / 3"],
+    "answer": 3,
+    "explanation": "Solving y = 3x − 6 gives f⁻¹(x) = (x + 6) / 3."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of f(x) = x² + 5 for x ∈ ℝ?",
+    "options": ["(−∞, 5]", "ℝ", "[5, ∞)", "(5, ∞)"],
+    "answer": 2,
+    "explanation": "Since x² ≥ 0, x² + 5 ≥ 5, range is [5, ∞). Physics Detailed Solutions (Q.101 – Q.160)"
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensions of kinetic energy (or work)?",
+    "options": ["[M L² T⁻²]", "[M L⁻¹ T⁻²]", "[M L² T⁻³]", "[M L T⁻²]"],
+    "answer": 0,
+    "explanation": "Energy and work have dimensions [M L² T⁻²]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "For a projectile on level ground with fixed launch speed, at what angle θ is horizontal range maximum?",
+    "options": ["60°", "45°", "90°", "30°"],
+    "answer": 1,
+    "explanation": "Horizontal range peaks at launch angle 45° on level ground."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What does the area under a force-displacement (F–d) graph represent?",
+    "options": ["Momentum", "Acceleration", "Work done", "Impulse"],
+    "answer": 2,
+    "explanation": "Area under F–d curve equals work done (∫ F dd)."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 4 kg body moves at 5 m/s. What is its kinetic energy?",
+    "options": ["20 J", "100 J", "50 J", "25 J"],
+    "answer": 2,
+    "explanation": "K = (1/2) m v² = 0.5 × 4 × 25 = 50 J."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the formula for orbital speed vo of a satellite in a circular orbit of radius r around mass M?",
+    "options": [
+      "vo = G M / r²",
+      "vo = √(G M / r)",
+      "vo = √(r / G M)",
+      "vo = √(2 G M / r)"
+    ],
+    "answer": 1,
+    "explanation": "Circular orbital speed is vo = √(G M / r)."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an inelastic collision in an isolated system, which quantity is always conserved?",
+    "options": [
+      "Speed of each body",
+      "Potential energy",
+      "Total linear momentum",
+      "Total kinetic energy"
+    ],
+    "answer": 2,
+    "explanation": "Isolated collisions conserve total linear momentum even when inelastic."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of work and energy?",
+    "options": ["Joule (J)", "Watt (W)", "Pascal (Pa)", "Newton (N)"],
+    "answer": 0,
+    "explanation": "Work and energy have SI unit Joule (J)."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A constant force of 15 N displaces an object by 4 m in the force direction. Find work done:",
+    "options": ["19 J", "3.75 J", "60 J", "11 J"],
+    "answer": 2,
+    "explanation": "W = F d = 15 × 4 = 60 J."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State the equation of continuity for steady incompressible fluid flow:",
+    "options": [
+      "A₁ v₁ = A₂ v² (volume flow rate is constant)",
+      "v₁ + v² = constant",
+      "P₁ = P₂",
+      "A₁ / v₁ = A₂ / v²"
+    ],
+    "answer": 0,
+    "explanation": "Continuity equation: A₁ v₁ = A₂ v²."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "A body floating in a fluid displaces fluid weight equal to:",
+    "options": [
+      "Atmospheric pressure times area",
+      "Zero",
+      "Twice the body's weight",
+      "The body's own total weight (Archimedes' principle)"
+    ],
+    "answer": 3,
+    "explanation": "Floating equilibrium equals buoyant force to body weight."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the time period T of a simple pendulum of length L in uniform gravity g (small angle)?",
+    "options": ["T = 2π √(g / L)", "T = √(L / g)", "T = 2π (L / g)", "T = 2π √(L / g)"],
+    "answer": 3,
+    "explanation": "Simple pendulum period: T = 2π √(L / g)."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Where in simple harmonic motion is kinetic energy maximum?",
+    "options": [
+      "Equal to potential energy at x = 0",
+      "At extreme positions (x = ±x₀)",
+      "At equilibrium position (x = 0)",
+      "Zero everywhere"
+    ],
+    "answer": 2,
+    "explanation": "SHM kinetic energy peaks at equilibrium x = 0."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two tuning forks of 256 Hz and 260 Hz are sounded together. What is the beat frequency?",
+    "options": ["4 Hz", "2 Hz", "516 Hz", "8 Hz"],
+    "answer": 0,
+    "explanation": "Beat frequency is |260 − 256| = 4 Hz."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A wave has frequency 50 Hz and wavelength 6.0 m. What is its wave speed?",
+    "options": ["8.33 m/s", "44 m/s", "56 m/s", "300 m/s"],
+    "answer": 3,
+    "explanation": "v = f λ = 50 × 6.0 = 300 m/s."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which wave property is unique to transverse waves (such as light) and absent in longitudinal sound waves?",
+    "options": ["Diffraction", "Reflection", "Polarization", "Refraction"],
+    "answer": 2,
+    "explanation": "Only transverse waves can be polarized."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the refractive index n of a medium in which light travels at speed v?",
+    "options": ["n = 1 / (c v)", "n = c v", "n = c / v", "n = v / c"],
+    "answer": 2,
+    "explanation": "Refractive index is n = c / v."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the optical power P (in diopters) of a converging lens of focal length f = +0.50 m?",
+    "options": ["+5.0 D", "+2.0 D", "+0.5 D", "−2.0 D"],
+    "answer": 1,
+    "explanation": "P = 1 / f = 1 / 0.50 = +2.0 D."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of power?",
+    "options": ["Ampere (A)", "Volt (V)", "Joule (J)", "Watt (W = J/s)"],
+    "answer": 3,
+    "explanation": "Power has SI unit Watt (W)."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State the thin-lens equation relating focal length f, object distance p, and image distance q:",
+    "options": [
+      "f = p + q",
+      "1 / f = (1 / p) − (1 / q)",
+      "f = p q / (p + q)",
+      "1 / f = (1 / p) + (1 / q)"
+    ],
+    "answer": 3,
+    "explanation": "Thin-lens formula: 1 / f = (1 / p) + (1 / q)."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In Young's double-slit experiment, how does fringe spacing β = λ D / d change if slit separation d is doubled?",
+    "options": ["Halved (β / 2)", "Quadrupled (4β)", "Doubled (2β)", "Unchanged"],
+    "answer": 0,
+    "explanation": "Since β ∝ 1 / d, doubling d halves fringe spacing."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an adiabatic process with no heat transfer (Q = 0), how does internal energy change ΔU relate to work done by the system W?",
+    "options": ["ΔU = 0", "ΔU = W", "ΔU = 2W", "ΔU = −W"],
+    "answer": 3,
+    "explanation": "First law with Q = 0 gives ΔU = −W."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the ideal gas law equation for n moles of an ideal gas?",
+    "options": ["P + V = n R T", "P / V = n R T", "P V = R T / n", "P V = n R T"],
+    "answer": 3,
+    "explanation": "Ideal gas law: P V = n R T."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Convert 27 °C to Kelvin scale:",
+    "options": ["246 K", "273 K", "327 K", "300 K"],
+    "answer": 3,
+    "explanation": "27 + 273 = 300 K."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the thermal efficiency η of a Carnot engine operating between TH = 600 K and TC = 300 K?",
+    "options": ["0.50 (or 50%)", "1.00 (or 100%)", "0.25 (or 25%)", "0.75 (or 75%)"],
+    "answer": 0,
+    "explanation": "η = 1 − (300 / 600) = 0.50 = 50%."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the Boltzmann constant kB in SI units?",
+    "options": [
+      "≈ 8.314 J/(mol·K)",
+      "≈ 6.67 × 10−11 N·m₂/kg2",
+      "≈ 1.38 × 10−23 J/K",
+      "≈ 1.60 × 10−19 C"
+    ],
+    "answer": 2,
+    "explanation": "Boltzmann constant kB ≈ 1.38 × 10−23 J/K."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electric current?",
+    "options": ["Ampere (A)", "Volt (V)", "Coulomb (C)", "Ohm (Ω)"],
+    "answer": 0,
+    "explanation": "Electric current has SI unit Ampere (A)."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the formula for angular momentum L of a rigid body rotating about a fixed axis with moment of inertia I and angular velocity ω?",
+    "options": ["L = (1/2) I ω2", "L = m v", "L = I ω", "L = I α"],
+    "answer": 2,
+    "explanation": "Angular momentum is L = I ω."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the centripetal acceleration ac in terms of linear speed v and radius r?",
+    "options": ["r v²", "v² / r", "r / v²", "v / r"],
+    "answer": 1,
+    "explanation": "Centripetal acceleration is ac = v² / r."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the relation between linear velocity v, radius r, and angular speed ω in circular motion?",
+    "options": ["v = ω / r", "v = r² ω", "v = r / ω", "v = r ω"],
+    "answer": 3,
+    "explanation": "Tangential speed satisfies v = r ω."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of angle?",
+    "options": ["Steradian (sr)", "Radian (rad)", "Degree (°)", "Hertz (Hz)"],
+    "answer": 1,
+    "explanation": "Plane angle has SI unit Radian (rad)."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electrical resistance?",
+    "options": ["Farad (F)", "Siemens (S)", "Henry (H)", "Ohm (Ω)"],
+    "answer": 3,
+    "explanation": "Electrical resistance has SI unit Ohm (Ω)."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two resistors of 4 Ω and 6 Ω are connected in series. What is their equivalent resistance?",
+    "options": ["2.4 Ω", "2 Ω", "24 Ω", "10 Ω"],
+    "answer": 3,
+    "explanation": "Series equivalent: 4 + 6 = 10 Ω."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of capacitance?",
+    "options": ["Weber (Wb)", "Henry (H)", "Tesla (T)", "Farad (F)"],
+    "answer": 3,
+    "explanation": "Capacitance has SI unit Farad (F)."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A current of 3 A flows through a 10 Ω resistor. What power is dissipated?",
+    "options": ["90 W", "120 W", "13 W", "30 W"],
+    "answer": 0,
+    "explanation": "P = I² R = 9 × 10 = 90 W."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which law states that the direction of induced EMF opposes the change in magnetic flux that produces it?",
+    "options": ["Gauss's law", "Lenz's law", "Ampere's law", "Coulomb's law"],
+    "answer": 1,
+    "explanation": "Opposing flux change is Lenz's law."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "How does inductive reactance XL = 2π f L behave as AC frequency f increases?",
+    "options": [
+      "Decreases inversely with f",
+      "Remains constant",
+      "Increases linearly with f",
+      "Becomes zero"
+    ],
+    "answer": 2,
+    "explanation": "XL = 2π f L increases linearly with f."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "If peak AC current is I₀ = 10 A, what is its RMS current Irms?",
+    "options": ["5 A", "10 / √2 A (≈ 7.07 A)", "10√2 A", "20 A"],
+    "answer": 1,
+    "explanation": "Irms = I₀ / √2 = 10 / √2 A."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "At electrical resonance in a series R–L–C circuit, what is the condition on reactances?",
+    "options": ["XL = 2 XC", "XL = XC (so Z = R is minimum)", "XL + XC = 0", "R = 0"],
+    "answer": 1,
+    "explanation": "Series resonance occurs when XL = XC."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the resonant angular frequency ω0 of an ideal series L–C circuit?",
+    "options": ["ω0 = √(L", "ω0 = 2π L C", "C) ω0 = L / C", "ω0 = 1 / √(L C)"],
+    "answer": 3,
+    "explanation": "Resonant angular frequency: ω0 = 1 / √(L C)."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of inductance?",
+    "options": ["Ohm (Ω)", "Tesla (T)", "Farad (F)", "Henry (H)"],
+    "answer": 3,
+    "explanation": "Inductance has SI unit Henry (H)."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electric charge?",
+    "options": ["Watt (W)", "Coulomb (C)", "Volt (V)", "Ampere (A)"],
+    "answer": 1,
+    "explanation": "Electric charge has SI unit Coulomb (C)."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "In an ideal transformer, how do primary and secondary voltages relate to turns Np and Ns?",
+    "options": [
+      "Vs / Vp = Ns / Np",
+      "Vs + Vp = Ns + Np",
+      "Vs Vp = Ns Np",
+      "Vs / Vp = Np / Ns"
+    ],
+    "answer": 0,
+    "explanation": "Ideal transformer turns ratio: Vs / Vp = Ns / Np."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Under forward bias, a standard silicon p–n junction diode conducts current easily because:",
+    "options": [
+      "Breakdown voltage is exceeded",
+      "Depletion layer narrows and potential barrier is overcome",
+      "Majority carriers are repelled from the junction",
+      "Depletion layer widens indefinitely"
+    ],
+    "answer": 1,
+    "explanation": "Forward bias shrinks the depletion barrier."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the Boolean output of an OR gate when inputs are A = 0 and B = 0?",
+    "options": ["A · B", "1", "Undefined", "0"],
+    "answer": 3,
+    "explanation": "OR outputs 0 only when all inputs are 0: 0 + 0 = 0."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the decimal equivalent of binary number 10102?",
+    "options": ["6", "8", "10", "12"],
+    "answer": 2,
+    "explanation": "8 + 0 + 2 + 0 = 10."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the energy E of a photon of frequency f according to Planck's relation?",
+    "options": ["E = h / f", "E = m c²", "E = h f", "E = h f²"],
+    "answer": 2,
+    "explanation": "Planck energy relation: E = h f."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the de Broglie wavelength λ of a particle with linear momentum p?",
+    "options": ["λ = h p", "λ = h / (p c)", "λ = h / p", "λ = p / h"],
+    "answer": 2,
+    "explanation": "de Broglie wavelength: λ = h / p."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is Einstein's mass-energy equivalence formula?",
+    "options": ["E = m c", "E = m c²", "E = m₂ c", "E = (1/2) m c²"],
+    "answer": 1,
+    "explanation": "Mass-energy equivalence: E = m c²."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the ground-state (n = 1) energy of an electron in a hydrogen atom in Bohr's model?",
+    "options": ["0 eV", "+13.6 eV", "−3.4 eV", "−13.6 eV"],
+    "answer": 3,
+    "explanation": "Ground state of hydrogen is −13.6 eV."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the hydrogen spectrum, transitions terminating on n = 2 form which series?",
+    "options": ["Paschen series", "Balmer series", "Lyman series", "Brackett series"],
+    "answer": 1,
+    "explanation": "Transitions ending on n = 2 form the Balmer series."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "After 3 half-lives, what fraction of original radioactive nuclei remains undecayed?",
+    "options": ["1 / 8", "1 / 16", "1 / 4", "3 / 8"],
+    "answer": 0,
+    "explanation": "After 3 half-lives, undecayed fraction is (1/2)3 = 1 / 8."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What particle is an alpha (α) particle identical to?",
+    "options": [
+      "High-speed electron",
+      "High-energy photon",
+      "Single neutron",
+      "Helium-4 nucleus (4 2He2+)"
+    ],
+    "answer": 3,
+    "explanation": "An alpha particle is a Helium-4 nucleus."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which nuclear process combines light nuclei (such as isotopes of hydrogen) into a heavier nucleus?",
+    "options": [
+      "Nuclear fission",
+      "Compton scattering",
+      "Alpha decay",
+      "Nuclear fusion"
+    ],
+    "answer": 3,
+    "explanation": "Joining light nuclei is nuclear fusion."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Nuclei having the same atomic number (Z) but different mass numbers (A) are called:",
+    "options": ["Isomers", "Isotones", "Isobars", "Isotopes"],
+    "answer": 3,
+    "explanation": "Same atomic number Z defines isotopes."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Nuclei having the same mass number (A) but different atomic numbers (Z) are called:",
+    "options": ["Allotropes", "Isotopes", "Isobars", "Isotones"],
+    "answer": 2,
+    "explanation": "Same mass number A defines isobars."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the quark composition of a proton?",
+    "options": [
+      "One up quark and two down quarks (u d d)",
+      "Three up quarks (u u u)",
+      "Three down quarks (d d d)",
+      "Two up quarks and one down quark (u u d)"
+    ],
+    "answer": 3,
+    "explanation": "Proton consists of u u d (+2/3 + 2/3 − 1/3 = +1 e)."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the quark composition of a neutron?",
+    "options": [
+      "Two up quarks and one strange quark",
+      "Two up quarks and one down quark (u u d)",
+      "One up quark and two down quarks (u d d)",
+      "Three strange quarks"
+    ],
+    "answer": 2,
+    "explanation": "Neutron consists of u d d (+2/3 − 1/3 − 1/3 = 0)."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In a laser, having more atoms in an excited state than in a lower energy state is called:",
+    "options": [
+      "Total internal reflection",
+      "Critical damping",
+      "Population inversion",
+      "Thermal equilibrium"
+    ],
+    "answer": 2,
+    "explanation": "Inverted population is population inversion."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which phenomenon confirms the particle (photon) nature of electromagnetic radiation through wavelength shift upon scattering from electrons?",
+    "options": [
+      "Young's interference",
+      "Compton effect",
+      "Brewster's law",
+      "Diffraction grating"
+    ],
+    "answer": 1,
+    "explanation": "Photon momentum transfer in scattering is the Compton effect."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which device converts mechanical energy into electrical energy using electromagnetic induction?",
+    "options": ["Electric generator", "Zener diode", "Electric motor", "Capacitor"],
+    "answer": 0,
+    "explanation": "A generator converts mechanical work into electrical energy. English Detailed Solutions (Q.161 – Q.200)"
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to CANDID:",
+    "options": ["Frank", "Evasive", "Deceitful", "Dishonest"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 0,
+    "explanation": "Candid means truthful and straightforward; frank matches."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to PRUDENT:",
+    "options": ["Reckless", "Foolish", "Wise", "Rash"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 2,
+    "explanation": "Prudent means acting with care and thought for the future; wise matches."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to EPHEMERAL:",
+    "options": ["Enduring", "Transient", "Eternal", "Permanent"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 1,
+    "explanation": "Ephemeral means lasting for a very short time; transient matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to TACITURN:",
+    "options": ["Loquacious", "Talkative", "Garrulous", "Reserved"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Taciturn means reserved or uncommunicative in speech; reserved matches."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to UBIQUITOUS:",
+    "options": ["Rare", "Isolated", "Omnipresent", "Scarce"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 2,
+    "explanation": "Ubiquitous means present everywhere; omnipresent matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to VERBOSE:",
+    "options": ["Concise", "Brief", "Succinct", "Wordy"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Verbose means using more words than needed; wordy matches."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to MITIGATE:",
+    "options": ["Worsen", "Alleviate", "Intensify", "Aggravate"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 1,
+    "explanation": "Mitigate means to make less severe; alleviate matches."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to LUCID:",
+    "options": ["Murky", "Obscure", "Confusing", "Clear"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Lucid means expressed clearly and easy to understand; clear matches."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Much Difficult",
+    "prompt": "Choose the word most nearly similar in meaning to CORROBORATE:",
+    "options": ["Refute", "Contradict", "Disprove", "Confirm"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Corroborate means to support with evidence; confirm matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to ZEALOUS:",
+    "options": ["Enthusiastic", "Lukewarm", "Indifferent", "Apathetic"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 0,
+    "explanation": "Zealous means having great energy or enthusiasm; enthusiastic matches."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to ABUNDANT:",
+    "options": ["Scarce", "Deficient", "Plentiful", "Meager"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 2,
+    "explanation": "Abundant means existing in large quantities; plentiful matches."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to CONCISE:",
+    "options": ["Rambling", "Lengthy", "Prolix", "Brief"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Concise means giving a lot of information clearly in few words; brief matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to SAGACIOUS:",
+    "options": ["Gullible", "Unwise", "Naive", "Astute"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Sagacious means having good judgment and foresight; astute matches."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to AUGMENT:",
+    "options": ["Increase", "Curtail", "Reduce", "Diminish"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 0,
+    "explanation": "Augment means to make greater by adding to; increase matches."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to IMPARTIAL:",
+    "options": ["Unbiased", "Biased", "Partial", "Prejudiced"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 0,
+    "explanation": "Impartial means treating all rivals or disputants equally; unbiased matches."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to EXPAND:",
+    "options": ["Dilate", "Inflate", "Contract", "Enlarge"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 2,
+    "explanation": "Antonym of expand is contract."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to TRANSIENT:",
+    "options": ["Fleeting", "Brief", "Temporary", "Permanent"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Antonym of transient is permanent."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to PROLIFIC:",
+    "options": ["Barren", "Fertile", "Copious", "Productive"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 0,
+    "explanation": "Antonym of prolific is barren."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to OBSCURE:",
+    "options": ["Evident", "Ambiguous", "Vague", "Hidden"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 0,
+    "explanation": "Antonym of obscure is evident."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to HOSTILE:",
+    "options": ["Adversarial", "Antagonistic", "Belligerent", "Friendly"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Antonym of hostile is friendly."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — THERMOMETER : TEMPERATURE ::",
+    "options": [
+      "Hygrometer : Mass",
+      "Seismograph : Time",
+      "Anemometer : Current",
+      "Voltmeter : Voltage"
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Instrument-to-quantity: a thermometer measures temperature, as a voltmeter measures voltage."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — CORROSION : RUST ::",
+    "options": [
+      "Evaporation : Freezing",
+      "Fermentation : Yeast",
+      "Insulation : Conduction",
+      "Condensation : Sublimation"
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 1,
+    "explanation": "Process-to-manifestation: corrosion produces rust, as fermentation involves yeast."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — ARCHITECT : BLUEPRINT ::",
+    "options": [
+      "Pilot : Cockpit",
+      "Painter : Easel",
+      "Carpenter : Chisel",
+      "Composer : Score"
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Creator-to-plan/work: an architect drafts a blueprint, as a composer writes a score."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — OPAQUE : TRANSPARENT ::",
+    "options": [
+      "Solid : Hard",
+      "Bright : Luminous",
+      "Rigid : Flexible",
+      "Loud : Noisy"
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 2,
+    "explanation": "Opposing properties: opaque contrasts with transparent, as rigid contrasts with flexible."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — DAM : RESERVOIR ::",
+    "options": [
+      "Levee : Floodwater",
+      "Bridge : River",
+      "Funnel : Spill",
+      "Chimney : Smoke"
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 0,
+    "explanation": "Barrier-to-contained-fluid: a dam holds back a reservoir, as a levee holds back floodwater."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Neither the sensor nor the actuators ______ calibrated before the run.",
+    "options": ["was", "is", "were", "has"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 2,
+    "explanation": "With neither ... nor and plural actuators closer to the verb, use plural were."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Not only ______ the circuit reduce noise, but it also lowers power draw.",
+    "options": ["do", "has", "does", "is"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 2,
+    "explanation": "Not only at clause start triggers auxiliary inversion: does."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The team is capable ______ completing the design ahead of schedule.",
+    "options": ["for", "with", "of", "to"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 2,
+    "explanation": "Standard preposition collocation: capable of + gerund."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "If the coolant flow ______ higher, the core temperature would have stayed below limit.",
+    "options": ["was", "is", "would be", "had been"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Third conditional if-clause uses past perfect had been."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Because the tolerance was ______, the shaft fit smoothly inside the bearing.",
+    "options": ["erratic", "exact", "arbitrary", "defective"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 1,
+    "explanation": "Smooth fit follows an exact tolerance."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "Each of the batteries were rated 12 V.",
+      "Each of the batteries has a nominal rating of 12 V.",
+      "Each of the batteries have a nominal rating of 12 V.",
+      "Each of the batteries are rated 12 V."
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 1,
+    "explanation": "Each takes singular verb has."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "The committee insists that the report ______ submitted by Friday.",
+    "options": ["was", "is", "be", "being"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 2,
+    "explanation": "Subjunctive after insists that uses base form be."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Occurence", "Occurrence", "Ocurrence", "Occurrance"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 1,
+    "explanation": "Occurrence is spelled o-c-c-u-r-r-e-n-c-e."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Redundant controllers help ______ single-point failures in critical systems.",
+    "options": ["multiply", "provoke", "obscure", "prevent"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Redundancy helps prevent single-point failures."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Hardly ______ the experiment started when the power supply tripped.",
+    "options": ["has", "had", "did", "was"],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 1,
+    "explanation": "Hardly triggers past-perfect inversion: had."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What enables a microgrid to operate during a utility outage according to the passage?",
+    "options": [
+      "Relying solely on distant coal plants",
+      "Eliminating battery storage",
+      "Shutting down all local loads permanently",
+      "Operating in islanded mode using distributed energy resources and local loads"
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Sentence 1 states microgrids operate islanded during outages with distributed resources and local loads."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What is required for a seamless transition between grid-connected and islanded modes?",
+    "options": [
+      "Disabling local generation",
+      "Manual replacement of transformers",
+      "Higher transmission resistance",
+      "Fast frequency and voltage control"
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 3,
+    "explanation": "Sentence 3 states seamless mode transition requires fast frequency and voltage control."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Which benefit of balancing generation and demand locally is stated in the passage?",
+    "options": [
+      "Zero capital cost",
+      "Elimination of solar and wind variability",
+      "Reduced transmission losses and enhanced resilience",
+      "Removal of voltage regulation"
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 2,
+    "explanation": "Sentence 2 states local balancing reduces transmission losses and enhances resilience."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Which distributed energy resources are explicitly listed in the passage?",
+    "options": [
+      "Fuel cells and flywheels only",
+      "Rooftop solar photovoltaic arrays, wind turbines, and battery storage",
+      "Nuclear reactors and hydroelectric dams",
+      "Geothermal wells and diesel locomotives"
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 1,
+    "explanation": "Sentence 1 lists rooftop solar photovoltaic arrays, wind turbines, and battery storage."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "What can happen without fast frequency and voltage control during mode transitions?",
+    "options": [
+      "Equipment trips",
+      "Instantaneous superconductivity",
+      "Permanent grid connection",
+      "Lower local load demand"
+    ],
+    "context": "Microgrids integrate distributed energy resources—such as rooftop solar photovoltaic arrays, wind turbines, and battery storage—with local loads so they can operate connected to the main utility grid or islanded during outages. By balancing generation and demand locally, microgrids reduce transmission losses and enhance resilience for hospitals, water plants, and campuses. However, seamless transition between grid-connected and islanded modes requires fast frequency and voltage control to prevent equipment trips.",
+    "answer": 0,
+    "explanation": "Sentence 3 notes control prevents equipment trips."
+  }
+]

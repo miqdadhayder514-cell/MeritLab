@@ -1,0 +1,2072 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the center of the circle x² + y² + 20x − 6y − 11 = 0?",
+    "options": ["(20, −6)", "(−10, 3)", "(10, −3)", "(−20, 6)"],
+    "answer": 1,
+    "explanation": "g = 10, f = −3 ⇒ center (−g, −f) = (−10, 3)."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the radius of the circle x² + y² − 4x + 10y − 7 = 0:",
+    "options": [
+      "6 units",
+      "√36 units? Wait: 4 + 25 + 7 = 36 ⇒ 6 units!",
+      "36 units",
+      "√22 units"
+    ],
+    "answer": 0,
+    "explanation": "r = √(4 + 25 + 7) = √36 = 6 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Two circles of radii 13 cm and 5 cm touch each other externally. What is the distance between their centers?",
+    "options": ["18 cm", "8 cm", "65 cm", "10 cm"],
+    "answer": 0,
+    "explanation": "External tangency center distance is 13 + 5 = 18 cm."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Where does the point (3, 4) lie with respect to the circle x² + y² − 49 = 0?",
+    "options": [
+      "On the circle",
+      "At the center",
+      "Outside the circle",
+      "Inside the circle"
+    ],
+    "answer": 3,
+    "explanation": "32 + 42 − 49 = 25 − 49 = −24 < 0, so (3, 4) lies inside the circle."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the equation of the circle with center (5, −9) and radius 7?",
+    "options": [
+      "(x + 5)2 + (y − 9)2 = 49",
+      "x² + y² − 10x + 18y = 49",
+      "(x − 5)2 + (y + 9)2 = 49",
+      "(x − 5)2 + (y + 9)2 = 7"
+    ],
+    "answer": 2,
+    "explanation": "(x − 5)2 + (y + 9)2 = 72 = 49."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the focus of the standard parabola y² = 40x?",
+    "options": ["(−10, 0)", "(10, 0)", "(0, 10)", "(40, 0)"],
+    "answer": 1,
+    "explanation": "4a = 40 ⇒ a = 10; focus of y² = 40x is (10, 0)."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the directrix of the parabola y² = 24x:",
+    "options": ["x = 6", "y = 6", "x = −6", "y = −6"],
+    "answer": 2,
+    "explanation": "4a = 24 ⇒ a = 6; directrix of y² = 24x is x = −6."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the latus rectum of the parabola x² = 44y?",
+    "options": ["44 units", "88 units", "11 units", "22 units"],
+    "answer": 0,
+    "explanation": "Latus rectum length of x² = 44y is |4a| = 44 units."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the vertex of the parabola (y + 7)2 = 12(x − 3)?",
+    "options": ["(−7, 3)", "(3, −7)", "(−3, 7)", "(7, −3)"],
+    "answer": 1,
+    "explanation": "Comparing (y − k)2 = 4a(x − h) gives vertex (3, −7)."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the axis of symmetry of the parabola x² = 16y?",
+    "options": ["x-axis (y = 0)", "y-axis (x = 0)", "Line y = 4", "Line x = y"],
+    "answer": 1,
+    "explanation": "x² = 16y is symmetric about the y-axis (x = 0)."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the major axis of the ellipse (x² / 100) + (y² / 36) = 1?",
+    "options": ["20 units", "6 units", "12 units", "10 units"],
+    "answer": 0,
+    "explanation": "a = 10, so major axis length is 2a = 20 units."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the ellipse (x² / 25) + (y² / 16) = 1:",
+    "options": ["4 / 5", "9 / 25", "5 / 3", "3 / 5"],
+    "answer": 3,
+    "explanation": "e = √(1 − 16/25) = √(9/25) = 3 / 5."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the ellipse (x² / 169) + (y² / 25) = 1:",
+    "options": ["(±13, 0)", "(±12, 0)", "(±5, 0)", "(0, ±12)"],
+    "answer": 1,
+    "explanation": "c = √(169 − 25) = 12; foci on x-axis are (±12, 0)."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the ellipse (x² / 49) + (y² / 25) = 1?",
+    "options": ["50 / 7 units", "25 / 7 units", "98 / 5 units", "14 units"],
+    "answer": 0,
+    "explanation": "Latus rectum length = 2b² / a = 2(25) / 7 = 50 / 7 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "When a = b in (x² / a²) + (y² / b²) = 1, what is its eccentricity e?",
+    "options": ["e = 0 (circle case)", "e = 1", "e = 1 / 2", "e = √2"],
+    "answer": 0,
+    "explanation": "When a = b, e = 0 (circle)."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the transverse axis of the hyperbola (x² / 144) − (y² / 25) = 1?",
+    "options": ["5 units", "12 units", "10 units", "24 units"],
+    "answer": 3,
+    "explanation": "a = 12, so transverse axis length is 2a = 24 units."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the hyperbola (x² / 9) − (y² / 16) = 1:",
+    "options": ["4 / 3", "3 / 5", "5 / 4", "5 / 3"],
+    "answer": 3,
+    "explanation": "e = √(1 + 16/9) = √(25/9) = 5 / 3."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the hyperbola (x² / 16) − (y² / 9) = 1:",
+    "options": ["(±4, 0)", "(±3, 0)", "(0, ±5)", "(±5, 0)"],
+    "answer": 3,
+    "explanation": "c = √(16 + 9) = 5; foci on x-axis are (±5, 0)."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What are the equations of the asymptotes of the hyperbola (x² / 16) − (y² / 49) = 1?",
+    "options": [
+      "y = ±(49 / 16) x",
+      "y = ±(4 / 7) x",
+      "y = ±(3 / 4) x",
+      "y = ±(7 / 4) x"
+    ],
+    "answer": 3,
+    "explanation": "Asymptotes of (x²/16) − (y²/49) = 1 are y = ±(7/4)x."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Identify the conic represented by (x² / 9) + (y² / 25) = 1:",
+    "options": ["Ellipse", "Parabola", "Pair of lines", "Hyperbola"],
+    "answer": 0,
+    "explanation": "Equal signs on x² and y² with unequal denominators define an ellipse."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "For a hyperbola with a = b (rectangular hyperbola), what is its eccentricity e?",
+    "options": ["1 / √2", "√2", "1", "2"],
+    "answer": 1,
+    "explanation": "Rectangular hyperbola (a = b) has e = √(1 + 1) = √2."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the length of the latus rectum of the hyperbola (x² / 16) − (y² / 9) = 1?",
+    "options": ["9 / 2 units", "9 / 4 units", "6 units", "18 units"],
+    "answer": 0,
+    "explanation": "Latus rectum length = 2b² / a = 2(9) / 4 = 9 / 2 units."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the distance between points (1, 2) and (6, 14)?",
+    "options": ["17 units", "13 units", "12 units", "√119 units"],
+    "answer": 1,
+    "explanation": "d = √(25 + 144) = √169 = 13 units."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the slope m of the line 8x − 4y + 9 = 0:",
+    "options": ["1 / 2", "−1 / 2", "−2", "2"],
+    "answer": 3,
+    "explanation": "Writing y = 2x + 9/4 gives slope m = 2."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the y-intercept of the line 5x + 3y = 15?",
+    "options": ["5", "3", "−5", "−3"],
+    "answer": 0,
+    "explanation": "Setting x = 0 gives 3y = 15 ⇒ y = 5."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the midpoint of the segment joining (2, −6) and (8, 12):",
+    "options": ["(−3, −9)", "(5, 3)", "(3, 9)", "(10, 6)"],
+    "answer": 1,
+    "explanation": "Midpoint = ((2 + 8)/2, (−6 + 12)/2) = (5, 3)."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the distance from point (2, 3) to the line 3x + 4y − 18 = 0:",
+    "options": [
+      "18 / 5 units",
+      "0 units (point lies on line)",
+      "6 / 5 units",
+      "12 / 5 units"
+    ],
+    "answer": 1,
+    "explanation": "3(2) + 4(3) − 18 = 6 + 12 − 18 = 0, so distance is 0 units."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the slope of any line parallel to 7x + 2y − 11 = 0?",
+    "options": ["2 / 7", "−7 / 2", "−2 / 7", "7 / 2"],
+    "answer": 1,
+    "explanation": "Parallel line shares slope m = −7 / 2."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of vector a = 8i + 15j?",
+    "options": ["17", "23", "289", "7"],
+    "answer": 0,
+    "explanation": "|a| = √(64 + 225) = √289 = 17."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the dot product a · b for a = 4i − 2j + 5k and b = 2i + 3j − k:",
+    "options": ["7", "−3", "−13", "19"],
+    "answer": 1,
+    "explanation": "a · b = 4(2) + (−2)(3) + 5(−1) = 8 − 6 − 5 = −3."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the cross product j × k of standard unit basis vectors?",
+    "options": ["−i", "0", "j", "i"],
+    "answer": 3,
+    "explanation": "Cyclic right-hand cross product: j × k = i."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For what value of t are u = 2i + 4j − 5k and v = 3i − 2j + tk orthogonal?",
+    "options": ["t = 4 / 5", "t = −2 / 5", "t = 2 / 5", "t = 0"],
+    "answer": 1,
+    "explanation": "2(3) + 4(−2) − 5t = 0 ⇒ 6 − 8 − 5t = 0 ⇒ t = −2 / 5."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the cross product i × i?",
+    "options": ["0 (zero vector)", "−1", "1", "j"],
+    "answer": 0,
+    "explanation": "Self cross product is the zero vector 0."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is a normal vector to the plane 5x − 2y + 4z = 12?",
+    "options": ["12k", "5i + 2j − 4k", "2i − 5j + 4k", "5i − 2j + 4k"],
+    "answer": 3,
+    "explanation": "Normal vector from 5x − 2y + 4z = 12 is 5i − 2j + 4k."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance from the origin (0, 0, 0) to the plane 3x − 4y + 12z + 26 = 0?",
+    "options": ["26 units", "2 units", "13 units", "26 / 5 units"],
+    "answer": 1,
+    "explanation": "d = |26| / √(9 + 16 + 144) = 26 / 13 = 2 units."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the line through (0, −5) with slope m = 3:",
+    "options": ["y = 3x + 5", "y = −3x − 5", "y = 5x − 3", "y = 3x − 5"],
+    "answer": 3,
+    "explanation": "Slope-intercept form: y = 3x − 5."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between points (2, 3, 6) and (0, 0, 0) in 3D space?",
+    "options": ["49 units", "√11 units", "7 units", "11 units"],
+    "answer": 2,
+    "explanation": "Distance = √(4 + 9 + 36) = √49 = 7 units."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the dot product k · k?",
+    "options": ["−1", "1", "0", "k"],
+    "answer": 1,
+    "explanation": "Unit vector dot product with itself is k · k = 1."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the point dividing the segment from (2, 4) to (8, 10) in the ratio 1 : 2 internally:",
+    "options": ["(6, 8)", "(5, 7)", "(3, 5)", "(4, 6)"],
+    "answer": 3,
+    "explanation": "Ratio 1:2 gives ((2(2)+1(8))/3, (2(4)+1(10))/3) = (4, 6)."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "For two non-zero vectors a and b, what does a · b = 0 imply?",
+    "options": [
+      "They are parallel",
+      "Their cross product is 1",
+      "They are perpendicular (angle 90°)",
+      "Angle between them is 0°"
+    ],
+    "answer": 2,
+    "explanation": "Vanishing dot product of non-zero vectors means they are perpendicular."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the unit vector in the direction of v = 6i − 8j?",
+    "options": ["(3/10)i − (4/10)j", "(4/5)i − (3/5)j", "(3/5)i − (4/5)j", "6i − 8j"],
+    "answer": 2,
+    "explanation": "|v| = 10; unit vector is (3/5)i − (4/5)j."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the magnitude of the cross product |a × b| when a and b are perpendicular?",
+    "options": ["|a| / |b|", "|a| + |b|", "0", "|a| |b|"],
+    "answer": 3,
+    "explanation": "For θ = 90°, |a × b| = |a| |b| sin 90° = |a| |b|."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Convert 5π / 4 radians into degrees:",
+    "options": ["225°", "315°", "135°", "240°"],
+    "answer": 0,
+    "explanation": "(5π/4) × (180°/π) = 225°."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the exact value of sin 18°?",
+    "options": ["√3 / 2", "(√5 + 1) / 4", "1 / 2", "(√5 − 1) / 4"],
+    "answer": 3,
+    "explanation": "Standard exact value: sin 18° = (√5 − 1) / 4."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the fundamental period of f(x) = cos(4x)?",
+    "options": ["2π", "π / 4", "4π", "π / 2"],
+    "answer": 3,
+    "explanation": "Period of cos(4x) is 2π / 4 = π / 2."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the minimum value of 5 sin θ + 12 cos θ?",
+    "options": ["−17", "−7", "13", "−13"],
+    "answer": 3,
+    "explanation": "Minimum of 5 sin θ + 12 cos θ is −√(25 + 144) = −13."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which expression equals cos 2θ?",
+    "options": ["2 sin θ cos θ", "sin² θ + cos² θ", "cos² θ − sin² θ", "2 cos θ"],
+    "answer": 2,
+    "explanation": "Double-angle cosine identity: cos 2θ = cos² θ − sin² θ."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "State the Law of Sines for triangle ABC:",
+    "options": [
+      "a sin A = b sin B = c sin C",
+      "a + b = c sin C",
+      "a / cos A = b / cos B = c / cos C",
+      "a / sin A = b / sin B = c / sin C"
+    ],
+    "answer": 3,
+    "explanation": "Law of Sines: a / sin A = b / sin B = c / sin C."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is Heron's semi-perimeter s for triangle sides a, b, c?",
+    "options": [
+      "s = (a + b + c) / 2",
+      "s = a + b + c",
+      "s = (a b c) / 2",
+      "s = (a + b) / c"
+    ],
+    "answer": 0,
+    "explanation": "Semi-perimeter is s = (a + b + c) / 2."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In any triangle ABC, what does sin(A + B) equal?",
+    "options": ["−sin C", "cos C", "sin C", "1"],
+    "answer": 2,
+    "explanation": "Since A + B = 180° − C, sin(A + B) = sin C."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: sin−1(1 / 2) + cos−1(1 / 2)",
+    "options": ["π", "π / 2", "π / 6", "π / 3"],
+    "answer": 1,
+    "explanation": "π / 6 + π / 3 = π / 2."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the general solution of sin θ = 0?",
+    "options": [
+      "θ = 2nπ, n ∈ ℤ",
+      "θ = nπ, n ∈ ℤ",
+      "θ = (2n + 1)π / 2, n ∈ ℤ",
+      "θ = nπ / 2, n ∈ ℤ"
+    ],
+    "answer": 1,
+    "explanation": "sin θ = 0 at θ = nπ, n ∈ ℤ."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the exact value of tan 15°?",
+    "options": ["2 − √3", "√3 + 1", "√3", "2 + √3"],
+    "answer": 0,
+    "explanation": "tan(45° − 30°) = (1 − 1/√3) / (1 + 1/√3) = 2 − √3."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate cos(sin−1(5 / 13)):",
+    "options": ["5 / 12", "5 / 13", "12 / 5", "12 / 13"],
+    "answer": 3,
+    "explanation": "Opposite = 5, hypotenuse = 13, adjacent = 12, so cos θ = 12 / 13."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the Pythagorean identity linking sec θ and tan θ?",
+    "options": [
+      "tan² θ − sec² θ = 1",
+      "sec² θ − tan² θ = 1",
+      "sec θ tan θ = 1",
+      "sec² θ + tan² θ = 1"
+    ],
+    "answer": 1,
+    "explanation": "Identity: sec² θ − tan² θ = 1."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express 2 sin A cos B as a sum of sines:",
+    "options": [
+      "sin(A − B) − sin(A + B)",
+      "cos(A + B) + cos(A − B)",
+      "cos(A − B) − cos(A + B)",
+      "sin(A + B) + sin(A − B)"
+    ],
+    "answer": 3,
+    "explanation": "Product-to-sum identity: 2 sin A cos B = sin(A + B) + sin(A − B)."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the definition of sinh x in exponential form?",
+    "options": [
+      "(eˣ − e−x) / (eˣ + e−x)",
+      "(eˣ + e−x) / 2",
+      "eˣ − e−x",
+      "(eˣ − e−x) / 2"
+    ],
+    "answer": 3,
+    "explanation": "Hyperbolic sine: sinh x = (eˣ − e−x) / 2."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the principal range of sin−1 x?",
+    "options": ["[0, π]", "(−π / 2, π / 2)", "(0, π)", "[−π / 2, π / 2]"],
+    "answer": 3,
+    "explanation": "Principal range of sin−1 x is [−π / 2, π / 2]."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the fundamental period of f(x) = cot x?",
+    "options": ["4π", "π / 2", "2π", "π"],
+    "answer": 3,
+    "explanation": "Fundamental period of cot x is π."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with a = 6, b = 8, c = 10, what is its area Δ?",
+    "options": ["48 sq. units", "30 sq. units", "24 sq. units", "60 sq. units"],
+    "answer": 2,
+    "explanation": "Right triangle 6–8–10 has area (1/2)(6)(8) = 24 sq. units."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of cos θ = 1 / 2?",
+    "options": [
+      "θ = nπ + (−1)n (π / 3), n ∈ ℤ",
+      "θ = 2nπ + (π / 6), n ∈ ℤ",
+      "θ = nπ ± (π / 3), n ∈ ℤ",
+      "θ = 2nπ ± (π / 3), n ∈ ℤ"
+    ],
+    "answer": 3,
+    "explanation": "General solution of cos θ = cos α is θ = 2nπ ± α."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the fundamental period of f(x) = cos x?",
+    "options": ["4π", "2π", "π / 2", "π"],
+    "answer": 1,
+    "explanation": "Fundamental period of cos x is 2π."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = eˣ with respect to x?",
+    "options": ["1 / eˣ", "x e^(x − 1)", "eˣ", "ln x"],
+    "answer": 2,
+    "explanation": "d/dx (eˣ) = eˣ."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Differentiate y = sin(7x) with respect to x:",
+    "options": ["7 cos(7x)", "cos(7x)", "−7 cos(7x)", "7 sin(7x)"],
+    "answer": 0,
+    "explanation": "d/dx (sin(7x)) = 7 cos(7x)."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find dy / dx for x = 2t, y = t³:",
+    "options": ["3t²", "6t²", "(2 / 3) t²", "(3 / 2) t²"],
+    "answer": 3,
+    "explanation": "dy / dx = (3t²) / 2 = (3 / 2) t²."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: limx → 0 ((sin(5x)) / x)",
+    "options": ["5", "1", "1 / 5", "0"],
+    "answer": 0,
+    "explanation": "limx → 0 ((sin 5x)/(5x)) × 5 = 1 × 5 = 5."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the critical point of f(x) = x² − 8x + 5:",
+    "options": ["x = 0", "x = 8", "x = −4", "x = 4"],
+    "answer": 3,
+    "explanation": "f'(x) = 2x − 8 = 0 ⇒ x = 4."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the Maclaurin series expansion of sin x?",
+    "options": [
+      "x + x³/3! + x⁵/5! + …",
+      "1 + x + x²/2! + x³/3! + …",
+      "x − x³/3! + x⁵/5! − …",
+      "1 − x²/2! + x⁴/4! − …"
+    ],
+    "answer": 2,
+    "explanation": "Maclaurin series of sin x is x − x³/3! + x⁵/5! − …."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Differentiate y = sin−1 x (|x| < 1) with respect to x:",
+    "options": ["cos x", "−1 / √(1 − x²)", "1 / √(1 − x²)", "1 / (1 + x²)"],
+    "answer": 2,
+    "explanation": "d/dx (sin−1 x) = 1 / √(1 − x²)."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the second derivative d2y / dx2 of y = x⁵:",
+    "options": ["5x⁴", "20x⁴", "20x³", "60x²"],
+    "answer": 2,
+    "explanation": "First derivative is 5x⁴; second derivative is 20x³."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = sinh x with respect to x?",
+    "options": ["sech2 x", "cosh x", "−cosh x", "sinh x"],
+    "answer": 1,
+    "explanation": "d/dx (sinh x) = cosh x."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the tangent line to y = 2x² + 1 at x = 3:",
+    "options": ["19", "6", "9", "12"],
+    "answer": 3,
+    "explanation": "y'(3) = 4(3) = 12."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate: ∫ e⁴ˣ dx",
+    "options": ["4 e⁴ˣ + C", "4x e³ˣ + C", "(1 / 4) e⁴ˣ + C", "e⁴ˣ + C"],
+    "answer": 2,
+    "explanation": "∫ e⁴ˣ dx = (1 / 4) e⁴ˣ + C."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ cos(3x) dx",
+    "options": [
+      "−(1 / 3) sin(3x) + C",
+      "(1 / 3) sin(3x) + C",
+      "sin(3x) + C",
+      "3 sin(3x) + C"
+    ],
+    "answer": 1,
+    "explanation": "∫ cos(3x) dx = (1 / 3) sin(3x) + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / (1 + x²)]",
+    "options": ["tan−1 x + C", "ln(1 + x²) + C", "sin−1 x + C", "sec−1 x + C"],
+    "answer": 0,
+    "explanation": "∫ (1 / (1 + x²)) dx = tan−1 x + C."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫0 π/2 cos x dx",
+    "options": ["1", "0", "−1", "π / 2"],
+    "answer": 0,
+    "explanation": "[sin x]0 π/2 = 1 − 0 = 1."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀⁴ 2x dx",
+    "options": ["4", "16", "8", "32"],
+    "answer": 1,
+    "explanation": "[x²]₀⁴ = 16 − 0 = 16."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ x⁵ dx",
+    "options": ["x⁶ / 6 + C", "5x⁴ + C", "6x⁶ + C", "x⁵ / 5 + C"],
+    "answer": 0,
+    "explanation": "Power rule gives x⁶ / 6 + C."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫−3 3 x⁵ dx",
+    "options": ["36 / 6", "0", "2 × 36 / 6", "243"],
+    "answer": 1,
+    "explanation": "Odd integrand x⁵ over symmetric [−3, 3] has integral 0."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ cosec² x dx",
+    "options": ["cot x + C", "−cot x + C", "tan x + C", "−tan x + C"],
+    "answer": 1,
+    "explanation": "∫ cosec² x dx = −cot x + C."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the degree of the differential equation (d2y / dx2)4 + 3(dy / dx) + y = 0?",
+    "options": ["Degree 4", "Degree 1", "Degree 3", "Degree 2"],
+    "answer": 0,
+    "explanation": "Highest derivative d2y/dx2 is raised to power 4, so degree is 4."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀⁴ 7 dx",
+    "options": ["7", "28", "0", "11"],
+    "answer": 1,
+    "explanation": "[7x]₀⁴ = 28 − 0 = 28."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "A single fair die is rolled once. What is the probability of rolling an even number?",
+    "options": ["2 / 3", "1 / 2", "1 / 6", "1 / 3"],
+    "answer": 1,
+    "explanation": "Outcomes {2, 4, 6} give 3 / 6 = 1 / 2."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many permutations of 3 items can be formed from 4 distinct items?",
+    "options": ["6", "64", "24", "12"],
+    "answer": 2,
+    "explanation": "4P³ = 4 × 3 × 2 = 24."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of 5! (five factorial)?",
+    "options": ["720", "60", "24", "120"],
+    "answer": 3,
+    "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "A bag contains 4 red and 6 green balls. One ball is drawn at random. What is P(red)?",
+    "options": ["3 / 5", "6 / 4", "2 / 5", "4 / 6"],
+    "answer": 2,
+    "explanation": "P(red) = 4 / (4 + 6) = 4 / 10 = 2 / 5."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the value of 6C²?",
+    "options": ["20", "30", "12", "15"],
+    "answer": 3,
+    "explanation": "6C² = (6 × 5) / 2 = 15."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In how many distinct ways can the letters of the word BOOK be arranged?",
+    "options": ["24", "12", "6", "4"],
+    "answer": 1,
+    "explanation": "Letters of BOOK have two O's: 4! / 2! = 24 / 2 = 12."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the arithmetic mean of {5, 10, 15, 20}?",
+    "options": ["15", "10", "12.5", "50"],
+    "answer": 2,
+    "explanation": "Mean = 50 / 4 = 12.5."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If every data observation is multiplied by k = 4, how does standard deviation σ scale?",
+    "options": [
+      "Increased by 4",
+      "Multiplied by 16",
+      "Multiplied by 4 (4σ)",
+      "Unchanged"
+    ],
+    "answer": 2,
+    "explanation": "Multiplying every datum by k = 4 multiplies standard deviation by 4."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the median of the ordered dataset {2, 5, 9, 14, 21}?",
+    "options": ["10.2", "5", "9", "14"],
+    "answer": 2,
+    "explanation": "Middle value of {2, 5, 9, 14, 21} is 9."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For two independent events A and B, what is P(A ∩ B)?",
+    "options": ["P(A) + P(B)", "P(A) / P(B)", "P(A) · P(B)", "0"],
+    "answer": 2,
+    "explanation": "Independent events satisfy P(A ∩ B) = P(A) · P(B)."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If P(A) = 0.28, what is P(A')?",
+    "options": ["0.56", "1.28", "0.28", "0.72"],
+    "answer": 3,
+    "explanation": "P(A') = 1 − 0.28 = 0.72."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the geometric mean of two positive numbers a = 3 and b = 27?",
+    "options": ["81", "15", "9", "12"],
+    "answer": 2,
+    "explanation": "Geometric mean = √(3 × 27) = √81 = 9."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the probability of a certain event S?",
+    "options": ["0", "∞", "1 / 2", "1"],
+    "answer": 3,
+    "explanation": "Certain event has probability 1."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the real domain of f(x) = 1 / (x − 7)?",
+    "options": ["(7, ∞)", "ℝ", "[7, ∞)", "ℝ \\ {7}"],
+    "answer": 3,
+    "explanation": "Denominator vanishes at x = 7, so domain is ℝ \\ {7}."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If f(x) = 2x + 5 and g(x) = x − 1, what is (f ∘ g)(3)?",
+    "options": ["7", "10", "9", "11"],
+    "answer": 2,
+    "explanation": "f(g(3)) = f(2) = 2(2) + 5 = 9."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which function among the following is odd?",
+    "options": ["f(x) = x²", "f(x) = cos x", "f(x) = x⁵", "f(x) = x⁴ + 1"],
+    "answer": 2,
+    "explanation": "f(x) = x⁵ satisfies f(−x) = −f(x)."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = 5x − 10:",
+    "options": ["1 / (5x − 10)", "(x + 10) / 5", "5x + 10", "(x − 10) / 5"],
+    "answer": 1,
+    "explanation": "Solving y = 5x − 10 gives f⁻¹(x) = (x + 10) / 5."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of f(x) = x² + 6 for x ∈ ℝ?",
+    "options": ["ℝ", "[6, ∞)", "(6, ∞)", "(−∞, 6]"],
+    "answer": 1,
+    "explanation": "Since x² ≥ 0, x² + 6 ≥ 6, range is [6, ∞). Physics Detailed Solutions (Q.101 – Q.160)"
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensions of kinetic energy?",
+    "options": ["[M L T⁻²]", "[M L T⁻¹]", "[M L² T⁻³]", "[M L² T⁻²]"],
+    "answer": 3,
+    "explanation": "Kinetic energy ((1/2)m v²) has dimensions [M L² T⁻²]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "For a projectile on level ground with fixed launch speed, at what angle θ is horizontal range maximum?",
+    "options": ["60°", "90°", "30°", "45°"],
+    "answer": 3,
+    "explanation": "Range v₀ 2 sin(2θ) / g peaks at 2θ = 90° ⇒ θ = 45°."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What does the area under a force-displacement (F–d) graph represent?",
+    "options": ["Angular velocity", "Impulse", "Work done", "Momentum"],
+    "answer": 2,
+    "explanation": "Area under F–d curve equals work done."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "An 8 kg body moves at 5 m/s. What is its kinetic energy?",
+    "options": ["200 J", "20 J", "100 J", "40 J"],
+    "answer": 2,
+    "explanation": "K = (1 / 2)(8)(52) = 4 × 25 = 100 J."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the formula for orbital speed vorb in a circular orbit of radius r around mass M?",
+    "options": [
+      "vorb = √(G M / r)",
+      "vorb = √(2 G M / r)",
+      "vorb = G M / r",
+      "vorb = √(r / G M)"
+    ],
+    "answer": 0,
+    "explanation": "Orbital speed is vorb = √(G M / r)."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an inelastic collision in an isolated system, which quantity is strictly conserved?",
+    "options": [
+      "Rest mass of each object",
+      "Both kinetic energy and speed",
+      "Total linear momentum",
+      "Total kinetic energy"
+    ],
+    "answer": 2,
+    "explanation": "Isolated collisions conserve linear momentum even when inelastic."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of work and energy?",
+    "options": ["Joule (J)", "Watt (W)", "Newton (N)", "Pascal (Pa)"],
+    "answer": 0,
+    "explanation": "Work/energy has SI unit Joule (J)."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A net force of 36 N acts on a 9 kg mass. What is its acceleration?",
+    "options": ["0.25 m/s²", "324 m/s²", "4 m/s²", "27 m/s²"],
+    "answer": 2,
+    "explanation": "a = F / m = 36 / 9 = 4 m/s²."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "For steady incompressible flow in a pipe, the equation of continuity states:",
+    "options": [
+      "A₁ v₁ = A₂ v² (constant volume flow rate)",
+      "A₁ / v₁ = A₂ / v²",
+      "P₁ = P₂ always",
+      "v₁ + v² = constant"
+    ],
+    "answer": 0,
+    "explanation": "Continuity for incompressible flow: A₁ v₁ = A₂ v²."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the SI unit of power?",
+    "options": ["Newton (N)", "Joule (J)", "Volt (V)", "Watt (W = J/s)"],
+    "answer": 3,
+    "explanation": "Power has SI unit Watt (W)."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the time period T of a simple pendulum of length L in gravitational field g?",
+    "options": ["T = 2π √(g / L)", "T = 2π √(L / g)", "T = 2π (L / g)", "T = √(L / g)"],
+    "answer": 1,
+    "explanation": "Simple pendulum period: T = 2π √(L / g)."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Where in simple harmonic motion is kinetic energy maximum?",
+    "options": [
+      "Zero everywhere",
+      "At extreme positions (x = ±x₀)",
+      "At maximum displacement",
+      "At equilibrium position (x = 0)"
+    ],
+    "answer": 3,
+    "explanation": "SHM kinetic energy peaks at equilibrium x = 0."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two tuning forks of 512 Hz and 517 Hz are sounded together. What is the beat frequency?",
+    "options": ["5 Hz", "2.5 Hz", "1029 Hz", "10 Hz"],
+    "answer": 0,
+    "explanation": "Beat frequency is |517 − 512| = 5 Hz."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A wave has speed 300 m/s and wavelength 1.5 m. What is its frequency?",
+    "options": ["20 Hz", "200 Hz", "0.005 Hz", "450 Hz"],
+    "answer": 1,
+    "explanation": "f = v / λ = 300 / 1.5 = 200 Hz."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "In a transverse wave, how do medium particles oscillate relative to wave propagation?",
+    "options": [
+      "Stationary",
+      "Perpendicular (at 90° to propagation)",
+      "In straight lines along the beam",
+      "Parallel (along propagation)"
+    ],
+    "answer": 1,
+    "explanation": "Transverse oscillations are perpendicular to wave travel."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State Snell's law of refraction at an interface between media 1 and 2:",
+    "options": [
+      "n₁ + sin θ1 = n₂ + sin θ2",
+      "n₁ / sin θ1 = n₂ sin θ2",
+      "n₁ cos θ1 = n₂ cos θ2",
+      "n₁ sin θ1 = n₂ sin θ2"
+    ],
+    "answer": 3,
+    "explanation": "Snell's law: n₁ sin θ1 = n₂ sin θ2."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the focal length f of a lens of optical power P = −2.0 D?",
+    "options": ["+2.0 m", "+0.50 m", "−0.50 m", "−2.0 m"],
+    "answer": 2,
+    "explanation": "f = 1 / P = 1 / (−2.0) = −0.50 m."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of angle?",
+    "options": ["Kelvin (K)", "Radian (rad)", "Steradian (sr)", "Hertz (Hz)"],
+    "answer": 1,
+    "explanation": "Plane angle has SI unit Radian (rad)."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State the thin-lens formula relating focal length f, object distance p, and image distance q:",
+    "options": [
+      "f = p q",
+      "1 / f = (1 / p) + (1 / q)",
+      "1 / f = (1 / p) − (1 / q)",
+      "f = p + q"
+    ],
+    "answer": 1,
+    "explanation": "Thin-lens formula: 1 / f = (1 / p) + (1 / q)."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In Young's double-slit experiment, how does fringe spacing β = λ D / d change if slit separation d is doubled?",
+    "options": ["Unchanged", "Doubled (2β)", "Quadrupled (4β)", "Halved (β / 2)"],
+    "answer": 3,
+    "explanation": "Since β ∝ 1 / d, doubling d halves fringe spacing."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the ideal-gas equation of state for n moles of gas?",
+    "options": ["P V = n / (R T)", "P / V = n R T", "P V = n R T", "P + V = n R T"],
+    "answer": 2,
+    "explanation": "Ideal gas law: P V = n R T."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the approximate value of Boltzmann's constant kB in SI units?",
+    "options": [
+      "≈ 1.38 × 10−23 J/K",
+      "≈ 6.02 × 1023 mol−1",
+      "≈ 8.314 J/(mol·K)",
+      "≈ 9.81 m/s²"
+    ],
+    "answer": 0,
+    "explanation": "Boltzmann constant kB ≈ 1.38 × 10−23 J/K."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Convert 300 K to Celsius scale:",
+    "options": ["27 °C", "100 °C", "0 °C", "573 °C"],
+    "answer": 0,
+    "explanation": "300 − 273 = 27 °C."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "In an adiabatic process with no heat transfer across boundaries, what is Q?",
+    "options": [
+      "Equal to W only",
+      "Equal to ΔU only",
+      "Zero (Q = 0)",
+      "Always positive"
+    ],
+    "answer": 2,
+    "explanation": "Adiabatic process involves no heat transfer: Q = 0."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of temperature?",
+    "options": ["Kelvin (K)", "Watt (W)", "Calorie (cal)", "Joule (J)"],
+    "answer": 0,
+    "explanation": "Thermodynamic temperature has SI unit Kelvin (K)."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electric current?",
+    "options": ["Coulomb (C)", "Farad (F)", "Volt (V)", "Ampere (A = C/s)"],
+    "answer": 3,
+    "explanation": "Electric current has SI unit Ampere (A)."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the formula for angular momentum L of a rigid body with moment of inertia I and angular velocity ω?",
+    "options": ["L = I / ω", "L = I ω", "L = (1 / 2) I ω", "L = I ω2"],
+    "answer": 1,
+    "explanation": "Angular momentum is L = I ω."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the centripetal acceleration ac in terms of tangential speed v and radius r?",
+    "options": ["v r²", "r / v²", "v² / r", "v / r"],
+    "answer": 2,
+    "explanation": "Centripetal acceleration is ac = v² / r."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the relation between linear speed v, radius r, and angular speed ω?",
+    "options": ["v = r ω2", "v = ω / r", "v = r ω", "v = r / ω"],
+    "answer": 2,
+    "explanation": "Tangential and angular speeds satisfy v = r ω."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of inductance?",
+    "options": ["Henry (H)", "Farad (F)", "Tesla (T)", "Weber (Wb)"],
+    "answer": 0,
+    "explanation": "Inductance has SI unit Henry (H)."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electrical resistance?",
+    "options": ["Farad (F)", "Ohm (Ω = V/A)", "Siemens (S)", "Henry (H)"],
+    "answer": 1,
+    "explanation": "Resistance has SI unit Ohm (Ω)."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two resistors of 4 Ω and 6 Ω are connected in series. What is their equivalent resistance?",
+    "options": ["10 Ω", "2 Ω", "24 Ω", "2.4 Ω"],
+    "answer": 0,
+    "explanation": "Series equivalent: 4 + 6 = 10 Ω."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of capacitance?",
+    "options": ["Ohm (Ω)", "Farad (F = C/V)", "Weber (Wb)", "Henry (H)"],
+    "answer": 1,
+    "explanation": "Capacitance has SI unit Farad (F)."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A current of 3 A flows through a 5 Ω resistor. What power is dissipated?",
+    "options": ["45 W", "75 W", "8 W", "15 W"],
+    "answer": 0,
+    "explanation": "P = I² R = 9 × 5 = 45 W."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which law states that induced EMF opposes the change in magnetic flux producing it?",
+    "options": ["Coulomb's law", "Hooke's law", "Gauss's law", "Lenz's law"],
+    "answer": 3,
+    "explanation": "Opposition to flux change is Lenz's law."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "How does inductive reactance XL = 2π f L behave as AC frequency f increases?",
+    "options": [
+      "Becomes zero",
+      "Decreases inversely with f",
+      "Increases linearly with f",
+      "Remains constant"
+    ],
+    "answer": 2,
+    "explanation": "XL = 2π f L increases linearly with f."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "If peak AC current is I₀ = 10√2 A, what is RMS current Irms?",
+    "options": ["10 A", "20 A", "5 A", "10√2 A"],
+    "answer": 0,
+    "explanation": "Irms = I₀ / √2 = 10 A."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In a pure inductor driven by a sinusoidal AC voltage, what is the phase difference between current and voltage?",
+    "options": [
+      "Zero phase difference",
+      "180° out of phase",
+      "Current lags voltage by 90° (π / 2 rad)",
+      "Current leads voltage by 90°"
+    ],
+    "answer": 2,
+    "explanation": "Inductive AC current lags voltage by 90°."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the energy stored in a capacitor of capacitance C charged to voltage V?",
+    "options": ["(1 / 2) C V", "C / V₂", "(1 / 2) C V₂", "C V₂"],
+    "answer": 2,
+    "explanation": "Capacitor energy is (1 / 2) C V₂."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which logic gate outputs 1 whenever at least one input is 1?",
+    "options": ["XNOR gate", "AND gate", "OR gate", "NAND gate"],
+    "answer": 2,
+    "explanation": "An OR gate outputs 1 when at least one input is 1."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the decimal equivalent of binary number 10112?",
+    "options": ["13", "11", "14", "9"],
+    "answer": 1,
+    "explanation": "8 + 0 + 2 + 1 = 11."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "In an ideal step-down transformer (Ns < Np), how do secondary and primary voltages compare?",
+    "options": ["Vs = Vp", "Vs = 2 Vp", "Vs > Vp", "Vs < Vp (voltage steps down)"],
+    "answer": 3,
+    "explanation": "With Ns < Np, Vs < Vp."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Under forward bias, a p–n junction diode narrows its depletion layer and conducts current easily above its:",
+    "options": [
+      "Breakdown voltage",
+      "Reverse saturation current",
+      "Barrier (knee) potential",
+      "Resonant frequency"
+    ],
+    "answer": 2,
+    "explanation": "Forward conduction begins once bias overcomes barrier potential."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the Boolean output of a NOT gate (inverter) when input is A = 0?",
+    "options": ["Undefined", "−1", "1", "0"],
+    "answer": 2,
+    "explanation": "NOT inverts 0 to 1."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the decimal equivalent of binary number 11112?",
+    "options": ["16", "15", "14", "7"],
+    "answer": 1,
+    "explanation": "8 + 4 + 2 + 1 = 15."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the de Broglie wavelength λ of a particle with linear momentum p?",
+    "options": ["λ = p / h", "λ = h / p", "λ = h / (p c)", "λ = h p"],
+    "answer": 1,
+    "explanation": "de Broglie wavelength: λ = h / p."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the photoelectric effect, increasing monochromatic light intensity (at fixed f > f₀) increases:",
+    "options": [
+      "Threshold frequency",
+      "Maximum kinetic energy per photoelectron",
+      "Work function",
+      "Rate of emitted photoelectrons (photoelectric current)"
+    ],
+    "answer": 3,
+    "explanation": "Higher intensity (above threshold) raises emission rate/current."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the approximate rest mass of an electron?",
+    "options": [
+      "≈ 9.11 × 10−31 kg",
+      "≈ 1.67 × 10−27 kg",
+      "≈ 1.60 × 10−19 kg",
+      "≈ 6.63 × 10−34 kg"
+    ],
+    "answer": 0,
+    "explanation": "Electron rest mass is ≈ 9.11 × 10−31 kg."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the ionization energy of a ground-state (n = 1) hydrogen atom?",
+    "options": ["13.6 eV", "3.4 eV", "1.51 eV", "0 eV"],
+    "answer": 0,
+    "explanation": "Ground-state hydrogen ionization energy is 13.6 eV."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the hydrogen spectrum, transitions terminating on n = 2 form which series?",
+    "options": ["Balmer series", "Paschen series", "Brackett series", "Lyman series"],
+    "answer": 0,
+    "explanation": "Transitions ending on n = 2 form the Balmer series."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "After 3 half-lives, what fraction of original radioactive nuclei remains undecayed?",
+    "options": ["1 / 16", "1 / 8", "7 / 8", "1 / 4"],
+    "answer": 1,
+    "explanation": "After 3 half-lives, undecayed fraction is (1/2)3 = 1 / 8."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "An alpha (α) particle emitted in radioactive decay is a:",
+    "options": [
+      "Helium-4 nucleus (4 2He)",
+      "Free neutron",
+      "High-energy photon",
+      "High-speed electron"
+    ],
+    "answer": 0,
+    "explanation": "An α particle is a helium-4 nucleus (4 2He)."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which nuclear process combines light nuclei into a heavier nucleus?",
+    "options": [
+      "Nuclear fusion",
+      "Nuclear fission",
+      "Alpha decay",
+      "Compton scattering"
+    ],
+    "answer": 0,
+    "explanation": "Joining light nuclei is nuclear fusion."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Nuclei having the same atomic number (Z) but different mass numbers (A) are called:",
+    "options": ["Isotones", "Isobars", "Isotopes", "Allotropes"],
+    "answer": 2,
+    "explanation": "Equal atomic number Z defines isotopes."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the approximate value of free-space permittivity ε0 in SI units?",
+    "options": [
+      "≈ 1.60 × 10−19 C",
+      "≈ 8.85 × 10−12 C²/(N·m₂)",
+      "≈ 9.11 × 10−31 kg",
+      "≈ 6.63 × 10−34 J·s"
+    ],
+    "answer": 1,
+    "explanation": "Free-space permittivity ε0 ≈ 8.85 × 10−12 C²/(N·m₂)."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which quark combination forms a proton (uud)?",
+    "options": [
+      "Three down quarks (ddd)",
+      "Two up and one down quark (uud)",
+      "Three up quarks (uuu)",
+      "One up and two down quarks (udd)"
+    ],
+    "answer": 1,
+    "explanation": "A proton consists of uud quarks."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "Which quark combination forms a neutron (udd)?",
+    "options": [
+      "Only strange quarks",
+      "Two up and two down quarks",
+      "Two up and one down quark (uud)",
+      "One up and two down quarks (udd)"
+    ],
+    "answer": 3,
+    "explanation": "A neutron consists of udd quarks."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which phenomenon proves the particle (momentum) nature of X-ray/gamma photons scattering off electrons?",
+    "options": [
+      "Single-slit diffraction",
+      "Compton effect",
+      "Thin-film interference",
+      "Beats"
+    ],
+    "answer": 1,
+    "explanation": "Wavelength shift in photon-electron scattering is the Compton effect."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Creation of an electron-positron pair from a high-energy photon near a nucleus is called:",
+    "options": [
+      "Pair production",
+      "Pair annihilation",
+      "Thermionic emission",
+      "Rectification"
+    ],
+    "answer": 0,
+    "explanation": "Photon conversion to electron-positron pair is pair production."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which device converts mechanical rotation into electrical energy via electromagnetic induction?",
+    "options": ["Ammeter", "Electric motor", "Capacitor", "Electric generator"],
+    "answer": 3,
+    "explanation": "A generator converts mechanical rotation into electrical energy. English Detailed Solutions (Q.161 – Q.200)"
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to CANDID:",
+    "options": ["Frank", "Evasive", "Deceitful", "Dishonest"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Candid means truthful and straightforward; frank matches."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to PRUDENT:",
+    "options": ["Imprudent", "Reckless", "Rash", "Judicious"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 3,
+    "explanation": "Prudent means acting with care and foresight; judicious matches."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to LUCID:",
+    "options": ["Clear", "Obscure", "Murky", "Vague"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Lucid means expressed clearly and easy to understand; clear matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to PROLIFIC:",
+    "options": ["Productive", "Unfruitful", "Sterile", "Barren"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Prolific means producing much fruit or work; productive matches."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to EPHEMERAL:",
+    "options": ["Eternal", "Transient", "Perpetual", "Everlasting"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 1,
+    "explanation": "Ephemeral means lasting for a very short time; transient matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to ZEALOUS:",
+    "options": ["Enthusiastic", "Indifferent", "Lethargic", "Apathetic"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Zealous means having or showing zeal; enthusiastic matches."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to ADVERSE:",
+    "options": ["Propitious", "Beneficial", "Advantageous", "Unfavorable"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 3,
+    "explanation": "Adverse means preventing success or harmful; unfavorable matches."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to BOLSTER:",
+    "options": ["Reinforce", "Weaken", "Erode", "Undermine"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Bolster means to support or strengthen; reinforce matches."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Much Difficult",
+    "prompt": "Choose the word most nearly similar in meaning to SAGACIOUS:",
+    "options": ["Foolish", "Wise", "Senseless", "Naive"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 1,
+    "explanation": "Sagacious means having or showing keen mental discernment; wise matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to AMEND:",
+    "options": ["Worsen", "Ruin", "Corrupt", "Revise"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 3,
+    "explanation": "Amend means to make minor changes to improve; revise matches."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to CORROBORATE:",
+    "options": ["Contradict", "Refute", "Confirm", "Disprove"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 2,
+    "explanation": "Corroborate means to confirm or give support to; confirm matches."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to MITIGATE:",
+    "options": ["Alleviate", "Aggravate", "Exacerbate", "Intensify"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Mitigate means to make less severe or painful; alleviate matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to PRAGMATIC:",
+    "options": ["Impractical", "Idealistic", "Practical", "Quixotic"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 2,
+    "explanation": "Pragmatic means dealing with things sensibly and realistically; practical matches."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to CONCISE:",
+    "options": ["Verbose", "Prolix", "Succinct", "Wordy"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 2,
+    "explanation": "Concise means giving a lot of information clearly in few words; succinct matches."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to TRANQUIL:",
+    "options": ["Chaotic", "Turbid", "Agitated", "Serene"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 3,
+    "explanation": "Tranquil means free from disturbance; serene matches."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to EXPAND:",
+    "options": ["Broaden", "Contract", "Dilate", "Enlarge"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 1,
+    "explanation": "Antonym of expand is contract."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to TRANSPARENT:",
+    "options": ["Pellucid", "Clear", "Opaque", "Limpid"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 2,
+    "explanation": "Antonym of transparent is opaque."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to BENIGN:",
+    "options": ["Malignant", "Kind", "Gentle", "Mild"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Antonym of benign is malignant."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to ASCEND:",
+    "options": ["Descend", "Mount", "Climb", "Rise"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Antonym of ascend is descend."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to DEFICIENT:",
+    "options": ["Scarce", "Lacking", "Abundant", "Meager"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 2,
+    "explanation": "Antonym of deficient is abundant."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — VOLTMETER : VOLTAGE ::",
+    "options": [
+      "Thermometer : Temperature",
+      "Tachometer : Volume",
+      "Hygrometer : Mass",
+      "Anemometer : Density"
+    ],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Instrument-to-quantity: a voltmeter measures voltage, as a thermometer measures temperature."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — INSULATOR : CURRENT ::",
+    "options": [
+      "Pump : Pressure",
+      "Wire : Resistance",
+      "Lens : Darkness",
+      "Dam : Water flow"
+    ],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 3,
+    "explanation": "Barrier-to-flow: an insulator blocks current, as a dam blocks water flow."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — ARCHITECT : BLUEPRINT ::",
+    "options": [
+      "Composer : Score",
+      "Sailor : Compass",
+      "Mason : Trowel",
+      "Weaver : Loom"
+    ],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Creator-to-notation: an architect draws a blueprint, as a composer writes a score."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — SOLID : LIQUID ::",
+    "options": ["Rigid : Fixed", "Freeze : Melt", "Dense : Heavy", "Cold : Warm"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 1,
+    "explanation": "Phase pair-to-phase change: solid : liquid parallels freeze : melt."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — THERMOSTAT : TEMPERATURE ::",
+    "options": [
+      "Clock : Distance",
+      "Ruler : Weight",
+      "Governor : Speed",
+      "Scale : Time"
+    ],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 2,
+    "explanation": "Regulator-to-controlled variable: a thermostat regulates temperature, as a governor regulates speed."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Neither the sensor nor the actuators ______ calibrated before the test.",
+    "options": ["is", "were", "was", "has"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 1,
+    "explanation": "With neither ... nor and plural actuators closer to the verb, use plural were."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Never ______ a circuit energized while changing fuses.",
+    "options": ["leaving", "left", "leaves", "leave"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 3,
+    "explanation": "Negative imperative uses base verb leave."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The alloy is capable ______ withstanding high cyclic loads.",
+    "options": ["with", "of", "to", "for"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 1,
+    "explanation": "Standard preposition collocation: capable of."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Had the coolant flow been higher, the core ______ overheated.",
+    "options": ["is not", "will not", "would not have", "has not"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 2,
+    "explanation": "Inverted third conditional main clause uses would not have."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Redundant pathways enhance overall system ______ under partial failure.",
+    "options": ["latency", "reliability", "fragility", "distortion"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 1,
+    "explanation": "Redundancy improves reliability under partial failure."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "Each beam in the truss carries axial load.",
+      "Each beam in the truss are carrying axial load.",
+      "Each beam in the truss were carrying axial load.",
+      "Each beam in the truss carry axial load."
+    ],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Each beam takes singular verb carries."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "The committee insisted that every report ______ submitted on time.",
+    "options": ["be", "being", "is", "was"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Subjunctive after insisted that uses base form be."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Seperate", "Saparate", "Separete", "Separate"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 3,
+    "explanation": "Separate is spelled s-e-p-a-r-a-t-e."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Shielding reduces electromagnetic ______ between adjacent cables.",
+    "options": ["capacitance", "voltage", "conductance", "interference"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 3,
+    "explanation": "Shielding mitigates electromagnetic interference."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Hardly ______ the alarm sounded when operators shut down the line.",
+    "options": ["was", "has", "had", "did"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 2,
+    "explanation": "Hardly triggers past-perfect inversion: had."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What physical principle guides light inside the optical fiber core?",
+    "options": [
+      "Nuclear fission",
+      "Thermoelectricity",
+      "Total internal reflection",
+      "Magnetic induction"
+    ],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 2,
+    "explanation": "Sentence 1 states light is guided by total internal reflection."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What installation challenges are noted in the passage?",
+    "options": [
+      "Splicing delicate glass fibers and protecting them from bend losses",
+      "Melting copper conductors",
+      "Increasing signal attenuation",
+      "Generating magnetic fields"
+    ],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Sentence 3 identifies splicing delicate glass fibers and protecting them from bend losses."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Why do optical fibers need fewer repeaters over long distances than copper wires?",
+    "options": [
+      "Copper wires cannot carry data",
+      "Light signals experience far lower attenuation than electrical currents in copper",
+      "Light travels in circles",
+      "Glass conducts electricity faster"
+    ],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 1,
+    "explanation": "Sentence 2 explains light experiences far lower attenuation than electrical currents in copper."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "How does the cladding layer compare to the glass core in refractive index?",
+    "options": [
+      "The cladding has a lower refractive index",
+      "The cladding has zero refractive index",
+      "The cladding has a higher refractive index",
+      "They have identical refractive index"
+    ],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Sentence 1 notes the cladding has a lower refractive index."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "What is the core made of according to the passage?",
+    "options": ["High-purity glass", "Liquid mercury", "Rubber", "Charcoal"],
+    "context": "Optical fiber transmits data using pulses of light guided by total internal reflection inside a high-purity glass core surrounded by a cladding layer of lower refractive index. Because light signals experience far lower attenuation than electrical currents in copper wires, optical fibers carry high- bandwidth data across long distances with minimal repeaters. However, splicing delicate glass fibers and protecting them from bend losses require precision installation.",
+    "answer": 0,
+    "explanation": "Sentence 1 states the core is made of high-purity glass."
+  }
+]

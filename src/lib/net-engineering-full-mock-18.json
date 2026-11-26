@@ -1,0 +1,2027 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the center of the circle x² + y² + 10x − 4y + 13 = 0?",
+    "options": ["(−10, 4)", "(10, −4)", "(−5, 2)", "(5, −2)"],
+    "answer": 2,
+    "explanation": "g = 5, f = −2 ⇒ center (−g, −f) = (−5, 2)."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the radius of the circle x² + y² + 10x − 4y + 13 = 0:",
+    "options": ["5 units", "16 units", "2√10 units", "4 units"],
+    "answer": 3,
+    "explanation": "r = √(25 + 4 − 13) = √16 = 4 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Two circles of radii 7 cm and 2 cm touch each other externally. What is the distance between their centers?",
+    "options": ["5 cm", "4.5 cm", "14 cm", "9 cm"],
+    "answer": 3,
+    "explanation": "External tangency center distance is r₁ + r₂ = 7 + 2 = 9 cm."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Where does the point (1, 1) lie with respect to the circle x² + y² − 25 = 0?",
+    "options": [
+      "On the tangent",
+      "Outside the circle",
+      "Inside the circle",
+      "On the circle"
+    ],
+    "answer": 2,
+    "explanation": "12 + 12 − 25 = −23 < 0, so (1, 1) lies inside the circle."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the equation of the circle with center (0, 0) and radius 6?",
+    "options": ["(x − 6)2 + y² = 36", "x² + y² = 36", "x² + y² = 6", "x² + y² = 12"],
+    "answer": 1,
+    "explanation": "Centered at origin with radius 6: x² + y² = 36."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the vertex of the standard parabola y² = 28x?",
+    "options": ["(7, 0)", "(0, 7)", "(−7, 0)", "(0, 0)"],
+    "answer": 3,
+    "explanation": "Standard parabola y² = 28x has vertex (0, 0)."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the focus of the parabola x² = −16y:",
+    "options": ["(4, 0)", "(0, 4)", "(0, −4)", "(−4, 0)"],
+    "answer": 2,
+    "explanation": "4a = 16 ⇒ a = 4; for x² = −4ay, focus is (0, −4)."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the equation of the directrix of the parabola x² = 20y?",
+    "options": ["y = 5", "y = −5", "x = −5", "x = 5"],
+    "answer": 1,
+    "explanation": "4a = 20 ⇒ a = 5; directrix of x² = 20y is y = −5."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the parabola y² = 24x?",
+    "options": ["24 units", "6 units", "48 units", "12 units"],
+    "answer": 0,
+    "explanation": "Latus rectum length of y² = 24x is |4a| = 24 units."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the vertex of the parabola (x − 3)2 = 8(y + 2):",
+    "options": ["(2, −3)", "(3, −2)", "(3, 2)", "(−3, 2)"],
+    "answer": 1,
+    "explanation": "Comparing (x − h)2 = 4a(y − k) gives vertex (3, −2)."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the semi-major axis of the ellipse (x² / 49) + (y² / 25) = 1?",
+    "options": ["7 units", "14 units", "5 units", "49 units"],
+    "answer": 0,
+    "explanation": "Since 49 > 25, semi-major axis is a = √49 = 7 units."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the ellipse (x² / 25) + (y² / 16) = 1:",
+    "options": ["9 / 25", "4 / 5", "5 / 3", "3 / 5"],
+    "answer": 3,
+    "explanation": "e = √(1 − 16/25) = √(9/25) = 3 / 5."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the ellipse (x² / 9) + (y² / 25) = 1:",
+    "options": ["(±4, 0)", "(0, ±5)", "(±3, 0)", "(0, ±4)"],
+    "answer": 3,
+    "explanation": "Major axis is along y-axis (b = 5, a = 3); c = √(25 − 9) = 4, so foci are (0, ±4)."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the ellipse (x² / 16) + (y² / 9) = 1?",
+    "options": ["6 units", "3 / 2 units", "8 units", "9 / 2 units"],
+    "answer": 3,
+    "explanation": "Latus rectum length = 2b² / a = 2(9) / 4 = 9 / 2 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the distance between the two foci of the ellipse (x² / 25) + (y² / 16) = 1?",
+    "options": ["3 units", "8 units", "10 units", "6 units"],
+    "answer": 3,
+    "explanation": "c = √(25 − 16) = 3; focal separation = 2c = 6 units."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the transverse axis of the hyperbola (x² / 36) − (y² / 64) = 1?",
+    "options": ["12 units", "16 units", "6 units", "8 units"],
+    "answer": 0,
+    "explanation": "a = 6, so transverse axis length = 2a = 12 units."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the hyperbola (x² / 9) − (y² / 16) = 1:",
+    "options": ["5 / 4", "3 / 5", "5 / 3", "4 / 3"],
+    "answer": 2,
+    "explanation": "e = √(1 + 16/9) = √(25/9) = 5 / 3."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the hyperbola (x² / 16) − (y² / 9) = 1:",
+    "options": ["(±5, 0)", "(0, ±5)", "(±4, 0)", "(±3, 0)"],
+    "answer": 0,
+    "explanation": "c = √(16 + 9) = 5; foci on x-axis are (±5, 0)."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What are the equations of the asymptotes of the hyperbola (x² / 16) − (y² / 9) = 1?",
+    "options": [
+      "y = ±(4 / 3) x",
+      "y = ±(3 / 4) x",
+      "y = ±(9 / 16) x",
+      "y = ±(5 / 4) x"
+    ],
+    "answer": 1,
+    "explanation": "Asymptotes of (x²/a²) − (y²/b²) = 1 are y = ±(b/a)x = ±(3/4)x."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Identify the conic represented by 9x² + 4y² − 36 = 0:",
+    "options": ["Ellipse", "Circle", "Parabola", "Hyperbola"],
+    "answer": 0,
+    "explanation": "Dividing by 36 gives (x²/4) + (y²/9) = 1, an ellipse."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the conjugate axis of the hyperbola (x² / 25) − (y² / 49) = 1?",
+    "options": ["14 units", "5 units", "7 units", "10 units"],
+    "answer": 0,
+    "explanation": "With b = 7, conjugate axis length is 2b = 14 units."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the length of the latus rectum of the hyperbola (x² / 9) − (y² / 16) = 1?",
+    "options": ["8 / 3 units", "16 / 3 units", "32 / 3 units", "24 / 3 units"],
+    "answer": 2,
+    "explanation": "Latus rectum length = 2b² / a = 2(16) / 3 = 32 / 3 units."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the distance between points (0, 0) and (6, 8)?",
+    "options": ["2 units", "10 units", "14 units", "√14 units"],
+    "answer": 1,
+    "explanation": "d = √(36 + 64) = √100 = 10 units."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the slope m of the line 5x − 2y + 9 = 0:",
+    "options": ["2 / 5", "−2 / 5", "5 / 2", "−5 / 2"],
+    "answer": 2,
+    "explanation": "Writing y = (5/2)x + 9/2 shows slope m = 5 / 2."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the x-intercept of the line 3x + 4y = 12?",
+    "options": ["3", "−4", "−3", "4"],
+    "answer": 3,
+    "explanation": "Setting y = 0 gives 3x = 12 ⇒ x = 4."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the midpoint of the segment joining (−2, 6) and (8, −2):",
+    "options": ["(5, 4)", "(2, 3)", "(3, 2)", "(6, 4)"],
+    "answer": 2,
+    "explanation": "Midpoint = ((−2 + 8)/2, (6 − 2)/2) = (3, 2)."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the distance from point (2, 3) to the line 3x + 4y − 13 = 0:",
+    "options": ["13 / 5 units", "5 units", "2 units", "1 unit"],
+    "answer": 3,
+    "explanation": "d = |3(2) + 4(3) − 13| / √(9 + 16) = |6 + 12 − 13| / 5 = 5 / 5 = 1 unit."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the slope of any line perpendicular to 2x + 3y − 7 = 0?",
+    "options": ["2 / 3", "−2 / 3", "−3 / 2", "3 / 2"],
+    "answer": 3,
+    "explanation": "Original slope is −2/3, so perpendicular slope is −1 / (−2/3) = 3 / 2."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of vector a = 3i + 4j?",
+    "options": ["5", "√7", "7", "25"],
+    "answer": 0,
+    "explanation": "|a| = √(9 + 16) = √25 = 5."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the dot product a · b for a = 2i + 3j + k and b = i + 2j − 4k:",
+    "options": ["−4", "8", "12", "4"],
+    "answer": 3,
+    "explanation": "a · b = 2(1) + 3(2) + 1(−4) = 2 + 6 − 4 = 4."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the cross product j × k of standard unit basis vectors?",
+    "options": ["i", "j", "−i", "0"],
+    "answer": 0,
+    "explanation": "By cyclic right-hand rule: j × k = i."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For what value of k are u = 3i − 2j + 4k and v = 2i + kj − k orthogonal?",
+    "options": ["k = −1", "k = 5", "k = 2", "k = 1"],
+    "answer": 3,
+    "explanation": "u · v = 3(2) + (−2)(k) + 4(−1) = 0 ⇒ 6 − 2k − 4 = 0 ⇒ k = 1."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the area of a triangle with adjacent side vectors a and b?",
+    "options": ["|a × b|", "|a · b|", "(1/2) |a × b|", "(1/2) |a · b|"],
+    "answer": 2,
+    "explanation": "Triangle area spanned by vectors a, b is (1/2) |a × b|."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is a normal vector to the plane 4x − 5y + 2z = 9?",
+    "options": ["4i − 5j + 2k", "4i + 5j + 2k", "9i", "2i − 5j + 4k"],
+    "answer": 0,
+    "explanation": "Coefficients of x, y, z give normal vector 4i − 5j + 2k."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance from the origin (0, 0, 0) to the plane 2x − y + 2z + 6 = 0?",
+    "options": ["6 units", "2 units", "6 / √5 units", "3 units"],
+    "answer": 1,
+    "explanation": "Distance from origin: |6| / √(4 + 1 + 4) = 6 / 3 = 2 units."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the line through (0, 3) with slope m = −2:",
+    "options": ["y = 3x − 2", "y = −2x − 3", "y = 2x + 3", "y = −2x + 3"],
+    "answer": 3,
+    "explanation": "Slope-intercept form: y = −2x + 3."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between points (1, 2, 2) and (0, 0, 0) in 3D space?",
+    "options": ["5 units", "√5 units", "√3 units", "3 units"],
+    "answer": 3,
+    "explanation": "Distance = √(1 + 4 + 4) = √9 = 3 units."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the dot product i · j of orthogonal unit basis vectors?",
+    "options": ["1", "0", "k", "−1"],
+    "answer": 1,
+    "explanation": "Orthogonal basis vectors satisfy i · j = 0."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the point dividing the segment from (1, 4) to (7, 10) in the ratio 1 : 2 internally:",
+    "options": ["(3, 6)", "(5, 8)", "(2, 5)", "(4, 7)"],
+    "answer": 0,
+    "explanation": "Ratio 1:2 gives ((2(1)+1(7))/3, (2(4)+1(10))/3) = (3, 6)."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If a · b = 0 for non-zero vectors a and b, what is the angle between them?",
+    "options": ["90° (π / 2)", "45°", "180°", "0°"],
+    "answer": 0,
+    "explanation": "Vanishing dot product of non-zero vectors implies 90°."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the unit vector in the direction of v = 6i − 8j?",
+    "options": ["6i − 8j", "(3/5)i − (4/5)j", "(3/10)i − (4/10)j", "(6/5)i − (8/5)j"],
+    "answer": 1,
+    "explanation": "|v| = 10; dividing by 10 gives (3/5)i − (4/5)j."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the cross product a × a of any vector with itself?",
+    "options": ["a", "|a|2", "Zero vector (0)", "1"],
+    "answer": 2,
+    "explanation": "Cross product of any vector with itself is 0."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Convert 5π / 6 radians into degrees:",
+    "options": ["120°", "135°", "150°", "210°"],
+    "answer": 2,
+    "explanation": "(5π/6) × (180°/π) = 150°."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the exact value of sin 18°?",
+    "options": ["(√5 − 1) / 4", "(√3 − 1) / 4", "(√5 + 1) / 4", "1 / 4"],
+    "answer": 0,
+    "explanation": "Standard exact value: sin 18° = (√5 − 1) / 4."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the fundamental period of f(x) = sin(4x)?",
+    "options": ["π / 4", "4π", "π / 2", "2π"],
+    "answer": 2,
+    "explanation": "Period of sin(4x) is 2π / 4 = π / 2."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the minimum value of 3 sin θ + 4 cos θ?",
+    "options": ["−1", "−5", "+5", "−7"],
+    "answer": 1,
+    "explanation": "Minimum of a sin θ + b cos θ is −√(a² + b²) = −5."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express cos 2θ in terms of cos θ:",
+    "options": ["2 cos² θ − 1", "cos² θ + sin² θ", "1 − 2 cos² θ", "2 cos² θ + 1"],
+    "answer": 0,
+    "explanation": "Double-angle cosine identity: cos 2θ = 2 cos² θ − 1."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In any triangle ABC, state the Law of Sines:",
+    "options": [
+      "a² = b² + c² − 2bc cos A",
+      "a + b + c = 2R",
+      "a sin A = b sin B = c sin C = R",
+      "a / sin A = b / sin B = c / sin C = 2R"
+    ],
+    "answer": 3,
+    "explanation": "Law of Sines: a / sin A = b / sin B = c / sin C = 2R."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is Heron's formula for triangle area Δ with semi-perimeter s?",
+    "options": [
+      "√[s(s − a)(s − b)(s − c)]",
+      "(1/2) s (a + b + c)",
+      "a b c / (4s)",
+      "√[(s − a)(s − b)(s − c)]"
+    ],
+    "answer": 0,
+    "explanation": "Heron's formula: Δ = √[s(s − a)(s − b)(s − c)]."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the relation among inradius (r), area (Δ), and semi-perimeter (s) of a triangle?",
+    "options": ["r = s / Δ", "r = Δ / s", "r = 2 Δ / s", "r = a b c / (4Δ)"],
+    "answer": 1,
+    "explanation": "Inradius relation: r = Δ / s."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: tan−1(1) + tan−1(2) + tan−1(3)",
+    "options": ["π", "3π / 4", "π / 4", "π / 2"],
+    "answer": 0,
+    "explanation": "tan−1(1) + tan−1(2) + tan−1(3) = π/4 + (π − tan−1((2+3)/(1−6))) = π/4 + 3π/4 = π."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the general solution of sin θ = 0?",
+    "options": [
+      "θ = nπ ± π/6, n ∈ ℤ",
+      "θ = nπ, n ∈ ℤ",
+      "θ = (2n + 1)(π / 2), n ∈ ℤ",
+      "θ = 2nπ, n ∈ ℤ"
+    ],
+    "answer": 1,
+    "explanation": "sin θ = 0 at integer multiples of π: θ = nπ, n ∈ ℤ."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the exact value of sin 75°?",
+    "options": ["(√6 + √2) / 4", "1 / √2", "(√3 − 1) / 2", "(√6 − √2) / 4"],
+    "answer": 0,
+    "explanation": "sin(45° + 30°) = (√6 + √2) / 4."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate sin(cos−1(3 / 5)):",
+    "options": ["4 / 3", "4 / 5", "3 / 5", "3 / 4"],
+    "answer": 1,
+    "explanation": "With cos θ = 3/5, sin θ = √(1 − 9/25) = 4 / 5."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the value of sin² θ + cos² θ for all real θ?",
+    "options": ["−1", "1", "0", "2"],
+    "answer": 1,
+    "explanation": "Pythagorean identity: sin² θ + cos² θ = 1."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express 2 sin A cos B as a sum/difference of sines:",
+    "options": [
+      "sin(A + B) − sin(A − B)",
+      "cos(A − B) − cos(A + B)",
+      "cos(A + B) + cos(A − B)",
+      "sin(A + B) + sin(A − B)"
+    ],
+    "answer": 3,
+    "explanation": "Product-to-sum identity: 2 sin A cos B = sin(A + B) + sin(A − B)."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the definition of sinh x in terms of exponentials?",
+    "options": [
+      "eˣ − e−x",
+      "(eˣ + e−x) / 2",
+      "(eˣ − e−x) / 2",
+      "(eˣ − e−x) / (eˣ + e−x)"
+    ],
+    "answer": 2,
+    "explanation": "Hyperbolic sine definition: sinh x = (eˣ − e−x) / 2."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the principal range of sin−1 x?",
+    "options": ["(−π / 2, π / 2)", "[−1, 1]", "[0, π]", "[−π / 2, π / 2]"],
+    "answer": 3,
+    "explanation": "Principal range of sin−1 x is [−π / 2, π / 2]."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Express cos 3θ in terms of cos θ:",
+    "options": [
+      "4 cos³ θ + 3 cos θ",
+      "4 cos³ θ − 3 cos θ",
+      "3 cos θ − 4 cos³ θ",
+      "3 sin θ − 4 sin³ θ"
+    ],
+    "answer": 1,
+    "explanation": "Triple-angle cosine formula: cos 3θ = 4 cos³ θ − 3 cos θ."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with a = 3, b = 4, c = 5, what is its area Δ?",
+    "options": ["6 sq. units", "7.5 sq. units", "10 sq. units", "12 sq. units"],
+    "answer": 0,
+    "explanation": "Right triangle 3–4–5 has area (1/2)(3)(4) = 6 sq. units."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of tan θ = √3?",
+    "options": [
+      "θ = nπ + π / 6, n ∈ ℤ",
+      "θ = nπ + π / 4, n ∈ ℤ",
+      "θ = 2nπ ± π / 3, n ∈ ℤ",
+      "θ = nπ + π / 3, n ∈ ℤ"
+    ],
+    "answer": 3,
+    "explanation": "tan(π/3) = √3, giving general solution θ = nπ + π / 3, n ∈ ℤ."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the maximum value of sin x for all x ∈ ℝ?",
+    "options": ["−1", "0", "π / 2", "1"],
+    "answer": 3,
+    "explanation": "Maximum value of sin x is 1."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = tan−1 x with respect to x?",
+    "options": ["1 / √(1 − x²)", "sec² x", "1 / (1 + x²)", "−1 / (1 + x²)"],
+    "answer": 2,
+    "explanation": "d/dx (tan−1 x) = 1 / (1 + x²)."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Differentiate y = esin x with respect to x:",
+    "options": ["−cos x · esin x", "cos x · esin x", "ecos x", "sin x · esin x"],
+    "answer": 1,
+    "explanation": "Chain rule gives esin x · cos x."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find dy / dx for x = a t², y = 2a t (t ≠ 0):",
+    "options": ["t", "2a t", "1 / t", "−1 / t"],
+    "answer": 2,
+    "explanation": "dy / dx = (2a) / (2a t) = 1 / t."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: limx → 0 ((eˣ − 1) / x)",
+    "options": ["e", "1", "0", "∞"],
+    "answer": 1,
+    "explanation": "Fundamental exponential limit: limx → 0 ((eˣ − 1)/x) = 1."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the critical point of f(x) = x² + 6x + 5:",
+    "options": ["x = −1 and x = −5", "x = 6", "x = 3", "x = −3"],
+    "answer": 3,
+    "explanation": "f'(x) = 2x + 6 = 0 ⇒ x = −3."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the Maclaurin series expansion of cos x?",
+    "options": [
+      "1 − x²/2! + x⁴/4! − x⁶/6! + …",
+      "x − x³/3! + x⁵/5! − …",
+      "1 + x²/2! + x⁴/4! + …",
+      "1 − x + x²/2! − …"
+    ],
+    "answer": 0,
+    "explanation": "Maclaurin expansion of cos x is 1 − x²/2! + x⁴/4! − x⁶/6! + …."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Differentiate y = xx (for x > 0) with respect to x:",
+    "options": ["xx ln x", "xx (1 + ln x)", "(1 + ln x)", "x · xx − 1"],
+    "answer": 1,
+    "explanation": "Logarithmic derivative of x ln x is 1 + ln x; multiply by xx."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the second derivative d2y / dx2 of y = sin(2x):",
+    "options": ["4 sin(2x)", "−2 cos(2x)", "−4 sin(2x)", "2 cos(2x)"],
+    "answer": 2,
+    "explanation": "First derivative is 2 cos(2x); second derivative is −4 sin(2x)."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = sinh x with respect to x?",
+    "options": ["sinh x", "cosh x", "−cosh x", "sech x"],
+    "answer": 1,
+    "explanation": "d/dx (sinh x) = cosh x."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the tangent line to y = x² + 1 at x = 2:",
+    "options": ["2", "4", "5", "−1 / 4"],
+    "answer": 1,
+    "explanation": "y'(2) = 2(2) = 4."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate: ∫ cosec² x dx",
+    "options": ["cot x + C", "−cot x + C", "cosec x + C", "−tan x + C"],
+    "answer": 1,
+    "explanation": "∫ cosec² x dx = −cot x + C."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ x eˣ dx",
+    "options": ["x eˣ − eˣ + C", "(1/2) x² eˣ + C", "eˣ + C", "x eˣ + eˣ + C"],
+    "answer": 0,
+    "explanation": "Integration by parts gives x eˣ − ∫ eˣ dx = x eˣ − eˣ + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / (1 + x²)]",
+    "options": ["ln(1 + x²) + C", "−cot−1 x + C", "tan−1 x + C", "sin−1 x + C"],
+    "answer": 2,
+    "explanation": "∫ dx / (1 + x²) = tan−1 x + C."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫0 π/2 sin² x dx",
+    "options": ["1", "π / 2", "π / 4", "1 / 2"],
+    "answer": 2,
+    "explanation": "∫0 π/2 [(1 − cos 2x)/2] dx = π / 4."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀² 3x² dx",
+    "options": ["6", "12", "4", "8"],
+    "answer": 3,
+    "explanation": "[x³]₀² = 8 − 0 = 8."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [2x / (x² + 1)] dx",
+    "options": ["tan−1(x²) + C", "(x² + 1)2 + C", "ln(x² + 1) + C", "2 ln(x² + 1) + C"],
+    "answer": 2,
+    "explanation": "∫ [2x / (x² + 1)] dx = ln(x² + 1) + C."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫−3 3 x⁵ dx",
+    "options": ["0", "486", "81", "243"],
+    "answer": 0,
+    "explanation": "x⁵ is odd over symmetric [−3, 3], so integral = 0."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ eˣ (sin x + cos x) dx",
+    "options": [
+      "eˣ cos x + C",
+      "−eˣ cos x + C",
+      "eˣ (sin x − cos x) + C",
+      "eˣ sin x + C"
+    ],
+    "answer": 3,
+    "explanation": "d/dx (eˣ sin x) = eˣ (sin x + cos x)."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the degree of the differential equation (d2y / dx2)3 + 4(dy / dx)5 + y = 0?",
+    "options": ["Degree 1", "Degree 2", "Degree 5", "Degree 3"],
+    "answer": 3,
+    "explanation": "Highest-order derivative (d2y/dx2) is raised to power 3."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫0 π/2 cos x dx",
+    "options": ["1", "0", "π / 2", "−1"],
+    "answer": 0,
+    "explanation": "[sin x]0 π/2 = 1 − 0 = 1."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "A single fair die is rolled once. What is the probability of rolling a prime number?",
+    "options": ["1 / 6", "2 / 3", "1 / 2", "1 / 3"],
+    "answer": 2,
+    "explanation": "Prime faces {2, 3, 5} give 3 / 6 = 1 / 2."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many permutations of 3 items can be chosen from 5 distinct items?",
+    "options": ["10", "20", "60", "120"],
+    "answer": 2,
+    "explanation": "5P³ = 5 × 4 × 3 = 60."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of 5! (five factorial)?",
+    "options": ["120", "60", "24", "720"],
+    "answer": 0,
+    "explanation": "5! = 5 × 4 × 3 × 2 × 1 = 120."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "A bag contains 4 red and 6 blue balls. One ball is drawn at random. What is P(blue)?",
+    "options": ["1 / 2", "3 / 5", "4 / 5", "2 / 5"],
+    "answer": 1,
+    "explanation": "P(blue) = 6 / (4 + 6) = 6 / 10 = 3 / 5."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the sum of binomial coefficients in (1 + x)n?",
+    "options": ["n²", "2n − 1", "2n", "n!"],
+    "answer": 2,
+    "explanation": "Setting x = 1 in (1 + x)n yields sum 2n."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In how many distinct ways can the letters of the word BOOK be arranged?",
+    "options": ["6", "12", "4", "24"],
+    "answer": 1,
+    "explanation": "4! / 2! = 24 / 2 = 12 (since O appears twice)."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the arithmetic mean of {4, 8, 12, 16}?",
+    "options": ["12", "40", "10", "8"],
+    "answer": 2,
+    "explanation": "Mean = (4 + 8 + 12 + 16) / 4 = 40 / 4 = 10."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If every value in a dataset is multiplied by k = 3, how does standard deviation σ change?",
+    "options": [
+      "Increased by 3",
+      "Unchanged",
+      "Multiplied by 3 (3σ)",
+      "Multiplied by 9 (9σ)"
+    ],
+    "answer": 2,
+    "explanation": "Scaling every observation by k = 3 scales standard deviation by 3."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the median of the ordered dataset {3, 7, 11, 15, 19}?",
+    "options": ["11", "7", "15", "13"],
+    "answer": 0,
+    "explanation": "Middle value of the 5 ordered numbers is 11."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For two mutually exclusive events A and B with P(A) = 0.35 and P(B) = 0.45, what is P(A ∪ B)?",
+    "options": ["0.80", "0.10", "1.00", "0.20"],
+    "answer": 0,
+    "explanation": "For disjoint events, P(A ∪ B) = 0.35 + 0.45 = 0.80."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the probability of a certain (sure) event?",
+    "options": ["1", "1 / 2", "0", "100"],
+    "answer": 0,
+    "explanation": "A certain event has probability 1."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the relationship among AM, GM, and HM for positive numbers?",
+    "options": ["AM < GM < HM always", "GM ≥ AM ≥ HM", "AM ≥ GM ≥ HM", "HM ≥ GM ≥ AM"],
+    "answer": 2,
+    "explanation": "Mean inequality for positive values is AM ≥ GM ≥ HM."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If P(E) = 0.28, what is the probability of its complement P(E')?",
+    "options": ["0.28", "0.72", "1.28", "0.00"],
+    "answer": 1,
+    "explanation": "P(E') = 1 − 0.28 = 0.72."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the real domain of f(x) = √(x − 4)?",
+    "options": ["(−∞, 4]", "[4, ∞)", "(4, ∞)", "ℝ \\ {4}"],
+    "answer": 1,
+    "explanation": "Radicand requires x − 4 ≥ 0 ⇒ x ≥ 4, i.e., [4, ∞)."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If f(x) = 2x + 1 and g(x) = x², what is (f ∘ g)(3)?",
+    "options": ["13", "49", "25", "19"],
+    "answer": 3,
+    "explanation": "f(g(3)) = f(9) = 2(9) + 1 = 19."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which condition defines an odd function?",
+    "options": ["f(−x) = f(x)", "f(−x) = 1 / f(x)", "f(x + 1) = f(x)", "f(−x) = −f(x)"],
+    "answer": 3,
+    "explanation": "Odd functions satisfy f(−x) = −f(x)."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = 5x − 7:",
+    "options": ["1 / (5x − 7)", "(x − 7) / 5", "(x + 7) / 5", "5x + 7"],
+    "answer": 2,
+    "explanation": "Solving y = 5x − 7 gives f⁻¹(x) = (x + 7) / 5."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of f(x) = x² + 2 for x ∈ ℝ?",
+    "options": ["ℝ", "[0, ∞)", "[2, ∞)", "(2, ∞)"],
+    "answer": 2,
+    "explanation": "Since x² ≥ 0, x² + 2 ≥ 2, so range is [2, ∞). Physics Detailed Solutions (Q.101 – Q.160)"
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensions of force?",
+    "options": ["[M L² T⁻²]", "[M² L T⁻²]", "[M L T⁻¹]", "[M L T⁻²]"],
+    "answer": 3,
+    "explanation": "F = m a has dimensions [M L T⁻²]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "At what launch angle above horizontal is the horizontal range of a projectile on level ground maximum?",
+    "options": ["90°", "45°", "60°", "30°"],
+    "answer": 1,
+    "explanation": "sin(2θ) peaks at 2θ = 90° ⇒ θ = 45°."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What does the area under a force-time (F–t) graph represent?",
+    "options": ["Kinetic energy", "Power", "Impulse (change in momentum)", "Work done"],
+    "answer": 2,
+    "explanation": "∫ F dt = impulse = Δp."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A constant net force of 15 N acts on a 3 kg body initially at rest for 4 s. What is its final speed?",
+    "options": ["60 m/s", "20 m/s", "12 m/s", "5 m/s"],
+    "answer": 1,
+    "explanation": "a = 15 / 3 = 5 m/s²; v = 0 + 5 × 4 = 20 m/s."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Approximately what is the escape speed from Earth's surface (vesc = √(2 g R))?",
+    "options": ["≈ 9.8 km/s", "≈ 11.2 km/s", "≈ 3.0 km/s", "≈ 7.9 km/s"],
+    "answer": 1,
+    "explanation": "Earth escape speed is vesc = √(2 g R) ≈ 11.2 km/s."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which quantity is conserved in any isolated system with zero net external force?",
+    "options": [
+      "Angular acceleration",
+      "Potential energy alone",
+      "Speed of each particle",
+      "Total linear momentum"
+    ],
+    "answer": 3,
+    "explanation": "Zero net external force implies conservation of total linear momentum."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of power?",
+    "options": ["Joule (J)", "Newton (N)", "Watt (W = J / s)", "Volt (V)"],
+    "answer": 2,
+    "explanation": "Power has SI unit Watt (W = J/s)."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 5 kg object moves at 6 m/s. What is its translational kinetic energy?",
+    "options": ["180 J", "90 J", "15 J", "30 J"],
+    "answer": 1,
+    "explanation": "KE = (1/2) m v² = 0.5 × 5 × 36 = 90 J."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to Archimedes' principle, buoyant force equals:",
+    "options": [
+      "Mass of submerged body",
+      "Weight of displaced fluid",
+      "Atmospheric pressure",
+      "Volume of displaced fluid"
+    ],
+    "answer": 1,
+    "explanation": "Buoyant force equals the weight of displaced fluid."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "In a horizontal pipe following Bernoulli's equation, where fluid speed is higher, static pressure is:",
+    "options": ["Zero", "Identical", "Higher", "Lower"],
+    "answer": 3,
+    "explanation": "Higher kinetic energy density in horizontal flow means lower static pressure."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the time period T of a simple pendulum of length L in small oscillations?",
+    "options": ["2π √(g / L)", "2π (L / g)", "2π √(L / g)", "(1 / 2π) √(L / g)"],
+    "answer": 2,
+    "explanation": "Simple pendulum period is T = 2π √(L / g)."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Where in simple harmonic motion is the magnitude of acceleration maximum?",
+    "options": [
+      "Halfway to equilibrium",
+      "At equilibrium (x = 0)",
+      "At extreme positions (x = ±x₀)",
+      "Nowhere; it is constant"
+    ],
+    "answer": 2,
+    "explanation": "|a| = ω2 |x| is greatest at extremes x = ±x₀."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two waves of 512 Hz and 516 Hz superimpose. How many beats per second occur?",
+    "options": ["4 beats/s", "1028 beats/s", "2 beats/s", "8 beats/s"],
+    "answer": 0,
+    "explanation": "Beat frequency is |516 − 512| = 4 beats/s."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A wave has speed 330 m/s and frequency 165 Hz. What is its wavelength?",
+    "options": ["165 m", "2.0 m", "0.5 m", "54450 m"],
+    "answer": 1,
+    "explanation": "λ = v / f = 330 / 165 = 2.0 m."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "When a sound source moves away from a stationary observer, the observed frequency is:",
+    "options": [
+      "Lower than emitted frequency",
+      "Zero",
+      "Higher than emitted frequency",
+      "Equal to emitted frequency"
+    ],
+    "answer": 0,
+    "explanation": "Receding source stretches wavefronts, lowering perceived frequency."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which optical phenomenon demonstrates that light waves are transverse?",
+    "options": ["Polarization", "Dispersion", "Refraction", "Reflection"],
+    "answer": 0,
+    "explanation": "Polarization applies to transverse oscillations and does not occur for longitudinal sound waves."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the focal length f of a thin lens of optical power +4.0 D?",
+    "options": ["+4.0 m", "+0.25 m (or +25 cm)", "+0.40 m", "−0.25 m"],
+    "answer": 1,
+    "explanation": "f = 1 / P = 1 / 4.0 = +0.25 m."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of luminous intensity?",
+    "options": ["Watt (W)", "Candela (cd)", "Lux (lx)", "Lumen (lm)"],
+    "answer": 1,
+    "explanation": "Luminous intensity has SI unit Candela (cd)."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the lens maker's formula in air (n = 1) for a lens of refractive index μ?",
+    "options": [
+      "1 / f = (μ − 1)(1 / R₁ − 1 / R²)",
+      "1 / f = μ (1 / R₁ − 1 / R²)",
+      "1 / f = (μ + 1)(1 / R₁ + 1 / R²)",
+      "f = (μ − 1)(R₁ − R²)"
+    ],
+    "answer": 0,
+    "explanation": "Lens maker's formula in air: 1 / f = (μ − 1)(1 / R₁ − 1 / R²)."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In Young's double-slit experiment, how does fringe spacing β = λ D / d change when slit separation d is doubled?",
+    "options": ["Quadrupled (4β)", "Halved (β / 2)", "Doubled (2β)", "Unchanged"],
+    "answer": 1,
+    "explanation": "Since β ∝ 1 / d, doubling d halves fringe width."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State the First Law of Thermodynamics (ΔU = internal energy change, Q = heat added, W = work done by system):",
+    "options": ["ΔU = Q − W", "ΔU = Q + W", "ΔU = 0 in every process", "Q = −W always"],
+    "answer": 0,
+    "explanation": "First law with W defined as work done by system: ΔU = Q − W."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In an adiabatic process (Q = 0), change in internal energy ΔU equals:",
+    "options": ["+W", "−W (negative of work done by system)", "Zero", "Q"],
+    "answer": 1,
+    "explanation": "Setting Q = 0 in ΔU = Q − W gives ΔU = −W."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Convert 27 °C to Kelvin scale:",
+    "options": ["327 K", "300 K", "246 K", "273 K"],
+    "answer": 1,
+    "explanation": "27 + 273 = 300 K."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the thermal efficiency η of a Carnot engine operating between TH = 600 K and TC = 300 K?",
+    "options": ["0.50 (or 50%)", "0.75 (or 75%)", "0.25 (or 25%)", "1.00 (or 100%)"],
+    "answer": 0,
+    "explanation": "η = 1 − (300 / 600) = 0.50 = 50%."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an isothermal process of an ideal gas, internal energy U:",
+    "options": [
+      "Equals P Vγ",
+      "Remains constant (ΔU = 0)",
+      "Increases linearly with volume",
+      "Drops to zero"
+    ],
+    "answer": 1,
+    "explanation": "Constant temperature means constant internal energy (ΔU = 0) for an ideal gas."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of entropy?",
+    "options": ["W / K", "K / J", "J", "J / K"],
+    "answer": 3,
+    "explanation": "Entropy (ΔS = Qrev / T) has SI unit J / K."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the ideal gas law equation for n moles?",
+    "options": ["P / V = n R T", "P + V = n R T", "P V = n R T", "P V = R / T"],
+    "answer": 2,
+    "explanation": "Ideal gas equation of state: P V = n R T."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the centripetal acceleration ac of a body moving at speed v on a circle of radius r?",
+    "options": ["v² / r (or r ω2)", "v² r", "r / v²", "v / r"],
+    "answer": 0,
+    "explanation": "Centripetal acceleration is ac = v² / r."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the torque τ when force F acts at perpendicular lever arm r⊥?",
+    "options": ["τ = r⊥ F", "τ = F / r⊥", "τ = m v r", "τ = r⊥ / F"],
+    "answer": 0,
+    "explanation": "Torque magnitude is τ = r⊥ F."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the angular velocity ω of a wheel completing 1 revolution per second?",
+    "options": ["π rad/s", "1 rad/s", "4π rad/s", "2π rad/s"],
+    "answer": 3,
+    "explanation": "One revolution per second equals 2π rad/s."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electric current?",
+    "options": ["Farad (F)", "Ampere (A = C / s)", "Ohm (Ω)", "Volt (V)"],
+    "answer": 1,
+    "explanation": "Electric current has SI unit Ampere (A)."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Three identical 12 μF capacitors are connected in series. What is their equivalent capacitance?",
+    "options": ["0.25 μF", "36 μF", "4 μF", "12 μF"],
+    "answer": 2,
+    "explanation": "Three equal capacitors in series give Ceq = 12 / 3 = 4 μF."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of electric resistance?",
+    "options": ["Ohm (Ω = V / A)", "Henry (H)", "Weber (Wb)", "Siemens (S)"],
+    "answer": 0,
+    "explanation": "Resistance has SI unit Ohm (Ω)."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A 12 Ω resistor carries 2.5 A steady current. What power is dissipated as heat?",
+    "options": ["75 W", "15 W", "150 W", "30 W"],
+    "answer": 0,
+    "explanation": "P = I² R = (2.5)2 × 12 = 6.25 × 12 = 75 W."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the SI unit of magnetic flux?",
+    "options": ["Weber (Wb)", "Ampere (A)", "Henry (H)", "Tesla (T = Wb/m₂)"],
+    "answer": 0,
+    "explanation": "Magnetic flux has SI unit Weber (Wb)."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the inductive reactance XL of an inductor L in an AC circuit of frequency f?",
+    "options": ["2π f L", "1 / (2π f C)", "1 / (2π f L)", "2π f C"],
+    "answer": 0,
+    "explanation": "Inductive reactance is XL = 2π f L."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the relation between peak voltage V₀ and RMS voltage Vrms for a pure sinusoidal AC wave?",
+    "options": ["Vrms = √2 V₀", "Vrms = V₀ / √2", "Vrms = V₀", "Vrms = V₀ / 2"],
+    "answer": 1,
+    "explanation": "Sinusoidal RMS voltage is Vrms = V₀ / √2."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "At series RLC resonance (XL = XC), what is the circuit impedance Z?",
+    "options": [
+      "Maximum, equal to infinity",
+      "Minimum, equal to R",
+      "Zero",
+      "Equal to XL + XC"
+    ],
+    "answer": 1,
+    "explanation": "At resonance, XL and XC cancel, so Z = R (minimum)."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the resonant angular frequency ω0 of a series RLC circuit?",
+    "options": ["1 / √(L C)", "√(L", "C) R / L", "1 / (L C)"],
+    "answer": 0,
+    "explanation": "Setting ω0 L = 1 / (ω0 C) gives ω0 = 1 / √(L C)."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In a purely inductive AC circuit, how does alternating current relate in phase to alternating voltage?",
+    "options": [
+      "Current lags voltage by 90° (π / 2)",
+      "Current and voltage are in phase",
+      "Current lags voltage by 45°",
+      "Current leads voltage by 90°"
+    ],
+    "answer": 0,
+    "explanation": "In a pure inductor, current lags voltage by 90°."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of inductance?",
+    "options": ["Tesla (T)", "Farad (F)", "Henry (H)", "Weber (Wb)"],
+    "answer": 2,
+    "explanation": "Inductance has SI unit Henry (H)."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "In an ideal transformer with Np = 100 and Ns = 400 turns, if Vp = 120 V AC, what is Vs?",
+    "options": ["120 V", "30 V", "480 V", "240 V"],
+    "answer": 2,
+    "explanation": "Vs = (Ns / Np) Vp = (400 / 100) × 120 = 480 V."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Under forward bias, how does the depletion region width of a p-n junction diode behave?",
+    "options": [
+      "Remains infinite",
+      "Becomes a permanent insulator",
+      "Narrows (becomes thinner)",
+      "Widens (becomes thicker)"
+    ],
+    "answer": 2,
+    "explanation": "Forward bias reduces barrier potential and narrows the depletion region."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which current relationship holds in a bipolar junction transistor (IE = emitter, IB = base, IC = collector)?",
+    "options": ["IE = IC − IB", "IB = IE + IC", "IE = IB + IC", "IC = IE + IB"],
+    "answer": 2,
+    "explanation": "Kirchhoff current conservation on a BJT gives IE = IB + IC."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the closed-loop voltage gain of an ideal non-inverting op-amp amplifier?",
+    "options": ["1 + Rf / Rin", "−Rf / Rin", "Rf / Rin", "1 − Rf / Rin"],
+    "answer": 0,
+    "explanation": "Ideal non-inverting amplifier gain is 1 + Rf / Rin."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to De Morgan's Second Theorem, (A · B )̄ is logically equal to:",
+    "options": ["Ā · B̄", "A + B", "A · B", "Ā + B̄"],
+    "answer": 3,
+    "explanation": "De Morgan's Second Theorem: (A · B )̄ = Ā + B̄ ."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the binary equivalent of decimal number 13?",
+    "options": ["11102", "10112", "10012", "11012"],
+    "answer": 3,
+    "explanation": "8 + 4 + 0 + 1 = 1310 ⇒ 11012."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the de Broglie wavelength λ of a particle with momentum p?",
+    "options": ["λ = h / (p c)", "λ = h / p", "λ = p / h", "λ = h p"],
+    "answer": 1,
+    "explanation": "de Broglie wavelength relation: λ = h / p."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In Einstein's photoelectric equation Kmax = h f − φ, what does φ represent?",
+    "options": [
+      "Photon momentum",
+      "De Broglie wavelength",
+      "Work function of the metal",
+      "Stopping potential in volts"
+    ],
+    "answer": 2,
+    "explanation": "φ is the minimum energy required to liberate an electron (work function)."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the rest energy E₀ of a mass m in special relativity?",
+    "options": ["E₀ = h f", "E₀ = m c", "E₀ = (1/2) m c²", "E₀ = m c²"],
+    "answer": 3,
+    "explanation": "Mass-energy equivalence gives rest energy E₀ = m c²."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the ground-state energy of a hydrogen electron in Bohr's model (n = 1)?",
+    "options": ["−3.4 eV", "0 eV", "−13.6 eV", "+13.6 eV"],
+    "answer": 2,
+    "explanation": "Bohr ground-state hydrogen energy is −13.6 eV."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "In the hydrogen spectrum, transitions terminating on n = 2 form which series?",
+    "options": ["Brackett series", "Paschen series", "Lyman series", "Balmer series"],
+    "answer": 3,
+    "explanation": "Transitions terminating on n = 2 form the Balmer series."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "After 3 half-lives, what fraction of original radioactive nuclei remains undecayed?",
+    "options": ["1 / 16", "1 / 4", "1 / 8", "3 / 8"],
+    "answer": 2,
+    "explanation": "After 3 half-lives, remaining fraction is (1/2)3 = 1 / 8."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the relationship between decay constant λ and half-life T₁/₂?",
+    "options": [
+      "T₁/₂ = λ / (ln 2)",
+      "T₁/₂ = (ln 2) / λ (≈ 0.693 / λ)",
+      "T₁/₂ = 1 / λ",
+      "T₁/₂ = 2 λ"
+    ],
+    "answer": 1,
+    "explanation": "Half-life and decay constant obey T₁/₂ = (ln 2) / λ."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the role of a moderator (such as heavy water or graphite) in a thermal nuclear reactor?",
+    "options": [
+      "Convert AC into DC",
+      "Absorb all neutrons completely",
+      "Increase fuel mass",
+      "Slow down fast fission neutrons to thermal energies"
+    ],
+    "answer": 3,
+    "explanation": "Moderators thermalize fast neutrons so they induce fission efficiently."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Nuclei having the same atomic number (Z) but different mass numbers A are called:",
+    "options": ["Isotopes", "Isobars", "Isomers", "Isotones"],
+    "answer": 0,
+    "explanation": "Same Z with different A defines isotopes."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the quark composition of a proton?",
+    "options": [
+      "One up quark and two down quarks (u d d)",
+      "Three up quarks (u u u)",
+      "Two up quarks and one down quark (u u d)",
+      "One top and two bottom quarks"
+    ],
+    "answer": 2,
+    "explanation": "A proton consists of u u d quarks (+2/3 + 2/3 − 1/3 = +1)."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of radioactive activity?",
+    "options": ["Gray (Gy)", "Sievert (Sv)", "Becquerel (Bq = s⁻¹)", "Tesla (T)"],
+    "answer": 2,
+    "explanation": "Activity has SI unit Becquerel (Bq)."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is population inversion in laser physics?",
+    "options": [
+      "Stopping photon emission",
+      "More atoms in an excited upper state than in a lower state",
+      "Reversing magnetic field direction",
+      "Cooling a laser below 0 K"
+    ],
+    "answer": 1,
+    "explanation": "Population inversion places more atoms in an upper excited state than lower state."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which fundamental interaction binds quarks inside protons, neutrons, and atomic nuclei?",
+    "options": [
+      "Strong nuclear force",
+      "Gravitational force",
+      "Electrostatic force alone",
+      "Weak nuclear force"
+    ],
+    "answer": 0,
+    "explanation": "The strong nuclear force binds quarks and nucleons. English Detailed Solutions (Q.161 – Q.200)"
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to BENEVOLENT:",
+    "options": ["Cruel", "Charitable", "Malevolent", "Hostile"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Benevolent means well-meaning and kindly; charitable matches."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to METICULOUS:",
+    "options": ["Careless", "Negligent", "Sloppy", "Painstaking"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 3,
+    "explanation": "Meticulous means showing great attention to detail; painstaking matches."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to UBIQUITOUS:",
+    "options": ["Omnipresent", "Isolated", "Scarce", "Rare"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 0,
+    "explanation": "Ubiquitous means present everywhere; omnipresent matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to CANDID:",
+    "options": ["Deceitful", "Frank", "Evasive", "Duplicitous"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Candid means truthful and straightforward; frank matches."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to OBFUSCATE:",
+    "options": ["Clarify", "Elucidate", "Obscure", "Illuminate"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 2,
+    "explanation": "Obfuscate means to render unclear or unintelligible; obscure matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to LACONIC:",
+    "options": ["Garrulous", "Prolix", "Loquacious", "Concise"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 3,
+    "explanation": "Laconic means using very few words; concise matches."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to AMELIORATE:",
+    "options": ["Aggravate", "Improve", "Impair", "Worsen"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Ameliorate means to make something bad better; improve matches."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to AUSPICIOUS:",
+    "options": ["Favorable", "Ominous", "Inauspicious", "Sinister"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 0,
+    "explanation": "Auspicious means conducive to success; favorable matches."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Much Difficult",
+    "prompt": "Choose the word most nearly similar in meaning to CAPRICIOUS:",
+    "options": ["Constant", "Predictable", "Fickle", "Steadfast"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 2,
+    "explanation": "Capricious means given to sudden unaccountable changes of mood/behavior; fickle matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to DILIGENT:",
+    "options": ["Lethargic", "Slothful", "Industrious", "Indolent"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 2,
+    "explanation": "Diligent means showing care and effort in work; industrious matches."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to EQUIVOCAL:",
+    "options": ["Unequivocal", "Unambiguous", "Ambiguous", "Definite"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 2,
+    "explanation": "Equivocal means open to more than one interpretation; ambiguous matches."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to MITIGATE:",
+    "options": ["Intensify", "Heighten", "Alleviate", "Magnify"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 2,
+    "explanation": "Mitigate means to make less severe; alleviate matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to SAGACIOUS:",
+    "options": ["Imprudent", "Rash", "Wise", "Foolish"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 2,
+    "explanation": "Sagacious means having or showing keen mental discernment and good judgment; wise matches."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to QUINTESSENTIAL:",
+    "options": ["Anomalous", "Archetypal", "Aberrant", "Atypical"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Quintessential means representing the most perfect example of a quality or class; archetypal matches."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to RESILIENT:",
+    "options": ["Rigid", "Brittle", "Adaptable", "Fragile"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 2,
+    "explanation": "Resilient means able to withstand or recover quickly from difficult conditions; adaptable matches."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to BENIGN:",
+    "options": ["Kind", "Malignant", "Harmless", "Gentle"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Benign means gentle/harmless; its antonym is malignant."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to ABUNDANT:",
+    "options": ["Plentiful", "Scarce", "Copious", "Profuse"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Abundant means existing in large quantities; its antonym is scarce."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to EPHEMERAL:",
+    "options": ["Momentary", "Permanent", "Brief", "Fleeting"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Ephemeral means short-lived; its antonym is permanent."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to EXPAND:",
+    "options": ["Enlarge", "Dilate", "Extend", "Contract"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 3,
+    "explanation": "Expand means to increase in size; its antonym is contract."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to OPTIMISTIC:",
+    "options": ["Sanguine", "Hopeful", "Pessimistic", "Upbeat"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 2,
+    "explanation": "Optimistic means hopeful/confident; its antonym is pessimistic."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — THERMOMETER : TEMPERATURE ::",
+    "options": [
+      "Hourglass : Density",
+      "Ruler : Voltage",
+      "Compass : Mass",
+      "Barometer : Pressure"
+    ],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 3,
+    "explanation": "Instrument-to-quantity: a thermometer measures temperature, as a barometer measures pressure."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — DROUGHT : FAMINE ::",
+    "options": [
+      "Study : Ignorance",
+      "Rain : Desertification",
+      "Flood : Inundation",
+      "Exercise : Atrophy"
+    ],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 2,
+    "explanation": "Event-to-direct-consequence: a flood causes inundation."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — ARCHITECT : BLUEPRINT ::",
+    "options": [
+      "Sailor : Tide",
+      "Mechanic : Rust",
+      "Composer : Score",
+      "Painter : Frame"
+    ],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 2,
+    "explanation": "Creator-to-notated-plan: an architect creates a blueprint, as a composer writes a score."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — FRUGAL : EXTRAVAGANT ::",
+    "options": [
+      "Calm : Serene",
+      "Timid : Audacious",
+      "Swift : Rapid",
+      "Honest : Truthful"
+    ],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Opposite traits: frugal opposes extravagant, as timid opposes audacious."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — INSULATOR : CURRENT ::",
+    "options": ["Piston : Gas", "Levee : Floodwater", "Lens : Light", "Wire : Signal"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Barrier-to-flow: an insulator blocks current, as a levee holds back floodwater."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The team of civil engineers ______ completed the structural load assessment.",
+    "options": ["were", "have", "are", "has"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 3,
+    "explanation": "Collective noun The team acting as a single unit takes singular has."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Not only ______ the sensor calibrate automatically, but it also logged zero drift.",
+    "options": ["is", "was", "has", "did"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 3,
+    "explanation": "Not only triggers subject-auxiliary inversion: did."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The alloy is composed ______ nickel, chromium, and iron.",
+    "options": ["from", "of", "with", "by"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Standard preposition collocation: composed of."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Had the circuit breaker tripped earlier, the transformer ______ spared overload damage.",
+    "options": ["would have been", "is", "will be", "would be"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 0,
+    "explanation": "Third conditional (Had + past participle) pairs with would have been."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Because the evidence was ______, the committee postponed any final verdict.",
+    "options": ["indisputable", "decisive", "conclusive", "inconclusive"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 3,
+    "explanation": "Postponement fits inconclusive (not yet decisive) evidence."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "Each of the candidates has submitted a complete application.",
+      "Each of the candidates have submitted a complete application.",
+      "Each of the candidates were submitting a complete application.",
+      "Each of the candidates are submitting a complete application."
+    ],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 0,
+    "explanation": "Each takes singular verb has submitted."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "The protocol requires that every sample ______ stored at sub-zero temperature.",
+    "options": ["is", "be", "being", "was"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "After requires that, use base subjunctive: be."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Acommodation", "Accommodation", "Accomodation", "Accommodaton"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Accommodation has double c and double m."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Careful calibration helped ______ systematic measurement bias across all trials.",
+    "options": ["amplify", "obscure", "fabricate", "eliminate"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 3,
+    "explanation": "Calibration aims to eliminate systematic bias."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Hardly ______ the experiment begun when the power supply fluctuated.",
+    "options": ["did", "had", "has", "was"],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Hardly triggers past-perfect inversion: had."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What happens when a photovoltaic semiconductor absorbs a photon with energy equal to or above its band gap?",
+    "options": [
+      "All photons are reflected without generating current",
+      "The semiconductor melts into a liquid metal",
+      "The p-n junction disappears permanently",
+      "Electrons are excited from the valence band to the conduction band, creating electron-hole pairs"
+    ],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 3,
+    "explanation": "Sentence 2 states band-gap or higher photons excite valence electrons into the conduction band, forming electron-hole pairs."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Which efficiency constraint is explicitly mentioned in the passage?",
+    "options": [
+      "Photons below the band gap passing through unabsorbed (or excess energy lost as heat / recombination)",
+      "Zero electric field across the junction",
+      "Lack of sunlight during daytime",
+      "Inability to connect to an external circuit"
+    ],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 0,
+    "explanation": "The final sentence identifies sub-band-gap photons passing through unabsorbed, heat loss of excess energy, and recombination."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What drives electrons and holes in opposite directions before recombination according to the passage?",
+    "options": [
+      "Gravitational attraction",
+      "An internal electric field across the p-n junction",
+      "High-pressure steam",
+      "Mechanical rotation"
+    ],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "Sentence 3 states an internal electric field across the p-n junction separates carriers before recombination."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What phenomenon directly converts incident light into electric current in solar cells?",
+    "options": [
+      "The photovoltaic effect",
+      "Magnetic braking",
+      "Capillary action",
+      "Thermal expansion"
+    ],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 0,
+    "explanation": "Sentence 1 names the photovoltaic effect."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "What happens to photons whose energy is below the semiconductor's band gap?",
+    "options": [
+      "They double the output voltage",
+      "They pass through unabsorbed",
+      "They create magnetic monopoles",
+      "They reverse current flow"
+    ],
+    "context": "Photovoltaic solar cells convert incident light directly into electric current through the photovoltaic effect in semiconductor junctions. When photons with energy equal to or greater than the semiconductor's band gap are absorbed, they excite electrons from the valence band to the conduction band, creating electron-hole pairs. An internal electric field across the p-n junction sweeps electrons and holes in opposite directions before they recombine, producing a measurable photovoltage and current in an external circuit. Efficiency is constrained by factors such as photons below the band gap passing through unabsorbed, excess photon energy lost as heat, and carrier recombination.",
+    "answer": 1,
+    "explanation": "The final sentence states photons below the band gap pass through unabsorbed."
+  }
+]

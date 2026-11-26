@@ -1,0 +1,2067 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the center of the circle x² + y² − 18x + 4y + 5 = 0?",
+    "options": ["(−18, 4)", "(9, −2)", "(−9, 2)", "(18, −4)"],
+    "answer": 1,
+    "explanation": "g = −9, f = 2 ⇒ center (−g, −f) = (9, −2)."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the radius of the circle x² + y² − 18x + 4y + 5 = 0:",
+    "options": ["80 units", "√90 units", "√80 units (4√5)", "9 units"],
+    "answer": 2,
+    "explanation": "r = √(81 + 4 − 5) = √80 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Two circles of radii 11 cm and 3 cm touch each other internally. What is the distance between their centers?",
+    "options": ["8 cm", "7 cm", "14 cm", "33 cm"],
+    "answer": 0,
+    "explanation": "Internal tangency center distance is 11 − 3 = 8 cm."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Where does the point (6, 8) lie with respect to the circle x² + y² − 64 = 0?",
+    "options": [
+      "On the circle",
+      "Outside the circle",
+      "Inside the circle",
+      "At the center"
+    ],
+    "answer": 1,
+    "explanation": "62 + 82 − 64 = 100 − 64 = 36 > 0, so (6, 8) lies outside the circle."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the equation of the circle with center (−4, 7) and radius 5?",
+    "options": [
+      "(x + 4)2 + (y − 7)2 = 5",
+      "(x + 4)2 + (y − 7)2 = 25",
+      "(x − 4)2 + (y + 7)2 = 25",
+      "x² + y² + 8x − 14y = 25"
+    ],
+    "answer": 1,
+    "explanation": "(x + 4)2 + (y − 7)2 = 52 = 25."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the focus of the standard parabola y² = 32x?",
+    "options": ["(32, 0)", "(0, 8)", "(−8, 0)", "(8, 0)"],
+    "answer": 3,
+    "explanation": "4a = 32 ⇒ a = 8; focus of y² = 32x is (8, 0)."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the directrix of the parabola y² = 16x:",
+    "options": ["y = −4", "y = 4", "x = 4", "x = −4"],
+    "answer": 3,
+    "explanation": "4a = 16 ⇒ a = 4; directrix of y² = 16x is x = −4."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the latus rectum of the parabola x² = 36y?",
+    "options": ["18 units", "72 units", "9 units", "36 units"],
+    "answer": 3,
+    "explanation": "Latus rectum length of x² = 36y is |4a| = 36 units."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the vertex of the parabola (y − 5)2 = 8(x + 2)?",
+    "options": ["(−5, 2)", "(5, −2)", "(−2, 5)", "(2, −5)"],
+    "answer": 2,
+    "explanation": "Comparing (y − k)2 = 4a(x − h) gives vertex (−2, 5)."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the axis of symmetry of the parabola y² = 28x?",
+    "options": ["y-axis (x = 0)", "Line y = x", "x-axis (y = 0)", "Line x = 7"],
+    "answer": 2,
+    "explanation": "y² = 28x is symmetric about the x-axis (y = 0)."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the major axis of the ellipse (x² / 81) + (y² / 36) = 1?",
+    "options": ["18 units", "6 units", "12 units", "9 units"],
+    "answer": 0,
+    "explanation": "a = 9, so major axis length is 2a = 18 units."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the ellipse (x² / 169) + (y² / 25) = 1:",
+    "options": ["144 / 169", "13 / 12", "12 / 13", "5 / 13"],
+    "answer": 2,
+    "explanation": "e = √(1 − 25/169) = √(144/169) = 12 / 13."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the ellipse (x² / 25) + (y² / 9) = 1:",
+    "options": ["(±3, 0)", "(0, ±4)", "(±5, 0)", "(±4, 0)"],
+    "answer": 3,
+    "explanation": "c = √(25 − 9) = 4; foci on x-axis are (±4, 0)."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the ellipse (x² / 36) + (y² / 16) = 1?",
+    "options": ["32 / 6 units (16 / 3)", "12 units", "8 units", "16 / 6 units"],
+    "answer": 0,
+    "explanation": "Latus rectum length = 2b² / a = 2(16) / 6 = 32 / 6 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For any non-degenerate ellipse, what inequality holds for its eccentricity e?",
+    "options": ["e = 0", "0 < e < 1", "e = 1", "e > 1"],
+    "answer": 1,
+    "explanation": "Every non-degenerate ellipse has eccentricity 0 < e < 1."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the transverse axis of the hyperbola (x² / 64) − (y² / 25) = 1?",
+    "options": ["5 units", "8 units", "10 units", "16 units"],
+    "answer": 3,
+    "explanation": "a = 8, so transverse axis length is 2a = 16 units."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the hyperbola (x² / 16) − (y² / 9) = 1:",
+    "options": ["5 / 3", "3 / 5", "4 / 5", "5 / 4"],
+    "answer": 3,
+    "explanation": "e = √(1 + 9/16) = √(25/16) = 5 / 4."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the hyperbola (x² / 9) − (y² / 16) = 1:",
+    "options": ["(±4, 0)", "(±5, 0)", "(±3, 0)", "(0, ±5)"],
+    "answer": 1,
+    "explanation": "c = √(9 + 16) = 5; foci on x-axis are (±5, 0)."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What are the equations of the asymptotes of the hyperbola (x² / 25) − (y² / 9) = 1?",
+    "options": [
+      "y = ±(9 / 25) x",
+      "y = ±(5 / 3) x",
+      "y = ±(4 / 5) x",
+      "y = ±(3 / 5) x"
+    ],
+    "answer": 3,
+    "explanation": "Asymptotes of (x²/25) − (y²/9) = 1 are y = ±(3/5)x."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Identify the conic represented by (x² / 16) − (y² / 4) = 1:",
+    "options": ["Parabola", "Hyperbola", "Ellipse", "Circle"],
+    "answer": 1,
+    "explanation": "Opposite signs on x² and y² define a hyperbola."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "For any hyperbola, what inequality holds for its eccentricity e?",
+    "options": ["e = 1", "e > 1", "e = 0", "0 < e < 1"],
+    "answer": 1,
+    "explanation": "Every hyperbola has eccentricity e > 1."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the length of the latus rectum of the hyperbola (x² / 9) − (y² / 16) = 1?",
+    "options": ["32 / 3 units", "16 / 3 units", "6 units", "8 units"],
+    "answer": 0,
+    "explanation": "Latus rectum length = 2b² / a = 2(16) / 3 = 32 / 3 units."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the distance between points (−2, 1) and (3, 13)?",
+    "options": ["√119 units", "12 units", "17 units", "13 units"],
+    "answer": 3,
+    "explanation": "d = √(25 + 144) = √169 = 13 units."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the slope m of the line 9x + 3y − 7 = 0:",
+    "options": ["3", "−1 / 3", "1 / 3", "−3"],
+    "answer": 3,
+    "explanation": "Writing y = −3x + 7/3 gives slope m = −3."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the x-intercept of the line 6x − 2y = 18?",
+    "options": ["−9", "−3", "3", "9"],
+    "answer": 2,
+    "explanation": "Setting y = 0 gives 6x = 18 ⇒ x = 3."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the midpoint of the segment joining (−4, 8) and (6, −2):",
+    "options": ["(1, 3)", "(−1, 5)", "(2, 6)", "(5, −5)"],
+    "answer": 0,
+    "explanation": "Midpoint = ((−4 + 6)/2, (8 − 2)/2) = (1, 3)."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the distance from point (1, −2) to the line 12x − 5y − 2 = 0:",
+    "options": ["20 / 17 units", "20 / 13 units", "13 / 20 units", "24 / 13 units"],
+    "answer": 1,
+    "explanation": "d = |12(1) − 5(−2) − 2| / 13 = |12 + 10 − 2| / 13 = 20 / 13 units."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the slope of any line perpendicular to 4x − 7y + 2 = 0?",
+    "options": ["−7 / 4", "7 / 4", "4 / 7", "−4 / 7"],
+    "answer": 0,
+    "explanation": "Original slope is 4 / 7; negative reciprocal is −7 / 4."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of vector a = 5i + 12j?",
+    "options": ["13", "17", "7", "169"],
+    "answer": 0,
+    "explanation": "|a| = √(25 + 144) = √169 = 13."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the dot product a · b for a = 2i + 4j − 3k and b = 3i − j + 2k:",
+    "options": ["8", "−4", "−8", "16"],
+    "answer": 1,
+    "explanation": "a · b = 2(3) + 4(−1) + (−3)(2) = 6 − 4 − 6 = −4."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the cross product k × i of standard unit basis vectors?",
+    "options": ["i", "−j", "j", "0"],
+    "answer": 2,
+    "explanation": "Cyclic right-hand cross product: k × i = j."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For what value of r are u = 3i + 2j − 4k and v = 2i − 3j + rk orthogonal?",
+    "options": ["r = 1", "r = −1", "r = 12", "r = 0"],
+    "answer": 3,
+    "explanation": "3(2) + 2(−3) − 4r = 0 ⇒ 6 − 6 − 4r = 0 ⇒ r = 0."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the cross product a × a of any vector with itself?",
+    "options": ["2a", "|a|2", "0 (zero vector)", "1"],
+    "answer": 2,
+    "explanation": "Self cross product is always the zero vector 0."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is a normal vector to the plane 2x + 6y − 3z = 9?",
+    "options": ["9k", "6i + 2j − 3k", "2i + 6j − 3k", "2i − 6j + 3k"],
+    "answer": 2,
+    "explanation": "Normal vector from 2x + 6y − 3z = 9 is 2i + 6j − 3k."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance from the origin (0, 0, 0) to the plane 2x + 6y − 3z + 21 = 0?",
+    "options": ["7 units", "9 units", "21 units", "3 units"],
+    "answer": 3,
+    "explanation": "d = |21| / √(4 + 36 + 9) = 21 / 7 = 3 units."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the line through (0, 4) with slope m = −2:",
+    "options": ["y = 2x + 4", "y = −2x + 4", "y = 4x − 2", "y = −2x − 4"],
+    "answer": 1,
+    "explanation": "Slope-intercept form: y = −2x + 4."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between points (1, 4, 8) and (0, 0, 0) in 3D space?",
+    "options": ["√13 units", "81 units", "13 units", "9 units"],
+    "answer": 3,
+    "explanation": "Distance = √(1 + 16 + 64) = √81 = 9 units."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the dot product i · j between orthogonal unit basis vectors?",
+    "options": ["k", "−1", "0", "1"],
+    "answer": 2,
+    "explanation": "Orthogonal unit vectors satisfy i · j = 0."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the point dividing the segment from (1, 2) to (7, 8) in the ratio 2 : 1 internally:",
+    "options": ["(3, 4)", "(6, 7)", "(4, 5)", "(5, 6)"],
+    "answer": 3,
+    "explanation": "Ratio 2:1 gives ((1(1)+2(7))/3, (1(2)+2(8))/3) = (5, 6)."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "For two non-zero vectors a and b, what does a × b = 0 imply?",
+    "options": [
+      "Their dot product is 1",
+      "Angle between them is 90°",
+      "They are parallel (collinear)",
+      "They are perpendicular"
+    ],
+    "answer": 2,
+    "explanation": "Vanishing cross product of non-zero vectors means they are parallel."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the unit vector in the direction of v = 9i + 12j?",
+    "options": ["(4/5)i + (3/5)j", "(3/5)i + (4/5)j", "(9/5)i + (12/5)j", "9i + 12j"],
+    "answer": 1,
+    "explanation": "|v| = 15; unit vector is (3/5)i + (4/5)j."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the dot product a · b when a and b are parallel in the same direction (θ = 0°)?",
+    "options": ["|a| |b|", "|a| + |b|", "−|a| |b|", "0"],
+    "answer": 0,
+    "explanation": "For θ = 0°, a · b = |a| |b| cos 0° = |a| |b|."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Convert 7π / 6 radians into degrees:",
+    "options": ["210°", "330°", "240°", "150°"],
+    "answer": 0,
+    "explanation": "(7π/6) × (180°/π) = 210°."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the exact value of cos 36°?",
+    "options": ["(√5 + 1) / 4", "1 / 2", "(√5 − 1) / 4", "√3 / 2"],
+    "answer": 0,
+    "explanation": "Standard exact value: cos 36° = (√5 + 1) / 4."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the fundamental period of f(x) = sin(6x)?",
+    "options": ["6π", "π / 3", "π / 6", "2π"],
+    "answer": 1,
+    "explanation": "Period of sin(6x) is 2π / 6 = π / 3."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the maximum value of 8 sin θ + 15 cos θ?",
+    "options": ["23", "17", "7", "−17"],
+    "answer": 1,
+    "explanation": "Maximum of 8 sin θ + 15 cos θ is √(64 + 225) = 17."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which expression equals sin 2θ?",
+    "options": ["2 sin θ cos θ", "2 sin θ", "sin² θ + cos² θ", "cos² θ − sin² θ"],
+    "answer": 0,
+    "explanation": "Double-angle sine identity: sin 2θ = 2 sin θ cos θ."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "State the Law of Cosines for side a² in triangle ABC:",
+    "options": [
+      "a² = b² + c² + 2 b c cos A",
+      "a = b + c − cos A",
+      "a² = b² + c² − 2 b c cos A",
+      "a² = b² − c² + 2 b c sin A"
+    ],
+    "answer": 2,
+    "explanation": "Law of Cosines: a² = b² + c² − 2 b c cos A."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the area Δ of triangle ABC in terms of sides b, c and included angle A?",
+    "options": [
+      "(1 / 2) b c cos A",
+      "b c sin A",
+      "(1 / 2) b c sin A",
+      "(1 / 2) a b sin C"
+    ],
+    "answer": 2,
+    "explanation": "Area Δ = (1 / 2) b c sin A."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In any triangle ABC, what does the sum of interior angles A + B + C equal?",
+    "options": [
+      "270° (3π / 2 radians)",
+      "360° (2π radians)",
+      "180° (π radians)",
+      "90° (π / 2 radians)"
+    ],
+    "answer": 2,
+    "explanation": "Interior angle sum in any Euclidean triangle is 180° (π radians)."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: sin−1(1) + cos−1(1)",
+    "options": ["π", "π / 4", "π / 2", "0"],
+    "answer": 2,
+    "explanation": "π / 2 + 0 = π / 2."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the general solution of cos θ = 0?",
+    "options": [
+      "θ = nπ, n ∈ ℤ",
+      "θ = (2n + 1)π / 2, n ∈ ℤ",
+      "θ = nπ / 2, n ∈ ℤ",
+      "θ = 2nπ, n ∈ ℤ"
+    ],
+    "answer": 1,
+    "explanation": "cos θ = 0 at θ = (2n + 1)π / 2, n ∈ ℤ."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the exact value of tan 75°?",
+    "options": ["2 − √3", "1 / √3", "√3 − 1", "2 + √3"],
+    "answer": 3,
+    "explanation": "tan(45° + 30°) = (1 + 1/√3) / (1 − 1/√3) = 2 + √3."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate sin(cos−1(3 / 5)):",
+    "options": ["3 / 4", "4 / 3", "3 / 5", "4 / 5"],
+    "answer": 3,
+    "explanation": "Adjacent = 3, hypotenuse = 5, opposite = 4, so sin θ = 4 / 5."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the Pythagorean identity linking cosec θ and cot θ?",
+    "options": [
+      "cot² θ − cosec² θ = 1",
+      "cosec² θ − cot² θ = 1",
+      "cosec θ cot θ = 1",
+      "cosec² θ + cot² θ = 1"
+    ],
+    "answer": 1,
+    "explanation": "Identity: cosec² θ − cot² θ = 1."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express 2 cos A cos B as a sum of cosines:",
+    "options": [
+      "cos(A − B) − cos(A + B)",
+      "sin(A + B) + sin(A − B)",
+      "sin(A + B) − sin(A − B)",
+      "cos(A + B) + cos(A − B)"
+    ],
+    "answer": 3,
+    "explanation": "Product-to-sum identity: 2 cos A cos B = cos(A + B) + cos(A − B)."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the definition of cosh x in exponential form?",
+    "options": [
+      "(eˣ + e−x) / (eˣ − e−x)",
+      "(eˣ + e−x) / 2",
+      "eˣ + e−x",
+      "(eˣ − e−x) / 2"
+    ],
+    "answer": 1,
+    "explanation": "Hyperbolic cosine: cosh x = (eˣ + e−x) / 2."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the principal range of cos−1 x?",
+    "options": ["(−π / 2, π / 2)", "(0, π)", "[0, π]", "[−π / 2, π / 2]"],
+    "answer": 2,
+    "explanation": "Principal range of cos−1 x is [0, π]."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the fundamental period of f(x) = tan x?",
+    "options": ["4π", "π / 2", "π", "2π"],
+    "answer": 2,
+    "explanation": "Fundamental period of tan x is π."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with a = 5, b = 12, c = 13, what is its area Δ?",
+    "options": ["78 sq. units", "30 sq. units", "60 sq. units", "65 sq. units"],
+    "answer": 1,
+    "explanation": "Right triangle 5–12–13 has area (1/2)(5)(12) = 30 sq. units."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of sin θ = 1 / 2?",
+    "options": [
+      "θ = nπ + (−1)n (π / 6), n ∈ ℤ",
+      "θ = 2nπ ± (π / 6), n ∈ ℤ",
+      "θ = nπ ± (π / 6), n ∈ ℤ",
+      "θ = 2nπ + (π / 3), n ∈ ℤ"
+    ],
+    "answer": 0,
+    "explanation": "General solution of sin θ = sin α is θ = nπ + (−1)n α."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the fundamental period of f(x) = sin x?",
+    "options": ["π", "4π", "π / 2", "2π"],
+    "answer": 3,
+    "explanation": "Fundamental period of sin x is 2π."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = ln x (x > 0) with respect to x?",
+    "options": ["−1 / x²", "eˣ", "1 / x", "x"],
+    "answer": 2,
+    "explanation": "d/dx (ln x) = 1 / x for x > 0."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Differentiate y = cos(5x) with respect to x:",
+    "options": ["5 cos(5x)", "−5 sin(5x)", "−sin(5x)", "5 sin(5x)"],
+    "answer": 1,
+    "explanation": "d/dx (cos(5x)) = −5 sin(5x)."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find dy / dx for x = 3t, y = t⁴:",
+    "options": ["12t³", "4t³", "(3 / 4) t³", "(4 / 3) t³"],
+    "answer": 3,
+    "explanation": "dy / dx = (4t³) / 3 = (4 / 3) t³."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: limx → 0 ((sin(9x)) / x)",
+    "options": ["1 / 9", "1", "9", "0"],
+    "answer": 2,
+    "explanation": "limx → 0 ((sin 9x)/(9x)) × 9 = 1 × 9 = 9."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the critical point of f(x) = x² + 6x + 2:",
+    "options": ["x = −6", "x = 0", "x = 3", "x = −3"],
+    "answer": 3,
+    "explanation": "f'(x) = 2x + 6 = 0 ⇒ x = −3."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the Maclaurin series expansion of cos x?",
+    "options": [
+      "1 − x²/2! + x⁴/4! − …",
+      "1 + x²/2! + x⁴/4! + …",
+      "1 + x + x²/2! + x³/3! + …",
+      "x − x³/3! + x⁵/5! − …"
+    ],
+    "answer": 0,
+    "explanation": "Maclaurin series of cos x is 1 − x²/2! + x⁴/4! − …."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Differentiate y = tan−1 x with respect to x:",
+    "options": ["1 / (1 + x²)", "−1 / (1 + x²)", "1 / √(1 − x²)", "1 / (x √(x² − 1))"],
+    "answer": 0,
+    "explanation": "d/dx (tan−1 x) = 1 / (1 + x²)."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the second derivative d2y / dx2 of y = x⁴:",
+    "options": ["4x³", "12x³", "12x²", "24x"],
+    "answer": 2,
+    "explanation": "First derivative is 4x³; second derivative is 12x²."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = cosh x with respect to x?",
+    "options": ["−sinh x", "tanh2 x", "cosh x", "sinh x"],
+    "answer": 3,
+    "explanation": "d/dx (cosh x) = sinh x."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the tangent line to y = 3x² − 4 at x = 2:",
+    "options": ["12", "6", "8", "4"],
+    "answer": 0,
+    "explanation": "y'(2) = 6(2) = 12."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate: ∫ e⁶ˣ dx",
+    "options": ["(1 / 6) e⁶ˣ + C", "6x e⁵ˣ + C", "e⁶ˣ + C", "6 e⁶ˣ + C"],
+    "answer": 0,
+    "explanation": "∫ e⁶ˣ dx = (1 / 6) e⁶ˣ + C."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ sin(5x) dx",
+    "options": [
+      "cos(5x) + C",
+      "−(1 / 5) cos(5x) + C",
+      "(1 / 5) cos(5x) + C",
+      "−5 cos(5x) + C"
+    ],
+    "answer": 1,
+    "explanation": "∫ sin(5x) dx = −(1 / 5) cos(5x) + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / √(1 − x²)] (|x| < 1)",
+    "options": ["tan−1 x + C", "cos x + C", "sin−1 x + C", "ln(1 − x²) + C"],
+    "answer": 2,
+    "explanation": "∫ (1 / √(1 − x²)) dx = sin−1 x + C."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫0 π/2 sin x dx",
+    "options": ["1", "π / 2", "0", "−1"],
+    "answer": 0,
+    "explanation": "[−cos x]0 π/2 = 0 − (−1) = 1."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀³ 2x dx",
+    "options": ["18", "3", "9", "6"],
+    "answer": 2,
+    "explanation": "[x²]₀³ = 9 − 0 = 9."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ x⁷ dx",
+    "options": ["x⁷ / 7 + C", "8x⁸ + C", "x⁸ / 8 + C", "7x⁶ + C"],
+    "answer": 2,
+    "explanation": "Power rule gives x⁸ / 8 + C."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫−5 5 x³ dx",
+    "options": ["0", "125", "54 / 4", "2 × 54 / 4"],
+    "answer": 0,
+    "explanation": "Odd integrand x³ over symmetric [−5, 5] has integral 0."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ sec² x dx",
+    "options": ["tan x + C", "sec x + C", "sin x + C", "−cot x + C"],
+    "answer": 0,
+    "explanation": "∫ sec² x dx = tan x + C."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the order of the differential equation (d3y / dx3)2 + 5(dy / dx)4 + y = 0?",
+    "options": ["Order 1", "Order 2", "Order 4", "Order 3"],
+    "answer": 3,
+    "explanation": "Highest derivative is d3y/dx3, so order is 3."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀⁵ 6 dx",
+    "options": ["6", "30", "0", "11"],
+    "answer": 1,
+    "explanation": "[6x]₀⁵ = 30 − 0 = 30."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "A single fair die is rolled once. What is the probability of rolling a number greater than 4?",
+    "options": ["1 / 6", "1 / 2", "1 / 3", "2 / 3"],
+    "answer": 2,
+    "explanation": "Outcomes {5, 6} give 2 / 6 = 1 / 3."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many permutations of 2 items can be formed from 5 distinct items?",
+    "options": ["25", "120", "10", "20"],
+    "answer": 3,
+    "explanation": "5P² = 5 × 4 = 20."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of 6! (six factorial)?",
+    "options": ["120", "720", "360", "5040"],
+    "answer": 1,
+    "explanation": "6! = 6 × 5 × 4 × 3 × 2 × 1 = 720."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "A bag contains 3 red and 7 blue balls. One ball is drawn at random. What is P(blue)?",
+    "options": ["7 / 3", "3 / 10", "7 / 10", "3 / 7"],
+    "answer": 2,
+    "explanation": "P(blue) = 7 / (3 + 7) = 7 / 10."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the value of 5C²?",
+    "options": ["25", "10", "15", "20"],
+    "answer": 1,
+    "explanation": "5C² = (5 × 4) / 2 = 10."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In how many distinct ways can the letters of the word NOON be arranged?",
+    "options": ["12", "6", "24", "4"],
+    "answer": 1,
+    "explanation": "Letters of NOON have two N's and two O's: 4! / (2! 2!) = 24 / 4 = 6."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the arithmetic mean of {2, 4, 6, 8, 10}?",
+    "options": ["7", "30", "5", "6"],
+    "answer": 3,
+    "explanation": "Mean = 30 / 5 = 6."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If a constant c = 12 is added to every data value, how does variance σ2 change?",
+    "options": [
+      "Multiplied by 12",
+      "Increased by 12",
+      "Increased by 144",
+      "Unchanged (shift-invariant)"
+    ],
+    "answer": 3,
+    "explanation": "Shifting every datum by a constant leaves variance unchanged."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the median of the ordered dataset {3, 7, 10, 15, 20}?",
+    "options": ["10", "15", "7", "11"],
+    "answer": 0,
+    "explanation": "Middle value of {3, 7, 10, 15, 20} is 10."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For two mutually exclusive events A and B, what is P(A ∩ B)?",
+    "options": ["P(A) · P(B)", "0", "1", "P(A) + P(B)"],
+    "answer": 1,
+    "explanation": "Mutually exclusive events cannot co-occur: P(A ∩ B) = 0."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "For any event A with complement A', what is P(A) + P(A')?",
+    "options": ["1 / 2", "P(A) · P(A')", "0", "1"],
+    "answer": 3,
+    "explanation": "Complementary events satisfy P(A) + P(A') = 1."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the geometric mean of two positive numbers a = 2 and b = 8?",
+    "options": ["10", "16", "5", "4"],
+    "answer": 3,
+    "explanation": "Geometric mean = √(2 × 8) = √16 = 4."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "For any event A, what interval contains P(A)?",
+    "options": ["(0, ∞)", "[0, 1]", "[−1, 1]", "[0, 100]"],
+    "answer": 1,
+    "explanation": "Every probability lies in [0, 1]."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the real domain of f(x) = 1 / (x + 4)?",
+    "options": ["(−4, ∞)", "ℝ", "[−4, ∞)", "ℝ \\ {−4}"],
+    "answer": 3,
+    "explanation": "Denominator vanishes at x = −4, so domain is ℝ \\ {−4}."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If f(x) = 3x − 2 and g(x) = x + 4, what is (f ∘ g)(2)?",
+    "options": ["16", "10", "8", "24"],
+    "answer": 0,
+    "explanation": "f(g(2)) = f(6) = 3(6) − 2 = 16."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which function among the following is even?",
+    "options": ["f(x) = x", "f(x) = x³", "f(x) = sin x", "f(x) = x⁴"],
+    "answer": 3,
+    "explanation": "f(x) = x⁴ satisfies f(−x) = f(x)."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = 4x + 8:",
+    "options": ["(x − 8) / 4", "(x + 8) / 4", "4x − 8", "1 / (4x + 8)"],
+    "answer": 0,
+    "explanation": "Solving y = 4x + 8 gives f⁻¹(x) = (x − 8) / 4."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of f(x) = x² − 3 for x ∈ ℝ?",
+    "options": ["ℝ", "[−3, ∞)", "(−3, ∞)", "(−∞, −3]"],
+    "answer": 1,
+    "explanation": "Since x² ≥ 0, x² − 3 ≥ −3, range is [−3, ∞). Physics Detailed Solutions (Q.101 – Q.160)"
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensions of linear momentum?",
+    "options": ["[M² L T⁻¹]", "[M L T⁻²]", "[M L T⁻¹]", "[M L² T⁻¹]"],
+    "answer": 2,
+    "explanation": "Momentum (m v) has dimensions [M L T⁻¹]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "For a projectile on level ground with fixed launch speed, at what angle θ is maximum height greatest?",
+    "options": ["30°", "45°", "90° (vertical launch)", "60°"],
+    "answer": 2,
+    "explanation": "Maximum height v₀ 2 sin² θ / (2g) peaks at 90°."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What does the area under a force-time (F–t) graph represent?",
+    "options": ["Work done", "Kinetic energy", "Impulse (change in momentum)", "Power"],
+    "answer": 2,
+    "explanation": "Area under F–t curve equals impulse (Δp)."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 6 kg body moves at 4 m/s. What is its momentum magnitude?",
+    "options": ["24 N·s (kg·m/s)", "48 N·s", "1.5 N·s", "10 N·s"],
+    "answer": 0,
+    "explanation": "p = m v = 6 × 4 = 24 N·s."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the formula for escape speed vesc from surface radius R of mass M?",
+    "options": [
+      "vesc = √(G M / R)",
+      "vesc = 2 G M / R",
+      "vesc = √(2 G M / R)",
+      "vesc = √(R / 2 G M)"
+    ],
+    "answer": 2,
+    "explanation": "Escape speed is vesc = √(2 G M / R)."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an elastic collision in an isolated system, which quantities are conserved?",
+    "options": [
+      "Neither",
+      "Momentum only",
+      "Both total linear momentum and total kinetic energy",
+      "Kinetic energy only"
+    ],
+    "answer": 2,
+    "explanation": "Elastic isolated collisions conserve both momentum and kinetic energy."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of force?",
+    "options": ["Watt (W)", "Joule (J)", "Newton (N)", "Pascal (Pa)"],
+    "answer": 2,
+    "explanation": "Force has SI unit Newton (N)."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A net force of 20 N acts on a 5 kg mass. What is its acceleration?",
+    "options": ["4 m/s²", "15 m/s²", "0.25 m/s²", "100 m/s²"],
+    "answer": 0,
+    "explanation": "a = F / m = 20 / 5 = 4 m/s²."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Bernoulli's equation for steady incompressible non-viscous flow expresses conservation of:",
+    "options": [
+      "Electric charge",
+      "Angular momentum only",
+      "Temperature",
+      "Mechanical energy per unit volume"
+    ],
+    "answer": 3,
+    "explanation": "Bernoulli's equation expresses conservation of mechanical energy per unit volume."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the SI unit of pressure?",
+    "options": ["Pascal (Pa = N/m₂)", "Joule (J)", "Watt (W)", "Tesla (T)"],
+    "answer": 0,
+    "explanation": "Pressure has SI unit Pascal (Pa)."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the time period T of a mass-spring oscillator of mass m and spring constant k?",
+    "options": ["T = 2π √(k / m)", "T = 2π (m / k)", "T = √(m / k)", "T = 2π √(m / k)"],
+    "answer": 3,
+    "explanation": "Mass-spring period: T = 2π √(m / k)."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Where in simple harmonic motion is elastic potential energy maximum?",
+    "options": [
+      "Halfway between 0 and x₀",
+      "Zero everywhere",
+      "At extreme positions (x = ±x₀)",
+      "At equilibrium position (x = 0)"
+    ],
+    "answer": 2,
+    "explanation": "SHM potential energy peaks at extremes x = ±x₀."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two tuning forks of 440 Hz and 443 Hz are sounded together. What is the beat frequency?",
+    "options": ["1.5 Hz", "6 Hz", "3 Hz", "883 Hz"],
+    "answer": 2,
+    "explanation": "Beat frequency is |443 − 440| = 3 Hz."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A wave has speed 340 m/s and frequency 170 Hz. What is its wavelength?",
+    "options": ["170 m", "0.5 m", "2.0 m", "510 m"],
+    "answer": 2,
+    "explanation": "λ = v / f = 340 / 170 = 2.0 m."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "In a longitudinal wave, how do medium particles oscillate relative to wave propagation?",
+    "options": [
+      "Parallel (along the direction of propagation)",
+      "In circles of zero radius",
+      "Perpendicular (at 90°)",
+      "Stationary"
+    ],
+    "answer": 0,
+    "explanation": "Longitudinal oscillations are parallel to wave travel."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the critical angle θc for total internal reflection from index n₁ into n₂ (n₁ > n₂)?",
+    "options": [
+      "cos θc = n₂ / n₁",
+      "sin θc = n₁ / n₂",
+      "sin θc = n₂ / n₁",
+      "tan θc = n₂ / n₁"
+    ],
+    "answer": 2,
+    "explanation": "Critical angle satisfies sin θc = n₂ / n₁."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the focal length f of a lens of optical power P = +4.0 D?",
+    "options": ["+0.25 m", "+2.5 m", "+4.0 m", "−0.25 m"],
+    "answer": 0,
+    "explanation": "f = 1 / P = 1 / 4.0 = +0.25 m."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of frequency?",
+    "options": ["Hertz (Hz = s⁻¹)", "Weber (Wb)", "Tesla (T)", "Radian (rad)"],
+    "answer": 0,
+    "explanation": "Frequency has SI unit Hertz (Hz)."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State the mirror formula relating focal length f, object distance p, and image distance q:",
+    "options": [
+      "f = p − q",
+      "1 / f = (1 / p) − (1 / q)",
+      "1 / f = (1 / p) + (1 / q)",
+      "f = (p + q) / 2"
+    ],
+    "answer": 2,
+    "explanation": "Mirror equation: 1 / f = (1 / p) + (1 / q)."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In Young's double-slit experiment, how does fringe spacing β = λ D / d change if screen distance D is doubled?",
+    "options": ["Quartered (β / 4)", "Doubled (2β)", "Halved (β / 2)", "Unchanged"],
+    "answer": 1,
+    "explanation": "Since β ∝ D, doubling D doubles fringe spacing."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State the First Law of Thermodynamics (Q heat added, ΔU internal energy change, W work done by system):",
+    "options": ["ΔU = Q + W", "Q = ΔU + W", "W = ΔU + Q", "Q = ΔU − W"],
+    "answer": 1,
+    "explanation": "First law of thermodynamics: Q = ΔU + W."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the approximate value of the universal gas constant R in SI units?",
+    "options": [
+      "≈ 6.63 × 10−34 J·s",
+      "≈ 1.38 × 10−23 J/K",
+      "≈ 9.81 m/s²",
+      "≈ 8.314 J/(mol·K)"
+    ],
+    "answer": 3,
+    "explanation": "Universal gas constant R ≈ 8.314 J/(mol·K)."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Convert 127 °C to Kelvin scale:",
+    "options": ["400 K", "273 K", "146 K", "373 K"],
+    "answer": 0,
+    "explanation": "127 + 273 = 400 K."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "In an isothermal process of an ideal gas at constant temperature, what is ΔU?",
+    "options": ["Infinite", "Zero (ΔU = 0)", "Equal to Q + W", "Equal to P ΔV"],
+    "answer": 1,
+    "explanation": "Constant temperature means ΔU = 0 for an ideal gas."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the approximate value of Planck's constant h in SI units?",
+    "options": [
+      "≈ 8.314 J/(mol·K)",
+      "≈ 3.00 × 10⁸ m/s",
+      "≈ 6.63 × 10−34 J·s",
+      "≈ 1.60 × 10−19 C"
+    ],
+    "answer": 2,
+    "explanation": "Planck's constant h ≈ 6.63 × 10−34 J·s."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of electric potential difference (voltage)?",
+    "options": ["Watt (W)", "Volt (V = J/C)", "Ampere (A)", "Ohm (Ω)"],
+    "answer": 1,
+    "explanation": "Voltage has SI unit Volt (V)."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the rotational kinetic energy Krot of a rigid body with moment of inertia I and angular velocity ω?",
+    "options": ["(1 / 2) I² ω", "I ω2", "(1 / 2) I ω2", "I ω"],
+    "answer": 2,
+    "explanation": "Rotational kinetic energy is (1 / 2) I ω2."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the centripetal acceleration ac in terms of radius r and angular speed ω?",
+    "options": ["r ω2", "r / ω2", "ω2 / r", "r ω"],
+    "answer": 0,
+    "explanation": "Centripetal acceleration is ac = r ω2."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the formula for torque τ when force F acts at perpendicular lever arm r?",
+    "options": ["τ = (1 / 2) r F", "τ = r F", "τ = r / F", "τ = F / r"],
+    "answer": 1,
+    "explanation": "Torque magnitude for perpendicular arm r is τ = r F."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of magnetic flux density (magnetic field)?",
+    "options": ["Farad (F)", "Tesla (T = Wb/m₂)", "Ohm (Ω)", "Henry (H)"],
+    "answer": 1,
+    "explanation": "Magnetic field has SI unit Tesla (T)."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "State Ohm's law for a linear ohmic conductor:",
+    "options": ["P = V / R", "R = V I", "V = I / R", "V = I R"],
+    "answer": 3,
+    "explanation": "Ohm's law: V = I R."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Two resistors of 6 Ω and 3 Ω are connected in parallel. What is their equivalent resistance?",
+    "options": ["18 Ω", "2 Ω", "9 Ω", "4.5 Ω"],
+    "answer": 1,
+    "explanation": "Parallel equivalent: (6 × 3) / (6 + 3) = 18 / 9 = 2 Ω."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of magnetic flux?",
+    "options": ["Weber (Wb)", "Henry (H)", "Farad (F)", "Tesla (T)"],
+    "answer": 0,
+    "explanation": "Magnetic flux has SI unit Weber (Wb)."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A 12 V battery drives 2 A through a resistor. What power is delivered?",
+    "options": ["10 W", "6 W", "24 W", "14 W"],
+    "answer": 2,
+    "explanation": "P = V I = 12 × 2 = 24 W."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which law relates electric flux through a closed surface to enclosed charge qenc?",
+    "options": ["Hooke's law", "Gauss's law", "Snell's law", "Lenz's law"],
+    "answer": 1,
+    "explanation": "Closed-surface electric flux equals qenc / ε0 by Gauss's law."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "How does capacitive reactance XC = 1 / (2π f C) behave as AC frequency f increases?",
+    "options": [
+      "Becomes infinite",
+      "Increases linearly with f",
+      "Remains constant",
+      "Decreases inversely with f"
+    ],
+    "answer": 3,
+    "explanation": "XC = 1 / (2π f C) decreases inversely with f."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "If RMS AC voltage is Vrms = 120 V, what is peak voltage V₀?",
+    "options": ["120√2 V", "60 V", "120 / √2 V", "240 V"],
+    "answer": 0,
+    "explanation": "V₀ = Vrms √2 = 120√2 V."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In a pure capacitor driven by a sinusoidal AC voltage, what is the phase difference between current and voltage?",
+    "options": [
+      "Zero phase difference",
+      "Current lags voltage by 90°",
+      "180° out of phase",
+      "Current leads voltage by 90° (π / 2 rad)"
+    ],
+    "answer": 3,
+    "explanation": "Capacitive AC current leads voltage by 90°."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the resonant frequency f₀ of an ideal series L–C circuit?",
+    "options": [
+      "f₀ = √(L / C)",
+      "C) f₀ = 1 / √(L C)",
+      "f₀ = 1 / (2π √(L C))",
+      "f₀ = 2π √(L"
+    ],
+    "answer": 2,
+    "explanation": "Resonant frequency: f₀ = 1 / (2π √(L C))."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which logic gate outputs 1 only when all its inputs are 1?",
+    "options": ["NAND gate", "OR gate", "XOR gate", "AND gate"],
+    "answer": 3,
+    "explanation": "An AND gate outputs 1 only when all inputs are 1."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the decimal equivalent of binary number 11012?",
+    "options": ["9", "11", "15", "13"],
+    "answer": 3,
+    "explanation": "8 + 4 + 0 + 1 = 13."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "In an ideal step-up transformer (Ns > Np), how do secondary and primary voltages compare?",
+    "options": ["Vs < Vp", "Vs = 0", "Vs > Vp (voltage steps up)", "Vs = Vp / 2"],
+    "answer": 2,
+    "explanation": "With Ns > Np, Vs > Vp."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Under reverse bias, a standard p–n junction diode has a wide depletion layer and allows only a tiny:",
+    "options": [
+      "Short-circuit surge",
+      "Forward majority current",
+      "Reverse saturation (leakage) current",
+      "Alternating current"
+    ],
+    "answer": 2,
+    "explanation": "Reverse bias permits only a small leakage/saturation current."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the Boolean output of a NOT gate (inverter) when input is A = 1?",
+    "options": ["Undefined", "1", "0", "2"],
+    "answer": 2,
+    "explanation": "NOT inverts 1 to 0."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the decimal equivalent of binary number 10002?",
+    "options": ["16", "4", "8", "2"],
+    "answer": 2,
+    "explanation": "10002 = 810."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the energy E of a photon of wavelength λ?",
+    "options": ["E = h / (c λ)", "E = h c / λ", "E = h λ / c", "E = m c λ"],
+    "answer": 1,
+    "explanation": "Photon energy: E = h f = h c / λ."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the photoelectric effect, increasing light frequency above threshold (f > f₀) increases:",
+    "options": [
+      "Maximum kinetic energy of emitted photoelectrons",
+      "Work function of the metal",
+      "Threshold frequency",
+      "Planck's constant"
+    ],
+    "answer": 0,
+    "explanation": "Higher frequency above threshold raises maximum photoelectron kinetic energy."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the speed of light c in vacuum (approximate standard value)?",
+    "options": [
+      "≈ 1.50 × 10⁸ m/s",
+      "≈ 3.00 × 10⁵ m/s",
+      "≈ 3.00 × 10⁸ m/s",
+      "≈ 343 m/s"
+    ],
+    "answer": 2,
+    "explanation": "Speed of light in vacuum is ≈ 3.00 × 10⁸ m/s."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In Bohr's hydrogen model, how does orbit energy En scale with principal quantum number n?",
+    "options": [
+      "En = +13.6 / n² eV",
+      "En = −13.6 / n eV",
+      "En = −13.6 / n² eV",
+      "En = −13.6 n² eV"
+    ],
+    "answer": 2,
+    "explanation": "Bohr energy levels follow En = −13.6 / n² eV."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the hydrogen spectrum, transitions terminating on n = 1 form which series?",
+    "options": ["Pfund series", "Balmer series", "Lyman series", "Paschen series"],
+    "answer": 2,
+    "explanation": "Transitions ending on n = 1 form the Lyman series."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "After 2 half-lives, what fraction of original radioactive nuclei remains undecayed?",
+    "options": ["1 / 8", "3 / 4", "1 / 4", "1 / 2"],
+    "answer": 2,
+    "explanation": "After 2 half-lives, undecayed fraction is (1/2)2 = 1 / 4."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "A beta-minus (β−) particle emitted in nuclear decay is a:",
+    "options": ["Proton", "High-speed electron (0 −1e)", "Neutron", "Helium-4 nucleus"],
+    "answer": 1,
+    "explanation": "A β− particle is a fast electron."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Which nuclear process splits a heavy nucleus into lighter nuclei?",
+    "options": ["Pair production", "Nuclear fission", "Annihilation", "Nuclear fusion"],
+    "answer": 1,
+    "explanation": "Splitting a heavy nucleus is nuclear fission."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Nuclei having the same neutron number (N = A − Z) are called:",
+    "options": ["Isotopes", "Isotones", "enantiomorphs", "Isobars"],
+    "answer": 1,
+    "explanation": "Equal neutron number N defines isotones."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the magnitude of elementary charge e?",
+    "options": [
+      "≈ 6.63 × 10−34 C",
+      "≈ 9.11 × 10−31 C",
+      "≈ 1.60 × 10−19 C",
+      "≈ 8.85 × 10−12 C"
+    ],
+    "answer": 2,
+    "explanation": "Elementary charge magnitude is ≈ 1.60 × 10−19 C."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the electric charge of an up (u) quark?",
+    "options": ["+1/3 e", "+2/3 e", "−1/3 e", "−2/3 e"],
+    "answer": 1,
+    "explanation": "Up quark charge is +2/3 e."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the electric charge of a down (d) quark?",
+    "options": ["−1/3 e", "+1/3 e", "+2/3 e", "−2/3 e"],
+    "answer": 0,
+    "explanation": "Down quark charge is −1/3 e."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Light amplification by stimulated emission of radiation is the principle of:",
+    "options": ["RADAR", "SONAR", "Capacitor", "LASER"],
+    "answer": 3,
+    "explanation": "Stimulated emission amplification is a LASER."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "When an electron meets a positron, mutual conversion of mass into photons is called:",
+    "options": [
+      "Raman scattering",
+      "Pair production",
+      "Pair annihilation",
+      "Photoelectric effect"
+    ],
+    "answer": 2,
+    "explanation": "Electron-positron conversion to photons is pair annihilation."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Which device converts electrical energy into mechanical rotation using magnetic force on current-carrying conductors?",
+    "options": ["Inductor", "Electric motor", "Transformer", "Electric generator"],
+    "answer": 1,
+    "explanation": "An electric motor converts electrical energy into mechanical motion. English Detailed Solutions (Q.161 – Q.200)"
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to BENEVOLENT:",
+    "options": ["Cruel", "Malicious", "Charitable", "Spiteful"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 2,
+    "explanation": "Benevolent means well-meaning and kindly; charitable matches."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to DILIGENT:",
+    "options": ["Industrious", "Slothful", "Negligent", "Lazy"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Diligent means showing care and effort in work; industrious matches."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to ELOQUENT:",
+    "options": ["Halting", "Articulate", "Inarticulate", "Tongue-tied"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Eloquent means fluent and persuasive in speaking or writing; articulate matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to FRUGAL:",
+    "options": ["Extravagant", "Lavish", "Prodigal", "Economical"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 3,
+    "explanation": "Frugal means sparing or economical with money or resources; economical matches."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to AMBIGUOUS:",
+    "options": ["Unambiguous", "Equivocal", "Clear-cut", "Explicit"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Ambiguous means open to more than one interpretation; equivocal matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to ARDENT:",
+    "options": ["Detached", "Unconcerned", "Apathetic", "Fervent"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 3,
+    "explanation": "Ardent means enthusiastic or passionate; fervent matches."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to AUSPICIOUS:",
+    "options": ["Bleak", "Ominous", "Favorable", "Inauspicious"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 2,
+    "explanation": "Auspicious means conducive to success; favorable matches."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to CONCUR:",
+    "options": ["Disagree", "Dissent", "Object", "Agree"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 3,
+    "explanation": "Concur means to be of the same opinion; agree matches."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Much Difficult",
+    "prompt": "Choose the word most nearly similar in meaning to METICULOUS:",
+    "options": ["Haphazard", "Careless", "Sloppy", "Scrupulous"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 3,
+    "explanation": "Meticulous means showing great attention to detail; scrupulous matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to OBSTINATE:",
+    "options": ["Docile", "Yielding", "Stubborn", "Pliant"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 2,
+    "explanation": "Obstinate means stubbornly refusing to change one's opinion; stubborn matches."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to PLAUSIBLE:",
+    "options": ["Credible", "Implausible", "Far-fetched", "Improbable"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Plausible means seeming reasonable or probable; credible matches."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to REVERE:",
+    "options": [
+      "Vindicate? No: A) Vindicate? Wait: A) Vindicate? No, Revere means to regard with deep respect; A) Vindicate is wrong — let's make A) Vindicate? No: A) Vindicate? Let's check options: A) Vindicate is false,",
+      "Despise is antonym,",
+      "Mock is antonym — wait: let's set A) Vindicate? No, A) Vindicate is NOT a synonym of revere! Let's write clean options for Q.172 in the file: A) Vindicate? No, let's put A) Vindicate? No: let's write A) Vindicate? No, I will put A) Vindicate? No — let's put A) Venerate in A and antonyms in B, C, D. B) Despise C) Scorn D) Mock",
+      "Scorn is antonym,"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Revere means to regard with deep respect; venerate matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to TENACIOUS:",
+    "options": ["Hesitant", "Persistent", "Fickle", "Irresolute"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Tenacious means holding firmly to a purpose; persistent matches."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to SUPERFLUOUS:",
+    "options": ["Essential", "Indispensable", "Redundant", "Necessary"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 2,
+    "explanation": "Superfluous means unnecessary or more than enough; redundant matches."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to UNANIMOUS:",
+    "options": ["Split", "Discordant", "United", "Divided"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 2,
+    "explanation": "Unanimous means fully in agreement; united matches."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to ACCELERATE:",
+    "options": ["Decelerate", "Expedite", "Hasten", "Quickening"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Antonym of accelerate is decelerate."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to ABUNDANT:",
+    "options": ["Profuse", "Scarce", "Ample", "Plentiful"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Antonym of abundant is scarce."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to TACITURN:",
+    "options": ["Reticent", "Silent", "Reserved", "Garrulous"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 3,
+    "explanation": "Antonym of taciturn is garrulous."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to CONSTRUCT:",
+    "options": ["Demolish", "Assemble", "Erect", "Build"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Antonym of construct is demolish."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to AUGMENT:",
+    "options": ["Diminish", "Amplify", "Expand", "Escalate"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Antonym of augment is diminish."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — AMMETER : CURRENT ::",
+    "options": [
+      "Ohmmeter : Frequency",
+      "Barometer : Pressure",
+      "Wattmeter : Mass",
+      "Luxmeter : Temperature"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Instrument-to-quantity: an ammeter measures current, as a barometer measures pressure."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — FRICTION : HEAT ::",
+    "options": [
+      "Dilution : Precipitation",
+      "Cooling : Boiling",
+      "Reflection : Vacuum",
+      "Compression : Pressure"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 3,
+    "explanation": "Cause-to-result: friction generates heat, as compression raises pressure."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — CARTOGRAPHER : MAP ::",
+    "options": [
+      "Lexicographer : Dictionary",
+      "Sculptor : Quarry",
+      "Astronomer : Telescope",
+      "Surgeon : Scalpel"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Specialist-to-product: a cartographer compiles a map, as a lexicographer compiles a dictionary."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — CONCAVE : CONVEX ::",
+    "options": [
+      "Convergent : Divergent",
+      "Narrow : Thin",
+      "Hollow : Empty",
+      "Deep : Cavernous"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Opposing optical/focusing forms: concave contrasts with convex, as convergent contrasts with divergent."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — FUSE : OVERLOAD ::",
+    "options": [
+      "Radiator : Overcooling",
+      "Safety valve : Overpressure",
+      "Battery : Overcharge",
+      "Capacitor : Resistance"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Protective relief device-to-hazard: a fuse protects against overload, as a safety valve protects against overpressure."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Either the relays or the main breaker ______ tripped during the fault.",
+    "options": ["are", "have", "has", "were"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 2,
+    "explanation": "With either ... or and singular breaker closer to the verb, use singular has."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Seldom ______ such high efficiency achieved in a prototype turbine.",
+    "options": ["is", "were", "are", "do"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Negative adverb seldom at clause start triggers inversion: is."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The sample is resistant ______ corrosion in marine environments.",
+    "options": ["from", "with", "to", "of"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 2,
+    "explanation": "Standard preposition collocation: resistant to."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "If the pressure ______ lower, the vessel would not have ruptured.",
+    "options": ["was", "had been", "is", "would be"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Third conditional if-clause uses past perfect had been."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "The calibration data were ______ with the theoretical model across all trials.",
+    "options": ["incompatible", "arbitrary", "consistent", "erroneous"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 2,
+    "explanation": "Agreement across trials is consistent with the model."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "Every node in the network are addressed uniquely.",
+      "Every node in the network has a unique address.",
+      "Every node in the network were addressed uniquely.",
+      "Every node in the network have a unique address."
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Every node takes singular verb has."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "The supervisor recommended that the log ______ archived daily.",
+    "options": ["be", "was", "being", "is"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Subjunctive after recommended that uses base form be."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Maintanance", "Maintenance", "Maintenence", "Maintainance"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Maintenance is spelled m-a-i-n-t-e-n-a-n-c-e."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Filtering removes high-frequency ______ from the measured signal.",
+    "options": ["precision", "accuracy", "stability", "noise"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 3,
+    "explanation": "Filters remove unwanted noise from signals."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "No sooner ______ the valve opened than pressure began to drop.",
+    "options": ["was", "had", "did", "has"],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "No sooner triggers past-perfect inversion: had."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What do solid-state batteries replace according to the passage?",
+    "options": [
+      "Liquid electrolytes with solid ion conductors",
+      "Anodes with liquid fuels",
+      "Thermal insulation with liquid coolants",
+      "Charge storage with external capacitors"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Sentence 1 states solid-state batteries replace liquid electrolytes with solid ion conductors."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What manufacturing challenge still limits large-scale commercialization?",
+    "options": [
+      "Lack of solid materials",
+      "Maintaining low interfacial resistance across solid-solid contacts during cycling",
+      "Inability to conduct ions",
+      "Excessive flammability of ceramics"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Sentence 3 identifies maintaining low interfacial resistance across solid-solid contacts during cycling."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Which advantages are mentioned in connection with solid electrolytes?",
+    "options": [
+      "Elimination of all cycling degradation",
+      "Zero cost and instant charging",
+      "Improved energy density and thermal safety",
+      "Replacement of all electrical circuits"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 2,
+    "explanation": "Sentence 1 notes improved energy density and thermal safety."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Which solid ion conductor types are named in the passage?",
+    "options": [
+      "Air, vacuum, or neon conductors",
+      "Ceramic, polymer, or sulfide ion conductors",
+      "Aluminum, copper, or gold conductors",
+      "Water, oil, or ethanol conductors"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 1,
+    "explanation": "Sentence 1 lists ceramic, polymer, or sulfide ion conductors."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "What kind of anodes do solid electrolytes enable?",
+    "options": [
+      "Lithium-metal anodes",
+      "Carbon-monoxide anodes",
+      "Liquid-mercury anodes",
+      "Steam anodes"
+    ],
+    "context": "Solid-state batteries replace liquid electrolytes with ceramic, polymer, or sulfide ion conductors to improve energy density and thermal safety. Because non-flammable solid electrolytes resist dendrite penetration better than many liquid formulations, they enable lithium-metal anodes that store more charge per unit volume. Nevertheless, manufacturing challenges—including maintaining low interfacial resistance across solid-solid contacts during charge-discharge cycling— still limit large-scale commercialization.",
+    "answer": 0,
+    "explanation": "Sentence 2 notes they enable lithium-metal anodes."
+  }
+]

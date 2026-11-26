@@ -1,0 +1,2077 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the equation of a circle passing through the origin (0, 0) and making positive intercepts 6 and 8 on the x-axis and y-axis respectively?",
+    "options": [
+      "x² + y² − 6x − 8y = 0",
+      "x² + y² + 6x + 8y = 0",
+      "x² + y² − 3x − 4y = 0",
+      "x² + y² − 6x − 8y + 25 = 0"
+    ],
+    "answer": 0,
+    "explanation": "Circle through (0, 0), (a, 0), and (0, b) is x² + y² − ax − by = 0 ⇒ x² + y² − 6x − 8y = 0."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the length of the tangent drawn from the external point P(5, 1) to the circle x² + y² + 6x − 4y − 3 = 0?",
+    "options": ["7 units", "49 units", "√43 units", "5 units"],
+    "answer": 0,
+    "explanation": "Length of tangent L = √(S₁) = √[5² + 1² + 6(5) − 4(1) − 3] = √(25 + 1 + 30 − 4 − 3) = √49 = 7 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the equation of the radical axis (common chord) of the two intersecting circles x² + y² − 4x − 6y + 4 = 0 and x² + y² + 2x − 2y − 14 = 0:",
+    "options": [
+      "3x + 2y − 9 = 0",
+      "3x − 2y + 9 = 0",
+      "6x + 4y + 18 = 0",
+      "x + 2y − 5 = 0"
+    ],
+    "answer": 0,
+    "explanation": "Subtracting S₁ − S₂ = 0: −6x − 4y + 18 = 0 ⇒ 3x + 2y − 9 = 0."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Two circles x² + y² = 9 and (x − 4)² + (y − 3)² = r₂ touch each other externally. What is the radius r of the second circle?",
+    "options": ["2", "8", "5", "4"],
+    "answer": 0,
+    "explanation": "Center distance d = √(4² + 3²) = 5. External tangency requires r₁ + r₂ = d ⇒ 3 + r = 5 ⇒ r = 2."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "For what value of k do the two circles x² + y² + 4x − 6y + 4 = 0 and x² + y² − 2x + 4y + k = 0 intersect orthogonally (at right angles)?",
+    "options": ["−20", "−12", "16", "8"],
+    "answer": 0,
+    "explanation": "Orthogonality condition 2g₁g₂ + 2f₁f₂ = c₁ + c₂: 2(2)(−1) + 2(−3)(2) = 4 + k ⇒ −4 − 12 = 4 + k ⇒ k = −20."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the equation of the directrix of the parabola x² = 16y?",
+    "options": ["x = −4", "y = −4", "y = 4", "x = 4"],
+    "answer": 1,
+    "explanation": "For x² = 4ay with 4a = 16 ⇒ a = 4, directrix is y = −a = −4."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the vertex of the parabola given by the quadratic equation y = x² − 6x + 11:",
+    "options": ["(3, 2)", "(−3, 2)", "(3, −2)", "(6, 11)"],
+    "answer": 0,
+    "explanation": "Complete the square: y = (x − 3)² + 2, so vertex is (3, 2)."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If the line y = 2x + c is tangent to the parabola y² = 24x, what is the value of c?",
+    "options": ["3", "12", "6", "3/2"],
+    "answer": 0,
+    "explanation": "Tangency condition c = a / m where 4a = 24 ⇒ a = 6 and m = 2: c = 6 / 2 = 3."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the area of the triangle inscribed in the parabola y² = 8x whose vertices have ordinates y₁ = 2, y₂ = 4, and y₃ = 6?",
+    "options": ["1 sq. unit", "2 sq. units", "4 sq. units", "8 sq. units"],
+    "answer": 0,
+    "explanation": "Area of triangle inscribed in y² = 4ax is |(y₁ − y₂)(y₂ − y₃)(y₃ − y₁)| / (8a). With 4a = 8 ⇒ 8a = 16: |(−2)(−2)(4)| / 16 = 16 / 16 = 1 sq. unit."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the length of the latus rectum of the parabola 3y² + 18x − 12y + 30 = 0?",
+    "options": ["6 units", "18 units", "3 units", "9 units"],
+    "answer": 0,
+    "explanation": "Divide by 3: (y − 2)² = −6(x + 1), so latus rectum 4a = 6 units."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What are the coordinates of the foci of the ellipse (x² / 169) + (y² / 25) = 1?",
+    "options": ["(±12, 0)", "(0, ±12)", "(±13, 0)", "(±5, 0)"],
+    "answer": 0,
+    "explanation": "c = √(a² − b²) = √(169 − 25) = 12, so foci are (±12, 0)."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity of the ellipse 9x² + 25y² = 225:",
+    "options": ["4/5", "3/5", "16/25", "4/3"],
+    "answer": 0,
+    "explanation": "Standard form x²/25 + y²/9 = 1 ⇒ e = √(1 − 9/25) = 4 / 5."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the sum of the focal distances PF₁ + PF² of any point P lying on the ellipse 16x² + 25y² = 400?",
+    "options": ["8 units", "10 units", "6 units", "20 units"],
+    "answer": 1,
+    "explanation": "x²/25 + y²/16 = 1 ⇒ a = 5. By definition, PF₁ + PF² = 2a = 10 units."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the distance between the two directrices of the ellipse (x² / 25) + (y² / 16) = 1?",
+    "options": ["50 / 3 units", "25 / 3 units", "32 / 3 units", "10 units"],
+    "answer": 0,
+    "explanation": "a = 5, c = 3 ⇒ e = 3/5. Distance between directrices = 2a / e = 10 / (3/5) = 50 / 3 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If the latus rectum of an ellipse is equal to half of its minor axis, what is its eccentricity?",
+    "options": ["(√3) / 2", "1 / 2", "1 / √2", "(√3) / 4"],
+    "answer": 0,
+    "explanation": "2b²/a = b ⇒ a = 2b. Then e = √(1 − b²/a²) = √(1 − 1/4) = (√3) / 2."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the eccentricity of a rectangular (equilateral) hyperbola x² − y² = a²?",
+    "options": ["√2", "2", "√3", "1 / √2"],
+    "answer": 0,
+    "explanation": "For a rectangular hyperbola (b = a), e = √(1 + b²/a²) = √2."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the vertices of the conjugate hyperbola (y² / 49) − (x² / 16) = 1:",
+    "options": ["(0, ±7)", "(±7, 0)", "(0, ±4)", "(±4, 0)"],
+    "answer": 0,
+    "explanation": "Transverse axis lies along the y-axis with a = 7, so vertices are (0, ±7)."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If e₁ and e₂ are the eccentricities of a hyperbola and its conjugate hyperbola respectively, then (1 / e₁²) + (1 / e₂²) is always equal to:",
+    "options": ["1", "2", "0", "4"],
+    "answer": 0,
+    "explanation": "Since e₁² = (a² + b²)/a² and e₂² = (a² + b²)/b², 1/e₁² + 1/e₂² = (a² + b²)/(a² + b²) = 1."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the equation of the hyperbola with foci at (±5, 0) and transverse axis of length 8?",
+    "options": [
+      "x²/16 − y²/9 = 1",
+      "x²/9 − y²/16 = 1",
+      "x²/25 − y²/16 = 1",
+      "y²/16 − x²/9 = 1"
+    ],
+    "answer": 0,
+    "explanation": "c = 5, 2a = 8 ⇒ a = 4, b² = c² − a² = 25 − 16 = 9. Equation: x²/16 − y²/9 = 1."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the center of the conic 9x² − 4y² − 36x − 24y − 36 = 0:",
+    "options": ["(2, −3)", "(−2, 3)", "(2, 3)", "(−3, 2)"],
+    "answer": 0,
+    "explanation": "Complete squares: 9(x − 2)² − 4(y + 3)² = 36, giving center (2, −3)."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Identify the conic represented by the general second-degree equation 4x² − 4xy + y² + 6x − 8y + 5 = 0:",
+    "options": ["Parabola", "Ellipse", "Hyperbola", "Circle"],
+    "answer": 0,
+    "explanation": "Discriminant B² − 4AC = (−4)² − 4(4)(1) = 16 − 16 = 0, which represents a parabola."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "For what value of k is the line y = 2x + k tangent to the hyperbola (x² / 9) − (y² / 16) = 1?",
+    "options": ["±2√5", "±√52", "±√20", "Both A and C (since 2√5 = √20)"],
+    "answer": 3,
+    "explanation": "Tangency condition k = ±√(a²m² − b²) = ±√(9(4) − 16) = ±√20 = ±2√5."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the slope of a straight line perpendicular to the line 5x − 2y + 9 = 0?",
+    "options": ["−2 / 5", "5 / 2", "2 / 5", "−5 / 2"],
+    "answer": 0,
+    "explanation": "Given line has slope m₁ = 5/2; perpendicular slope m² = −2/5."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "In what ratio does the y-axis divide the line segment joining P(−4, 7) and Q(6, −3)?",
+    "options": [
+      "2 : 3 internally",
+      "3 : 2 internally",
+      "7 : 3 internally",
+      "2 : 3 externally"
+    ],
+    "answer": 0,
+    "explanation": "Ratio in which y-axis divides (x₁, y₁) and (x₂, y₂) is −x₁ : x₂ = 4 : 6 = 2 : 3 internally."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the perpendicular distance from the point (−2, 3) to the straight line 12x − 5y − 13 = 0:",
+    "options": [
+      "4 units",
+      "52 / 13 units (both A and B are 4)",
+      "2 units",
+      "26 / 13 units"
+    ],
+    "answer": 0,
+    "explanation": "d = |12(−2) − 5(3) − 13| / √(144 + 25) = |−24 − 15 − 13| / 13 = 52 / 13 = 4 units."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the distance between the two parallel lines 3x − 4y + 7 = 0 and 6x − 8y − 16 = 0?",
+    "options": ["3 units", "23 / 5 units", "15 / 10 units", "1 unit"],
+    "answer": 0,
+    "explanation": "Rewrite second line as 3x − 4y − 8 = 0. Distance d = |7 − (−8)| / √(9 + 16) = 15 / 5 = 3 units."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the orthocenter of the right-angled triangle formed by the vertices A(2, 3), B(2, 8), and C(7, 3)?",
+    "options": ["(2, 3)", "(11/3, 14/3)", "(9/2, 11/2)", "(7, 8)"],
+    "answer": 0,
+    "explanation": "In a right-angled triangle, the orthocenter coincides with the vertex containing the right angle: (2, 3)."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the foot of the perpendicular dropped from the point (2, 3) onto the straight line x + y − 11 = 0:",
+    "options": ["(5, 6)", "(6, 5)", "(8, 9)", "(4, 7)"],
+    "answer": 0,
+    "explanation": "(x − 2)/1 = (y − 3)/1 = −(2 + 3 − 11)/(1 + 1) = 6/2 = 3 ⇒ x = 5, y = 6 ⇒ (5, 6)."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "For what value of k are the three lines 3x + y − 2 = 0, kx + 2y − 3 = 0, and 2x − y − 3 = 0 concurrent?",
+    "options": ["5", "−5", "3", "1"],
+    "answer": 0,
+    "explanation": "The first and third lines intersect at (1, −1). Substituting this point into kx + 2y − 3 = 0 gives k − 2 − 3 = 0, so k = 5 (option A)."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the acute angle between the pair of straight lines represented by x² − 2√3 xy − y² = 0?",
+    "options": ["90°", "60°", "30°", "45°"],
+    "answer": 0,
+    "explanation": "Sum of coefficients a + b = 1 + (−1) = 0, so the two lines are perpendicular (90°)."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Find the separate equations of the pair of straight lines represented by 6x² − xy − y² = 0:",
+    "options": [
+      "2x − y = 0 and 3x + y = 0",
+      "2x + y = 0 and 3x − y = 0",
+      "6x − y = 0 and x + y = 0",
+      "3x − 2y = 0 and 2x + y = 0"
+    ],
+    "answer": 0,
+    "explanation": "Factor quadratic: 6x² − 3xy + 2xy − y² = (2x − y)(3x + y) = 0."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the equation of the pair of angle bisectors of the lines 3x² + 8xy − 3y² = 0?",
+    "options": [
+      "2x² − 3xy − 2y² = 0",
+      "4x² − 6xy − 4y² = 0",
+      "3x² − 8xy − 3y² = 0",
+      "x² − y² = 0"
+    ],
+    "answer": 0,
+    "explanation": "Angle bisector formula (x² − y²)/(a − b) = xy / h ⇒ (x² − y²)/6 = xy / 4 ⇒ 2x² − 3xy − 2y² = 0."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of a line passing through (−1, 2) and making an inclination of 135° with the positive x-axis:",
+    "options": ["x + y − 1 = 0", "x − y + 3 = 0", "x + y + 1 = 0", "x − y − 3 = 0"],
+    "answer": 0,
+    "explanation": "Slope m = tan 135° = −1. Equation: y − 2 = −1(x + 1) ⇒ x + y − 1 = 0."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the normal form x cos α + y sin α = p (with p > 0) of the line x + √3 y + 6 = 0?",
+    "options": [
+      "x cos 240° + y sin 240° = 3",
+      "x cos 60° + y sin 60° = 3",
+      "x cos 120° + y sin 120° = 3",
+      "x cos 300° + y sin 300° = 3"
+    ],
+    "answer": 0,
+    "explanation": "Rewrite as −x − √3 y = 6 and divide by 2: (−1/2)x + (−(√3) / 2)y = 3 ⇒ x cos 240° + y sin 240° = 3."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the locus of a point P(x, y) that moves such that its distance from A(3, 0) is twice its distance from B(−3, 0)?",
+    "options": [
+      "x² + y² + 10x + 9 = 0",
+      "x² + y² − 10x + 9 = 0",
+      "3x² + 3y² − 18x + 27 = 0",
+      "x² − y² + 10x + 9 = 0"
+    ],
+    "answer": 0,
+    "explanation": "(x − 3)² + y² = 4[(x + 3)² + y²] ⇒ 3x² + 3y² + 30x + 27 = 0 ⇒ x² + y² + 10x + 9 = 0."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If the coordinate axes are rotated counterclockwise through an angle of 45°, what are the new coordinates (X, Y) of the point (√2, √2)?",
+    "options": ["(2, 0)", "(0, 2)", "(1, 1)", "(−2, 0)"],
+    "answer": 0,
+    "explanation": "X = x cos 45° + y sin 45° = 1 + 1 = 2; Y = −x sin 45° + y cos 45° = −1 + 1 = 0 ⇒ (2, 0)."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the perpendicular distance of the point P(3, −4, 5) from the y-axis in 3D space?",
+    "options": ["4 units", "√34 units", "5 units", "√41 units"],
+    "answer": 1,
+    "explanation": "Distance from (x, y, z) to the y-axis is √(x² + z²) = √(9 + 25) = √34 units."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "If a line in 3D space makes angles 60° and 45° with the positive x-axis and y-axis respectively, what acute angle does it make with the positive z-axis?",
+    "options": ["60°", "30°", "45°", "90°"],
+    "answer": 0,
+    "explanation": "cos² 60° + cos² 45° + cos² γ = 1 ⇒ 1/4 + 1/2 + cos² γ = 1 ⇒ cos γ = 1/2 ⇒ γ = 60°."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the symmetric equations of the straight line passing through (2, −1, 4) and parallel to the vector 3i − 2j + 5k:",
+    "options": [
+      "(x − 2)/3 = (y + 1)/(−2) = (z − 4)/5",
+      "(x + 2)/3 = (y − 1)/(−2) = (z + 4)/5",
+      "(x − 3)/2 = (y + 2)/(−1) = (z − 5)/4",
+      "3(x − 2) − 2(y + 1) + 5(z − 4) = 0"
+    ],
+    "answer": 0,
+    "explanation": "Symmetric form (x − x₀)/a = (y − y₀)/b = (z − z₀)/c gives (x − 2)/3 = (y + 1)/(−2) = (z − 4)/5."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the equation of the plane passing through the point (1, −2, 3) and perpendicular to the vector 2i + 3j − 4k?",
+    "options": [
+      "2x + 3y − 4z + 16 = 0",
+      "2x + 3y − 4z − 16 = 0",
+      "x − 2y + 3z + 16 = 0",
+      "2x + 3y − 4z + 8 = 0"
+    ],
+    "answer": 0,
+    "explanation": "2(x − 1) + 3(y + 2) − 4(z − 3) = 0 ⇒ 2x + 3y − 4z + 16 = 0."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the acute angle between the two planes x + y + 2z = 5 and 2x − y + z = 7:",
+    "options": ["60°", "30°", "45°", "90°"],
+    "answer": 0,
+    "explanation": "cos θ = |1(2) + 1(−1) + 2(1)| / (√6 · √6) = 3 / 6 = 1/2 ⇒ θ = 60°."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the shortest distance between the point (1, 2, −1) and the plane 2x − 2y + z + 9 = 0?",
+    "options": ["2 units", "3 units", "6 units", "1 unit"],
+    "answer": 0,
+    "explanation": "d = |2(1) − 2(2) + (−1) + 9| / √(4 + 4 + 1) = |2 − 4 − 1 + 9| / 3 = 6 / 3 = 2 units (Option A is 2 units!)."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the area of a circular sector of radius 10 cm whose central angle is 36°?",
+    "options": ["10π cm²", "20π cm²", "5π cm²", "36π cm²"],
+    "answer": 0,
+    "explanation": "θ = 36° = π / 5 rad. Area = (1/2) r² θ = (1/2)(100)(π / 5) = 10π cm²."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If tan θ = −4/3 and sin θ > 0, what is the value of sec θ + tan θ?",
+    "options": ["−3", "−1/3", "3", "1/3"],
+    "answer": 0,
+    "explanation": "Quadrant II (sin > 0, tan < 0): sec θ = −5/3. Thus sec θ + tan θ = −5/3 + (−4/3) = −3 (Option A is −3!)."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate cos 105° + cos 15°:",
+    "options": ["(√6) / 2", "(√2) / 2", "(√3) / 2", "1 / 2"],
+    "answer": 1,
+    "explanation": "Sum-to-product: 2 cos 60° cos 45° = 2(1/2)((√2) / 2) = (√2) / 2 (Option B is (√2) / 2!)."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the exact value of cos 20° · cos 40° · cos 60° · cos 80°?",
+    "options": ["1 / 8", "1 / 16", "(√3) / 16", "1 / 32"],
+    "answer": 1,
+    "explanation": "cos 60° · (cos 20° cos 40° cos 80°) = (1/2) · [(1/4) cos 60°] = (1/2)(1/8) = 1 / 16."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Simplify (1 − cos 2θ + sin 2θ) / (1 + cos 2θ + sin 2θ):",
+    "options": ["tan θ", "cot θ", "tan 2θ", "sin θ"],
+    "answer": 0,
+    "explanation": "(2 sin² θ + 2 sin θ cos θ) / (2 cos² θ + 2 sin θ cos θ) = (sin θ (sin θ + cos θ)) / (cos θ (cos θ + sin θ)) = tan θ."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If A + B + C = 180°, what is the value of tan A + tan B + tan C?",
+    "options": ["tan A · tan B · tan C", "1", "0", "−tan A · tan B · tan C"],
+    "answer": 0,
+    "explanation": "Standard triangle identity: when A + B + C = 180°, tan A + tan B + tan C = tan A · tan B · tan C."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "In triangle ABC, if a = 5, b = 7, and c = 8, what is the measure of angle B?",
+    "options": ["60°", "45°", "30°", "120°"],
+    "answer": 0,
+    "explanation": "Law of Cosines: cos B = (5² + 8² − 72) / (2 · 5 · 8) = 40 / 80 = 1/2 ⇒ B = 60°."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC, if a = 13, b = 14, and c = 15, what is the inradius r of the triangle?",
+    "options": ["4", "3", "8.125", "6"],
+    "answer": 0,
+    "explanation": "s = (13 + 14 + 15)/2 = 21, Δ = √(21 · 8 · 7 · 6) = 84, so r = Δ / s = 84 / 21 = 4."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "In any triangle ABC, what is the value of (1 / r₁) + (1 / r²) + (1 / r³) in terms of the inradius r?",
+    "options": ["1 / r", "r", "2 / r", "1 / r²"],
+    "answer": 0,
+    "explanation": "(s − a)/Δ + (s − b)/Δ + (s − c)/Δ = (3s − 2s) / Δ = s / Δ = 1 / r."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "By the Law of Tangents in triangle ABC, (a − b) / (a + b) is equal to:",
+    "options": [
+      "tan[(A − B)/2] / tan[(A + B)/2]",
+      "sin[(A − B)/2] / sin[(A + B)/2]",
+      "cos[(A − B)/2] / cos[(A + B)/2]",
+      "tan(A − B) / tan(A + B)"
+    ],
+    "answer": 0,
+    "explanation": "Napier's Law of Tangents: (a − b)/(a + b) = tan[(A − B)/2] / tan[(A + B)/2]."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the principal value of arcsec(−2)?",
+    "options": ["2π / 3", "−π / 3", "π / 3", "5π / 6"],
+    "answer": 0,
+    "explanation": "arcsec(−2) = arccos(−1/2) = 2π / 3."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate sin(2 arctan(1/3)):",
+    "options": ["3 / 5", "4 / 5", "2 / 3", "3 / 4"],
+    "answer": 0,
+    "explanation": "Let θ = arctan(1/3). sin 2θ = 2 tan θ / (1 + tan² θ) = (2/3) / (10/9) = 3 / 5."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of the trigonometric equation tan 3x = 1?",
+    "options": [
+      "nπ/3 + π/12, n ∈ ℤ",
+      "nπ + π/4, n ∈ ℤ",
+      "2nπ/3 + π/12, n ∈ ℤ",
+      "nπ/3 + π/4, n ∈ ℤ"
+    ],
+    "answer": 0,
+    "explanation": "3x = nπ + π/4 ⇒ x = nπ/3 + π/12, n ∈ ℤ."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the period of the composite trigonometric function f(x) = sin(x/2) + cos(x/3):",
+    "options": ["12π", "6π", "4π", "2π"],
+    "answer": 0,
+    "explanation": "Individual periods are 4π and 6π; their least common multiple is 12π."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of the function f(x) = 5 − 3 cos(2x)?",
+    "options": ["[2, 8]", "[−3, 3]", "[0, 8]", "[2, 5]"],
+    "answer": 0,
+    "explanation": "Since cos(2x) ∈ [−1, 1], 5 − 3(1) = 2 and 5 − 3(−1) = 8, giving [2, 8]."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which of the following hyperbolic identities is always equal to 1 for all real x?",
+    "options": [
+      "cosh² x − sinh² x",
+      "cosh² x + sinh² x",
+      "sech² x − tanh² x",
+      "coth² x − csch² x"
+    ],
+    "answer": 0,
+    "explanation": "Fundamental hyperbolic identity: cosh² x − sinh² x = 1."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "If sin θ + csc θ = 2, what is the value of sin¹⁰ θ + csc¹⁰ θ?",
+    "options": ["2", "210", "20", "1"],
+    "answer": 0,
+    "explanation": "sin θ + 1/sin θ = 2 ⇒ sin θ = 1, so 110 + 110 = 2."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "A vertical pole 12 m high casts a shadow 4√3 m long on level ground. What is the angle of elevation of the Sun?",
+    "options": ["60°", "30°", "45°", "75°"],
+    "answer": 0,
+    "explanation": "tan θ = 12 / (4√3) = √3 ⇒ θ = 60°."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate arctan(1) + arctan(2) + arctan(3):",
+    "options": ["π", "π / 2", "0", "3π / 4"],
+    "answer": 0,
+    "explanation": "arctan(1) + arctan(2) + arctan(3) = π/4 + 3π/4 = π."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express 2 sin 40° · cos 10° as a sum of sines:",
+    "options": [
+      "sin 50° + sin 30°",
+      "sin 50° − sin 30°",
+      "cos 50° + cos 30°",
+      "cos 30° − cos 50°"
+    ],
+    "answer": 0,
+    "explanation": "2 sin A cos B = sin(A + B) + sin(A − B) = sin 50° + sin 30°."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = log₁₀(x) with respect to x?",
+    "options": ["1 / (x ln 10)", "1 / x", "(ln 10) / x", "10x ln 10"],
+    "answer": 0,
+    "explanation": "d/dx [ln x / ln 10] = 1 / (x ln 10)."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find dy/dx for the parametric curve x = a(θ − sin θ), y = a(1 − cos θ):",
+    "options": ["cot(θ / 2)", "tan(θ / 2)", "−cot(θ / 2)", "−tan(θ / 2)"],
+    "answer": 0,
+    "explanation": "dy/dx = (a sin θ) / [a(1 − cos θ)] = (2 sin(θ/2)cos(θ/2)) / (2 sin²(θ/2)) = cot(θ / 2)."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the derivative of y = xsin x with respect to x?",
+    "options": [
+      "xsin x [(sin x)/x + cos x · ln x]",
+      "sin x · xsin x − 1",
+      "xsin x [cos x · ln x − (sin x)/x]",
+      "xcos x ln x"
+    ],
+    "answer": 0,
+    "explanation": "Logarithmic differentiation: ln y = sin x · ln x ⇒ y'/y = (sin x)/x + cos x · ln x."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate the limit: lim (x → 0) [(eˣ − e⁻ˣ − 2x) / x³]",
+    "options": ["1 / 3", "1 / 6", "2 / 3", "0"],
+    "answer": 0,
+    "explanation": "Using Taylor series or L'Hôpital's Rule thrice: [2(x + x³/3! + …) − 2x] / x³ → 2/6 = 1/3."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the point of inflection of the cubic curve y = x³ − 6x² + 9x + 1:",
+    "options": ["(2, 3)", "(1, 5)", "(3, 1)", "(0, 1)"],
+    "answer": 0,
+    "explanation": "y'' = 6x − 12 = 0 ⇒ x = 2; y(2) = 8 − 24 + 18 + 1 = 3 ⇒ (2, 3)."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "A spherical balloon is inflated so that its volume increases at a constant rate of 36π cm³/s. How fast is its radius increasing when the radius is 3 cm?",
+    "options": ["1 cm/s", "2 cm/s", "3 cm/s", "0.5 cm/s"],
+    "answer": 0,
+    "explanation": "dV/dt = 4π r² (dr/dt) ⇒ 36π = 4π(9)(dr/dt) ⇒ dr/dt = 1 cm/s."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the maximum area of a rectangle that can be inscribed inside a circle of radius R = 5 cm?",
+    "options": ["50 cm²", "25 cm²", "25π cm²", "100 cm²"],
+    "answer": 0,
+    "explanation": "Maximum inscribed rectangle is a square with diagonal 2R = 10 cm: Area = d² / 2 = 100 / 2 = 50 cm²."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the coefficient of x³ in the Maclaurin series expansion of sin(2x)?",
+    "options": ["−4 / 3", "−1 / 6", "4 / 3", "−8 / 3"],
+    "answer": 0,
+    "explanation": "sin(2x) = 2x − (2x)³ / 3! + … = 2x − (8/6)x³ + …; coefficient is −4 / 3."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = tanh−1(x) for |x| < 1?",
+    "options": ["1 / (1 − x²)", "1 / (1 + x²)", "1 / √(1 − x²)", "1 / √(x² − 1)"],
+    "answer": 0,
+    "explanation": "Standard inverse hyperbolic tangent derivative: 1 / (1 − x²)."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the tangent to the curve y = ln(sin x) at x = π / 3:",
+    "options": ["1 / √3", "√3", "2 / √3", "1 / 2"],
+    "answer": 0,
+    "explanation": "dy/dx = cot x; at x = π/3, cot(π/3) = 1 / √3."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate the indefinite integral: ∫ [dx / √(25 − x²)]",
+    "options": [
+      "arcsin(x / 5) + C",
+      "(1/5) arcsin(x / 5) + C",
+      "(1/5) arctan(x / 5) + C",
+      "ln|x + √(25 − x²)| + C"
+    ],
+    "answer": 0,
+    "explanation": "∫ dx / √(a² − x²) = arcsin(x / a) + C = arcsin(x / 5) + C."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ x · eˣ dx",
+    "options": ["eˣ(x − 1) + C", "eˣ(x + 1) + C", "x² eˣ / 2 + C", "eˣ(1 − x) + C"],
+    "answer": 0,
+    "explanation": "Integration by parts: x eˣ − ∫ eˣ dx = eˣ(x − 1) + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / (x ln x)]",
+    "options": ["ln|ln x| + C", "(ln x)² / 2 + C", "−1 / (ln x)² + C", "ln|x| + C"],
+    "answer": 0,
+    "explanation": "Substitute u = ln x, du = dx/x: ∫ du / u = ln|ln x| + C."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate the definite integral: ∫ from 0 to π/2 [√(sin x) / (√(sin x) + √(cos x))] dx",
+    "options": ["π / 4", "π / 2", "1", "0"],
+    "answer": 0,
+    "explanation": "King's property ∫ from 0 to a f(x) dx = ∫ from 0 to a f(a − x) dx gives 2I = ∫ from 0 to π/2 1 dx = π/2 ⇒ I = π / 4."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ from 1 to e ln x dx",
+    "options": ["1", "e − 1", "0", "e"],
+    "answer": 0,
+    "explanation": "[x ln x − x]1 e = (e − e) − (0 − 1) = 1."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the area bounded between the parabola y = x² and the line y = 4:",
+    "options": [
+      "32 / 3 sq. units",
+      "16 / 3 sq. units",
+      "8 / 3 sq. units",
+      "64 / 3 sq. units"
+    ],
+    "answer": 0,
+    "explanation": "2 ∫ from 0 to 2 (4 − x²) dx = 2[4x − x³/3]0 2 = 2(8 − 8/3) = 32 / 3 sq. units."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫ [sec² x / √(tan² x + 4)] dx",
+    "options": [
+      "ln|tan x + √(tan² x + 4)| + C",
+      "arcsin((tan x)/2) + C",
+      "(1/2) arctan((tan x)/2) + C",
+      "√(tan² x + 4) + C"
+    ],
+    "answer": 0,
+    "explanation": "Substitute u = tan x: ∫ du / √(u² + 4) = ln|tan x + √(tan² x + 4)| + C."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ cos² x dx",
+    "options": [
+      "x/2 + (sin 2x)/4 + C",
+      "x/2 − (sin 2x)/4 + C",
+      "(cos³ x)/3 + C",
+      "−sin 2x + C"
+    ],
+    "answer": 0,
+    "explanation": "∫ (1 + cos 2x)/2 dx = x/2 + (sin 2x)/4 + C."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Solve the separable differential equation dy/dx = y / x given y(2) = 6:",
+    "options": ["y = 3x", "y = x + 4", "y = 12 / x", "y = 3x²"],
+    "answer": 0,
+    "explanation": "ln y = ln x + ln C ⇒ y = Cx. Since y(2) = 6, C = 3 ⇒ y = 3x."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ from 0 to 1 [dx / (1 + x²)]",
+    "options": ["π / 4", "π / 2", "ln 2", "1"],
+    "answer": 0,
+    "explanation": "[arctan x]0 1 = π/4 − 0 = π / 4."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Two cards are drawn one after another without replacement from a standard 52-card deck. What is the probability that both cards are Aces?",
+    "options": ["1 / 221", "1 / 169", "2 / 52", "4 / 663"],
+    "answer": 0,
+    "explanation": "(4 / 52) × (3 / 51) = (1 / 13) × (1 / 17) = 1 / 221."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many distinct arrangements (permutations) can be formed using all the letters of the word \"STATISTICS\"?",
+    "options": ["50,400", "10!", "151,200", "25,200"],
+    "answer": 0,
+    "explanation": "10 letters with 3 S's, 3 T's, 2 I's: 10! / (3! · 3! · 2!) = 3,628,800 / 72 = 50,400."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Four fair coins are tossed simultaneously. What is the probability of obtaining at least one head?",
+    "options": ["15 / 16", "1 / 16", "3 / 4", "1 / 4"],
+    "answer": 0,
+    "explanation": "1 − P(all tails) = 1 − (1/2)⁴ = 15 / 16."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "If P(A) = 0.4, P(B) = 0.5, and P(A ∩ B) = 0.2, what is the conditional probability P(A | B)?",
+    "options": ["0.4", "0.5", "0.2", "0.8"],
+    "answer": 0,
+    "explanation": "P(A | B) = P(A ∩ B) / P(B) = 0.2 / 0.5 = 0.4."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "In how many ways can 6 engineers be seated around a circular conference table?",
+    "options": ["120", "720", "60", "360"],
+    "answer": 0,
+    "explanation": "Circular permutations of n distinct objects: (n − 1)! = 5! = 120."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "A binomial random variable X ~ B(n, p) has mean np = 12 and variance npq = 4. What is the number of trials n?",
+    "options": ["18", "36", "16", "24"],
+    "answer": 0,
+    "explanation": "q = (npq)/(np) = 4/12 = 1/3 ⇒ p = 2/3. Since np = 12, n(2/3) = 12 ⇒ n = 18."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the median of the ordered dataset: 4, 7, 9, 12, 15, 19, 22, 28?",
+    "options": ["13.5", "12", "15", "14"],
+    "answer": 0,
+    "explanation": "Average of the 4th and 5th values: (12 + 15) / 2 = 13.5."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "For a moderately skewed unimodal distribution, Karl Pearson's empirical relationship states that Mode is approximately equal to:",
+    "options": [
+      "3 Median − 2 Mean",
+      "2 Median − 3 Mean",
+      "3 Mean − 2 Median",
+      "(Mean + Median) / 2"
+    ],
+    "answer": 0,
+    "explanation": "Empirical mode relation: Mode ≈ 3 Median − 2 Mean."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If every observation in a dataset is multiplied by −3 and then 10 is added, how does the new standard deviation σnew relate to the original standard deviation σ?",
+    "options": ["3σ", "−3σ", "3σ + 10", "9σ"],
+    "answer": 0,
+    "explanation": "Standard deviation scales by |a| = |−3| = 3 and is invariant under translation: 3σ."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "In a Poisson distribution, if P(X = 1) = P(X = 2), what is the mean λ of the distribution?",
+    "options": ["2", "1", "1 / 2", "e"],
+    "answer": 0,
+    "explanation": "e−λ λ₁ / 1! = e−λ λ² / 2! ⇒ λ = λ²/2 ⇒ λ = 2."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which measure of dispersion is completely unaffected by extreme outliers at both ends of a distribution?",
+    "options": ["Interquartile Range (IQR)", "Range", "Variance", "Standard Deviation"],
+    "answer": 0,
+    "explanation": "The Interquartile Range (Q³ − Q₁) measures the middle 50% and resists extreme outliers."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the coefficient of skewness for a perfectly symmetric normal distribution?",
+    "options": ["0", "1", "−1", "3"],
+    "answer": 0,
+    "explanation": "A symmetric distribution has zero skewness (0)."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "In simple linear regression y = a + bx, the regression line always passes through the point:",
+    "options": ["( x̄ , ȳ )", "(0, 0)", "(1, 1)", "(σx, σy)"],
+    "answer": 0,
+    "explanation": "The least-squares regression line always passes through the centroid ( x̄ , ȳ )."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which of the following functions is an odd function (f(−x) = −f(x))?",
+    "options": [
+      "f(x) = x³ − sin x",
+      "f(x) = x² + cos x",
+      "f(x) = eˣ + e⁻ˣ",
+      "f(x) = |x|"
+    ],
+    "answer": 0,
+    "explanation": "f(−x) = (−x)³ − sin(−x) = −x³ + sin x = −f(x), so it is an odd function."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = (2x + 3) / (x − 5) (for x ≠ 5):",
+    "options": [
+      "(5x + 3) / (x − 2)",
+      "(x − 5) / (2x + 3)",
+      "(5x − 3) / (x + 2)",
+      "(2x − 3) / (x + 5)"
+    ],
+    "answer": 0,
+    "explanation": "Inverse of (ax + b)/(cx + d) swaps a and d with sign negation: (5x + 3)/(x − 2)."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the domain of the logarithmic function f(x) = ln(5 − x)?",
+    "options": ["(−∞, 5)", "(5, ∞)", "(−∞, 5]", "[5, ∞)"],
+    "answer": 0,
+    "explanation": "Requires 5 − x > 0 ⇒ x < 5, i.e., (−∞, 5)."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "If f(x) = x² + 1 and g(x) = 2x − 3, find all values of x such that (f ∘ g)(x) = (g ∘ f)(x):",
+    "options": ["x = 3 ± (√14)/2", "x = 1 or x = 3", "x = 0 only", "x = −2 or x = 4"],
+    "answer": 0,
+    "explanation": "(f ∘ g)(x) = (2x − 3)² + 1 = 4x² − 12x + 10, and (g ∘ f)(x) = 2(x² + 1) − 3 = 2x² − 1. Equating them gives 2x² − 12x + 11 = 0, so x = 3 ± (√14)/2."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "A function f : A → B possesses a well-defined inverse function f⁻¹ : B → A if and only if f is:",
+    "options": [
+      "Bijective (both one-to-one and onto)",
+      "Injective (one-to-one) only",
+      "Surjective (onto) only",
+      "Periodic and continuous"
+    ],
+    "answer": 0,
+    "explanation": "A function has a two-sided inverse if and only if it is bijective (one-to-one and onto)."
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensional formula exponents [Ma Lb Tc] of the universal gravitational constant G?",
+    "options": ["[M−1 L³ T−2]", "[M₁ L³ T−2]", "[M−1 L² T−2]", "[M₁ L² T−1]"],
+    "answer": 0,
+    "explanation": "[G] = [F r² / m²] = [M L T−2][L²][M−2] = [M−1 L³ T−2]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the area of the parallelogram formed by two adjacent vector sides A = 3i + j and B = i + 4j?",
+    "options": ["11 sq. units", "7 sq. units", "13 sq. units", "5.5 sq. units"],
+    "answer": 0,
+    "explanation": "|A × B| = |3(4) − 1(1)| = 11 sq. units."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A car accelerates uniformly from rest to 36 m/s in 9 s. What distance does it cover during this interval?",
+    "options": ["162 m", "324 m", "81 m", "4 m"],
+    "answer": 0,
+    "explanation": "s = [(vi + vf)/2] t = (36 / 2) × 9 = 18 × 9 = 162 m."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "At what launch angle θ is the horizontal range of a projectile equal to 4 times its maximum vertical height?",
+    "options": ["45°", "30°", "60°", "76°"],
+    "answer": 0,
+    "explanation": "R / H = 4 cot θ = 4 ⇒ cot θ = 1 ⇒ θ = 45°."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "A 2 kg block slides down a frictionless inclined plane inclined at 30° to the horizontal. What is its acceleration down the incline? (g = 9.8 m/s²)",
+    "options": ["4.9 m/s²", "8.49 m/s²", "9.8 m/s²", "2.45 m/s²"],
+    "answer": 0,
+    "explanation": "a = g sin 30° = 9.8 × 0.5 = 4.9 m/s²."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "If the linear momentum of a moving body is doubled while its mass remains constant, its kinetic energy increases by a factor of:",
+    "options": ["4", "2", "8", "√2"],
+    "answer": 0,
+    "explanation": "K = p² / (2m) ∝ p² ⇒ 22 = 4."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "A crane lifts a 500 kg steel beam vertically at a constant speed of 2 m/s. What is the mechanical power delivered by the crane? (g = 9.8 m/s²)",
+    "options": ["9.8 kW", "4.9 kW", "19.6 kW", "1.0 kW"],
+    "answer": 0,
+    "explanation": "P = Fv = mgv = 500 × 9.8 × 2 = 9800 W = 9.8 kW."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A solid uniform sphere and a hollow thin spherical shell of identical mass M and radius R roll without slipping down an inclined plane from rest. Which reaches the bottom first?",
+    "options": [
+      "The solid sphere",
+      "The hollow spherical shell",
+      "Both arrive simultaneously",
+      "Depends on the angle of inclination"
+    ],
+    "answer": 0,
+    "explanation": "Smaller rotational inertia factor (Isolid = 2/5 MR² < Ihollow = 2/3 MR²) gives larger translational acceleration a = g sin θ / (1 + I/(MR²)), so the solid sphere wins."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the orbital period of a geostationary communications satellite orbiting Earth in the equatorial plane?",
+    "options": ["24 hours", "12 hours", "84.6 minutes", "365.25 days"],
+    "answer": 0,
+    "explanation": "Geostationary satellites match Earth's sidereal rotation period of 24 hours."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the escape velocity from the surface of a planet whose mass is 4 times Earth's mass and whose radius is 4 times Earth's radius? (ve,Earth = 11.2 km/s)",
+    "options": ["11.2 km/s", "22.4 km/s", "5.6 km/s", "44.8 km/s"],
+    "answer": 0,
+    "explanation": "ve = √(2GM / R); multiplying both M and R by 4 leaves M / R unchanged, so ve = 11.2 km/s."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "According to the equation of continuity for an incompressible, non-viscous fluid in steady pipe flow, when the pipe cross-sectional area is halved, the fluid flow speed:",
+    "options": ["Doubles", "Quadruples", "Halves", "Remains unchanged"],
+    "answer": 0,
+    "explanation": "A₁v₁ = A²v² ⇒ v² = 2v₁."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "According to Stokes' law, the terminal velocity vt of a small spherical droplet falling through a viscous fluid is proportional to which power of its radius r?",
+    "options": ["r²", "r", "r³", "1 / r"],
+    "answer": 0,
+    "explanation": "vt = [2r²(ρ − ρ₀)g] / (9η) ∝ r²."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In simple harmonic motion (SHM), at what displacement x (in terms of amplitude x₀) are the kinetic energy and potential energy equal?",
+    "options": ["x₀ / √2", "x₀ / 2", "x₀ / 4", "√3 x₀ / 2"],
+    "answer": 0,
+    "explanation": "(1/2)kx² = (1/2)k(x₀ 2 − x²) ⇒ 2x² = x₀ 2 ⇒ x = x₀ / √2."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What happens to the time period of a simple pendulum if it is taken inside a freely falling elevator?",
+    "options": [
+      "Becomes infinite (does not oscillate)",
+      "Drops to zero",
+      "Remains 2π√(L/g)",
+      "Halves"
+    ],
+    "answer": 0,
+    "explanation": "In free fall geff = 0, so T = 2π√(L / geff) → ∞."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "An organ pipe closed at one end has length 0.50 m. If the speed of sound in air is 340 m/s, what is its fundamental resonant frequency?",
+    "options": ["170 Hz", "340 Hz", "680 Hz", "85 Hz"],
+    "answer": 0,
+    "explanation": "Closed pipe fundamental: f₁ = v / (4L) = 340 / (4 × 0.50) = 340 / 2 = 170 Hz."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which wave phenomenon proves conclusively that light waves are transverse in nature rather than longitudinal?",
+    "options": ["Polarization", "Diffraction", "Interference", "Refraction"],
+    "answer": 0,
+    "explanation": "Only transverse waves can be polarized; longitudinal waves cannot."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In Young's double-slit experiment, if the separation between the two slits is doubled while the screen distance and wavelength remain fixed, the fringe spacing Δy:",
+    "options": ["Halves", "Doubles", "Quadruples", "Remains unchanged"],
+    "answer": 0,
+    "explanation": "Fringe spacing Δy = λL / d ∝ 1 / d, so doubling d halves Δy."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the resolving power of an optical microscope inversely proportional to?",
+    "options": [
+      "Wavelength of illuminating light (λ)",
+      "Refractive index of the medium (n)",
+      "Numerical aperture",
+      "Tube length"
+    ],
+    "answer": 0,
+    "explanation": "Minimum resolvable separation dmin = 1.22λ / (2n sin θ); resolving power is inversely proportional to λ."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "An astronomical telescope in normal adjustment has an objective of focal length 100 cm and an eyepiece of focal length 5 cm. What is its angular magnification?",
+    "options": ["20", "500", "105", "95"],
+    "answer": 0,
+    "explanation": "M = fo / fe = 100 / 5 = 20."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "According to Brewster's Law, when unpolarized light is incident on a transparent dielectric of refractive index n = √3 at the polarizing angle, the angle of refraction inside the medium is:",
+    "options": ["30°", "60°", "45°", "90°"],
+    "answer": 0,
+    "explanation": "θp = arctan(√3) = 60°; at Brewster's angle θp + θr = 90° ⇒ θr = 30°."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an adiabatic expansion of an ideal gas, which thermodynamic quantity remains strictly zero?",
+    "options": [
+      "Heat transferred (ΔQ)",
+      "Change in internal energy (ΔU)",
+      "Work done by the gas (ΔW)",
+      "Temperature change (ΔT)"
+    ],
+    "answer": 0,
+    "explanation": "An adiabatic process occurs without heat exchange (ΔQ = 0)."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the maximum theoretical efficiency of a Carnot heat engine operating between a steam reservoir at 500 K and a condenser sink at 300 K?",
+    "options": ["40%", "60%", "66.7%", "20%"],
+    "answer": 0,
+    "explanation": "η = (1 − TC / TH) × 100% = (1 − 300/500) × 100% = 40%."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the root-mean-square (vrms) speed ratio of hydrogen (H₂, M = 2) to oxygen (O₂, M = 32) molecules at the same temperature?",
+    "options": ["4 : 1", "16 : 1", "1 : 4", "2 : 1"],
+    "answer": 0,
+    "explanation": "vrms ∝ 1 / √M ⇒ vH² / vO² = √(32 / 2) = √16 = 4 : 1."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "During an isothermal compression of an ideal gas at constant temperature T, the internal energy U of the gas:",
+    "options": [
+      "Remains constant",
+      "Increases proportionally to pressure",
+      "Decreases proportionally to volume",
+      "Becomes zero"
+    ],
+    "answer": 0,
+    "explanation": "For an ideal gas, U depends only on temperature T; at constant T, ΔU = 0."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which physical quantity is conserved in Kepler's Second Law (the Law of Equal Areas) for planetary motion?",
+    "options": [
+      "Angular momentum",
+      "Linear velocity",
+      "Kinetic energy",
+      "Orbital radius"
+    ],
+    "answer": 0,
+    "explanation": "Areal velocity dA/dt = L / (2m) = constant follows directly from conservation of angular momentum L."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of dynamic viscosity?",
+    "options": ["Pa · s (or N·s/m²)", "m² / s", "N / m", "kg / m³"],
+    "answer": 0,
+    "explanation": "SI unit of dynamic viscosity η is Pa·s (N·s/m²)."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Two tuning forks of frequencies 256 Hz and 260 Hz are sounded together. How many beats are heard in 5 seconds?",
+    "options": ["20 beats", "4 beats", "5 beats", "258 beats"],
+    "answer": 0,
+    "explanation": "Beat frequency fb = |260 − 256| = 4 Hz; in 5 s, 4 × 5 = 20 beats."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "When a source of sound moves directly toward a stationary observer, the apparent pitch heard by the observer increases because:",
+    "options": [
+      "Wavelength of sound waves in front of the source is compressed",
+      "Speed of sound in air increases",
+      "Amplitude of sound increases tenfold",
+      "Air temperature rises"
+    ],
+    "answer": 0,
+    "explanation": "Source motion compresses wavefronts ahead of the source (λ' = (v − vs)/f), raising perceived frequency."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the entropy change ΔS when 1 kg of ice at 273 K melts completely into water at 273 K? (Lf = 3.36 × 105 J/kg)",
+    "options": ["+1.23 × 103 J/K", "−1.23 × 103 J/K", "+3.36 × 105 J/K", "Zero"],
+    "answer": 0,
+    "explanation": "ΔS = Q / T = (1 × 3.36 × 105) / 273 = +1.23 × 103 J/K."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "An object is placed at the center of curvature (2F) of a converging convex lens of focal length f. Where is its real image formed?",
+    "options": [
+      "At 2F on the opposite side, inverted and same size",
+      "At F on the opposite side, diminished",
+      "At infinity",
+      "Between F and 2F, magnified"
+    ],
+    "answer": 0,
+    "explanation": "An object at 2F produces a real, inverted, unit-magnification image at 2F on the opposite side."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the electric potential at the midpoint of an electric dipole consisting of charges +q and −q separated by distance 2a?",
+    "options": ["Zero", "2kq / a", "kq / a²", "2kq / a²"],
+    "answer": 0,
+    "explanation": "At the midpoint of a dipole, V = kq/a + k(−q)/a = 0."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Inserting a dielectric slab of relative permittivity εr = 4 completely between the plates of an isolated charged capacitor causes the potential difference across its plates to:",
+    "options": [
+      "Decrease to 1/4 of its original value",
+      "Increase by 4 times",
+      "Remain unchanged",
+      "Drop to zero"
+    ],
+    "answer": 0,
+    "explanation": "At constant charge Q, V = Q / (εr C₀) = V₀ / 4."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Three capacitors of capacitances 3 μF, 6 μF, and 6 μF are connected in series. What is the equivalent capacitance of the network?",
+    "options": ["1.5 μF", "15 μF", "2.0 μF", "3.0 μF"],
+    "answer": 0,
+    "explanation": "1 / Ceq = 1/3 + 1/6 + 1/6 = 4/6 ⇒ Ceq = 1.5 μF."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A copper wire of resistance 10 Ω is stretched uniformly to double its original length while keeping its volume constant. What is its new electrical resistance?",
+    "options": ["40 Ω", "20 Ω", "5 Ω", "2.5 Ω"],
+    "answer": 0,
+    "explanation": "Stretching to nL at constant volume multiplies resistance by n²: R' = 22 × 10 = 40 Ω."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Kirchhoff's First Law (Junction Rule: ∑I = 0) is a direct consequence of the fundamental law of conservation of:",
+    "options": ["Electric charge", "Energy", "Linear momentum", "Magnetic flux"],
+    "answer": 0,
+    "explanation": "Kirchhoff's Junction Rule enforces conservation of electric charge at every circuit node."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A battery of EMF 12 V and internal resistance 1 Ω is connected to an external 5 Ω resistor. What is the terminal potential difference across the battery?",
+    "options": ["10 V", "12 V", "2 V", "6 V"],
+    "answer": 0,
+    "explanation": "I = 12 / (5 + 1) = 2 A; terminal voltage Vt = ϵ − Ir = 12 − 2(1) = 10 V."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Two long straight parallel conductors carrying steady currents in the same direction will:",
+    "options": [
+      "Attract each other",
+      "Repel each other",
+      "Exert no magnetic force on each other",
+      "Rotate perpendicularly"
+    ],
+    "answer": 0,
+    "explanation": "Parallel currents attract; anti-parallel currents repel."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "How is a sensitive moving-coil galvanometer converted into a wide-range DC voltmeter?",
+    "options": [
+      "By connecting a high resistance in series",
+      "By connecting a low shunt resistance in parallel",
+      "By connecting a capacitor in series",
+      "By removing its permanent magnet"
+    ],
+    "answer": 0,
+    "explanation": "Connecting a high multiplier resistance in series limits current and extends the voltage range."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Lenz's Law (the negative sign in Faraday's equation ϵ = −N ΔΦ/Δt) is a direct manifestation of the conservation of:",
+    "options": ["Energy", "Electric charge", "Angular momentum", "Mass"],
+    "answer": 0,
+    "explanation": "Lenz's Law opposes flux change so mechanical work must be done to generate electrical energy, upholding conservation of energy."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "A step-up transformer has 200 primary turns and 10³ secondary turns. If the primary is connected to a 120 V AC source, what is the ideal secondary voltage?",
+    "options": ["600 V", "24 V", "240 V", "1200 V"],
+    "answer": 0,
+    "explanation": "Vs = Vp (Ns / Np) = 120 × (10³ / 200) = 600 V."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "In a series RLC AC circuit at resonance, the net impedance Z of the circuit is equal to:",
+    "options": ["R (purely ohmic resistance)", "X_L + X_C", "Zero", "√(R² + X_L 2)"],
+    "answer": 0,
+    "explanation": "At resonance X_L = X_C, so Z = √(R² + (X_L − X_C)²) = R."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the peak (maximum) voltage of a standard 220 V RMS household AC supply?",
+    "options": ["311 V", "155.6 V", "220 V", "440 V"],
+    "answer": 0,
+    "explanation": "V₀ = Vrms √2 = 220 × 1.414 ≈ 311 V."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which electromagnetic waves have the shortest wavelength and highest photon energy in the electromagnetic spectrum?",
+    "options": ["Gamma rays", "X-rays", "Ultraviolet rays", "Microwaves"],
+    "answer": 0,
+    "explanation": "Gamma rays occupy the highest-frequency, shortest-wavelength end of the EM spectrum."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the ratio of tensile stress to tensile strain within the proportional elastic limit of a solid material?",
+    "options": [
+      "Young's Modulus (Y)",
+      "Bulk Modulus (B)",
+      "Shear Modulus (G)",
+      "Poisson's Ratio (σ)"
+    ],
+    "answer": 0,
+    "explanation": "Longitudinal tensile stress divided by longitudinal strain defines Young's Modulus (Y)."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Above the Curie temperature, a ferromagnetic material such as iron loses its spontaneous magnetization and becomes:",
+    "options": ["Paramagnetic", "Diamagnetic", "Superconducting", "Antiferromagnetic"],
+    "answer": 0,
+    "explanation": "Thermal agitation above the Curie point breaks magnetic domains, transitioning ferromagnets into paramagnets."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the approximate potential barrier (knee voltage) across an unbiased silicon PN junction diode at room temperature (300 K)?",
+    "options": ["0.7 V", "0.3 V", "1.5 V", "5.0 V"],
+    "answer": 0,
+    "explanation": "Silicon barrier potential is ≈ 0.7 V (versus ≈ 0.3 V for germanium)."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In a common-emitter (CE) bipolar junction transistor amplifier, what is the phase difference between the input signal voltage and the amplified output voltage?",
+    "options": ["180°", "0°", "90°", "270°"],
+    "answer": 0,
+    "explanation": "A common-emitter amplifier inverts the input signal, producing a 180° phase shift."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "A full-wave bridge rectifier converts a 50 Hz sinusoidal AC input into a pulsating DC output whose fundamental ripple frequency is:",
+    "options": ["100 Hz", "50 Hz", "25 Hz", "200 Hz"],
+    "answer": 0,
+    "explanation": "Full-wave rectification doubles the input line frequency: fripple = 2 × 50 = 100 Hz."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which pair of logic gates are known as universal gates because either alone can construct any Boolean logic circuit?",
+    "options": ["NAND and NOR", "AND and OR", "XOR and XNOR", "NOT and AND"],
+    "answer": 0,
+    "explanation": "NAND and NOR gates are functionally complete universal gates."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the photoelectric effect, increasing the intensity of monochromatic incident light (above the threshold frequency) increases:",
+    "options": [
+      "The number of emitted photoelectrons per second (photocurrent)",
+      "The maximum kinetic energy of each photoelectron",
+      "The stopping potential",
+      "The work function of the metal"
+    ],
+    "answer": 0,
+    "explanation": "Higher photon flux ejects proportionally more photoelectrons per second, increasing photocurrent while leaving Kmax unchanged."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In Compton scattering of X-rays off free electrons, the Compton wavelength shift Δλ is maximum when the photon scattering angle θ is:",
+    "options": ["180°", "90°", "0°", "45°"],
+    "answer": 0,
+    "explanation": "Δλ = (h / mec)(1 − cos θ) peaks at backscattering (θ = 180°), where Δλ = 2λC."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "According to Heisenberg's Uncertainty Principle, the product of uncertainties in position and momentum (Δx · Δp) must be at least:",
+    "options": ["h / (4π) (or ħ / 2)", "Zero", "h c", "2π h"],
+    "answer": 0,
+    "explanation": "Heisenberg's inequality: Δx · Δp ≥ h / (4π)."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the ionization energy of a ground-state (n = 1) hydrogen atom?",
+    "options": ["13.6 eV", "3.4 eV", "10.2 eV", "1.51 eV"],
+    "answer": 0,
+    "explanation": "Ground-state binding energy of hydrogen is 13.6 eV."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "The Balmer series of spectral lines in atomic hydrogen lies predominantly in which region of the electromagnetic spectrum?",
+    "options": [
+      "Visible region",
+      "Ultraviolet region",
+      "Far-infrared region",
+      "Microwave region"
+    ],
+    "answer": 0,
+    "explanation": "Transitions terminating at n = 2 form the visible Balmer series."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Achieving sustained laser action requires establishing a non-equilibrium state in the gain medium known as:",
+    "options": [
+      "Population inversion",
+      "Thermal equilibrium",
+      "Pair production",
+      "Total internal absorption"
+    ],
+    "answer": 0,
+    "explanation": "Population inversion (N₂ > N₁) ensures stimulated emission dominates over absorption."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the energy equivalent of 1 unified atomic mass unit (1 u) in mega-electronvolts?",
+    "options": ["931.5 MeV", "0.511 MeV", "1.022 MeV", "13.6 MeV"],
+    "answer": 0,
+    "explanation": "1 u × c² = 931.5 MeV."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "A radioactive isotope has a half-life of 10 days. What fraction of the original sample remains undecayed after 30 days?",
+    "options": ["1 / 8", "1 / 3", "1 / 4", "7 / 8"],
+    "answer": 0,
+    "explanation": "30 days = 3 half-lives ⇒ N / N₀ = (1/2)³ = 1 / 8."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In a nuclear fission reactor, heavy water (D²O) or graphite is used as a moderator primarily to:",
+    "options": [
+      "Slow down fast neutrons to thermal energies",
+      "Absorb all neutrons to halt the reaction",
+      "Shield workers from gamma radiation",
+      "Cool the turbine condenser"
+    ],
+    "answer": 0,
+    "explanation": "Moderators slow fast fission neutrons down to thermal speeds to sustain 235U fission."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "When an atomic nucleus emits a beta-minus (β−) particle, its atomic number Z:",
+    "options": [
+      "Increases by 1",
+      "Decreases by 1",
+      "Decreases by 2",
+      "Remains unchanged"
+    ],
+    "answer": 0,
+    "explanation": "Neutron-to-proton conversion (n → p + e− + ν̄e) raises atomic number Z by 1."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "According to the quark model of particle physics, a proton is composed of which three valence quarks?",
+    "options": [
+      "Two up quarks and one down quark (uud)",
+      "One up quark and two down quarks (udd)",
+      "Three up quarks (uuu)",
+      "One up quark and one anti-down quark (u d̄ )"
+    ],
+    "answer": 0,
+    "explanation": "A proton consists of two up quarks (+2/3 e each) and one down quark (−1/3 e): uud."
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to PRAGMATIC:",
+    "options": ["Practical", "Idealistic", "Quixotic", "Whimsical"],
+    "answer": 0,
+    "explanation": "Pragmatic means dealing with things sensibly and realistically; practical is its exact synonym."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to EPHEMERAL:",
+    "options": ["Transitory", "Perennial", "Immutable", "Sempiternal"],
+    "answer": 0,
+    "explanation": "Ephemeral means lasting for a very short time; transitory means not permanent."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to OBDURATE:",
+    "options": ["Stubborn", "Compliant", "Amenable", "Tractable"],
+    "answer": 0,
+    "explanation": "Obdurate means stubbornly refusing to change one's opinion or course of action; stubborn matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to UBIQUITOUS:",
+    "options": ["Omnipresent", "Scarce", "Endemic", "Sporadic"],
+    "answer": 0,
+    "explanation": "Ubiquitous means present, appearing, or found everywhere; omnipresent is its direct synonym."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to PERSPICACIOUS:",
+    "options": ["Astute", "Obtuse", "Myopic", "Vapid"],
+    "answer": 0,
+    "explanation": "Perspicacious means having a ready insight into and understanding of things; astute matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to MAGNANIMOUS:",
+    "options": ["Generous", "Vindictive", "Parsimonious", "Petty"],
+    "answer": 0,
+    "explanation": "Magnanimous means generous or forgiving, especially toward a rival; generous fits best."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to PERNICIOUS:",
+    "options": ["Deleterious", "Salubrious", "Innocuous", "Beneficent"],
+    "answer": 0,
+    "explanation": "Pernicious means having a harmful effect, especially in a gradual or subtle way; deleterious means causing harm or damage."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to FASTIDIOUS:",
+    "options": ["Meticulous", "Negligent", "Slovenly", "Nonchalant"],
+    "answer": 0,
+    "explanation": "Fastidious means very attentive to accuracy and detail; meticulous is its synonym."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to SYCOPHANT:",
+    "options": ["Flatterer", "Detractor", "Iconoclast", "Adversary"],
+    "answer": 0,
+    "explanation": "A sycophant is a person who acts obsequiously toward someone important in order to gain advantage; flatterer matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to LUCID:",
+    "options": ["Pellucid", "Murky", "Cryptic", "Nebulous"],
+    "answer": 0,
+    "explanation": "Lucid means expressed clearly and easy to understand; pellucid means translucently clear in style or meaning."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to ENERVATE:",
+    "options": ["Debilitate", "Invigorate", "Fortify", "Revitalize"],
+    "answer": 0,
+    "explanation": "Enervate means to cause someone to feel drained of energy or vitality; debilitate means to weaken."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to SAGACIOUS:",
+    "options": ["Discerning", "Fatuous", "Gullible", "Inane"],
+    "answer": 0,
+    "explanation": "Sagacious means having or showing keen mental discernment and good judgment; discerning matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to OBSEQUIOUS:",
+    "options": ["Servile", "Imperious", "Contumacious", "Haughty"],
+    "answer": 0,
+    "explanation": "Obsequious means obedient or attentive to an excessive or servile degree; servile is its synonym."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to AMBIGUOUS:",
+    "options": ["Equivocal", "Explicit", "Univocal", "Categorical"],
+    "answer": 0,
+    "explanation": "Ambiguous means open to more than one interpretation; equivocal means open to two or more interpretations."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to ALACRITY:",
+    "options": ["Eagerness", "Reluctance", "Apathy", "Torpor"],
+    "answer": 0,
+    "explanation": "Alacrity means brisk and cheerful readiness; eagerness is its synonym."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to AUGMENT:",
+    "options": ["Diminish", "Amplify", "Proliferate", "Bolster"],
+    "answer": 0,
+    "explanation": "Augment means to increase; its opposite is diminish (make or become less)."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to ESOTERIC:",
+    "options": ["Exoteric", "Arcane", "Cryptic", "Occult"],
+    "answer": 0,
+    "explanation": "Esoteric means understood by only a small initiated group; its antonym is exoteric (intended for or understood by the general public)."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to PARSIMONIOUS:",
+    "options": ["Munificent", "Penurious", "Frugal", "Niggardly"],
+    "answer": 0,
+    "explanation": "Parsimonious means unwilling to spend money or use resources (stingy); its antonym is munificent (larger or more generous than is usual)."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to TRANSIENT:",
+    "options": ["Permanent", "Fleeting", "Evanescent", "Momentary"],
+    "answer": 0,
+    "explanation": "Transient means lasting only for a short time; its opposite is permanent."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to CAPRICIOUS:",
+    "options": ["Steadfast", "Mercurial", "Erratic", "Fickle"],
+    "answer": 0,
+    "explanation": "Capricious means given to sudden and unaccountable changes of mood or behavior; its antonym is steadfast (resolutely or dutifully firm and unwavering)."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — SCALPEL : SURGEON ::",
+    "options": [
+      "Chisel : Sculptor",
+      "Stethoscope : Patient",
+      "Anvil : Carpenter",
+      "Brush : Canvas"
+    ],
+    "answer": 0,
+    "explanation": "Tool-to-practitioner relationship: a scalpel is the precision cutting tool of a surgeon, just as a chisel is the carving tool of a sculptor."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — ARCHIPELAGO : ISLANDS ::",
+    "options": [
+      "Constellation : Stars",
+      "Peninsula : Oceans",
+      "Oasis : Deserts",
+      "Tributary : Rivers"
+    ],
+    "answer": 0,
+    "explanation": "Collective-to-member relationship: an archipelago is a group of islands, just as a constellation is a group of stars."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — LULLABY : SLEEP ::",
+    "options": [
+      "Narcotic : Stupor",
+      "Dirge : Celebration",
+      "Eulogy : Criticism",
+      "Prologue : Conclusion"
+    ],
+    "answer": 0,
+    "explanation": "Inducing-agent-to-state relationship: a lullaby induces sleep, just as a narcotic induces stupor."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — ANEMOMETER : WIND ::",
+    "options": [
+      "Barometer : Atmospheric Pressure",
+      "Thermometer : Humidity",
+      "Hygrometer : Altitude",
+      "Seismograph : Rainfall"
+    ],
+    "answer": 0,
+    "explanation": "Instrument-to-measured-phenomenon relationship: an anemometer measures wind speed, just as a barometer measures atmospheric pressure."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — MENDACIOUS : VERACITY ::",
+    "options": [
+      "Pusillanimous : Courage",
+      "Veracious : Honesty",
+      "Generous : Benevolence",
+      "Audacious : Boldness"
+    ],
+    "answer": 0,
+    "explanation": "Adjective-to-lacked-virtue relationship: someone mendacious (untruthful) lacks veracity, just as someone pusillanimous (cowardly) lacks courage."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Not only the propulsion engineers but also the flight director ______ convinced that the telemetry anomaly has been resolved.",
+    "options": ["is", "are", "were", "have been"],
+    "answer": 0,
+    "explanation": "With Not only … but also, the verb agrees with the nearer subject (flight director, singular): is."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Hardly ______ the satellite entered geostationary orbit when solar array deployment commenced.",
+    "options": ["had", "has", "did", "was"],
+    "answer": 0,
+    "explanation": "Past-perfect inversion after fronted Hardly pairs with when: Hardly had the satellite entered … when."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The structural alloy is remarkably resistant ______ thermal fatigue even at sustained hypersonic speeds.",
+    "options": ["to", "against", "from", "with"],
+    "answer": 0,
+    "explanation": "The adjective resistant idiomatically takes the preposition to."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Had the quantum error-correction algorithm ______ implemented earlier, decoherence losses would have been negligible.",
+    "options": ["been", "be", "being", "was"],
+    "answer": 0,
+    "explanation": "Inverted third conditional (past counterfactual) uses Had + subject + been + past participle."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Although the experimental data initially appeared ______, subsequent Fourier filtering revealed a clear periodic signal.",
+    "options": ["erratic", "uniform", "deterministic", "coherent"],
+    "answer": 0,
+    "explanation": "Although sets up a contrast with clear periodic signal, making erratic (irregular/unpredictable) the exact fit."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Identify the grammatically correct sentence:",
+    "options": [
+      "Each of the piezoelectric sensors is calibrated prior to wind-tunnel testing.",
+      "Each of the piezoelectric sensors are calibrated prior to wind-tunnel testing.",
+      "Each of the piezoelectric sensor is calibrated prior to wind-tunnel testing.",
+      "Each of the piezoelectric sensors were calibrated prior to wind-tunnel testing."
+    ],
+    "answer": 0,
+    "explanation": "Distributive pronoun Each takes a plural noun after of the (sensors) and a singular verb (is)."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "The committee recommended that the Chief Architect ______ the revised seismic load specifications immediately.",
+    "options": ["adopt", "adopts", "adopted", "will adopt"],
+    "answer": 0,
+    "explanation": "Verbs of recommendation (recommended that) require the mandative subjunctive base form: adopt."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Accommodate", "Acommodate", "Accomodate", "Acomoddate"],
+    "answer": 0,
+    "explanation": "Accommodate is correctly spelled with double c and double m."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Despite facing ______ criticism from skeptics, the astrophysicist persisted with her dark-matter simulations.",
+    "options": ["trenchant", "laudatory", "sycophantic", "benign"],
+    "answer": 0,
+    "explanation": "Despite contrasts persistence with harsh opposition; trenchant means vigorous, incisive, and sharply critical."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "No sooner had the superconductor cooled below its critical threshold ______ the suspended magnet levitated effortlessly.",
+    "options": [
+      "than",
+      "when",
+      "then",
+      "while Passage: Metamaterials are artificially engineered composites whose electromagnetic properties derive not merely from their constituent chemical elements, but from precisely patterned subwavelength microstructures. By arranging metallic split-ring resonators and conducting wires in periodic arrays smaller than the wavelength of incident radiation, physicists can tailor effective electric permittivity and magnetic permeability simultaneously. When both parameters become negative over a shared frequency band, the material exhibits a negative refractive index—reversing Snell's law so that refracted rays bend toward the same side of the normal as the incident beam. This counterintuitive optical behavior enables flat \"superlenses\" capable of focusing evanescent near-field waves to resolve features far smaller than the classical diffraction limit."
+    ],
+    "answer": 0,
+    "explanation": "The correlative conjunction No sooner … than always requires than."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What distinguishes metamaterials from conventional optical materials?",
+    "options": [
+      "Their properties arise from engineered subwavelength geometric structures rather than chemical composition alone",
+      "They contain no metallic or conducting components",
+      "They obey only classical gravitational laws",
+      "Their microstructures are much larger than the wavelength of light"
+    ],
+    "answer": 0,
+    "explanation": "Sentence 1 states that metamaterial properties derive \"not merely from their constituent chemical elements, but from precisely patterned subwavelength microstructures.\"",
+    "context": "Metamaterials are artificially engineered composites whose electromagnetic properties derive not merely from their constituent chemical elements, but from precisely patterned subwavelength microstructures. By arranging metallic split-ring resonators and conducting wires in periodic arrays smaller than the wavelength of incident radiation, physicists can tailor effective electric permittivity and magnetic permeability simultaneously. When both parameters become negative over a shared frequency band, the material exhibits a negative refractive index—reversing Snell's law so that refracted rays bend toward the same side of the normal as the incident beam. This counterintuitive optical behavior enables flat \"superlenses\" capable of focusing evanescent near-field waves to resolve features far smaller than the classical diffraction limit."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Under what condition does a metamaterial exhibit a negative refractive index?",
+    "options": [
+      "When both effective permittivity and magnetic permeability are simultaneously negative",
+      "When incident light travels faster than c",
+      "When Snell's law is completely eliminated",
+      "When the material is heated above its melting point"
+    ],
+    "answer": 0,
+    "explanation": "Sentence 3 states: \"When both parameters [permittivity and permeability] become negative over a shared frequency band, the material exhibits a negative refractive index.\"",
+    "context": "Metamaterials are artificially engineered composites whose electromagnetic properties derive not merely from their constituent chemical elements, but from precisely patterned subwavelength microstructures. By arranging metallic split-ring resonators and conducting wires in periodic arrays smaller than the wavelength of incident radiation, physicists can tailor effective electric permittivity and magnetic permeability simultaneously. When both parameters become negative over a shared frequency band, the material exhibits a negative refractive index—reversing Snell's law so that refracted rays bend toward the same side of the normal as the incident beam. This counterintuitive optical behavior enables flat \"superlenses\" capable of focusing evanescent near-field waves to resolve features far smaller than the classical diffraction limit."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "In the context of the passage, the word \"tailor\" most nearly means:",
+    "options": [
+      "Custom-design or precisely adjust",
+      "Stitch together fabric",
+      "Randomly scatter",
+      "Permanently destroy"
+    ],
+    "answer": 0,
+    "explanation": "In engineering contexts, tailor means to custom-design or precisely engineer specific material properties.",
+    "context": "Metamaterials are artificially engineered composites whose electromagnetic properties derive not merely from their constituent chemical elements, but from precisely patterned subwavelength microstructures. By arranging metallic split-ring resonators and conducting wires in periodic arrays smaller than the wavelength of incident radiation, physicists can tailor effective electric permittivity and magnetic permeability simultaneously. When both parameters become negative over a shared frequency band, the material exhibits a negative refractive index—reversing Snell's law so that refracted rays bend toward the same side of the normal as the incident beam. This counterintuitive optical behavior enables flat \"superlenses\" capable of focusing evanescent near-field waves to resolve features far smaller than the classical diffraction limit."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "How do metamaterial \"superlenses\" overcome the classical diffraction limit?",
+    "options": [
+      "By capturing and focusing evanescent near-field waves",
+      "By using thicker glass lenses",
+      "By eliminating all electromagnetic radiation",
+      "By operating solely in outer space"
+    ],
+    "answer": 0,
+    "explanation": "Sentence 4 notes that superlenses are \"capable of focusing evanescent near-field waves to resolve features far smaller than the classical diffraction limit.\"",
+    "context": "Metamaterials are artificially engineered composites whose electromagnetic properties derive not merely from their constituent chemical elements, but from precisely patterned subwavelength microstructures. By arranging metallic split-ring resonators and conducting wires in periodic arrays smaller than the wavelength of incident radiation, physicists can tailor effective electric permittivity and magnetic permeability simultaneously. When both parameters become negative over a shared frequency band, the material exhibits a negative refractive index—reversing Snell's law so that refracted rays bend toward the same side of the normal as the incident beam. This counterintuitive optical behavior enables flat \"superlenses\" capable of focusing evanescent near-field waves to resolve features far smaller than the classical diffraction limit."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "According to the passage, when a ray enters a negative-index metamaterial, it refracts:",
+    "options": [
+      "Toward the same side of the normal as the incident ray",
+      "Straight along the normal without bending",
+      "Always at 90° to the surface",
+      "Away from the normal on the opposite side – Q.200)"
+    ],
+    "answer": 0,
+    "explanation": "Sentence 3 explains that negative refraction bends rays \"toward the same side of the normal as the incident beam.\"",
+    "context": "Metamaterials are artificially engineered composites whose electromagnetic properties derive not merely from their constituent chemical elements, but from precisely patterned subwavelength microstructures. By arranging metallic split-ring resonators and conducting wires in periodic arrays smaller than the wavelength of incident radiation, physicists can tailor effective electric permittivity and magnetic permeability simultaneously. When both parameters become negative over a shared frequency band, the material exhibits a negative refractive index—reversing Snell's law so that refracted rays bend toward the same side of the normal as the incident beam. This counterintuitive optical behavior enables flat \"superlenses\" capable of focusing evanescent near-field waves to resolve features far smaller than the classical diffraction limit."
+  }
+]

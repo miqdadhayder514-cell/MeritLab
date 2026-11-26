@@ -1,0 +1,2057 @@
+[
+  {
+    "number": 1,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the center of the circle x² + y² + 26x − 30y + 11 = 0?",
+    "options": ["(−13, 15)", "(26, −30)", "(13, −15)", "(−26, 30)"],
+    "answer": 0,
+    "explanation": "g = 13, f = −15 ⇒ center (−g, −f) = (−13, 15)."
+  },
+  {
+    "number": 2,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the radius of the circle x² + y² − 18x + 24y − 60 = 0:",
+    "options": ["285 units", "√285 units", "15 units", "17 units"],
+    "answer": 1,
+    "explanation": "r = √(81 + 144 + 60) = √285 units."
+  },
+  {
+    "number": 3,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the tangent drawn from (17, 6) to the circle x² + y² − 204 = 0?",
+    "options": ["18 units", "121 units", "11 units", "√529 units"],
+    "answer": 2,
+    "explanation": "Tangent length L = √(172 + 62 − 204) = √(325 − 204) = √121 = 11 units."
+  },
+  {
+    "number": 4,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the equation of the normal line to the circle x² + y² = 625 at the point (−7, 24)?",
+    "options": ["24x + 7y = 0", "24x − 7y = 625", "−7x + 24y = 625", "7x − 24y = 0"],
+    "answer": 0,
+    "explanation": "Normal passes through (0, 0) and (−7, 24): y / x = −24 / 7 ⇒ 24x + 7y = 0."
+  },
+  {
+    "number": 5,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For what value of k does the line y = 2x + k touch the circle x² + y² = 20 as a tangent?",
+    "options": ["±√1000", "±20", "±5", "±10"],
+    "answer": 3,
+    "explanation": "Tangency condition c = ±r √(1 + m₂) = ±√20 √(1 + 4) = ±√100 = ±10."
+  },
+  {
+    "number": 6,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the focus of the leftward-opening parabola y² = −56x?",
+    "options": ["(14, 0)", "(0, −14)", "(−14, 0)", "(0, 14)"],
+    "answer": 2,
+    "explanation": "4a = −56 ⇒ a = −14; focus of y² = −56x is (−14, 0)."
+  },
+  {
+    "number": 7,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the equation of the directrix of the parabola y² = 72x:",
+    "options": ["y = 18", "x = 18", "x = −18", "y = −18"],
+    "answer": 2,
+    "explanation": "4a = 72 ⇒ a = 18; directrix of y² = 72x is x = −18."
+  },
+  {
+    "number": 8,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the latus rectum of the parabola x² = 84y?",
+    "options": ["84 units", "42 units", "168 units", "21 units"],
+    "answer": 0,
+    "explanation": "Latus rectum length of x² = 84y is |4a| = 84 units."
+  },
+  {
+    "number": 9,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the vertex of the parabola (y + 6)2 = 32(x − 11)?",
+    "options": ["(6, −11)", "(−6, 11)", "(−11, 6)", "(11, −6)"],
+    "answer": 3,
+    "explanation": "Comparing (y − k)2 = 4a(x − h) gives vertex (11, −6)."
+  },
+  {
+    "number": 10,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the focal distance of the point (9, 18) lying on the parabola y² = 36x?",
+    "options": ["36 units", "9 units", "18 units", "27 units"],
+    "answer": 2,
+    "explanation": "a = 9; focal distance of (x₁, y₁) on y² = 4ax is x₁ + a = 9 + 9 = 18 units."
+  },
+  {
+    "number": 11,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the major axis of the vertical ellipse (x² / 49) + (y² / 169) = 1?",
+    "options": ["13 units", "7 units", "14 units", "26 units"],
+    "answer": 3,
+    "explanation": "a = 13, so major axis length is 2a = 26 units."
+  },
+  {
+    "number": 12,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the ellipse (x² / 625) + (y² / 49) = 1:",
+    "options": ["25 / 24", "576 / 625", "24 / 25", "7 / 25"],
+    "answer": 2,
+    "explanation": "e = √(1 − 49/625) = √(576/625) = 24 / 25."
+  },
+  {
+    "number": 13,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the vertical ellipse (x² / 25) + (y² / 169) = 1:",
+    "options": ["(0, ±12)", "(±12, 0)", "(0, ±5)", "(0, ±13)"],
+    "answer": 0,
+    "explanation": "c = √(169 − 25) = 12; foci on y-axis are (0, ±12)."
+  },
+  {
+    "number": 14,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the length of the latus rectum of the ellipse (x² / 225) + (y² / 25) = 1?",
+    "options": ["5 / 3 units", "50 / 15 units", "30 units", "10 / 3 units"],
+    "answer": 3,
+    "explanation": "Latus rectum length = 2b² / a = 2(25) / 15 = 50 / 15 = 10 / 3 units."
+  },
+  {
+    "number": 15,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the distance between the two directrices of the ellipse (x² / 169) + (y² / 144) = 1?",
+    "options": ["338 / 5 units", "26 units", "10 units", "169 / 5 units"],
+    "answer": 0,
+    "explanation": "a = 13, c = √(169 − 144) = 5; distance between directrices = 2a² / c = 2(169) / 5 = 338 / 5 units."
+  },
+  {
+    "number": 16,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the length of the transverse axis of the vertical hyperbola (y² / 121) − (x² / 36) = 1?",
+    "options": ["12 units", "11 units", "6 units", "22 units"],
+    "answer": 3,
+    "explanation": "a = 11, so transverse axis length is 2a = 22 units."
+  },
+  {
+    "number": 17,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the eccentricity e of the hyperbola (x² / 64) − (y² / 225) = 1:",
+    "options": ["17 / 8", "15 / 8", "17 / 15", "8 / 17"],
+    "answer": 0,
+    "explanation": "e = √(1 + 225/64) = √(289/64) = 17 / 8."
+  },
+  {
+    "number": 18,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the foci of the vertical hyperbola (y² / 144) − (x² / 25) = 1:",
+    "options": ["(0, ±12)", "(0, ±5)", "(±13, 0)", "(0, ±13)"],
+    "answer": 3,
+    "explanation": "c = √(144 + 25) = 13; foci on y-axis are (0, ±13)."
+  },
+  {
+    "number": 19,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What are the equations of the asymptotes of the hyperbola (x² / 49) − (y² / 144) = 1?",
+    "options": [
+      "y = ±(7 / 12) x",
+      "y = ±(144 / 49) x",
+      "y = ±(19 / 7) x",
+      "y = ±(12 / 7) x"
+    ],
+    "answer": 3,
+    "explanation": "Asymptotes of (x²/49) − (y²/144) = 1 are y = ±(12/7)x."
+  },
+  {
+    "number": 20,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the eccentricity e of any equilateral (rectangular) hyperbola x² − y² = a²?",
+    "options": ["√2", "2", "1", "1 / √2"],
+    "answer": 0,
+    "explanation": "When a = b, e = √(1 + 1) = √2."
+  },
+  {
+    "number": 21,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the length of the latus rectum of the hyperbola (x² / 25) − (y² / 100) = 1?",
+    "options": ["10 units", "20 units", "40 units", "5 units"],
+    "answer": 2,
+    "explanation": "Latus rectum length = 2b² / a = 2(100) / 5 = 40 units."
+  },
+  {
+    "number": 22,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Identify the conic represented by 9x² − 16y² − 18x − 64y − 199 = 0:",
+    "options": ["Ellipse", "Parabola", "Hyperbola", "Circle"],
+    "answer": 2,
+    "explanation": "Opposite signs on x² (+9) and y² (−16) define a hyperbola."
+  },
+  {
+    "number": 23,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the distance between points (3, −4) and (11, 11)?",
+    "options": ["17 units", "8 units", "23 units", "15 units"],
+    "answer": 0,
+    "explanation": "d = √(64 + 225) = √289 = 17 units."
+  },
+  {
+    "number": 24,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the slope m of a line parallel to 7x − 3y + 22 = 0:",
+    "options": ["3 / 7", "7 / 3", "−3 / 7", "−7 / 3"],
+    "answer": 1,
+    "explanation": "Rewriting y = (7/3)x + 22/3 gives parallel slope 7 / 3."
+  },
+  {
+    "number": 25,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the area of the triangle with vertices (0, 0), (18, 0), and (7, 9):",
+    "options": ["27 sq. units", "81 sq. units", "162 sq. units", "63 sq. units"],
+    "answer": 1,
+    "explanation": "Base = 18, height = 9; area = (1/2)(18)(9) = 81 sq. units."
+  },
+  {
+    "number": 26,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the coordinates of the point dividing the join of (2, 5) and (12, 20) internally in the ratio 2 : 3:",
+    "options": ["(7, 12.5)", "(6, 11)", "(8, 14)", "(14, 25)"],
+    "answer": 1,
+    "explanation": "Section formula: ((2(12) + 3(2))/5, (2(20) + 3(5))/5) = (30/5, 55/5) = (6, 11)."
+  },
+  {
+    "number": 27,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the perpendicular distance between the two parallel lines 5x + 12y − 10 = 0 and 5x + 12y + 42 = 0:",
+    "options": ["13 units", "52 units", "4 units", "32 / 13 units"],
+    "answer": 2,
+    "explanation": "d = |42 − (−10)| / √(25 + 144) = 52 / 13 = 4 units."
+  },
+  {
+    "number": 28,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the acute angle θ between two lines with slopes m₁ = 4 and m₂ = 3 / 5?",
+    "options": ["90° (π / 2)", "45° (π / 4)", "30° (π / 6)", "60° (π / 3)"],
+    "answer": 1,
+    "explanation": "tan θ = |(4 − 3/5) / (1 + 4(3/5))| = |(17/5) / (17/5)| = 1 ⇒ θ = 45°."
+  },
+  {
+    "number": 29,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the magnitude of vector u = 8i − 15j?",
+    "options": ["23", "289", "7", "17"],
+    "answer": 3,
+    "explanation": "|u| = √(64 + 225) = √289 = 17."
+  },
+  {
+    "number": 30,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the dot product u · v for u = 5i − 4j + 3k and v = 2i + 6j − 2k:",
+    "options": ["−20", "40", "−8", "28"],
+    "answer": 0,
+    "explanation": "u · v = 10 − 24 − 6 = −20."
+  },
+  {
+    "number": 31,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the cross product j × i of standard unit basis vectors?",
+    "options": ["0", "k", "−k", "i"],
+    "answer": 2,
+    "explanation": "Anti-cyclic cross product: j × i = −k."
+  },
+  {
+    "number": 32,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the area of the parallelogram whose adjacent sides are a = 5i and b = 9j?",
+    "options": ["14 sq. units", "22.5 sq. units", "45 sq. units", "90 sq. units"],
+    "answer": 2,
+    "explanation": "|a × b| = 5 × 9 = 45 sq. units."
+  },
+  {
+    "number": 33,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "For what value of p are vectors a = 6i + pj − 4k and b = 3i − 2j + 3k perpendicular?",
+    "options": ["15", "3", "−15", "−3"],
+    "answer": 1,
+    "explanation": "a · b = 18 − 2p − 12 = 0 ⇒ 2p = 6 ⇒ p = 3."
+  },
+  {
+    "number": 34,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the direction cosine cos α (along the x-axis) of v = 6i − 2j + 3k?",
+    "options": ["3 / 7", "6 / 7", "6 / 11", "−2 / 7"],
+    "answer": 1,
+    "explanation": "|v| = √(36 + 4 + 9) = 7, so cos α = 6 / 7."
+  },
+  {
+    "number": 35,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the perpendicular distance from the origin (0, 0, 0) to the plane 4x + 4y − 7z + 45 = 0?",
+    "options": ["5 units", "3 units", "9 units", "45 units"],
+    "answer": 0,
+    "explanation": "d = |45| / √(16 + 16 + 49) = 45 / 9 = 5 units."
+  },
+  {
+    "number": 36,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the x-intercept of the line 5x − 8y + 40 = 0:",
+    "options": ["5", "−5", "8", "−8"],
+    "answer": 3,
+    "explanation": "Setting y = 0 gives 5x = −40 ⇒ x = −8."
+  },
+  {
+    "number": 37,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between points (2, 1, −3) and (8, 4, −1) in 3D space?",
+    "options": ["7 units", "√41 units", "49 units", "11 units"],
+    "answer": 0,
+    "explanation": "d = √(62 + 32 + 22) = √(36 + 9 + 4) = √49 = 7 units."
+  },
+  {
+    "number": 38,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the value of the scalar triple product i · (j × k)?",
+    "options": ["0", "1", "−1", "3"],
+    "answer": 1,
+    "explanation": "i · (j × k) = i · i = 1."
+  },
+  {
+    "number": 39,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the midpoint of the line segment joining (−11, 6) and (19, −14):",
+    "options": ["(−15, 10)", "(4, −4)", "(15, −10)", "(8, −8)"],
+    "answer": 1,
+    "explanation": "Midpoint = ((−11 + 19)/2, (6 − 14)/2) = (4, −4)."
+  },
+  {
+    "number": 40,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the angle θ between vectors a = i + j and b = j + k?",
+    "options": ["60° (π / 3)", "45° (π / 4)", "90° (π / 2)", "30° (π / 6)"],
+    "answer": 0,
+    "explanation": "cos θ = (a · b) / (|a| |b|) = 1 / (√2 · √2) = 1 / 2 ⇒ θ = 60°."
+  },
+  {
+    "number": 41,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the unit vector in the direction of v = 7i − 24j?",
+    "options": [
+      "7i − 24j",
+      "(7/31)i − (24/31)j",
+      "(7/25)i − (24/25)j",
+      "−(7/25)i + (24/25)j"
+    ],
+    "answer": 2,
+    "explanation": "|v| = √(49 + 576) = 25; unit vector is (7/25)i − (24/25)j."
+  },
+  {
+    "number": 42,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the normal vector n to the plane 9x − 4y + 7z = 18?",
+    "options": ["9i − 4j + 7k", "9i + 4j + 7k", "18i − 4j + 7k", "−9i + 4j − 7k"],
+    "answer": 0,
+    "explanation": "Coefficients of x, y, z give normal vector 9i − 4j + 7k."
+  },
+  {
+    "number": 43,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Convert 11π / 6 radians into degrees:",
+    "options": ["330°", "150°", "210°", "300°"],
+    "answer": 0,
+    "explanation": "(11π/6) × (180°/π) = 330°."
+  },
+  {
+    "number": 44,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the exact value of sin 15°?",
+    "options": ["(√6 − √2) / 4", "(√3 − 1) / 2", "1 / 4", "(√6 + √2) / 4"],
+    "answer": 0,
+    "explanation": "sin(45° − 30°) = (√6 − √2) / 4."
+  },
+  {
+    "number": 45,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the fundamental period of f(x) = cos(5x)?",
+    "options": ["10π", "5π", "2π / 5", "π / 5"],
+    "answer": 2,
+    "explanation": "Period of cos(5x) is 2π / 5."
+  },
+  {
+    "number": 46,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the minimum value of 7 sin θ − 24 cos θ?",
+    "options": ["−31", "−25", "−17", "25"],
+    "answer": 1,
+    "explanation": "Minimum of 7 sin θ − 24 cos θ is −√(49 + 576) = −25."
+  },
+  {
+    "number": 47,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which double-angle identity equals cos 2θ?",
+    "options": ["1 − 2 sin² θ", "2 sin θ cos θ", "1 + 2 sin² θ", "sin² θ − cos² θ"],
+    "answer": 0,
+    "explanation": "Double-angle cosine identity: cos 2θ = 1 − 2 sin² θ."
+  },
+  {
+    "number": 48,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In triangle ABC with sides a, b, c and area Δ, what is the circumradius R?",
+    "options": [
+      "R = (4Δ) / (a b c)",
+      "R = Δ / s",
+      "R = (a b c) / (4Δ)",
+      "R = Δ / (s − a)"
+    ],
+    "answer": 2,
+    "explanation": "Circumradius formula: R = (a b c) / (4Δ)."
+  },
+  {
+    "number": 49,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "State the Law of Cosines for side c in triangle ABC:",
+    "options": [
+      "c = a cos B − b cos A",
+      "c² = a² + b² − 2ab cos C",
+      "c² = a² − b² − 2ab cos C",
+      "c² = a² + b² + 2ab cos C"
+    ],
+    "answer": 1,
+    "explanation": "Law of Cosines: c² = a² + b² − 2ab cos C."
+  },
+  {
+    "number": 50,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In any triangle ABC, what does sin(A + B) equal?",
+    "options": ["cos C", "−cos C", "sin C", "−sin C"],
+    "answer": 2,
+    "explanation": "Since A + B = 180° − C, sin(A + B) = sin C."
+  },
+  {
+    "number": 51,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: sec−1(2) + cosec−1(2)",
+    "options": ["π / 3", "π", "π / 6", "π / 2"],
+    "answer": 3,
+    "explanation": "π / 3 + π / 6 = π / 2."
+  },
+  {
+    "number": 52,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the general solution of sin θ = 0?",
+    "options": [
+      "θ = (2n + 1)π / 2, n ∈ ℤ",
+      "θ = 2nπ, n ∈ ℤ",
+      "θ = nπ / 2, n ∈ ℤ",
+      "θ = nπ, n ∈ ℤ"
+    ],
+    "answer": 3,
+    "explanation": "sin θ = 0 at integer multiples of π: θ = nπ."
+  },
+  {
+    "number": 53,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Which Pythagorean trigonometric identity is valid for all angles where functions are defined?",
+    "options": [
+      "cot² θ − 1 = cosec² θ",
+      "1 − cot² θ = cosec² θ",
+      "1 + cot² θ = sec² θ",
+      "1 + cot² θ = cosec² θ"
+    ],
+    "answer": 3,
+    "explanation": "Pythagorean identity: 1 + cot² θ = cosec² θ."
+  },
+  {
+    "number": 54,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate tan(cos−1(12 / 13)):",
+    "options": ["5 / 13", "13 / 12", "12 / 5", "5 / 12"],
+    "answer": 3,
+    "explanation": "Adjacent = 12, hypotenuse = 13, opposite = 5, so tan θ = 5 / 12."
+  },
+  {
+    "number": 55,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the hyperbolic identity for sinh(2x)?",
+    "options": [
+      "2 sinh x cosh x",
+      "cosh2 x − sinh2 x",
+      "2 cosh2 x + 1",
+      "cosh2 x + sinh2 x"
+    ],
+    "answer": 0,
+    "explanation": "Hyperbolic double-angle identity: sinh(2x) = 2 sinh x cosh x."
+  },
+  {
+    "number": 56,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Express 2 cos A cos B as a sum of cosines:",
+    "options": [
+      "cos(A + B) − cos(A − B)",
+      "sin(A + B) − sin(A − B)",
+      "sin(A + B) + sin(A − B)",
+      "cos(A + B) + cos(A − B)"
+    ],
+    "answer": 3,
+    "explanation": "Product-to-sum identity: 2 cos A cos B = cos(A + B) + cos(A − B)."
+  },
+  {
+    "number": 57,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of sinh(0)?",
+    "options": ["−1", "1", "e", "0"],
+    "answer": 3,
+    "explanation": "sinh(0) = (e⁰ − e⁰) / 2 = 0."
+  },
+  {
+    "number": 58,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the principal range of cos−1 x?",
+    "options": ["[0, π]", "[−π / 2, π / 2]", "(0, π)", "(−π / 2, π / 2)"],
+    "answer": 0,
+    "explanation": "Principal range of cos−1 x is [0, π]."
+  },
+  {
+    "number": 59,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the fundamental period of f(x) = cot x?",
+    "options": ["π", "π / 2", "4π", "2π"],
+    "answer": 0,
+    "explanation": "Fundamental period of cot x is π."
+  },
+  {
+    "number": 60,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the area A of a circular sector of radius r and central angle θ (in radians)?",
+    "options": ["A = r θ", "A = 2π r θ", "A = (1 / 2) r² θ", "A = r² θ"],
+    "answer": 2,
+    "explanation": "Circular sector area formula: A = (1 / 2) r² θ."
+  },
+  {
+    "number": 61,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "What is the general solution of tan θ = 1?",
+    "options": [
+      "θ = 2nπ + (π / 4), n ∈ ℤ",
+      "θ = 2nπ ± (π / 4), n ∈ ℤ",
+      "θ = nπ + (−1)n (π / 4), n ∈ ℤ",
+      "θ = nπ + (π / 4), n ∈ ℤ"
+    ],
+    "answer": 3,
+    "explanation": "General solution of tan θ = tan α is θ = nπ + α."
+  },
+  {
+    "number": 62,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "In triangle ABC, what is the exradius r₁ opposite to vertex A?",
+    "options": [
+      "r₁ = (a b c) / (4Δ)",
+      "r₁ = Δ / (s − b)",
+      "r₁ = Δ / (s − a)",
+      "r₁ = Δ / s"
+    ],
+    "answer": 2,
+    "explanation": "Exradius opposite vertex A is r₁ = Δ / (s − a)."
+  },
+  {
+    "number": 63,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = cot x with respect to x?",
+    "options": ["−sec² x", "−cosec² x", "cosec² x", "−cosec x cot x"],
+    "answer": 1,
+    "explanation": "d/dx (cot x) = −cosec² x."
+  },
+  {
+    "number": 64,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Differentiate y = ln(6x) (x > 0) with respect to x:",
+    "options": ["6 ln x", "6 / x", "1 / x", "1 / (6x)"],
+    "answer": 2,
+    "explanation": "d/dx (ln 6x) = 6 / (6x) = 1 / x."
+  },
+  {
+    "number": 65,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find dy / dx for x = 3t², y = 2t³:",
+    "options": ["1 / t", "t", "6t", "t²"],
+    "answer": 1,
+    "explanation": "dy / dx = (6t²) / (6t) = t."
+  },
+  {
+    "number": 66,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: limx → 0 ((e⁹ˣ − 1) / x)",
+    "options": ["1", "0", "e⁹", "9"],
+    "answer": 3,
+    "explanation": "limx → 0 ((e⁹ˣ − 1)/(9x)) × 9 = 1 × 9 = 9."
+  },
+  {
+    "number": 67,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the critical point of f(x) = x² − 16x + 5:",
+    "options": ["x = 16", "x = 0", "x = −8", "x = 8"],
+    "answer": 3,
+    "explanation": "f'(x) = 2x − 16 = 0 ⇒ x = 8."
+  },
+  {
+    "number": 68,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the Maclaurin series expansion of eˣ?",
+    "options": [
+      "x − x³/3! + x⁵/5! − …",
+      "1 − x + x²/2! − x³/3! + …",
+      "1 − x²/2! + x⁴/4! − …",
+      "1 + x + x²/2! + x³/3! + …"
+    ],
+    "answer": 3,
+    "explanation": "Maclaurin series of eˣ is 1 + x + x²/2! + x³/3! + …."
+  },
+  {
+    "number": 69,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "Differentiate y = tan−1 x with respect to x:",
+    "options": ["1 / √(1 − x²)", "1 / (1 + x²)", "sec² x", "−1 / (1 + x²)"],
+    "answer": 1,
+    "explanation": "d/dx (tan−1 x) = 1 / (1 + x²)."
+  },
+  {
+    "number": 70,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Find the second derivative d2y / dx2 of y = sin(6x):",
+    "options": ["−6 cos(6x)", "36 sin(6x)", "−36 sin(6x)", "6 cos(6x)"],
+    "answer": 2,
+    "explanation": "y' = 6 cos(6x) ⇒ y'' = −36 sin(6x)."
+  },
+  {
+    "number": 71,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the derivative of y = cosec x with respect to x?",
+    "options": ["−cosec x cot x", "−cosec² x", "cosec x cot x", "−sec x tan x"],
+    "answer": 0,
+    "explanation": "d/dx (cosec x) = −cosec x cot x."
+  },
+  {
+    "number": 72,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Find the slope of the normal line to y = x² + 3x at x = 1:",
+    "options": ["−5", "5", "−1 / 5", "1 / 5"],
+    "answer": 2,
+    "explanation": "Tangent slope y'(1) = 2(1) + 3 = 5, so normal slope is −1 / 5."
+  },
+  {
+    "number": 73,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Evaluate: ∫ cos x dx",
+    "options": ["−cos x + C", "sin x + C", "−sin x + C", "cos x + C"],
+    "answer": 1,
+    "explanation": "∫ cos x dx = sin x + C."
+  },
+  {
+    "number": 74,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ sin(8x) dx",
+    "options": [
+      "−8 cos(8x) + C",
+      "−(1 / 8) cos(8x) + C",
+      "8 cos(8x) + C",
+      "(1 / 8) cos(8x) + C"
+    ],
+    "answer": 1,
+    "explanation": "∫ sin(8x) dx = −(1 / 8) cos(8x) + C."
+  },
+  {
+    "number": 75,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ [dx / (1 + x²)]",
+    "options": ["tan−1 x + C", "ln(1 + x²) + C", "sec−1 x + C", "sin−1 x + C"],
+    "answer": 0,
+    "explanation": "∫ [dx / (1 + x²)] = tan−1 x + C."
+  },
+  {
+    "number": 76,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫0 π/2 sin x dx",
+    "options": ["π / 2", "−1", "1", "0"],
+    "answer": 2,
+    "explanation": "[−cos x]0 π/2 = 0 − (−1) = 1."
+  },
+  {
+    "number": 77,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₀⁴ 2x dx",
+    "options": ["32", "8", "16", "4"],
+    "answer": 2,
+    "explanation": "[x²]₀⁴ = 16 − 0 = 16."
+  },
+  {
+    "number": 78,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "Evaluate: ∫ eˣ [f(x) + f'(x)] dx",
+    "options": ["eˣ f(x) + C", "f(x) + C", "eˣ [f(x) − f'(x)] + C", "eˣ f'(x) + C"],
+    "answer": 0,
+    "explanation": "Standard exponential product rule integral: ∫ eˣ [f(x) + f'(x)] dx = eˣ f(x) + C."
+  },
+  {
+    "number": 79,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Evaluate: ∫−6 6 sin5(x) dx",
+    "options": ["12", "0", "2", "6"],
+    "answer": 1,
+    "explanation": "Odd integrand sin5(x) over symmetric [−6, 6] integrates to 0."
+  },
+  {
+    "number": 80,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫ cosec² x dx",
+    "options": ["tan x + C", "−tan x + C", "cot x + C", "−cot x + C"],
+    "answer": 3,
+    "explanation": "∫ cosec² x dx = −cot x + C."
+  },
+  {
+    "number": 81,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the general solution of the differential equation dy / dx = −3y?",
+    "options": ["y = C e⁻³ˣ", "y = −3 eˣ + C", "y = C e³ˣ", "y = −3x + C"],
+    "answer": 0,
+    "explanation": "Separating variables dy / y = −3 dx yields y = C e⁻³ˣ."
+  },
+  {
+    "number": 82,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Evaluate: ∫₁⁶ 7 dx",
+    "options": ["42", "49", "7", "35"],
+    "answer": 3,
+    "explanation": "[7x]₁⁶ = 42 − 7 = 35."
+  },
+  {
+    "number": 83,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "Two fair coins are tossed simultaneously. What is the probability of obtaining at least one head?",
+    "options": ["1 / 2", "1", "1 / 4", "3 / 4"],
+    "answer": 3,
+    "explanation": "Sample space {HH, HT, TH, TT} gives 3 / 4 with at least one head."
+  },
+  {
+    "number": 84,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "How many permutations of 3 items can be formed from 5 distinct items?",
+    "options": ["10", "60", "15", "125"],
+    "answer": 1,
+    "explanation": "5P³ = 5 × 4 × 3 = 60."
+  },
+  {
+    "number": 85,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the value of 11C⁹?",
+    "options": ["99", "110", "45", "55"],
+    "answer": 3,
+    "explanation": "11C⁹ = 11C² = (11 × 10) / 2 = 55."
+  },
+  {
+    "number": 86,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "A box contains 6 white and 11 black balls. One ball is drawn at random. What is the probability that it is white?",
+    "options": ["1 / 17", "11 / 17", "6 / 17", "6 / 11"],
+    "answer": 2,
+    "explanation": "P(white) = 6 / (6 + 11) = 6 / 17."
+  },
+  {
+    "number": 87,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "In how many circular arrangements can 6 people be seated around a round table?",
+    "options": ["36", "120", "720", "60"],
+    "answer": 1,
+    "explanation": "Circular permutations of n = 6 people: (6 − 1)! = 5! = 120."
+  },
+  {
+    "number": 88,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "In how many distinct ways can the letters of the word NOON be arranged?",
+    "options": ["4", "24", "6", "12"],
+    "answer": 2,
+    "explanation": "NOON has two N's and two O's: 4! / (2! 2!) = 24 / 4 = 6."
+  },
+  {
+    "number": 89,
+    "subject": "Mathematics",
+    "difficulty": "Easy",
+    "prompt": "What is the median of the ordered dataset {4, 9, 13, 19, 25}?",
+    "options": ["19", "14", "9", "13"],
+    "answer": 3,
+    "explanation": "Middle value of 5 ordered observations is the 3rd term: 13."
+  },
+  {
+    "number": 90,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If a constant c = 7 is added to every observation in a dataset, how does variance σ2 change?",
+    "options": [
+      "Increases by 49",
+      "Remains unchanged",
+      "Increases by 7",
+      "Multiplied by 7"
+    ],
+    "answer": 1,
+    "explanation": "Adding a constant shifts all values equally without changing spread, so variance remains unchanged."
+  },
+  {
+    "number": 91,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the harmonic mean of two positive numbers a = 6 and b = 12?",
+    "options": ["9", "√72", "8", "18"],
+    "answer": 2,
+    "explanation": "Harmonic mean = 2ab / (a + b) = 2(6)(12) / 18 = 144 / 18 = 8."
+  },
+  {
+    "number": 92,
+    "subject": "Mathematics",
+    "difficulty": "Much Difficult",
+    "prompt": "For two independent events A and B with P(A) = 0.4 and P(B) = 0.5, what is P(A ∩ B)?",
+    "options": ["0.20", "0.10", "0.90", "0.70"],
+    "answer": 0,
+    "explanation": "For independent events, P(A ∩ B) = P(A) · P(B) = 0.4 × 0.5 = 0.20."
+  },
+  {
+    "number": 93,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the probability of a certain (sure) event S?",
+    "options": ["0", "∞", "0.5", "1"],
+    "answer": 3,
+    "explanation": "A certain event has probability 1."
+  },
+  {
+    "number": 94,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the coefficient of x³ in the binomial expansion of (1 + x)6?",
+    "options": ["6", "20", "120", "15"],
+    "answer": 1,
+    "explanation": "Coefficient of x³ in (1 + x)6 is 6C³ = 20."
+  },
+  {
+    "number": 95,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "If variance σ2 = 64, what is the standard deviation σ?",
+    "options": ["4096", "32", "8", "16"],
+    "answer": 2,
+    "explanation": "σ = √64 = 8."
+  },
+  {
+    "number": 96,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "What is the real domain of f(x) = 1 / (x − 9)?",
+    "options": ["ℝ \\ {9}", "(9, ∞)", "[9, ∞)", "ℝ"],
+    "answer": 0,
+    "explanation": "Denominator x − 9 ≠ 0 ⇒ x ≠ 9, so domain is ℝ \\ {9}."
+  },
+  {
+    "number": 97,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "If f(x) = 3x − 1 and g(x) = x + 4, what is (f ∘ g)(2)?",
+    "options": ["15", "17", "11", "9"],
+    "answer": 1,
+    "explanation": "f(g(2)) = f(6) = 3(6) − 1 = 17."
+  },
+  {
+    "number": 98,
+    "subject": "Mathematics",
+    "difficulty": "Normal",
+    "prompt": "Which function is odd?",
+    "options": ["f(x) = |x|", "f(x) = x² + 1", "f(x) = cos x", "f(x) = x⁵ − 2x"],
+    "answer": 3,
+    "explanation": "f(−x) = (−x)5 − 2(−x) = −f(x), so x⁵ − 2x is odd."
+  },
+  {
+    "number": 99,
+    "subject": "Mathematics",
+    "difficulty": "Insane",
+    "prompt": "Find the inverse function f⁻¹(x) of f(x) = (x + 7) / 3:",
+    "options": ["3x − 7", "(x − 7) / 3", "3x + 7", "3 / (x + 7)"],
+    "answer": 0,
+    "explanation": "Solving y = (x + 7) / 3 gives f⁻¹(x) = 3x − 7."
+  },
+  {
+    "number": 100,
+    "subject": "Mathematics",
+    "difficulty": "Hard",
+    "prompt": "What is the range of the real exponential function f(x) = eˣ?",
+    "options": ["[0, ∞)", "ℝ", "(0, ∞)", "(−∞, 0)"],
+    "answer": 2,
+    "explanation": "For all real x, eˣ > 0, so range is (0, ∞). Physics Detailed Solutions (Q.101 – Q.160)"
+  },
+  {
+    "number": 101,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What are the dimensions of power?",
+    "options": ["[M L² T⁻²]", "[M L T⁻²]", "[M L⁻¹ T⁻²]", "[M L² T⁻³]"],
+    "answer": 3,
+    "explanation": "Power (W / t) has dimensions [M L² T⁻³]."
+  },
+  {
+    "number": 102,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "For a projectile launched on level ground (neglecting air resistance), at what launch angle θ is the horizontal range maximum?",
+    "options": ["60°", "30°", "90°", "45°"],
+    "answer": 3,
+    "explanation": "R = (v₀ 2 sin 2θ) / g peaks when sin 2θ = 1 ⇒ θ = 45°."
+  },
+  {
+    "number": 103,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What does the area under a velocity-time (v–t) graph represent?",
+    "options": ["Power", "Acceleration", "Force", "Displacement"],
+    "answer": 3,
+    "explanation": "Area ∫ v dt equals displacement."
+  },
+  {
+    "number": 104,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "A 6 kg body moves at 5 m/s. What is its kinetic energy?",
+    "options": ["30 J", "15 J", "75 J", "150 J"],
+    "answer": 2,
+    "explanation": "K = (1 / 2) m v² = (1 / 2)(6)(25) = 75 J."
+  },
+  {
+    "number": 105,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the approximate escape velocity from Earth's surface?",
+    "options": ["≈ 11.2 km/s", "≈ 9.8 km/s", "≈ 3.0 × 10⁸ m/s", "≈ 7.9 km/s"],
+    "answer": 0,
+    "explanation": "Earth's escape velocity is ≈ 11.2 km/s."
+  },
+  {
+    "number": 106,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an isolated system with no external net force, which physical quantity is conserved in both elastic and inelastic collisions?",
+    "options": [
+      "Total kinetic energy",
+      "Total volume",
+      "Total linear momentum",
+      "Total temperature"
+    ],
+    "answer": 2,
+    "explanation": "Without net external impulse, total linear momentum is always conserved."
+  },
+  {
+    "number": 107,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of power?",
+    "options": ["Joule (J)", "Pascal (Pa)", "Watt (W = J/s)", "Newton (N)"],
+    "answer": 2,
+    "explanation": "SI unit of power is Watt (W)."
+  },
+  {
+    "number": 108,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "How are linear speed v, radius r, and angular speed ω related in circular motion?",
+    "options": ["v = r / ω", "v = r² ω", "v = ω / r", "v = r ω"],
+    "answer": 3,
+    "explanation": "Tangential speed v = r ω."
+  },
+  {
+    "number": 109,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State the equation of continuity for steady incompressible fluid flow through a pipe of varying cross-sectional area A and fluid speed v:",
+    "options": [
+      "P₁ A₁ = P₂ A₂",
+      "A₁ / v₁ = A₂ / v²",
+      "A₁ + v₁ = A₂ + v²",
+      "A₁ v₁ = A₂ v² = constant"
+    ],
+    "answer": 3,
+    "explanation": "Volume flow rate conservation: A₁ v₁ = A₂ v²."
+  },
+  {
+    "number": 110,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "Bernoulli's equation for steady, incompressible, non-viscous fluid flow is an expression of conservation of:",
+    "options": [
+      "Angular momentum",
+      "Mechanical energy per unit volume",
+      "Electric charge",
+      "Entropy"
+    ],
+    "answer": 1,
+    "explanation": "Bernoulli's equation expresses conservation of mechanical energy per unit volume."
+  },
+  {
+    "number": 111,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the time period T of a mass-spring oscillator of mass m and spring constant k?",
+    "options": [
+      "T = (1 / 2π) √(m / k)",
+      "T = 2π (m / k)",
+      "T = 2π √(k / m)",
+      "T = 2π √(m / k)"
+    ],
+    "answer": 3,
+    "explanation": "Mass-spring period: T = 2π √(m / k)."
+  },
+  {
+    "number": 112,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In simple harmonic motion, where is the speed of the oscillating particle maximum?",
+    "options": [
+      "Halfway to the extreme",
+      "Speed is constant everywhere",
+      "At the extreme positions",
+      "At the mean (equilibrium) position"
+    ],
+    "answer": 3,
+    "explanation": "SHM speed v = ω √(x₀ 2 − x²) is maximum at x = 0 (mean position)."
+  },
+  {
+    "number": 113,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In a pipe open at both ends of length L, what is the fundamental wavelength λ1?",
+    "options": ["2 L", "4 L", "L / 2", "L"],
+    "answer": 0,
+    "explanation": "Open-pipe fundamental has antinodes at both ends: L = λ1 / 2 ⇒ λ1 = 2L."
+  },
+  {
+    "number": 114,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the distance between two consecutive nodes in a standing wave of wavelength λ?",
+    "options": ["λ / 4", "λ", "2λ", "λ / 2"],
+    "answer": 3,
+    "explanation": "Consecutive nodes are separated by λ / 2."
+  },
+  {
+    "number": 115,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "When a sound source moves toward a stationary observer, the observed frequency:",
+    "options": [
+      "Drops to zero",
+      "Remains unchanged",
+      "Decreases (lower pitch)",
+      "Increases (higher pitch)"
+    ],
+    "answer": 3,
+    "explanation": "Approaching source compresses wavefronts, increasing observed frequency."
+  },
+  {
+    "number": 116,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "State Bragg's law for X-ray diffraction by crystal planes separated by spacing d at glancing angle θ:",
+    "options": ["2 d cos θ = n λ", "d sin θ = n λ", "2 d sin θ = n λ", "d tan θ = n λ"],
+    "answer": 2,
+    "explanation": "Bragg's crystal diffraction law: 2 d sin θ = n λ."
+  },
+  {
+    "number": 117,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "State Brewster's law relating refractive index n and polarizing angle θp:",
+    "options": ["n = cos θp", "n = tan θp", "n = sin θp", "n = cot θp"],
+    "answer": 1,
+    "explanation": "Brewster's polarizing angle law: n = tan θp."
+  },
+  {
+    "number": 118,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the focal length f of a converging lens whose optical power is +5.0 D?",
+    "options": ["0.20 m (20 cm)", "5.0 m", "2.0 m", "0.50 m"],
+    "answer": 0,
+    "explanation": "f = 1 / P = 1 / 5.0 = 0.20 m."
+  },
+  {
+    "number": 119,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the condition for destructive interference of two coherent waves with path difference Δx?",
+    "options": ["Δx = (m + 1/2) λ (m = 0, 1, 2, …)", "Δx = 2m λ", "Δx = 0", "Δx = m λ"],
+    "answer": 0,
+    "explanation": "Destructive interference requires half-integer wavelength path difference Δx = (m + 1/2) λ."
+  },
+  {
+    "number": 120,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the magnifying power M of an astronomical telescope in normal adjustment with objective focal length fo and eyepiece focal length fe?",
+    "options": ["M = fo + fe", "M = fo − fe", "M = fo / fe", "M = fe / fo"],
+    "answer": 2,
+    "explanation": "Astronomical telescope angular magnification in normal adjustment: M = fo / fe."
+  },
+  {
+    "number": 121,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "In an adiabatic process, how much heat Q enters or leaves the thermodynamic system?",
+    "options": ["Equal to n R T", "Equal to ΔU", "Zero (Q = 0)", "Infinite"],
+    "answer": 2,
+    "explanation": "Adiabatic process means zero heat transfer (Q = 0)."
+  },
+  {
+    "number": 122,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the approximate value of the universal gas constant R in SI units?",
+    "options": [
+      "≈ 8.314 J/(mol·K)",
+      "≈ 1.38 × 10−23 J/K",
+      "≈ 9.81 m/s²",
+      "≈ 6.02 × 1023 mol−1"
+    ],
+    "answer": 0,
+    "explanation": "Universal gas constant R ≈ 8.314 J/(mol·K)."
+  },
+  {
+    "number": 123,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "For an ideal gas undergoing an isothermal expansion, what is the change in internal energy ΔU?",
+    "options": ["Equal to −W", "Equal to Q", "Zero (ΔU = 0)", "Equal to P ΔV"],
+    "answer": 2,
+    "explanation": "Constant temperature (ΔT = 0) for an ideal gas gives ΔU = 0."
+  },
+  {
+    "number": 124,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the average translational kinetic energy ⟨ K ⟩ of a monatomic ideal gas molecule at absolute temperature T?",
+    "options": ["(3 / 2) kB T", "(1 / 2) kB T", "(5 / 2) kB T", "kB T"],
+    "answer": 0,
+    "explanation": "Equipartition theorem for 3 translational degrees of freedom: ⟨ K ⟩ = (3 / 2) kB T."
+  },
+  {
+    "number": 125,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which thermodynamic law establishes the concept of thermal equilibrium and temperature?",
+    "options": [
+      "Zeroth Law of Thermodynamics",
+      "First Law of Thermodynamics",
+      "Second Law of Thermodynamics",
+      "Third Law of Thermodynamics"
+    ],
+    "answer": 0,
+    "explanation": "The Zeroth Law of Thermodynamics defines thermal equilibrium and temperature."
+  },
+  {
+    "number": 126,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of angular momentum?",
+    "options": ["kg·m/s", "J·s (kg·m₂/s)", "N·m", "rad/s"],
+    "answer": 1,
+    "explanation": "Angular momentum (I ω) has SI unit J·s (kg·m₂/s)."
+  },
+  {
+    "number": 127,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the moment of inertia I of a thin circular hoop (ring) of mass M and radius R about its central symmetry axis?",
+    "options": ["M R²", "(2 / 5) M R²", "(1 / 2) M R²", "(2 / 3) M R²"],
+    "answer": 0,
+    "explanation": "Thin hoop/ring about symmetry axis: I = M R²."
+  },
+  {
+    "number": 128,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the rotational kinetic energy Krot of a rigid body with moment of inertia I rotating at angular speed ω?",
+    "options": ["(1 / 2) I ω2", "I ω2", "(1 / 2) I² ω", "I ω"],
+    "answer": 0,
+    "explanation": "Rotational kinetic energy: Krot = (1 / 2) I ω2."
+  },
+  {
+    "number": 129,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the absence of net external torque (τext = 0), which rotational quantity remains conserved?",
+    "options": [
+      "Angular acceleration (α)",
+      "Linear force (F)",
+      "Angular momentum (L)",
+      "Moment of inertia (I)"
+    ],
+    "answer": 2,
+    "explanation": "Zero net external torque conserves angular momentum."
+  },
+  {
+    "number": 130,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of electric potential (voltage)?",
+    "options": ["Ampere (A)", "Ohm (Ω)", "Farad (F)", "Volt (V = J/C)"],
+    "answer": 3,
+    "explanation": "Electric potential has SI unit Volt (V)."
+  },
+  {
+    "number": 131,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the SI unit of self-inductance?",
+    "options": ["Farad (F)", "Weber (Wb)", "Tesla (T)", "Henry (H = Wb/A)"],
+    "answer": 3,
+    "explanation": "Self-inductance has SI unit Henry (H)."
+  },
+  {
+    "number": 132,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Three capacitors of 8 μF each are connected in parallel. What is their equivalent capacitance?",
+    "options": ["16 μF", "8 μF", "8 / 3 μF", "24 μF"],
+    "answer": 3,
+    "explanation": "Three 8 μF capacitors in parallel: 8 + 8 + 8 = 24 μF."
+  },
+  {
+    "number": 133,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the electrostatic energy U stored in a capacitor of capacitance C charged to potential difference V?",
+    "options": ["U = C V₂", "U = Q V₂", "U = (1 / 2) C V", "U = (1 / 2) C V₂"],
+    "answer": 3,
+    "explanation": "Capacitor stored energy: U = (1 / 2) C V₂."
+  },
+  {
+    "number": 134,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the SI unit of magnetic flux ΦB?",
+    "options": ["Weber (Wb = T·m₂)", "Gauss (G)", "Tesla (T)", "Henry (H)"],
+    "answer": 0,
+    "explanation": "Magnetic flux has SI unit Weber (Wb)."
+  },
+  {
+    "number": 135,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "Lenz's law of electromagnetic induction is a direct consequence of the law of conservation of:",
+    "options": ["Mass", "Linear momentum", "Energy", "Electric charge"],
+    "answer": 2,
+    "explanation": "Lenz's law upholds conservation of energy."
+  },
+  {
+    "number": 136,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the inductive reactance XL of an inductor of inductance L in an AC circuit of frequency f?",
+    "options": ["XL = 2π f L", "XL = 1 / (2π f L)", "XL = L / (2π f)", "XL = f L"],
+    "answer": 0,
+    "explanation": "Inductive reactance: XL = 2π f L."
+  },
+  {
+    "number": 137,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the capacitive reactance XC of a capacitor of capacitance C at AC frequency f?",
+    "options": ["XC = f C", "XC = 2π f C", "XC = 1 / (2π f C)", "XC = 2π f / C"],
+    "answer": 2,
+    "explanation": "Capacitive reactance: XC = 1 / (2π f C)."
+  },
+  {
+    "number": 138,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "How are RMS voltage Vrms and peak voltage V₀ related for a sinusoidal AC signal?",
+    "options": [
+      "Vrms = V₀ / 2",
+      "Vrms = V₀",
+      "Vrms = V₀ / √2 ≈ 0.707 V₀",
+      "Vrms = √2 V₀"
+    ],
+    "answer": 2,
+    "explanation": "Sinusoidal RMS voltage: Vrms = V₀ / √2."
+  },
+  {
+    "number": 139,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the resonant frequency fr of a series L–C circuit?",
+    "options": [
+      "fr = 1 / (2π √(L C))",
+      "fr = 2π √(L",
+      "fr = √(L / C)",
+      "C) fr = 1 / √(L C)"
+    ],
+    "answer": 0,
+    "explanation": "Series L–C resonant frequency: fr = 1 / (2π √(L C))."
+  },
+  {
+    "number": 140,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Which logic gate is equivalent to an OR gate followed by a NOT gate?",
+    "options": ["NAND gate", "XOR gate", "AND gate", "NOR gate"],
+    "answer": 3,
+    "explanation": "OR followed by NOT is a NOR gate."
+  },
+  {
+    "number": 141,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the decimal value of binary number 110012?",
+    "options": ["19", "27", "25", "21"],
+    "answer": 2,
+    "explanation": "110012 = 16 + 8 + 0 + 0 + 1 = 25."
+  },
+  {
+    "number": 142,
+    "subject": "Physics",
+    "difficulty": "Much Difficult",
+    "prompt": "What is the common-emitter DC current gain β of a transistor in terms of collector current IC and base current IB?",
+    "options": ["β = IB / IC", "β = IC / IE", "β = IC / IB", "β = IE / IC"],
+    "answer": 2,
+    "explanation": "Common-emitter DC current gain: β = IC / IB."
+  },
+  {
+    "number": 143,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Doping pure silicon with a pentavalent impurity (such as phosphorus or arsenic) produces:",
+    "options": [
+      "A p-type semiconductor",
+      "An n-type semiconductor",
+      "A superconductor",
+      "An intrinsic insulator"
+    ],
+    "answer": 1,
+    "explanation": "Pentavalent donor atoms create an n-type semiconductor."
+  },
+  {
+    "number": 144,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Doping pure germanium with a trivalent impurity (such as boron or indium) produces:",
+    "options": [
+      "A ferromagnetic alloy",
+      "An n-type semiconductor",
+      "A p-type semiconductor",
+      "A metallic conductor"
+    ],
+    "answer": 2,
+    "explanation": "Trivalent acceptor atoms create a p-type semiconductor."
+  },
+  {
+    "number": 145,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the Boolean expression for a two-input AND gate with inputs A and B?",
+    "options": ["Y = A · B", "Y = Ā", "Y = A + B", "Y = A ⊕ B"],
+    "answer": 0,
+    "explanation": "Two-input AND gate Boolean expression is Y = A · B."
+  },
+  {
+    "number": 146,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the de Broglie wavelength λ of a particle with linear momentum p?",
+    "options": ["λ = p / h", "λ = h / p", "λ = h c / p", "λ = h p"],
+    "answer": 1,
+    "explanation": "de Broglie wavelength: λ = h / p."
+  },
+  {
+    "number": 147,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the photoelectric effect, the maximum kinetic energy Kmax of emitted photoelectrons is given by:",
+    "options": [
+      "Kmax = h / f",
+      "Kmax = h f + φ0",
+      "Kmax = φ0 − h f",
+      "Kmax = h f − φ0"
+    ],
+    "answer": 3,
+    "explanation": "Einstein's photoelectric equation: Kmax = h f − φ0."
+  },
+  {
+    "number": 148,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the magnitude of the elementary charge e?",
+    "options": [
+      "≈ 1.60 × 10−19 C",
+      "≈ 9.11 × 10−31 C",
+      "≈ 8.85 × 10−12 C",
+      "≈ 6.63 × 10−34 C"
+    ],
+    "answer": 0,
+    "explanation": "Elementary charge e ≈ 1.60 × 10−19 C."
+  },
+  {
+    "number": 149,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "What is the ionization energy of a ground-state (n = 1) hydrogen atom?",
+    "options": ["1.51 eV", "10.2 eV", "3.4 eV", "13.6 eV"],
+    "answer": 3,
+    "explanation": "Ground-state hydrogen ionization energy is 13.6 eV."
+  },
+  {
+    "number": 150,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "In the hydrogen spectrum, transitions terminating on n = 2 form which series (visible region)?",
+    "options": ["Paschen series", "Brackett series", "Lyman series", "Balmer series"],
+    "answer": 3,
+    "explanation": "Transitions ending on n = 2 form the Balmer series."
+  },
+  {
+    "number": 151,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "After 3 half-lives, what fraction of an initial radioactive sample remains undecayed?",
+    "options": ["7 / 8", "1 / 6", "1 / 4", "1 / 8"],
+    "answer": 3,
+    "explanation": "Remaining fraction after 3 half-lives: (1 / 2)3 = 1 / 8."
+  },
+  {
+    "number": 152,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "When a nucleus emits an alpha (α) particle (4 2He), its atomic number Z and mass number A change by:",
+    "options": [
+      "Z decreases by 2, A decreases by 4",
+      "Both Z and A remain unchanged",
+      "Z decreases by 1, A remains unchanged",
+      "Z increases by 1, A remains unchanged"
+    ],
+    "answer": 0,
+    "explanation": "Emitting 4 2He reduces Z by 2 and A by 4."
+  },
+  {
+    "number": 153,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the SI unit of absorbed radiation dose?",
+    "options": ["Becquerel (Bq)", "Gray (Gy = J/kg)", "Curie (Ci)", "Tesla (T)"],
+    "answer": 1,
+    "explanation": "Absorbed radiation dose has SI unit Gray (Gy)."
+  },
+  {
+    "number": 154,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Nuclei having the same atomic number (Z) but different mass numbers (A) are called:",
+    "options": ["Isotones", "Isotopes", "Isobars", "Isomers"],
+    "answer": 1,
+    "explanation": "Same atomic number Z defines isotopes."
+  },
+  {
+    "number": 155,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "What is the approximate value of free-space electric permittivity ε0 in SI units?",
+    "options": [
+      "9.0 × 10⁹ N·m₂/C²",
+      "8.85 × 10−12 C²/(N·m₂) (F/m)",
+      "4π × 10−7 H/m",
+      "1.60 × 10−19 C"
+    ],
+    "answer": 1,
+    "explanation": "Free-space permittivity ε0 ≈ 8.85 × 10−12 F/m."
+  },
+  {
+    "number": 156,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Particles composed of one quark and one antiquark (such as pions and kaons) belong to the family of:",
+    "options": ["Baryons", "Leptons", "Bosons only", "Mesons"],
+    "answer": 3,
+    "explanation": "Quark-antiquark bound states are mesons."
+  },
+  {
+    "number": 157,
+    "subject": "Physics",
+    "difficulty": "Easy",
+    "prompt": "What is the quark composition of a proton?",
+    "options": [
+      "One up and one anti-down quark",
+      "Three down quarks (ddd)",
+      "Two up quarks and one down quark (uud)",
+      "One up quark and two down quarks (udd)"
+    ],
+    "answer": 2,
+    "explanation": "A proton consists of two up quarks and one down quark (uud)."
+  },
+  {
+    "number": 158,
+    "subject": "Physics",
+    "difficulty": "Hard",
+    "prompt": "Einstein's mass-energy equivalence relation is:",
+    "options": ["E = (1 / 2) m c²", "E = m c²", "E = m / c²", "E = m c"],
+    "answer": 1,
+    "explanation": "Mass-energy equivalence: E = m c²."
+  },
+  {
+    "number": 159,
+    "subject": "Physics",
+    "difficulty": "Normal",
+    "prompt": "Excited atomic states with unusually long lifetimes (on the order of 10−3 s) essential for laser action are called:",
+    "options": [
+      "Virtual states",
+      "Metastable states",
+      "Ionized states",
+      "Ground states"
+    ],
+    "answer": 1,
+    "explanation": "Long-lived excited laser levels are metastable states."
+  },
+  {
+    "number": 160,
+    "subject": "Physics",
+    "difficulty": "Insane",
+    "prompt": "What is the SI unit of electric field strength E?",
+    "options": ["N/C (or V/m)", "C/N", "V·m", "N·m/C"],
+    "answer": 0,
+    "explanation": "Electric field strength has SI unit N/C (or V/m). English Detailed Solutions (Q.161 – Q.200)"
+  },
+  {
+    "number": 161,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to CANDID:",
+    "options": ["Evasive", "Deceitful", "Secretive", "Frank"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Candid means truthful and straightforward; frank matches."
+  },
+  {
+    "number": 162,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to DILIGENT:",
+    "options": ["Slothful", "Indolent", "Lazy", "Industrious"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Diligent means showing care and conscientiousness in work; industrious matches."
+  },
+  {
+    "number": 163,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to EMULATE:",
+    "options": ["Imitate", "Neglect", "Abandon", "Despise"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 0,
+    "explanation": "Emulate means match or surpass by imitation; imitate matches."
+  },
+  {
+    "number": 164,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to FRUGAL:",
+    "options": ["Lavish", "Thrifty", "Extravagant", "Prodigal"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 1,
+    "explanation": "Frugal means sparing or economical with money; thrifty matches."
+  },
+  {
+    "number": 165,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to HACKEYED / TRITE:",
+    "options": ["Original", "Novel", "Innovative", "Overused"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Trite / hackneyed means lacking originality due to overuse; overused matches."
+  },
+  {
+    "number": 166,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to INNOCUOUS:",
+    "options": ["Noxious", "Harmless", "Deadly", "Toxic"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 1,
+    "explanation": "Innocuous means not harmful or offensive; harmless matches."
+  },
+  {
+    "number": 167,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to LUCID:",
+    "options": ["Clear", "Murky", "Opaque", "Confusing"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 0,
+    "explanation": "Lucid means expressed clearly and easy to understand; clear matches."
+  },
+  {
+    "number": 168,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to MITIGATE:",
+    "options": ["Aggravate", "Inflame", "Worsen", "Lessen"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Mitigate means make less severe, serious, or painful; lessen matches."
+  },
+  {
+    "number": 169,
+    "subject": "English",
+    "difficulty": "Much Difficult",
+    "prompt": "Choose the word most nearly similar in meaning to OBDURATE:",
+    "options": ["Docile", "Compliant", "Stubborn", "Yielding"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 2,
+    "explanation": "Obdurate means stubbornly refusing to change one's opinion; stubborn matches."
+  },
+  {
+    "number": 170,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the word most nearly similar in meaning to PLACID:",
+    "options": ["Calm", "Agitated", "Turbulent", "Stormy"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 0,
+    "explanation": "Placid means not easily upset or excited; calm matches."
+  },
+  {
+    "number": 171,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to PRAGMATIC:",
+    "options": ["Impractical", "Practical", "Visionary", "Idealistic"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 1,
+    "explanation": "Pragmatic means dealing with things sensibly and realistically; practical matches."
+  },
+  {
+    "number": 172,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to RESILIENT:",
+    "options": ["Brittle", "Rigid", "Fragile", "Flexible"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Resilient means able to recoil or spring back into shape; flexible matches."
+  },
+  {
+    "number": 173,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly similar in meaning to SYCOPHANT:",
+    "options": ["Rebel", "Detractor", "Critic", "Flatterer"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Sycophant means a person who acts obsequiously toward someone important; flatterer matches."
+  },
+  {
+    "number": 174,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly similar in meaning to TENACIOUS:",
+    "options": ["Yielding", "Weak", "Persistent", "Irresolute"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 2,
+    "explanation": "Tenacious means tending to keep a firm hold; persistent matches."
+  },
+  {
+    "number": 175,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly similar in meaning to ZEALOUS:",
+    "options": ["Uninterested", "Enthusiastic", "Apathetic", "Indifferent"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 1,
+    "explanation": "Zealous means having or showing great energy or enthusiasm; enthusiastic matches."
+  },
+  {
+    "number": 176,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to ARID:",
+    "options": ["Fertile", "Dry", "Parched", "Barren"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 0,
+    "explanation": "Antonym of arid is fertile."
+  },
+  {
+    "number": 177,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to DORMANT:",
+    "options": ["Active", "Asleep", "Latent", "Inactive"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 0,
+    "explanation": "Antonym of dormant is active."
+  },
+  {
+    "number": 178,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to GREGARIOUS:",
+    "options": ["Solitary", "Outgoing", "Friendly", "Sociable"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 0,
+    "explanation": "Antonym of gregarious is solitary."
+  },
+  {
+    "number": 179,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to OPAQUE:",
+    "options": ["Murky", "Transparent", "Cloudy", "Dense"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 1,
+    "explanation": "Antonym of opaque is transparent."
+  },
+  {
+    "number": 180,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Choose the word most nearly OPPOSITE in meaning to SCARCITY:",
+    "options": ["Abundance", "Dearth", "Deficit", "Shortage"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 0,
+    "explanation": "Antonym of scarcity is abundance."
+  },
+  {
+    "number": 181,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — AMMETER : CURRENT ::",
+    "options": [
+      "Anemometer : Wind speed",
+      "Barometer : Length",
+      "Thermometer : Mass",
+      "Hydrometer : Voltage"
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 0,
+    "explanation": "Instrument-to-quantity: an ammeter measures current, as an anemometer measures wind speed."
+  },
+  {
+    "number": 182,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — ARCHITECT : BLUEPRINT ::",
+    "options": [
+      "Painter : Easel",
+      "Composer : Score",
+      "Sculptor : Chisel",
+      "Surgeon : Scalpel"
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 1,
+    "explanation": "Creator-to-design document: an architect drafts a blueprint, as a composer writes a score."
+  },
+  {
+    "number": 183,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Complete the analogy — THERMOSTAT : TEMPERATURE ::",
+    "options": [
+      "Pendulum : Color",
+      "Prism : Sound",
+      "Compass : Weight",
+      "Governor : Speed"
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Regulator-to-controlled variable: a thermostat regulates temperature, as a governor regulates speed."
+  },
+  {
+    "number": 184,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Complete the analogy — STETHOSCOPE : PHYSICIAN ::",
+    "options": [
+      "Oscilloscope : Engineer",
+      "Microscope : Baker",
+      "Telescope : Carpenter",
+      "Barometer : Tailor"
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 0,
+    "explanation": "Diagnostic instrument-to-professional: a stethoscope is used by a physician, as an oscilloscope is used by an engineer."
+  },
+  {
+    "number": 185,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Complete the analogy — INSULATOR : CONDUCTION ::",
+    "options": [
+      "Lens : Refraction",
+      "Magnet : Attraction",
+      "Mirror : Reflection",
+      "Muffler : Noise"
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Suppressor-to-effect: an insulator suppresses conduction, as a muffler suppresses noise."
+  },
+  {
+    "number": 186,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Not only the software modules but also the hardware controller ______ been upgraded.",
+    "options": ["have", "were", "are", "has"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "With Not only…but also, the verb agrees with the nearer singular subject controller: has."
+  },
+  {
+    "number": 187,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Hardly ______ the satellite reached orbit when telemetry signals stabilized.",
+    "options": ["has", "was", "had", "did"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 2,
+    "explanation": "Hardly at sentence start triggers past-perfect inversion: had."
+  },
+  {
+    "number": 188,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "The optical sensor is sensitive ______ minute variations in ambient light.",
+    "options": ["for", "at", "to", "by"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 2,
+    "explanation": "Standard preposition collocation: sensitive to."
+  },
+  {
+    "number": 189,
+    "subject": "English",
+    "difficulty": "Insane",
+    "prompt": "Were the cooling pump to fail, the reactor core ______ automatically shut down.",
+    "options": ["will", "would", "had", "has"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 1,
+    "explanation": "Inverted second conditional Were the cooling pump to fail pairs with would."
+  },
+  {
+    "number": 190,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Careful calibration eliminated systematic ______ from the pressure transducer readings.",
+    "options": ["precision", "clarity", "accuracy", "bias"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Calibration eliminates systematic bias from instrument readings."
+  },
+  {
+    "number": 191,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Choose the grammatically correct sentence:",
+    "options": [
+      "Each of the laboratory instruments were calibrated weekly.",
+      "Each of the laboratory instruments are calibrated weekly.",
+      "Each of the laboratory instruments have been calibrated weekly.",
+      "Each of the laboratory instruments is calibrated weekly."
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Singular subject Each takes singular verb is."
+  },
+  {
+    "number": 192,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "The safety board recommended that the emergency valve ______ inspected daily.",
+    "options": ["were", "be", "is", "was"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 1,
+    "explanation": "Passive subjunctive after recommended that uses bare be."
+  },
+  {
+    "number": 193,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "Choose the correctly spelled word:",
+    "options": ["Equilibriam", "Equelibrium", "Equilibrium", "Equillibrium"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 2,
+    "explanation": "Equilibrium is spelled with single l and -ium."
+  },
+  {
+    "number": 194,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Optical fibers transmit data over long distances with minimal signal ______.",
+    "options": ["illumination", "attenuation", "amplification", "acceleration"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 1,
+    "explanation": "Optical fibers transmit data with minimal signal attenuation (loss)."
+  },
+  {
+    "number": 195,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Never before ______ researchers achieved such high conversion efficiency in perovskite solar cells.",
+    "options": ["has", "was", "have", "is"],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 2,
+    "explanation": "Negative phrase Never before at sentence start triggers subject-auxiliary inversion: have."
+  },
+  {
+    "number": 196,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "Between which two electrodes do lithium ions shuttle inside a lithium-ion battery?",
+    "options": [
+      "Two platinum plates in sulfuric acid",
+      "A silicon solar cell and a tungsten filament",
+      "A copper cathode and a zinc anode",
+      "A graphitic anode and a layered transition- metal oxide cathode"
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Sentence 1 states lithium ions shuttle between a graphitic anode and a layered transition-metal oxide cathode."
+  },
+  {
+    "number": 197,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "Under what operating conditions does metallic lithium plate onto the anode surface?",
+    "options": [
+      "Open-circuit storage in vacuum",
+      "Operation without an electrolyte",
+      "Slow discharging at high temperatures",
+      "Fast charging at low temperatures"
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 3,
+    "explanation": "Sentence 2 specifies metallic lithium plates onto the anode during fast charging at low temperatures."
+  },
+  {
+    "number": 198,
+    "subject": "English",
+    "difficulty": "Normal",
+    "prompt": "What structures form when metallic lithium plates onto the anode surface?",
+    "options": [
+      "Magnetic domain walls",
+      "Ceramic insulating tiles",
+      "Needle-like dendrites",
+      "Spherical gas bubbles"
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 2,
+    "explanation": "Sentence 2 states plating forms needle-like dendrites."
+  },
+  {
+    "number": 199,
+    "subject": "English",
+    "difficulty": "Hard",
+    "prompt": "What happens if lithium dendrites pierce the porous polymer separator?",
+    "options": [
+      "An internal short circuit triggers rapid thermal runaway",
+      "The electrolyte freezes into solid ice",
+      "Battery capacity permanently doubles",
+      "Charging voltage drops safely to zero without heat"
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 0,
+    "explanation": "Sentence 3 explains piercing the separator causes an internal short circuit triggering rapid thermal runaway."
+  },
+  {
+    "number": 200,
+    "subject": "English",
+    "difficulty": "Easy",
+    "prompt": "What component separates the anode and cathode in the lithium-ion cell described?",
+    "options": [
+      "A solid steel barrier",
+      "A glass vacuum tube",
+      "A porous polymer separator",
+      "A copper busbar"
+    ],
+    "context": "Lithium-ion batteries store electrical energy by shuttling lithium ions between a graphitic anode and a layered transition-metal oxide cathode through a liquid organic electrolyte. During fast charging at low temperatures, metallic lithium can plate onto the anode surface instead of intercalating into graphite, forming needle-like dendrites. If these dendrites pierce the porous polymer separator, an internal short circuit occurs, triggering rapid thermal runaway.",
+    "answer": 2,
+    "explanation": "Sentence 3 identifies the separator as a porous polymer separator."
+  }
+]
