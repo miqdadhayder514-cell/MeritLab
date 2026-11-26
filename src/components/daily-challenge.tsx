@@ -124,18 +124,31 @@ export function DailyChallenge() {
   const [today, setToday] = useState<string | null>(null);
   const [storageError, setStorageError] = useState("");
   const [view, setView] = useState<"home" | "quiz" | "summary">("home");
+  const [summaryDay, setSummaryDay] = useState<number | null>(null);
   const [quizQuestions, setQuizQuestions] = useState<DailyQuestion[]>([]);
   const [questionIndex, setQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<(number | null)[]>([]);
   const [mistakesOnly, setMistakesOnly] = useState(true);
 
   const storageKey = `meritlab.daily-challenge.v1.${user?.id ?? "guest"}`;
-  const dayIndex = progress
+  const scheduledDayIndex = progress
     ? Math.min(
         Math.max(daysBetween(progress.startedOn, today ?? progress.startedOn), 0),
         dailyChallengeSets.length - 1,
       )
     : 0;
+  const firstIncompleteDayIndex = progress
+    ? dailyChallengeSets.findIndex((set) => !progress.completedSets[String(set.day)])
+    : 0;
+  const dayIndex =
+    view === "summary" && summaryDay
+      ? summaryDay - 1
+      : Math.min(
+          scheduledDayIndex,
+          firstIncompleteDayIndex === -1
+            ? dailyChallengeSets.length - 1
+            : firstIncompleteDayIndex,
+        );
   const activeSet = dailyChallengeSets[dayIndex];
   const currentQuestion = quizQuestions[questionIndex];
   const selectedAnswer = answers[questionIndex] ?? null;
@@ -182,11 +195,22 @@ export function DailyChallenge() {
           throw new Error("Saved daily challenge progress has an invalid format.");
         }
         setProgress(parsed);
-        const index = Math.min(
+        const scheduledIndex = Math.min(
           Math.max(daysBetween(parsed.startedOn, today), 0),
           dailyChallengeSets.length - 1,
         );
-        if (parsed.completedSets[String(index + 1)]?.completedOn === today) {
+        const firstIncompleteIndex = dailyChallengeSets.findIndex(
+          (set) => !parsed.completedSets[String(set.day)],
+        );
+        const availableIndex = Math.min(
+          scheduledIndex,
+          firstIncompleteIndex === -1
+            ? dailyChallengeSets.length - 1
+            : firstIncompleteIndex,
+        );
+        const availableSet = dailyChallengeSets[availableIndex];
+        if (parsed.completedSets[String(availableSet.day)]?.completedOn === today) {
+          setSummaryDay(availableSet.day);
           setView("summary");
         }
       } else {
@@ -206,28 +230,28 @@ export function DailyChallenge() {
 
   useEffect(() => {
     if (!progress || !today || view !== "summary") return;
-    const currentDay = Math.min(
-      Math.max(daysBetween(progress.startedOn, today), 0),
-      dailyChallengeSets.length - 1,
-    );
-    if (progress.completedSets[String(currentDay + 1)]?.completedOn !== today) {
+    if (progress.completedSets[String(summaryDay)]?.completedOn !== today) {
+      setSummaryDay(null);
       setView("home");
     }
-  }, [progress, today, view]);
+  }, [progress, summaryDay, today, view]);
 
   useEffect(() => {
     if (!progress || !today || view !== "quiz") return;
-    const currentDay = Math.min(
-      Math.max(daysBetween(progress.startedOn, today), 0),
-      dailyChallengeSets.length - 1,
+    const availableIndex = Math.min(
+      Math.min(
+        Math.max(daysBetween(progress.startedOn, today), 0),
+        dailyChallengeSets.length - 1,
+      ),
+      Math.max(firstIncompleteDayIndex, 0),
     );
-    if (dailyChallengeSets[currentDay].day !== activeSet.day) {
+    if (dailyChallengeSets[availableIndex].day !== activeSet.day) {
       setQuizQuestions([]);
       setAnswers([]);
       setQuestionIndex(0);
       setView("home");
     }
-  }, [activeSet.day, progress, today, view]);
+  }, [activeSet.day, firstIncompleteDayIndex, progress, today, view]);
 
   useEffect(() => {
     if (view !== "quiz") return;
@@ -272,9 +296,11 @@ export function DailyChallenge() {
 
   function beginChallenge() {
     if (todayCompletion) {
+      setSummaryDay(activeSet.day);
       setView("summary");
       return;
     }
+    setSummaryDay(null);
     setQuizQuestions(shuffledQuestions(activeSet));
     setAnswers(Array(activeSet.questions.length).fill(null));
     setQuestionIndex(0);
@@ -305,7 +331,9 @@ export function DailyChallenge() {
       progress.lastCompletedOn &&
       daysBetween(progress.lastCompletedOn, completedOn) === 1
         ? progress.currentStreak + 1
-        : 1;
+        : progress.lastCompletedOn === completedOn
+          ? progress.currentStreak
+          : 1;
     const completion: DailyCompletion = {
       completedOn,
       correctCount,
@@ -323,6 +351,7 @@ export function DailyChallenge() {
       },
     };
     persistProgress(nextProgress);
+    setSummaryDay(activeSet.day);
     setView("summary");
   }
 
@@ -385,8 +414,8 @@ export function DailyChallenge() {
               </span>
               <h1>Ten questions. One sharper you.</h1>
               <p>
-                A fresh NUST NET-style set unlocks each day. Build your streak, climb
-                the difficulty ramp, and finish with the Final Boss.
+                A new NUST NET-style set follows the daily schedule. Complete each set
+                to unlock the next, build your streak, and reach the Final Boss.
               </p>
               <div className="nust-dc-hero-stats">
                 <span>
@@ -415,7 +444,7 @@ export function DailyChallenge() {
           <div className="nust-dc-section-heading">
             <div>
               <span className="nust-dc-eyebrow">YOUR 10-DAY RUN</span>
-              <h2>One set unlocks each day</h2>
+              <h2>Complete each set to unlock the next</h2>
             </div>
             <span className="nust-dc-best">
               <Icon name="trophy" size={16} /> Best streak: {progress.bestStreak} days
@@ -431,7 +460,7 @@ export function DailyChallenge() {
                 <article
                   className={`nust-dc-day-card ${isToday ? "nust-dc-day-current" : ""} ${done ? "nust-dc-day-done" : ""} ${locked ? "nust-dc-day-locked" : ""}`}
                   key={set.day}
-                  aria-label={`Day ${set.day}: ${done ? "completed" : isToday ? "unlocked today" : "locked"}`}
+                  aria-label={`Day ${set.day}: ${done ? "completed" : isToday ? "available now" : "locked"}`}
                 >
                   <span className="nust-dc-day-icon">
                     <Icon name={done ? "check" : locked ? "lock" : "bolt"} size={18} />
@@ -439,7 +468,7 @@ export function DailyChallenge() {
                   <small>DAY {String(set.day).padStart(2, "0")}</small>
                   <strong>{set.title}</strong>
                   <span className="nust-dc-day-status">
-                    {done ? "Completed" : isToday ? "Unlocked today" : "Locked"}
+                    {done ? "Completed" : isToday ? "Available now" : "Locked"}
                   </span>
                 </article>
               );
@@ -453,7 +482,7 @@ export function DailyChallenge() {
             </div>
             <div className="nust-dc-today-copy">
               <span className="nust-dc-eyebrow">
-                {completion ? "TODAY COMPLETE" : "TODAY’S SET"}
+                {completion ? "SET COMPLETE" : "AVAILABLE SET"}
               </span>
               <h2>
                 {activeSet.title}
@@ -472,8 +501,8 @@ export function DailyChallenge() {
             </button>
           </div>
           <p className="nust-dc-lock-note">
-            <Icon name="lock" size={14} /> Future sets stay locked until their scheduled
-            day. Your 10-day schedule starts on your first visit.
+            <Icon name="lock" size={14} /> Finish the available set to unlock the next
+            one. Sets also follow the daily schedule, starting from your first visit.
           </p>
         </>
       )}
@@ -486,7 +515,10 @@ export function DailyChallenge() {
             <button
               type="button"
               className="nust-dc-back"
-              onClick={() => setView("home")}
+              onClick={() => {
+                setSummaryDay(null);
+                setView("home");
+              }}
             >
               <Icon name="arrow" size={15} /> Exit challenge
             </button>
