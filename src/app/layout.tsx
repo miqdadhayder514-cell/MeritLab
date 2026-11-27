@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "A structured preparation platform for students working toward the NUST Entry Test.",
   applicationName: "MeritLab",
+  verification: {
+    google: "BTj1Iv-tegwh1mDm6qHsMNDwgsbNyuKDeh0FjWA7DcQ",
+  },
 };
 
 export default function RootLayout({
