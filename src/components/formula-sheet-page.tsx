@@ -1,16 +1,6 @@
 import { type FormulaSheetContent, formulaSheets } from "@/lib/formula-sheet-data";
+import { CrackNetBadge } from "./crack-net-badge";
 import { Card, Eyebrow, Icon } from "./ui";
-
-export function CrackNetBadge() {
-  return (
-    <span className="crack-net-badge">
-      <span className="crack-net-spark" aria-hidden="true">
-        ✦
-      </span>
-      Crack NET
-    </span>
-  );
-}
 
 export function FormulaSheetPage({ slug }: { slug: string }) {
   const sheet = formulaSheets.find((item) => item.slug === slug);
@@ -125,5 +115,3 @@ function FormulaSheetContentView({ sheet }: { sheet: FormulaSheetContent }) {
     </div>
   );
 }
-
-export { formulaSheets };

@@ -3,10 +3,19 @@ import { AdminPage } from "@/components/admin-pages";
 import { AuthPage } from "@/components/auth-pages";
 import { ContactUsPage } from "@/components/contact-pages";
 import { ExamPage, PastPaperPage } from "@/components/exam-pages";
+import { FormulaSheetPage } from "@/components/formula-sheet-page";
 import { PricingPage } from "@/components/pricing-page";
 import { SiteShell } from "@/components/site-shell";
 import { StudentPage } from "@/components/student-pages";
+import {
+  mockTestListings,
+  mockTests,
+  pastPaperListings,
+  pastPaperTests,
+} from "@/lib/exam-catalog";
+import { formulaSheets } from "@/lib/formula-sheet-data";
 import { isSupabaseConfigured } from "@/lib/supabase/config";
+import { hasPlusAccess } from "@/lib/supabase/entitlements";
 import { getServerIdentity } from "@/lib/supabase/server-auth";
 
 const authRoutes = new Set(["login", "register", "forgot-password", "reset-password"]);
@@ -53,17 +62,35 @@ export default async function RoutedPage({
       />
     );
   }
-  if (root === "mock-tests" && rest[1] === "exam") {
+  if (root === "mock-tests" || root === "past-papers") {
     const identity = isSupabaseConfigured ? await getServerIdentity() : null;
     if (!identity?.role)
       redirect(`/login?next=${encodeURIComponent(`/${slug.join("/")}`)}`);
-    return <ExamPage path={rest} />;
-  }
-  if (root === "past-papers" && rest[1] === "exam") {
-    const identity = isSupabaseConfigured ? await getServerIdentity() : null;
-    if (!identity?.role)
-      redirect(`/login?next=${encodeURIComponent(`/${slug.join("/")}`)}`);
-    return <PastPaperPage path={rest} />;
+    const entitled = identity.role === "admin" || (await hasPlusAccess());
+    const paidExam =
+      rest.length > 0 && (root === "past-papers" || rest[0] !== "net-engineering");
+    if (paidExam && !entitled) redirect("/pricing");
+    const exams = root === "past-papers" ? pastPaperTests : mockTests;
+    const test = rest[0] ? exams.find((item) => item.slug === rest[0]) : undefined;
+    return (
+      <SiteShell>
+        {root === "past-papers" ? (
+          <PastPaperPage
+            path={rest}
+            test={test}
+            tests={pastPaperListings}
+            hasPlusAccess={entitled}
+          />
+        ) : (
+          <ExamPage
+            path={rest}
+            test={test}
+            tests={mockTestListings}
+            hasPlusAccess={entitled}
+          />
+        )}
+      </SiteShell>
+    );
   }
   if (root === "admin") {
     const identity = isSupabaseConfigured ? await getServerIdentity() : null;
@@ -92,7 +119,7 @@ export default async function RoutedPage({
   if (publicRoutes.has(root)) {
     return (
       <SiteShell isPublic>
-        <StudentPage path={slug} />
+        <StudentPage path={slug} hasPlusAccess={false} />
       </SiteShell>
     );
   }
@@ -120,23 +147,29 @@ export default async function RoutedPage({
   if (root === "payments" && identity.role !== "student") {
     redirect("/admin/payments");
   }
-  if (root === "mock-tests") {
+  const formulaSheetSlug =
+    root === "resources" && rest[0] === "formula-sheets" ? rest[1] : undefined;
+  if (formulaSheetSlug && formulaSheetSlug !== "conic-sections") {
+    const entitled =
+      identity.role === "admin" ||
+      (identity.role === "student" && (await hasPlusAccess()));
+    if (!entitled) redirect("/pricing");
+    if (!formulaSheets.some((sheet) => sheet.slug === formulaSheetSlug)) notFound();
     return (
       <SiteShell>
-        <ExamPage path={rest} />
-      </SiteShell>
-    );
-  }
-  if (root === "past-papers") {
-    return (
-      <SiteShell>
-        <PastPaperPage path={rest} />
+        <FormulaSheetPage slug={formulaSheetSlug} />
       </SiteShell>
     );
   }
   return (
     <SiteShell>
-      <StudentPage path={slug} />
+      <StudentPage
+        path={slug}
+        hasPlusAccess={
+          identity.role === "admin" ||
+          (identity.role === "student" && (await hasPlusAccess()))
+        }
+      />
     </SiteShell>
   );
 }

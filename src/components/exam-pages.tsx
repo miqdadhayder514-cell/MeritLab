@@ -3,28 +3,8 @@
 import { useRouter } from "next/navigation";
 import { type ReactNode, useCallback, useEffect, useRef, useState } from "react";
 import { useAuth } from "@/lib/auth-context";
-import type { ExamQuestion, ExamTest } from "@/lib/exam-types";
-import netEngineeringMockTest1 from "@/lib/net-engineering-full-mock-1.json";
-import netEngineeringMockTest2 from "@/lib/net-engineering-full-mock-2.json";
-import netEngineeringMockTest3 from "@/lib/net-engineering-full-mock-3.json";
-import netEngineeringMockTest4 from "@/lib/net-engineering-full-mock-4.json";
-import netEngineeringMockTest5 from "@/lib/net-engineering-full-mock-5.json";
-import netEngineeringMockTest6 from "@/lib/net-engineering-full-mock-6.json";
-import netEngineeringMockTest7 from "@/lib/net-engineering-full-mock-7.json";
-import netEngineeringMockTest8 from "@/lib/net-engineering-full-mock-8.json";
-import netEngineeringMockTest9 from "@/lib/net-engineering-full-mock-9.json";
-import netEngineeringMockTest10 from "@/lib/net-engineering-full-mock-10.json";
-import netEngineeringMockTest11 from "@/lib/net-engineering-full-mock-11.json";
-import netEngineeringMockTest12 from "@/lib/net-engineering-full-mock-12.json";
-import netEngineeringMockTest13 from "@/lib/net-engineering-full-mock-13.json";
-import netEngineeringMockTest14 from "@/lib/net-engineering-full-mock-14.json";
-import netEngineeringMockTest15 from "@/lib/net-engineering-full-mock-15.json";
-import netEngineeringMockTest16 from "@/lib/net-engineering-full-mock-16.json";
-import netEngineeringMockTest17 from "@/lib/net-engineering-full-mock-17.json";
-import netEngineeringMockTest18 from "@/lib/net-engineering-full-mock-18.json";
-import netEngineeringMockTest19 from "@/lib/net-engineering-full-mock-19.json";
-import netEngineeringMockTest20 from "@/lib/net-engineering-full-mock-20.json";
-import { pastPaperTests } from "@/lib/past-paper-data";
+import type { ExamListing } from "@/lib/exam-catalog";
+import type { ExamTest } from "@/lib/exam-types";
 import { createClient } from "@/lib/supabase/client";
 import { Card, Eyebrow, Icon } from "./ui";
 
@@ -38,128 +18,6 @@ type MockTestAttempt = {
 };
 
 const mockTestDuration = 180 * 60;
-const mockTests: ExamTest[] = [
-  {
-    slug: "net-engineering",
-    title: "NUST NET-Engineering Full Mock Test 1",
-    questions: netEngineeringMockTest1 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-1-attempt",
-  },
-  {
-    slug: "net-engineering-2",
-    title: "NUST NET-Engineering Full Mock Test 2",
-    questions: netEngineeringMockTest2 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-2-attempt",
-  },
-  {
-    slug: "net-engineering-3",
-    title: "NUST NET-Engineering Full Mock Test 3",
-    questions: netEngineeringMockTest3 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-3-attempt",
-  },
-  {
-    slug: "net-engineering-4",
-    title: "NUST NET-Engineering Full Mock Test 4",
-    questions: netEngineeringMockTest4 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-4-attempt",
-  },
-  {
-    slug: "net-engineering-5",
-    title: "NUST NET-Engineering Full Mock Test 5",
-    questions: netEngineeringMockTest5 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-5-attempt",
-  },
-  {
-    slug: "net-engineering-6",
-    title: "NUST NET-Engineering Full Mock Test 6",
-    questions: netEngineeringMockTest6 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-6-attempt",
-  },
-  {
-    slug: "net-engineering-7",
-    title: "NUST NET-Engineering Full Mock Test 7",
-    questions: netEngineeringMockTest7 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-7-attempt",
-  },
-  {
-    slug: "net-engineering-8",
-    title: "NUST NET-Engineering Full Mock Test 8",
-    questions: netEngineeringMockTest8 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-8-attempt",
-  },
-  {
-    slug: "net-engineering-9",
-    title: "NUST NET-Engineering Full Mock Test 9",
-    questions: netEngineeringMockTest9 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-9-attempt",
-  },
-  {
-    slug: "net-engineering-10",
-    title: "NUST NET-Engineering Full Mock Test 10",
-    questions: netEngineeringMockTest10 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-10-attempt",
-  },
-  {
-    slug: "net-engineering-11",
-    title: "NUST NET-Engineering Full Mock Test 11",
-    questions: netEngineeringMockTest11 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-11-attempt",
-  },
-  {
-    slug: "net-engineering-12",
-    title: "NUST NET-Engineering Full Mock Test 12",
-    questions: netEngineeringMockTest12 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-12-attempt",
-  },
-  {
-    slug: "net-engineering-13",
-    title: "NUST NET-Engineering Full Mock Test 13",
-    questions: netEngineeringMockTest13 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-13-attempt",
-  },
-  {
-    slug: "net-engineering-14",
-    title: "NUST NET-Engineering Full Mock Test 14",
-    questions: netEngineeringMockTest14 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-14-attempt",
-  },
-  {
-    slug: "net-engineering-15",
-    title: "NUST NET-Engineering Full Mock Test 15",
-    questions: netEngineeringMockTest15 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-15-attempt",
-  },
-  {
-    slug: "net-engineering-16",
-    title: "NUST NET-Engineering Full Mock Test 16",
-    questions: netEngineeringMockTest16 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-16-attempt",
-  },
-  {
-    slug: "net-engineering-17",
-    title: "NUST NET-Engineering Full Mock Test 17",
-    questions: netEngineeringMockTest17 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-17-attempt",
-  },
-  {
-    slug: "net-engineering-18",
-    title: "NUST NET-Engineering Full Mock Test 18",
-    questions: netEngineeringMockTest18 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-18-attempt",
-  },
-  {
-    slug: "net-engineering-19",
-    title: "NUST NET-Engineering Full Mock Test 19",
-    questions: netEngineeringMockTest19 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-19-attempt",
-  },
-  {
-    slug: "net-engineering-20",
-    title: "NUST NET-Engineering Full Mock Test 20",
-    questions: netEngineeringMockTest20 as ExamQuestion[],
-    attemptKey: "meritlab-net-engineering-full-mock-20-attempt",
-  },
-];
 
 type MockTest = ExamTest;
 
@@ -185,7 +43,13 @@ async function persistExamAttempt(test: MockTest, attempt: MockTestAttempt) {
   return data;
 }
 
-function ExamList() {
+function ExamList({
+  tests,
+  hasPlusAccess,
+}: {
+  tests: ExamListing[];
+  hasPlusAccess: boolean;
+}) {
   return (
     <>
       <div className="page-heading">
@@ -211,28 +75,43 @@ function ExamList() {
         </div>
       </div>
       <div className="mock-test-list">
-        {mockTests.map((test) => (
-          <Card className="mock-tests-empty" key={test.slug}>
-            <span className="mock-intro-icon">
-              <Icon name="clock" size={24} />
-            </span>
-            <Eyebrow>FULL-LENGTH · NET-ENGINEERING</Eyebrow>
-            <h2>{test.title}</h2>
-            <p>200 questions · 180 minutes · Mathematics, Physics, and English</p>
-            <a
-              href={`/mock-tests/${test.slug}/instructions`}
-              className="button button-primary"
-            >
-              View instructions <Icon name="arrow" size={15} />
-            </a>
-          </Card>
-        ))}
+        {tests.map((test) => {
+          const locked = !hasPlusAccess && test.slug !== "net-engineering";
+          return (
+            <Card className="mock-tests-empty" key={test.slug}>
+              <span className="mock-intro-icon">
+                <Icon name={locked ? "lock" : "clock"} size={24} />
+              </span>
+              <Eyebrow>
+                {locked ? "PLUS · LOCKED" : "FULL-LENGTH · NET-ENGINEERING"}
+              </Eyebrow>
+              <h2>{test.title}</h2>
+              <p>
+                {test.questionCount} questions · 180 minutes · Mathematics, Physics, and
+                English
+              </p>
+              <a
+                href={locked ? "/pricing" : `/mock-tests/${test.slug}/instructions`}
+                className={locked ? "button button-outline" : "button button-primary"}
+              >
+                {locked ? "View Plus plans" : "View instructions"}{" "}
+                <Icon name={locked ? "lock" : "arrow"} size={15} />
+              </a>
+            </Card>
+          );
+        })}
       </div>
     </>
   );
 }
 
-function PastPaperList() {
+function PastPaperList({
+  tests,
+  hasPlusAccess,
+}: {
+  tests: ExamListing[];
+  hasPlusAccess: boolean;
+}) {
   return (
     <>
       <div className="page-heading">
@@ -262,17 +141,27 @@ function PastPaperList() {
         </div>
       </div>
       <div className="past-paper-list">
-        {pastPaperTests.map((test) => (
+        {tests.map((test) => (
           <Card className="past-paper-card" key={test.slug}>
-            <span className="past-paper-badge">Attempt this paper</span>
+            <span className="past-paper-badge">
+              {hasPlusAccess ? "Attempt this paper" : "PLUS · LOCKED"}
+            </span>
             <Eyebrow>{test.volume ? `${test.volume} · ` : ""}NET-ENGINEERING</Eyebrow>
             <h2>{test.title}</h2>
             <p className="past-paper-meta">
-              {test.period} · {test.questions.length} questions · 180 minutes
+              {test.period} · {test.questionCount} questions · 180 minutes
             </p>
             <p className="past-paper-topics">Mathematics · Physics · English</p>
-            <a href={testHref(test, "instructions")} className="button button-primary">
-              Read instructions <Icon name="arrow" size={15} />
+            <a
+              href={
+                hasPlusAccess ? `/past-papers/${test.slug}/instructions` : "/pricing"
+              }
+              className={
+                hasPlusAccess ? "button button-primary" : "button button-outline"
+              }
+            >
+              {hasPlusAccess ? "Read instructions" : "View Plus plans"}{" "}
+              <Icon name={hasPlusAccess ? "arrow" : "lock"} size={15} />
             </a>
           </Card>
         ))}
@@ -1155,15 +1044,14 @@ function AnswerReview({ test }: { test: MockTest }) {
 
 function TestCollectionPage({
   path,
-  tests,
+  test,
   listPage,
 }: {
   path: string[];
-  tests: ExamTest[];
+  test: ExamTest | undefined;
   listPage: ReactNode;
 }) {
   if (path.length === 0) return listPage;
-  const test = tests.find((item) => item.slug === path[0]);
   if (!test) return listPage;
   if (path[1] === "instructions") return <Instructions test={test} />;
   if (path[1] === "exam") return <ExamInterface key={test.slug} test={test} />;
@@ -1172,16 +1060,42 @@ function TestCollectionPage({
   return listPage;
 }
 
-export function ExamPage({ path }: { path: string[] }) {
-  return <TestCollectionPage path={path} tests={mockTests} listPage={<ExamList />} />;
-}
-
-export function PastPaperPage({ path }: { path: string[] }) {
+export function ExamPage({
+  path,
+  test,
+  tests,
+  hasPlusAccess,
+}: {
+  path: string[];
+  test?: ExamTest;
+  tests: ExamListing[];
+  hasPlusAccess: boolean;
+}) {
   return (
     <TestCollectionPage
       path={path}
-      tests={pastPaperTests}
-      listPage={<PastPaperList />}
+      test={test}
+      listPage={<ExamList tests={tests} hasPlusAccess={hasPlusAccess} />}
+    />
+  );
+}
+
+export function PastPaperPage({
+  path,
+  test,
+  tests,
+  hasPlusAccess,
+}: {
+  path: string[];
+  test?: ExamTest;
+  tests: ExamListing[];
+  hasPlusAccess: boolean;
+}) {
+  return (
+    <TestCollectionPage
+      path={path}
+      test={test}
+      listPage={<PastPaperList tests={tests} hasPlusAccess={hasPlusAccess} />}
     />
   );
 }

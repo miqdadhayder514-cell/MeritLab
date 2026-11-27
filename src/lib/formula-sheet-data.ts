@@ -1,3 +1,5 @@
+import "server-only";
+
 export type FormulaSheetFormula = {
   label: string;
   formula: string;

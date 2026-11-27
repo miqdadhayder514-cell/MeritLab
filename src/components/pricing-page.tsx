@@ -14,11 +14,11 @@ const faqs = [
   ],
   [
     "What is included in the Free plan?",
-    "The Free plan is planned to include basic preparation tools and limited practice. Exact content and limits will be confirmed when real learning materials are added.",
+    "Mock Test 1 and the Conic Sections formula sheet are free. Mock Tests 2–20, all past papers, and all other formula sheets require an active Plus or Premium subscription.",
   ],
   [
     "What is the difference between Plus and Premium?",
-    "Plus is planned to expand practice, explanations, analytics, and revision tools. Premium is planned to include the full set of available preparation resources and additional insights. These features are not active subscriptions yet.",
+    "An active Plus or Premium subscription unlocks Mock Tests 2–20, all past papers, and every formula sheet except the free Conic Sections sheet. Other plan features shown here are planned and may not yet be available.",
   ],
   [
     "Can I upgrade my plan later?",
@@ -208,7 +208,9 @@ export function PricingPage() {
             </h2>
             <p>
               Paid plan prices and access periods below are read from the active payment
-              configuration. Feature descriptions remain proposed outlines.
+              configuration. Active Plus and Premium subscriptions unlock Mock Tests
+              2–20, all past papers, and every formula sheet except the free Conic
+              Sections sheet. Other feature descriptions remain proposed outlines.
             </p>
             <div className="one-time-indicator">
               <span>
@@ -302,7 +304,7 @@ export function PricingPage() {
                     </button>
                   )}
                   <div className="pricing-feature-divider">
-                    <span>PLANNED PLAN OUTLINE</span>
+                    <span>PLAN FEATURE OUTLINE</span>
                   </div>
                   <ul className="pricing-feature-list">
                     {plan.features.map((feature) => (
@@ -320,8 +322,9 @@ export function PricingPage() {
           </div>
           <p className="pricing-disclaimer">
             Paid plans appear only while their amounts, access durations, and NayaPay
-            receiving details are configured and enabled. Plan feature outlines remain
-            proposed and are not access guarantees.
+            receiving details are configured and enabled. The paid-content access listed
+            above is active after approval; other feature outlines remain proposed and
+            are not access guarantees.
           </p>
         </div>
       </section>

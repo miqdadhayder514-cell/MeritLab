@@ -1,3 +1,5 @@
+import "server-only";
+
 import type { ExamQuestion, ExamTest } from "./exam-types";
 import net1Dec2026 from "./past-paper-tests/nust-engineering-net-1-09-dec-2026.json";
 import net1Nov2026 from "./past-paper-tests/nust-engineering-net-1-26-nov-2026.json";

@@ -24,6 +24,7 @@ type NotificationResponse = {
 const publicLinks = [
   ["Daily Challenge", "/practice"],
   ["Mock Tests", "/mock-tests"],
+  ["Past Papers", "/past-papers"],
   ["Resources", "/resources"],
   ["Merit Calculator", "/merit-calculator"],
   ["Pricing", "/pricing"],

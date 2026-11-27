@@ -13,8 +13,8 @@ import {
 import { createClient } from "@/lib/supabase/client";
 import { Bars, Sparkline } from "./charts";
 import { ConicCheatSheet } from "./conic-cheat-sheet";
+import { CrackNetBadge } from "./crack-net-badge";
 import { DailyChallenge } from "./daily-challenge";
-import { CrackNetBadge, FormulaSheetPage } from "./formula-sheet-page";
 import { StudentPaymentsPage } from "./payment-pages";
 import { Button, Card, Eyebrow, Icon, Progress } from "./ui";
 
@@ -1166,7 +1166,13 @@ function Analytics() {
   );
 }
 
-function Resources({ initialType = "All resources" }: { initialType?: string }) {
+function Resources({
+  initialType = "All resources",
+  hasPlusAccess,
+}: {
+  initialType?: string;
+  hasPlusAccess: boolean;
+}) {
   const [query, setQuery] = useState("");
   const [type, setType] = useState(initialType);
   const [subject, setSubject] = useState("All subjects");
@@ -1289,57 +1295,71 @@ function Resources({ initialType = "All resources" }: { initialType?: string }) 
         </button>
       </div>
       <div className="resource-grid">
-        {filtered.map((resource, i) => (
-          <Card
-            className={`resource-card ${resource.type === "Formula sheet" ? "resource-card-formula" : ""}`}
-            key={resource.title}
-          >
-            <div className="resource-card-heading">
-              <div className={`resource-icon resource-icon-${i % 5}`}>
-                <Icon name={resource.icon} size={21} />
+        {filtered.map((resource, i) => {
+          const locked =
+            !hasPlusAccess &&
+            resource.type === "Formula sheet" &&
+            resource.href !== "/resources/formula-sheets/conic-sections";
+          return (
+            <Card
+              className={`resource-card ${resource.type === "Formula sheet" ? "resource-card-formula" : ""}`}
+              key={resource.title}
+            >
+              <div className="resource-card-heading">
+                <div className={`resource-icon resource-icon-${i % 5}`}>
+                  <Icon name={resource.icon} size={21} />
+                </div>
+                {resource.type === "Formula sheet" &&
+                  (locked ? (
+                    <span className="crack-net-badge">
+                      <Icon name="lock" size={13} /> Plus
+                    </span>
+                  ) : (
+                    <CrackNetBadge />
+                  ))}
               </div>
-              {resource.type === "Formula sheet" && <CrackNetBadge />}
-            </div>
-            <div className="resource-card-top">
-              <span>{resource.type}</span>
-              <button
-                type="button"
-                onClick={() =>
-                  setSaved(
+              <div className="resource-card-top">
+                <span>{resource.type}</span>
+                <button
+                  type="button"
+                  onClick={() =>
+                    setSaved(
+                      saved.includes(resource.title)
+                        ? saved.filter((title) => title !== resource.title)
+                        : [...saved, resource.title],
+                    )
+                  }
+                  className={`icon-button ${saved.includes(resource.title) ? "saved" : ""}`}
+                  aria-label={
                     saved.includes(resource.title)
-                      ? saved.filter((title) => title !== resource.title)
-                      : [...saved, resource.title],
-                  )
-                }
-                className={`icon-button ${saved.includes(resource.title) ? "saved" : ""}`}
-                aria-label={
-                  saved.includes(resource.title)
-                    ? "Remove bookmark"
-                    : "Bookmark resource"
+                      ? "Remove bookmark"
+                      : "Bookmark resource"
+                  }
+                >
+                  <Icon name="bookmark" size={17} />
+                </button>
+              </div>
+              <h3
+                className={
+                  resource.type === "Formula sheet" ? "formula-sheet-topic" : undefined
                 }
               >
-                <Icon name="bookmark" size={17} />
+                {resource.title}
+              </h3>
+              <p>
+                {resource.subject} <i /> {resource.read}
+              </p>
+              <button
+                type="button"
+                className="resource-open"
+                onClick={() => setSelectedResource(resource)}
+              >
+                {locked ? "Unlock with Plus" : "View details"}{" "}
+                <Icon name={locked ? "lock" : "arrow"} size={15} />
               </button>
-            </div>
-            <h3
-              className={
-                resource.type === "Formula sheet" ? "formula-sheet-topic" : undefined
-              }
-            >
-              {resource.title}
-            </h3>
-            <p>
-              {resource.subject} <i /> {resource.read}
-            </p>
-            <button
-              type="button"
-              className="resource-open"
-              onClick={() => setSelectedResource(resource)}
-            >
-              View details <Icon name="arrow" size={15} />
-            </button>
-          </Card>
-        ))}
+            </Card>
+          );
+        })}
       </div>
       {selectedResource && (
         <div className="modal-backdrop" role="presentation">
@@ -1377,18 +1397,25 @@ function Resources({ initialType = "All resources" }: { initialType?: string }) 
                 Close
               </button>
               {"href" in selectedResource ? (
-                <>
-                  <a
-                    href={selectedResource.downloadHref}
-                    className="button button-outline"
-                    download
-                  >
-                    Download PDF <Icon name="book" size={15} />
+                hasPlusAccess ||
+                selectedResource.href === "/resources/formula-sheets/conic-sections" ? (
+                  <>
+                    <a
+                      href={selectedResource.downloadHref}
+                      className="button button-outline"
+                      download
+                    >
+                      Download PDF <Icon name="book" size={15} />
+                    </a>
+                    <a href={selectedResource.href} className="button button-primary">
+                      Open formatted sheet <Icon name="arrow" size={15} />
+                    </a>
+                  </>
+                ) : (
+                  <a href="/pricing" className="button button-primary">
+                    View Plus plans <Icon name="lock" size={15} />
                   </a>
-                  <a href={selectedResource.href} className="button button-primary">
-                    Open formatted sheet <Icon name="arrow" size={15} />
-                  </a>
-                </>
+                )
               ) : (
                 <a href="/practice" className="button button-primary">
                   Browse practice <Icon name="arrow" size={15} />
@@ -2020,7 +2047,13 @@ function GenericInfo({ title }: { title: string }) {
   );
 }
 
-export function StudentPage({ path }: { path: string[] }) {
+export function StudentPage({
+  path,
+  hasPlusAccess,
+}: {
+  path: string[];
+  hasPlusAccess: boolean;
+}) {
   const root = path[0] ?? "";
   if (root === "dashboard" || root === "app") return <Dashboard />;
   if (root === "payments") return <StudentPaymentsPage />;
@@ -2034,12 +2067,11 @@ export function StudentPage({ path }: { path: string[] }) {
     path[2] === "conic-sections"
   )
     return <ConicCheatSheet />;
-  if (root === "resources" && path[1] === "formula-sheets" && path[2])
-    return <FormulaSheetPage slug={path[2]} />;
   if (root === "resources")
     return (
       <Resources
         initialType={path[1] === "formula-sheets" ? "Formula sheet" : undefined}
+        hasPlusAccess={hasPlusAccess}
       />
     );
   if (root === "leaderboard") return <Leaderboard />;

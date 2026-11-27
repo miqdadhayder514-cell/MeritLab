@@ -1,4 +1,4 @@
-import { CrackNetBadge } from "./formula-sheet-page";
+import { CrackNetBadge } from "./crack-net-badge";
 import { Card, Eyebrow, Icon } from "./ui";
 
 const conics = [
