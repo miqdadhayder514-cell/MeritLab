@@ -19,7 +19,7 @@ const faqs = [
   ],
   [
     "Does MeritLab save my progress?",
-    "This frontend uses local demo state only. Account synchronization and durable progress saving will be available after backend services are implemented.",
+    "MeritLab uses Supabase for account authentication and profile data when configured. Practice attempts and results currently stay in your browser session rather than syncing to your account.",
   ],
 ];
 
@@ -70,19 +70,17 @@ export function LandingPage() {
         <div className="hero-grid wrap">
           <div className="hero-copy">
             <div className="announcement">
-              <span className="announcement-dot" /> A smarter way to prepare for NET{" "}
+              <span className="announcement-dot" /> NUST Entry Test preparation{" "}
               <Icon name="arrow" size={14} />
             </div>
             <h1>
-              <span className="hero-word">Make</span>{" "}
-              <span className="hero-word">every</span>{" "}
-              <span className="hero-word">study</span>{" "}
-              <span className="hero-word">session</span>{" "}
-              <span className="hero-word hero-word-accent">count.</span>
+              <span className="hero-word">Prepare for</span>{" "}
+              <span className="hero-word">the NUST</span>{" "}
+              <span className="hero-word hero-word-accent">Entry Test.</span>
             </h1>
             <p className="hero-description">
-              A thoughtful, structured preparation experience for the NUST Entry Test.
-              Learn concepts, practice with purpose, and see where you’re improving.
+              Find a clear starting point for your NUST NET preparation, use focused
+              practice tools, and review what to study next.
             </p>
             <div className="hero-buttons">
               <a className="button button-primary button-large" href="/register">
@@ -92,6 +90,9 @@ export function LandingPage() {
                 Explore mock tests
               </a>
             </div>
+            <a className="text-link" href="/nust-entry-test-preparation">
+              Read the NUST preparation guide <Icon name="arrow" size={15} />
+            </a>
             <div className="hero-proof">
               <div className="avatar-stack">
                 <span className="avatar avatar-blue">A</span>
@@ -633,6 +634,7 @@ export function Footer() {
         </div>
         <div className="footer-col">
           <strong>Explore</strong>
+          <a href="/nust-entry-test-preparation">NUST preparation guide</a>
           <a href="/preparation">NET preparation</a>
           <a href="/practice">Daily Challenge</a>
           <a href="/mock-tests">Mock tests</a>

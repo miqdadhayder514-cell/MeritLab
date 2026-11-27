@@ -34,6 +34,13 @@ Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_SUPABASE_URL` and
 `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` from **Supabase Dashboard → Project
 Settings → API**. The publishable key is intended for browser use. Never put a
 secret or service-role key in a `NEXT_PUBLIC_` variable or commit `.env.local`.
+Set `NEXT_PUBLIC_SITE_URL` to the canonical HTTPS origin used by the production
+site (`https://meritlab.entrytests.workers.dev` by default). This origin is used
+for canonical metadata, structured data, and the XML sitemap.
+After adding the site as a property in Google Search Console, set
+`NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` to the HTML-tag verification value
+provided by Google and rebuild the site. Leave it empty until you have completed
+that verification step.
 
 The centralized browser/server clients use Supabase's SSR cookie-based session
 handling. Authentication callbacks return to `/auth/callback`; add the deployed

@@ -2011,8 +2011,9 @@ function About() {
       <div className="about-callout">
         <Icon name="info" />
         <p>
-          MeritLab is a frontend demonstration at this stage. Student accounts, saved
-          records, and live administration features are not connected to a backend.
+          MeritLab uses Supabase for authentication and profile data when configured.
+          Practice attempts and results currently remain in the browser session, and
+          some learning content and analytics use demonstration data.
         </p>
       </div>
       <a href="/" className="text-link">

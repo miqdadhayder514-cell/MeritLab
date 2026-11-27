@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import { AdminPage } from "@/components/admin-pages";
 import { AuthPage } from "@/components/auth-pages";
@@ -14,12 +15,73 @@ import {
   pastPaperTests,
 } from "@/lib/exam-catalog";
 import { formulaSheets } from "@/lib/formula-sheet-data";
+import { createPageMetadata } from "@/lib/seo";
 import { isSupabaseConfigured } from "@/lib/supabase/config";
 import { hasPlusAccess } from "@/lib/supabase/entitlements";
 import { getServerIdentity } from "@/lib/supabase/server-auth";
 
 const authRoutes = new Set(["login", "register", "forgot-password", "reset-password"]);
 const publicRoutes = new Set(["about", "contact-us", "faq", "privacy", "terms"]);
+
+const publicPageMetadata: Record<
+  string,
+  { title: string; description: string; indexable: boolean }
+> = {
+  about: {
+    title: "About MeritLab",
+    description:
+      "Learn how MeritLab helps Pakistani students prepare for the NUST Entry Test with clear study guidance and transparent preparation tools.",
+    indexable: true,
+  },
+  "contact-us": {
+    title: "Contact MeritLab",
+    description:
+      "Find contact options for questions about MeritLab, NUST NET preparation, or your account.",
+    indexable: false,
+  },
+  faq: {
+    title: "MeritLab FAQs",
+    description: "Answers to common questions about MeritLab and NUST NET preparation.",
+    indexable: false,
+  },
+  privacy: {
+    title: "MeritLab Privacy Information",
+    description: "Privacy information for MeritLab visitors and students.",
+    indexable: false,
+  },
+  terms: {
+    title: "MeritLab Terms of Use",
+    description: "Terms of use for the MeritLab educational preparation platform.",
+    indexable: false,
+  },
+  pricing: {
+    title: "Plans for NUST NET Preparation",
+    description:
+      "Review MeritLab’s available plans and access options for NUST Entry Test preparation.",
+    indexable: true,
+  },
+};
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string[] }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const page = slug.length === 1 ? publicPageMetadata[slug[0]] : undefined;
+
+  if (!page) {
+    return {
+      title: "MeritLab account",
+      robots: { index: false, follow: false },
+    };
+  }
+
+  return createPageMetadata({
+    ...page,
+    path: `/${slug[0]}`,
+  });
+}
 
 export default async function RoutedPage({
   params,
@@ -29,11 +91,12 @@ export default async function RoutedPage({
   searchParams: Promise<{ error?: string; reset?: string }>;
 }) {
   const { slug } = await params;
-  const { error: authError, reset } = await searchParams;
   const [root, ...rest] = slug;
 
   if (!root) notFound();
   if (authRoutes.has(root)) {
+    if (slug.length !== 1) notFound();
+    const { error: authError, reset } = await searchParams;
     if (root !== "reset-password" && isSupabaseConfigured) {
       const identity = await getServerIdentity();
       if (identity?.role) {
@@ -103,6 +166,7 @@ export default async function RoutedPage({
     );
   }
   if (root === "pricing") {
+    if (rest.length) notFound();
     return (
       <SiteShell isPublic>
         <PricingPage />
@@ -110,6 +174,7 @@ export default async function RoutedPage({
     );
   }
   if (root === "contact-us") {
+    if (rest.length) notFound();
     return (
       <SiteShell isPublic>
         <ContactUsPage />
@@ -117,6 +182,7 @@ export default async function RoutedPage({
     );
   }
   if (publicRoutes.has(root)) {
+    if (slug.length !== 1) notFound();
     return (
       <SiteShell isPublic>
         <StudentPage path={slug} hasPlusAccess={false} />
