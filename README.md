@@ -89,6 +89,18 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+## Cloudflare Workers deployment
+
+The production deployment uses OpenNext for Cloudflare Workers. In the
+Cloudflare Workers Builds settings, use `npm run build:worker` as the build
+command and `npx wrangler deploy` as the deploy command. Configure
+`NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` as
+Cloudflare build environment variables so Next.js can include them in the
+client bundle. Do not commit them to `wrangler.jsonc`.
+
+To build and preview the Worker locally, run `npm run preview`. To deploy from
+the command line, run `npm run deploy`.
+
 ## Validation
 
 ```bash
