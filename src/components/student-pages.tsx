@@ -15,6 +15,7 @@ import { Bars, Sparkline } from "./charts";
 import { ConicCheatSheet } from "./conic-cheat-sheet";
 import { DailyChallenge } from "./daily-challenge";
 import { CrackNetBadge, FormulaSheetPage } from "./formula-sheet-page";
+import { StudentPaymentsPage } from "./payment-pages";
 import { Button, Card, Eyebrow, Icon, Progress } from "./ui";
 
 function PageHeading({
@@ -1249,8 +1250,8 @@ function Resources({ initialType = "All resources" }: { initialType?: string }) 
             Added with care.
           </h2>
           <p>
-            Ten focused, visually organized Mathematics formula sheets. Choose a topic
-            to study key ideas or download its full PDF.
+            Browse carefully grouped Mathematics formula sheets. Choose a topic to
+            review key ideas in textbook notation or download its complete PDF.
           </p>
           <a href="/resources/formula-sheets" className="button button-white">
             Browse formula sheets <Icon name="arrow" size={15} />
@@ -2022,6 +2023,7 @@ function GenericInfo({ title }: { title: string }) {
 export function StudentPage({ path }: { path: string[] }) {
   const root = path[0] ?? "";
   if (root === "dashboard" || root === "app") return <Dashboard />;
+  if (root === "payments") return <StudentPaymentsPage />;
   if (root === "preparation") return <Preparation categorySlug={path[1] ?? ""} />;
   if (root === "practice" || root === "challenges") return <DailyChallenge />;
   if (root === "bookmarks") return <Bookmarks />;

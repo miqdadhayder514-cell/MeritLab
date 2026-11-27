@@ -574,7 +574,7 @@ export function LandingPage() {
               Questions, <span>answered.</span>
             </h2>
             <p>We want to make your preparation journey clear from the start.</p>
-            <a href="mailto:hello@meritlab.pk" className="text-link">
+            <a href="/contact-us" className="text-link">
               Ask us a question <Icon name="arrow" size={16} />
             </a>
           </div>
@@ -629,7 +629,7 @@ export function Footer() {
             <br />
             Prepare smarter. Score higher.
           </p>
-          <a href="mailto:hello@meritlab.pk">hello@meritlab.pk</a>
+          <a href="/contact-us">Contact the MeritLab team</a>
         </div>
         <div className="footer-col">
           <strong>Explore</strong>
@@ -649,6 +649,7 @@ export function Footer() {
         <div className="footer-col">
           <strong>MeritLab</strong>
           <a href="/about">About us</a>
+          <a href="/contact-us">Contact us</a>
           <a href="/faq">FAQs</a>
           <a href="/settings">Settings</a>
           <a href="/admin">Admin preview</a>

@@ -1,6 +1,7 @@
 import { notFound, redirect } from "next/navigation";
 import { AdminPage } from "@/components/admin-pages";
 import { AuthPage } from "@/components/auth-pages";
+import { ContactUsPage } from "@/components/contact-pages";
 import { ExamPage, PastPaperPage } from "@/components/exam-pages";
 import { PricingPage } from "@/components/pricing-page";
 import { SiteShell } from "@/components/site-shell";
@@ -9,7 +10,7 @@ import { isSupabaseConfigured } from "@/lib/supabase/config";
 import { getServerIdentity } from "@/lib/supabase/server-auth";
 
 const authRoutes = new Set(["login", "register", "forgot-password", "reset-password"]);
-const publicRoutes = new Set(["about", "faq", "privacy", "terms"]);
+const publicRoutes = new Set(["about", "contact-us", "faq", "privacy", "terms"]);
 
 export default async function RoutedPage({
   params,
@@ -81,6 +82,13 @@ export default async function RoutedPage({
       </SiteShell>
     );
   }
+  if (root === "contact-us") {
+    return (
+      <SiteShell isPublic>
+        <ContactUsPage />
+      </SiteShell>
+    );
+  }
   if (publicRoutes.has(root)) {
     return (
       <SiteShell isPublic>
@@ -102,11 +110,15 @@ export default async function RoutedPage({
     "challenges",
     "profile",
     "settings",
+    "payments",
   ]);
   if (!validRoutes.has(root)) notFound();
   const identity = isSupabaseConfigured ? await getServerIdentity() : null;
   if (!identity?.role) {
     redirect(`/login?next=${encodeURIComponent(`/${slug.join("/")}`)}`);
+  }
+  if (root === "payments" && identity.role !== "student") {
+    redirect("/admin/payments");
   }
   if (root === "mock-tests") {
     return (

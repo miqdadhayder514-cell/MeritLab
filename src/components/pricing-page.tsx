@@ -1,7 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { pricingComparison, pricingPlans } from "@/lib/pricing-data";
+import { createClient } from "@/lib/supabase/client";
+import { isSupabaseConfigured } from "@/lib/supabase/config";
 import { Footer } from "./landing-page";
 import { Card, Icon } from "./ui";
 
@@ -20,15 +22,15 @@ const faqs = [
   ],
   [
     "Can I upgrade my plan later?",
-    "Plan changes and paid upgrades are not available yet. No payment or subscription is created from this page.",
+    "When a paid plan is enabled, you can submit a NayaPay transfer for review. Access is activated only after an administrator approves the payment proof.",
   ],
   [
     "How long does my subscription last?",
-    "Paid plans are intended as one-time payments. The access period has not been finalized and will be stated clearly before any paid plan becomes available.",
+    "Each enabled plan shows its one-time price and access duration before checkout. New approved access starts when any existing active period ends.",
   ],
   [
     "Which payment methods will be supported?",
-    "Payment methods have not been selected. Checkout is not currently available.",
+    "Manual NayaPay transfers are supported when the receiving account and at least one paid plan are enabled by an administrator.",
   ],
   [
     "Can I access MeritLab on mobile?",
@@ -36,7 +38,7 @@ const faqs = [
   ],
   [
     "What happens when my subscription expires?",
-    "Access duration and expiry behavior are not finalized. No paid subscriptions are active at this time.",
+    "Paid access ends at the expiry date shown in your account. You can submit a new payment for an enabled plan to extend access.",
   ],
 ];
 
@@ -46,6 +48,47 @@ function priceText(price: number) {
 
 export function PricingPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
+  const [paidPlans, setPaidPlans] = useState<
+    Record<string, { amount_pkr: number; duration_days: number }>
+  >({});
+  const [plansLoaded, setPlansLoaded] = useState(!isSupabaseConfigured);
+
+  useEffect(() => {
+    if (!isSupabaseConfigured) return;
+    let active = true;
+
+    async function loadPlans() {
+      try {
+        const { data, error } = await createClient().rpc("public_payment_plans");
+        if (error) throw error;
+
+        const nextPlans: Record<string, { amount_pkr: number; duration_days: number }> =
+          {};
+        for (const plan of data ?? []) {
+          if (
+            (plan.code === "plus" || plan.code === "premium") &&
+            typeof plan.amount_pkr === "number" &&
+            typeof plan.duration_days === "number"
+          ) {
+            nextPlans[plan.code] = {
+              amount_pkr: plan.amount_pkr,
+              duration_days: plan.duration_days,
+            };
+          }
+        }
+        if (active) setPaidPlans(nextPlans);
+      } catch (error) {
+        console.error("Could not load configured pricing plans.", error);
+      } finally {
+        if (active) setPlansLoaded(true);
+      }
+    }
+
+    void loadPlans();
+    return () => {
+      active = false;
+    };
+  }, []);
 
   return (
     <main className="pricing-page">
@@ -85,8 +128,8 @@ export function PricingPage() {
             <div className="pricing-trust-note">
               <Icon name="info" size={15} />
               <span>
-                One-time payment model. Prices and plan features are editable
-                placeholders, not final offers.
+                One-time payment model. Paid plans appear only after an administrator
+                configures their price and duration.
               </span>
             </div>
           </div>
@@ -164,89 +207,121 @@ export function PricingPage() {
               Your goals. <span>Your pace.</span>
             </h2>
             <p>
-              Pick a plan outline that matches how you want to prepare. These prices and
-              features are placeholders and remain subject to confirmation.
+              Paid plan prices and access periods below are read from the active payment
+              configuration. Feature descriptions remain proposed outlines.
             </p>
             <div className="one-time-indicator">
               <span>
                 <Icon name="check" size={15} /> One-time payment
               </span>
-              <small>Access duration to be confirmed</small>
+              <small>Paid access duration is shown on configured plans</small>
             </div>
           </div>
           <div className="pricing-plan-grid">
-            {pricingPlans.map((plan) => (
-              <Card
-                className={`pricing-plan-card ${plan.recommended ? "pricing-plan-featured" : ""}`}
-                key={plan.id}
-              >
-                {plan.recommended && (
-                  <span className="recommended-ribbon">
-                    <Icon name="spark" size={13} /> RECOMMENDED
-                  </span>
-                )}
-                <div className="pricing-plan-top">
-                  <span className={`pricing-plan-icon plan-icon-${plan.id}`}>
-                    <Icon
-                      name={
-                        plan.id === "free"
-                          ? "compass"
-                          : plan.id === "plus"
-                            ? "bolt"
-                            : "spark"
-                      }
-                      size={20}
-                    />
-                  </span>
-                  <span className="plan-status">PROPOSED PLAN</span>
-                </div>
-                <h3>{plan.name}</h3>
-                <p className="pricing-plan-description">{plan.description}</p>
-                <div className="pricing-price">
-                  <strong>{priceText(plan.price)}</strong>
-                  {plan.price > 0 && <span>one-time*</span>}
-                </div>
-                <p className="pricing-placeholder-note">
-                  {plan.price > 0
-                    ? "Editable placeholder price · not final"
-                    : "Free registration · no payment"}
-                </p>
-                <a
-                  className={`button ${plan.recommended ? "button-primary" : "button-outline"} pricing-plan-cta`}
-                  href={
-                    plan.id === "free"
-                      ? "/register"
-                      : `mailto:hello@meritlab.pk?subject=${encodeURIComponent(`${plan.name} interest`)}`
-                  }
+            {pricingPlans.map((plan) => {
+              const configuredPlan =
+                plan.id === "plus" || plan.id === "premium"
+                  ? paidPlans[plan.id]
+                  : undefined;
+              const available = plan.id === "free" || Boolean(configuredPlan);
+              const amount = plan.id === "free" ? 0 : configuredPlan?.amount_pkr;
+              return (
+                <Card
+                  className={`pricing-plan-card ${plan.recommended ? "pricing-plan-featured" : ""}`}
+                  key={plan.id}
                 >
-                  {plan.id === "free" ? plan.cta : "Register interest"}
-                  <Icon name="arrow" size={15} />
-                </a>
-                {plan.id !== "free" && (
-                  <small className="pricing-cta-note">
-                    Checkout is not available yet. No payment will be taken.
-                  </small>
-                )}
-                <div className="pricing-feature-divider">
-                  <span>PLANNED PLAN OUTLINE</span>
-                </div>
-                <ul className="pricing-feature-list">
-                  {plan.features.map((feature) => (
-                    <li key={feature}>
-                      <span>
-                        <Icon name="check" size={13} />
-                      </span>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-              </Card>
-            ))}
+                  {plan.recommended && (
+                    <span className="recommended-ribbon">
+                      <Icon name="spark" size={13} /> RECOMMENDED
+                    </span>
+                  )}
+                  <div className="pricing-plan-top">
+                    <span className={`pricing-plan-icon plan-icon-${plan.id}`}>
+                      <Icon
+                        name={
+                          plan.id === "free"
+                            ? "compass"
+                            : plan.id === "plus"
+                              ? "bolt"
+                              : "spark"
+                        }
+                        size={20}
+                      />
+                    </span>
+                    <span className="plan-status">
+                      {plan.id === "free"
+                        ? "FREE PLAN"
+                        : available
+                          ? "AVAILABLE"
+                          : "NOT AVAILABLE"}
+                    </span>
+                  </div>
+                  <h3>{plan.name}</h3>
+                  <p className="pricing-plan-description">{plan.description}</p>
+                  <div className="pricing-price">
+                    <strong>
+                      {plan.id === "free"
+                        ? priceText(0)
+                        : !plansLoaded
+                          ? "Loading…"
+                          : configuredPlan
+                            ? priceText(amount ?? 0)
+                            : "Unavailable"}
+                    </strong>
+                    {configuredPlan && <span>{configuredPlan.duration_days} days</span>}
+                  </div>
+                  <p className="pricing-placeholder-note">
+                    {plan.id === "free"
+                      ? "Free registration · no payment"
+                      : configuredPlan
+                        ? `${configuredPlan.duration_days} days of access`
+                        : "Checkout remains disabled until configured"}
+                  </p>
+                  {plan.id === "free" ? (
+                    <a
+                      className={`button ${plan.recommended ? "button-primary" : "button-outline"} pricing-plan-cta`}
+                      href="/register"
+                    >
+                      {plan.cta} <Icon name="arrow" size={15} />
+                    </a>
+                  ) : available ? (
+                    <a
+                      className={`button ${plan.recommended ? "button-primary" : "button-outline"} pricing-plan-cta`}
+                      href={`/payments?plan=${plan.id}`}
+                    >
+                      Choose {plan.id === "plus" ? "Plus" : "Premium"}{" "}
+                      <Icon name="arrow" size={15} />
+                    </a>
+                  ) : (
+                    <button
+                      type="button"
+                      className={`button ${plan.recommended ? "button-primary" : "button-outline"} pricing-plan-cta`}
+                      disabled
+                    >
+                      {plansLoaded ? "Not available" : "Loading plans"}
+                    </button>
+                  )}
+                  <div className="pricing-feature-divider">
+                    <span>PLANNED PLAN OUTLINE</span>
+                  </div>
+                  <ul className="pricing-feature-list">
+                    {plan.features.map((feature) => (
+                      <li key={feature}>
+                        <span>
+                          <Icon name="check" size={13} />
+                        </span>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                </Card>
+              );
+            })}
           </div>
           <p className="pricing-disclaimer">
-            * Rs. 3,000 and Rs. 6,000 are editable placeholder values only. Plan
-            availability, access duration, limits, and entitlements are not finalized.
-            No paid plan or payment processing is active.
+            Paid plans appear only while their amounts, access durations, and NayaPay
+            receiving details are configured and enabled. Plan feature outlines remain
+            proposed and are not access guarantees.
           </p>
         </div>
       </section>
@@ -381,7 +456,7 @@ export function PricingPage() {
               Pricing, access duration, payment methods, and plan features will be
               confirmed before paid plans launch.
             </p>
-            <a href="mailto:hello@meritlab.pk" className="text-link">
+            <a href="/contact-us" className="text-link">
               Ask about a plan <Icon name="arrow" size={16} />
             </a>
           </div>

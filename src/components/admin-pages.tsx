@@ -3,6 +3,8 @@
 import { type FormEvent, useMemo, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { Bars } from "./charts";
+import { AdminContactPage } from "./contact-pages";
+import { AdminPaymentsPage } from "./payment-pages";
 import { Button, Card, Eyebrow, Icon, Progress } from "./ui";
 
 const initialStudents = [
@@ -994,6 +996,8 @@ export function AdminPage({ path }: { path: string[] }) {
   const section = path[1] ?? "";
   if (!section) return <AdminOverview />;
   if (section === "students") return <StudentsAdmin />;
+  if (section === "contact") return <AdminContactPage />;
+  if (section === "payments") return <AdminPaymentsPage />;
   if (section === "notifications") return <NotificationsAdmin />;
   if (section === "questions") return <QuestionsAdmin />;
   if (section === "analytics") return <AdminAnalytics />;

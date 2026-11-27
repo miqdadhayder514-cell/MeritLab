@@ -22,13 +22,12 @@ type NotificationResponse = {
 };
 
 const publicLinks = [
-  ["NET Preparation", "/preparation"],
   ["Daily Challenge", "/practice"],
   ["Mock Tests", "/mock-tests"],
   ["Resources", "/resources"],
   ["Merit Calculator", "/merit-calculator"],
   ["Pricing", "/pricing"],
-  ["About", "/about"],
+  ["Contact us", "/contact-us"],
 ];
 
 const studentLinks = [
@@ -36,6 +35,7 @@ const studentLinks = [
   { label: "My preparation", href: "/preparation", icon: "book" },
   { label: "Daily Challenge", href: "/practice", icon: "practice" },
   { label: "Mock tests", href: "/mock-tests", icon: "clock" },
+  { label: "Plans & payments", href: "/payments", icon: "briefcase" },
   { label: "Past papers", href: "/past-papers", icon: "book" },
   { label: "Formula sheets", href: "/resources/formula-sheets", icon: "function" },
   { label: "Merit Calculator", href: "/merit-calculator", icon: "chart" },
@@ -96,6 +96,8 @@ export function SiteShell({
         { label: "Question bank", href: "/admin/questions", icon: "practice" },
         { label: "Resources", href: "/admin/resources", icon: "function" },
         { label: "Mock tests", href: "/admin/tests", icon: "clock" },
+        { label: "Payments", href: "/admin/payments", icon: "briefcase" },
+        { label: "Contact details", href: "/admin/contact", icon: "mail" },
         { label: "Notifications", href: "/admin/notifications", icon: "bell" },
         { label: "Analytics", href: "/admin/analytics", icon: "chart" },
       ]
@@ -399,7 +401,7 @@ export function SiteShell({
               {item.href === "/bookmarks" && <span className="side-count">8</span>}
             </a>
           ))}
-            
+
           {!isAdmin && (
             <a className="side-link" href="/profile">
               <Icon name="user" size={19} />
@@ -420,49 +422,46 @@ export function SiteShell({
             <span>{loggingOut ? "Logging out..." : "Log out"}</span>
           </button>
           {logoutError && <p className="field-hint">{logoutError}</p>}
-          
+
           {!isAdmin && (
-          <div className="sidebar-goal">
-            <span className="goal-icon">
-              <Icon name="spark" size={18} />
-            </span>
-            <strong>Weekly goal</strong>
-            <span className="muted small">4 of 5 study days</span>
-            <div
-              className="goal-bars"
-              role="img"
-              aria-label="Weekly goal: four out of five days complete"
-            >
-              {[1, 2, 3, 4, 5].map((n) => (
-                <i className={n <= 4 ? "goal-complete" : ""} key={n} />
-              ))}
+            <div className="sidebar-goal">
+              <span className="goal-icon">
+                <Icon name="spark" size={18} />
+              </span>
+              <strong>Weekly goal</strong>
+              <span className="muted small">4 of 5 study days</span>
+              <div
+                className="goal-bars"
+                role="img"
+                aria-label="Weekly goal: four out of five days complete"
+              >
+                {[1, 2, 3, 4, 5].map((n) => (
+                  <i className={n <= 4 ? "goal-complete" : ""} key={n} />
+                ))}
+              </div>
+              <a href="/challenges">
+                View your challenge <Icon name="arrow" size={14} />
+              </a>
             </div>
-            <a href="/challenges">
-              View your challenge <Icon name="arrow" size={14} />
-            </a>
-          </div>
-        )}         
+          )}
         </nav>
 
-          <div className="side-profile">
-            <span className="avatar avatar-navy">{initials}</span>
-            <span className="profile-name">
-              <strong>{displayName}</strong>
-              <small>
-                {isAdmin
-                  ? "Administrator"
-                  : profile?.target_net_category || user?.email}
-              </small>
-            </span>
-            <a
-              className="icon-button tiny"
-              href={isAdmin ? "/admin" : "/profile"}
-              aria-label="Open account"
-            >
-              <Icon name="chevronRight" size={18} />
-            </a>
-          </div>
-      
+        <div className="side-profile">
+          <span className="avatar avatar-navy">{initials}</span>
+          <span className="profile-name">
+            <strong>{displayName}</strong>
+            <small>
+              {isAdmin ? "Administrator" : profile?.target_net_category || user?.email}
+            </small>
+          </span>
+          <a
+            className="icon-button tiny"
+            href={isAdmin ? "/admin" : "/profile"}
+            aria-label="Open account"
+          >
+            <Icon name="chevronRight" size={18} />
+          </a>
+        </div>
       </aside>
       <div className="app-main">
         <header className="app-topbar">
